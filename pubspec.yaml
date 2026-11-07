@@ -1,0 +1,5 @@
+name: rynek_skaner
+description: Skaner sygnałów analizy falowej (publiczne dane rynkowe) dla aplikacji Moje Oszczędności.
+publish_to: none
+environment:
+  sdk: ^3.5.0
