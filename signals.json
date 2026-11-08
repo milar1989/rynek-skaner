@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T06:30:00.422967Z",
+ "updated": "2026-11-08T06:37:16.236276Z",
  "top": [
   {
    "s": "AMT",
@@ -215,8 +215,8 @@
    ]
   },
   {
-   "s": "ADP",
-   "n": "Automatic Data Processing, Inc.",
+   "s": "APD",
+   "n": "Air Products and Chemicals, Inc",
    "sig": "obserwuj",
    "score": 1.5,
    "why": [
@@ -503,8 +503,8 @@
    ]
   },
   {
-   "s": "APD",
-   "n": "Air Products and Chemicals, Inc",
+   "s": "ADP",
+   "n": "Automatic Data Processing, Inc.",
    "sig": "obserwuj",
    "score": 1.5,
    "why": [
@@ -926,8 +926,8 @@
    "why": []
   },
   {
-   "s": "SPY",
-   "n": "State Street SPDR S&P 500 ETF T",
+   "s": "COHR",
+   "n": "Coherent Corp.",
    "sig": "obserwuj",
    "score": 0.5,
    "why": []
@@ -1171,8 +1171,8 @@
    "why": []
   },
   {
-   "s": "COHR",
-   "n": "Coherent Corp.",
+   "s": "SPY",
+   "n": "State Street SPDR S&P 500 ETF T",
    "sig": "obserwuj",
    "score": 0.5,
    "why": []
