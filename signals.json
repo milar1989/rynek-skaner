@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T13:52:04.876723Z",
+ "updated": "2026-11-08T18:34:25.338918Z",
  "top": [
   {
    "s": "AMT",
@@ -174,8 +174,8 @@
    ]
   },
   {
-   "s": "UNP",
-   "n": "Union Pacific Corporation",
+   "s": "SOLV",
+   "n": "Solventum Corporation",
    "sig": "obserwuj",
    "score": 2.0,
    "wok": null,
@@ -218,8 +218,8 @@
    ]
   },
   {
-   "s": "SOLV",
-   "n": "Solventum Corporation",
+   "s": "UNP",
+   "n": "Union Pacific Corporation",
    "sig": "obserwuj",
    "score": 2.0,
    "wok": null,
@@ -251,8 +251,8 @@
    ]
   },
   {
-   "s": "AJG",
-   "n": "Arthur J. Gallagher & Co.",
+   "s": "ZAL.DE",
+   "n": "Zalando SE                    I",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -321,8 +321,8 @@
    ]
   },
   {
-   "s": "ZAL.DE",
-   "n": "Zalando SE                    I",
+   "s": "AJG",
+   "n": "Arthur J. Gallagher & Co.",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -401,8 +401,8 @@
    ]
   },
   {
-   "s": "ARES",
-   "n": "Ares Management Corporation",
+   "s": "APD",
+   "n": "Air Products and Chemicals, Inc",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -441,8 +441,8 @@
    ]
   },
   {
-   "s": "BF-B",
-   "n": "Brown Forman Inc",
+   "s": "ADP",
+   "n": "Automatic Data Processing, Inc.",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -571,8 +571,8 @@
    ]
   },
   {
-   "s": "ADP",
-   "n": "Automatic Data Processing, Inc.",
+   "s": "BF-B",
+   "n": "Brown Forman Inc",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -581,8 +581,8 @@
    ]
   },
   {
-   "s": "APD",
-   "n": "Air Products and Chemicals, Inc",
+   "s": "ARES",
+   "n": "Ares Management Corporation",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -794,8 +794,8 @@
    ]
   },
   {
-   "s": "AMAT",
-   "n": "Applied Materials, Inc.",
+   "s": "CDNS",
+   "n": "Cadence Design Systems, Inc.",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -882,8 +882,8 @@
    "why": []
   },
   {
-   "s": "CDNS",
-   "n": "Cadence Design Systems, Inc.",
+   "s": "AMAT",
+   "n": "Applied Materials, Inc.",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1066,8 +1066,8 @@
    "why": []
   },
   {
-   "s": "SNA",
-   "n": "Snap-On Incorporated",
+   "s": "MCD",
+   "n": "McDonald's Corporation",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1106,8 +1106,8 @@
    "why": []
   },
   {
-   "s": "T",
-   "n": "AT&T Inc.",
+   "s": "MCHP",
+   "n": "Microchip Technology Incorporat",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1346,16 +1346,16 @@
    "why": []
   },
   {
-   "s": "MCHP",
-   "n": "Microchip Technology Incorporat",
+   "s": "T",
+   "n": "AT&T Inc.",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
    "why": []
   },
   {
-   "s": "MCD",
-   "n": "McDonald's Corporation",
+   "s": "SNA",
+   "n": "Snap-On Incorporated",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
