@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T18:34:25.338918Z",
+ "updated": "2026-11-08T22:26:54.097401Z",
  "top": [
   {
    "s": "AMT",
@@ -174,8 +174,8 @@
    ]
   },
   {
-   "s": "SOLV",
-   "n": "Solventum Corporation",
+   "s": "UNP",
+   "n": "Union Pacific Corporation",
    "sig": "obserwuj",
    "score": 2.0,
    "wok": null,
@@ -218,8 +218,8 @@
    ]
   },
   {
-   "s": "UNP",
-   "n": "Union Pacific Corporation",
+   "s": "SOLV",
+   "n": "Solventum Corporation",
    "sig": "obserwuj",
    "score": 2.0,
    "wok": null,
@@ -251,8 +251,8 @@
    ]
   },
   {
-   "s": "ZAL.DE",
-   "n": "Zalando SE                    I",
+   "s": "AJG",
+   "n": "Arthur J. Gallagher & Co.",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -321,8 +321,8 @@
    ]
   },
   {
-   "s": "AJG",
-   "n": "Arthur J. Gallagher & Co.",
+   "s": "ZAL.DE",
+   "n": "Zalando SE                    I",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -401,8 +401,8 @@
    ]
   },
   {
-   "s": "APD",
-   "n": "Air Products and Chemicals, Inc",
+   "s": "ARES",
+   "n": "Ares Management Corporation",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -441,8 +441,8 @@
    ]
   },
   {
-   "s": "ADP",
-   "n": "Automatic Data Processing, Inc.",
+   "s": "BF-B",
+   "n": "Brown Forman Inc",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -571,8 +571,8 @@
    ]
   },
   {
-   "s": "BF-B",
-   "n": "Brown Forman Inc",
+   "s": "ADP",
+   "n": "Automatic Data Processing, Inc.",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -581,23 +581,13 @@
    ]
   },
   {
-   "s": "ARES",
-   "n": "Ares Management Corporation",
+   "s": "APD",
+   "n": "Air Products and Chemicals, Inc",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
    "why": [
     "wyraźnie nad średnią 200 sesji"
-   ]
-  },
-  {
-   "s": "GFS",
-   "n": "GlobalFoundries Inc.",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "tu działało 1/2"
    ]
   },
   {
@@ -608,6 +598,16 @@
    "wok": null,
    "why": [
     "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "GFS",
+   "n": "GlobalFoundries Inc.",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "wok": null,
+   "why": [
+    "tu działało 1/2"
    ]
   },
   {
@@ -794,8 +794,8 @@
    ]
   },
   {
-   "s": "CDNS",
-   "n": "Cadence Design Systems, Inc.",
+   "s": "CNP",
+   "n": "CenterPoint Energy, Inc (Holdin",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -874,8 +874,8 @@
    "why": []
   },
   {
-   "s": "CNP",
-   "n": "CenterPoint Energy, Inc (Holdin",
+   "s": "CDNS",
+   "n": "Cadence Design Systems, Inc.",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1074,8 +1074,8 @@
    "why": []
   },
   {
-   "s": "DTE",
-   "n": "DTE Energy Company",
+   "s": "ETH-USD",
+   "n": "Ethereum USD",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1114,8 +1114,8 @@
    "why": []
   },
   {
-   "s": "AXP",
-   "n": "American Express Company",
+   "s": "SNA",
+   "n": "Snap-On Incorporated",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1354,22 +1354,20 @@
    "why": []
   },
   {
-   "s": "SNA",
-   "n": "Snap-On Incorporated",
+   "s": "AXP",
+   "n": "American Express Company",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
    "why": []
   },
   {
-   "s": "DAT.WA",
-   "n": "DAT C.XWAR PLN",
+   "s": "DTE",
+   "n": "DTE Energy Company",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 0/1"
-   ]
+   "why": []
   },
   {
    "s": "TT",
@@ -1554,6 +1552,16 @@
   {
    "s": "UBER",
    "n": "Uber Technologies, Inc.",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "DAT.WA",
+   "n": "DAT C.XWAR PLN",
    "sig": "obserwuj",
    "score": 0.0,
    "wok": null,
@@ -2392,9 +2400,14 @@
    "w": 0,
    "n": 1,
    "d": "2026-11-08"
+  },
+  "ETH-USD": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
   }
  },
- "nextId": 5,
+ "nextId": 6,
  "events": [
   {
    "id": 1,
@@ -2443,6 +2456,18 @@
    "h": "Cena w strefie, korekta A-B-C kompletna - czekam na impuls w górę jako potwierdzenie.",
    "score": 0.0,
    "wok": null
+  },
+  {
+   "id": 5,
+   "at": "2026-11-08T22:26:54.097401Z",
+   "s": "ETH-USD",
+   "n": "Ethereum USD",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 2124.0400390625,
+   "h": "Korekta A-B-C i potwierdzenie są, ale cena jest pod średnią 200 sesji - w trendzie spadkowym takie sygnały częściej zawodzą.",
+   "score": 0.5,
+   "wok": null
   }
  ],
  "sig": {
@@ -2451,7 +2476,7 @@
   "^GDAXI": "czekaj",
   "^GSPC": "czekaj",
   "BTC-USD": "nie",
-  "ETH-USD": "nie",
+  "ETH-USD": "obserwuj",
   "SOL-USD": "nie",
   "SI=F": "nie",
   "CL=F": "czekaj",
@@ -3823,6 +3848,7 @@
   "AJG|pos": "2026-11-08T07:16:09.180555Z",
   "BX|pos": "2026-11-08T07:16:09.180555Z",
   "MCD|pos": "2026-11-08T07:16:09.180555Z",
-  "NEU.WA|pos": "2026-11-08T07:16:09.180555Z"
+  "NEU.WA|pos": "2026-11-08T07:16:09.180555Z",
+  "ETH-USD|pos": "2026-11-08T22:26:54.097401Z"
  }
 }
