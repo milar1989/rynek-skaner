@@ -613,6 +613,17 @@ HoldAdvice holdingAdvice(Analysis a, {double? entry}) {
         'Cena podwoiła się od Twojego zakupu.$pnlTxt Sprzedaj połowę - odzyskasz cały wkład, a reszta pracuje „za darmo”.$stopTxt',
         stop: stop, target: res);
   }
+  // po zakończonym impulsie 5 fal trwa korekta A-B-C: z zyskiem na pozycji warto go zabezpieczyć (część + stop na wejście)
+  final labels = a.pivots.map((p) => p.label).toList();
+  final impulseDone = labels.contains('5') && labels.indexOf('A') > labels.indexOf('5');
+  if (impulseDone && (pnl ?? 0) > 3 && (a.signal == Signal.czekaj || a.signal == Signal.obserwuj)) {
+    final zone = a.zones.isEmpty ? null : a.zones.first;
+    return HoldAdvice(HoldAction.czesc, 'ZABEZPIECZ ZYSK',
+        'Wzrost w 5 falach się zakończył i trwa korekta (A-B-C) - może zejść niżej, zanim trend wróci.$pnlTxt '
+        'Rozważ sprzedaż części (np. połowy) i stop dla reszty na cenie zakupu ${_p(entry!)} - wtedy ta pozycja już nie przyniesie straty.'
+        '${zone == null ? '' : ' Odkupić można taniej w strefie ${_p(zone.lo)}–${_p(zone.hi)}, gdy pojawi się sygnał KUP.'}',
+        stop: entry, target: zone?.mid);
+  }
   switch (a.signal) {
     case Signal.ostrzezenie:
       return HoldAdvice(HoldAction.rozwaz, 'ROZWAŻ SPRZEDAŻ',
