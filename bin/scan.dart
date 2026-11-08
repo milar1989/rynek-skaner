@@ -90,7 +90,15 @@ Future<void> main(List<String> args) async {
           hist[s] = {'w': h.wins, 'n': h.n, 'd': today};
         }
         final sc = opportunityScore(a, history: (wins: hist[s]!['w'] as int, n: hist[s]!['n'] as int));
-        top[s] = {'s': s, 'n': d.name, 'sig': now2, 'score': sc.score, 'why': sc.why};
+        final wok = a.signal == Signal.kup ? weeklyAgrees(d.candles) : null;
+        top[s] = {
+          's': s,
+          'n': d.name,
+          'sig': now2,
+          'score': sc.score,
+          'wok': wok,
+          'why': [...sc.why, if (wok == true) 'tydzień potwierdza', if (wok == false) 'tydzień neguje'],
+        };
       } else {
         top.remove(s);
       }
@@ -111,7 +119,7 @@ Future<void> main(List<String> args) async {
         'nie' => a.headline.startsWith('Trend spadkowy') ? 'trend spadkowy' : 'scenariusz zanegowany',
         _ => a.signal == Signal.kup ? 'korekta A-B-C + impuls' : 'poprawa',
       };
-      added.add({'id': nextId++, 'at': now.toIso8601String(), 's': s, 'n': d.name, 't': t, 'why': why, 'p': d.candles.last.c, 'h': a.headline, if (top[s] != null) 'score': top[s]!['score']});
+      added.add({'id': nextId++, 'at': now.toIso8601String(), 's': s, 'n': d.name, 't': t, 'why': why, 'p': d.candles.last.c, 'h': a.headline, if (top[s] != null) 'score': top[s]!['score'], if (top[s] != null) 'wok': top[s]!['wok']});
     }
   }
 
@@ -125,7 +133,8 @@ Future<void> main(List<String> args) async {
   }
   final ranked = top.values.toList()
     ..sort((x, y) {
-      final k = (x['sig'] == 'kup' ? 0 : 1).compareTo(y['sig'] == 'kup' ? 0 : 1);
+      int tier(Map<String, dynamic> m) => m['sig'] != 'kup' ? 2 : ((m['score'] as num) >= 3 && m['wok'] != false ? 0 : 1);
+      final k = tier(x).compareTo(tier(y));
       return k != 0 ? k : (y['score'] as num).compareTo(x['score'] as num);
     });
   final out = {

@@ -257,8 +257,18 @@ String _p(double v) => v >= 1000 ? v.toStringAsFixed(0) : v >= 10 ? v.toStringAs
 /// że większa zgodność NIE dawała lepszych transakcji, więc domyślnie zawsze pełna pozycja (docs/metoda.md).
 const defaultSizeTiers = [100];
 
+/// Kiedy scenariusz korekty uznajemy za zanegowany.
+enum Negation {
+  /// zejście poniżej 0.886 całego ruchu
+  fib886,
+  /// zejście poniżej początku ruchu (reguła fali 2)
+  start,
+  /// korekta płaska nieregularna: C może zejść do 1.618 × A od szczytu B (jak w analizie Karola), najgłębiej do początku ruchu
+  flat,
+}
+
 /// [minReward] - minimalny zysk do TP1 jako wielokrotność ryzyka (odległości stopu).
-Analysis analyze(List<Candle> cs, {double minReward = 1.0, List<int> sizeTiers = defaultSizeTiers}) {
+Analysis analyze(List<Candle> cs, {double minReward = 1.0, List<int> sizeTiers = defaultSizeTiers, Negation negation = Negation.flat}) {
   final (piv, degree) = _chooseDegree(cs);
   final last = cs.last.c, lastI = cs.length - 1;
   if (piv.length < 4) {
@@ -346,7 +356,18 @@ Analysis analyze(List<Candle> cs, {double minReward = 1.0, List<int> sizeTiers =
   // przy równej sile wygrywa strefa, w której faktycznie skończyła się korekta
   final hitZone = cLow == null ? null : below.where((z) => z.contains(cLow.price)).fold<Zone?>(null, (m, z) => m == null || z.score > m.score ? z : m);
   final best = hitZone != null && (below.isEmpty || hitZone.score >= below.first.score) ? hitZone : (below.isEmpty ? null : below.first);
-  final invalid = _lvl(topP.price, start.price, 0.886);
+  final fib886 = _lvl(topP.price, start.price, 0.886);
+  final flatC = a != null && b != null && b.high ? exp(_ln(b.price) - 1.618 * (_ln(topP.price) - _ln(a.price))) : null;
+  final invalid = switch (negation) {
+    Negation.fib886 => fib886,
+    Negation.start => start.price * 0.995,
+    Negation.flat => max(start.price * 0.995, min(fib886, (flatC ?? fib886) * 0.99)),
+  };
+  final invalidWhy = switch (negation) {
+    Negation.fib886 => '0.886 całego ruchu',
+    Negation.start => 'początek całego ruchu',
+    Negation.flat => flatC != null && invalid < fib886 ? 'zasięg 1.618 fali A (korekta płaska nieregularna)' : '0.886 całego ruchu',
+  };
 
   final wedge = findWedge(piv, cs);
   final checks = <Check>[
@@ -401,7 +422,7 @@ Analysis analyze(List<Candle> cs, {double minReward = 1.0, List<int> sizeTiers =
   if (last < invalid) {
     return Analysis(
       candles: cs, pivots: piv, degree: degree, trend: trend, signal: Signal.nieKupuj, zones: below.take(3).toList(), wedge: wedge,
-      headline: 'Cena poniżej ${_p(invalid)} (0.886 całego ruchu) - scenariusz korekty zanegowany. Możliwy koniec trendu; czekam na nową strukturę.',
+      headline: 'Cena poniżej ${_p(invalid)} ($invalidWhy) - scenariusz korekty zanegowany. Możliwy koniec trendu; czekam na nową strukturę.',
       checks: checks,
       scenarios: [
         Scenario('Większa korekta / bessa', 'To mogła być dopiero fala A większej korekty: odbicie B, potem C niżej.', false,
@@ -623,6 +644,43 @@ HoldAdvice holdingAdvice(Analysis a, {double? entry}) {
           '${a.trend == 'wzrostowy' ? 'Trend wzrostowy, ' : ''}korekta w toku nie neguje scenariusza - nie ma sygnału do sprzedaży.$pnlTxt$stopTxt$resTxt',
           stop: stop, target: res);
   }
+}
+
+// ---------- wyższy interwał ----------
+
+/// Świece tygodniowe z dziennych (poniedziałek-piątek).
+List<Candle> weeklyCandles(List<Candle> d) {
+  final out = <Candle>[];
+  DateTime? wk;
+  var o = 0.0, h = 0.0, l = 0.0, c = 0.0, v = 0.0;
+  var t = DateTime(2000);
+  for (final x in d) {
+    final w = DateTime(x.t.year, x.t.month, x.t.day).subtract(Duration(days: x.t.weekday - 1));
+    if (wk != w) {
+      if (wk != null) out.add(Candle(t, o, h, l, c, v));
+      wk = w;
+      o = x.o;
+      h = x.h;
+      l = x.l;
+      v = 0;
+      t = x.t;
+    }
+    h = max(h, x.h);
+    l = min(l, x.l);
+    c = x.c;
+    v += x.v;
+  }
+  if (wk != null) out.add(Candle(t, o, h, l, c, v));
+  return out;
+}
+
+/// Czy wykres tygodniowy nie neguje sygnału z dziennego (nie NIE KUPUJ / UWAGA). null = za krótka historia.
+/// Test na 688 walorach: ocena 3-4 + tydzień nie neguje → 65% trafień i +6,8% (bez tego 64% i +6,6%).
+bool? weeklyAgrees(List<Candle> daily) {
+  final wk = weeklyCandles(daily);
+  if (wk.length < 60) return null;
+  final s = analyze(wk).signal;
+  return s != Signal.nieKupuj && s != Signal.ostrzezenie;
 }
 
 // ---------- ranking „warte uwagi” ----------
