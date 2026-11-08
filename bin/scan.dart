@@ -111,7 +111,7 @@ Future<void> main(List<String> args) async {
         'nie' => a.headline.startsWith('Trend spadkowy') ? 'trend spadkowy' : 'scenariusz zanegowany',
         _ => a.signal == Signal.kup ? 'korekta A-B-C + impuls' : 'poprawa',
       };
-      added.add({'id': nextId++, 'at': now.toIso8601String(), 's': s, 'n': d.name, 't': t, 'why': why, 'p': d.candles.last.c, 'h': a.headline});
+      added.add({'id': nextId++, 'at': now.toIso8601String(), 's': s, 'n': d.name, 't': t, 'why': why, 'p': d.candles.last.c, 'h': a.headline, if (top[s] != null) 'score': top[s]!['score']});
     }
   }
 
