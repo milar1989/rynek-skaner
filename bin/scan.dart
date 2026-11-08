@@ -62,6 +62,9 @@ Future<void> main(List<String> args) async {
   final sig = Map<String, String>.from(prev['sig'] ?? {});
   final seen = Map<String, String>.from(prev['seen'] ?? {});
   final lastEv = Map<String, String>.from(prev['last'] ?? {});
+  // historia reguł na walorze (liczona raz dziennie) i ranking „warte uwagi”
+  final hist = {for (final e in Map<String, dynamic>.from(prev['hist'] ?? {}).entries) e.key: Map<String, dynamic>.from(e.value)};
+  final top = {for (final e in prev['top'] ?? []) (e as Map)['s'] as String: Map<String, dynamic>.from(e)};
   final events = [for (final e in prev['events'] ?? []) Map<String, dynamic>.from(e)];
   var nextId = (prev['nextId'] as num?)?.toInt() ?? 1;
 
@@ -81,6 +84,16 @@ Future<void> main(List<String> args) async {
       final was = sig[s];
       sig[s] = now2;
       seen[s] = today;
+      if (a.signal == Signal.kup || a.signal == Signal.obserwuj) {
+        if (hist[s]?['d'] != today) {
+          final h = ruleHistory(d.candles);
+          hist[s] = {'w': h.wins, 'n': h.n, 'd': today};
+        }
+        final sc = opportunityScore(a, history: (wins: hist[s]!['w'] as int, n: hist[s]!['n'] as int));
+        top[s] = {'s': s, 'n': d.name, 'sig': now2, 'score': sc.score, 'why': sc.why};
+      } else {
+        top.remove(s);
+      }
       if (was == null || was == now2) continue;
       final good = {'kup', 'obserwuj', 'czekaj'};
       String? t;
@@ -110,8 +123,15 @@ Future<void> main(List<String> args) async {
   for (final e in added) {
     stdout.writeln('  ${e['t']} ${e['s']} (${e['why']})');
   }
+  final ranked = top.values.toList()
+    ..sort((x, y) {
+      final k = (x['sig'] == 'kup' ? 0 : 1).compareTo(y['sig'] == 'kup' ? 0 : 1);
+      return k != 0 ? k : (y['score'] as num).compareTo(x['score'] as num);
+    });
   final out = {
     'updated': now.toIso8601String(),
+    'top': ranked,
+    'hist': hist,
     'nextId': nextId,
     'events': events,
     'sig': sig,
@@ -119,7 +139,10 @@ Future<void> main(List<String> args) async {
     'last': lastEv,
   };
   // plik zmieniamy tylko, gdy coś istotnego się zmieniło - mniej commitów
-  final changed = added.isNotEmpty || jsonEncode(prev['sig']) != jsonEncode(sig) || jsonEncode(prev['seen']) != jsonEncode(seen);
+  final changed = added.isNotEmpty ||
+      jsonEncode(prev['sig']) != jsonEncode(sig) ||
+      jsonEncode(prev['seen']) != jsonEncode(seen) ||
+      jsonEncode(prev['top']) != jsonEncode(ranked);
   if (changed) f.writeAsStringSync(const JsonEncoder.withIndent(' ').convert(out));
   File(Platform.environment['GITHUB_OUTPUT'] ?? '/dev/null').writeAsStringSync('events=${added.length}\n', mode: FileMode.append);
 }

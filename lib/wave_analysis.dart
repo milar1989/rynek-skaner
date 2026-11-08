@@ -625,6 +625,81 @@ HoldAdvice holdingAdvice(Analysis a, {double? entry}) {
   }
 }
 
+// ---------- ranking „warte uwagi” ----------
+
+/// Jak sygnały KUP wypadały wcześniej na tym walorze (zasady bota: połowa na 1R, stop na wejście, reszta na celu).
+({int wins, int n}) ruleHistory(List<Candle> cs, {int from = 250}) {
+  var wins = 0, n = 0, i = from;
+  while (i < cs.length - 1) {
+    final a = analyze(cs.sublist(0, i + 1));
+    if (a.signal != Signal.kup) {
+      i++;
+      continue;
+    }
+    final e = a.entry!, risk = e - a.stop!;
+    final tp1 = e + risk, tp2 = max(a.tp2!, tp1 + risk);
+    var stop = a.stop!, half = false, res = 0.0, j = i + 1;
+    double? exit;
+    for (; j < cs.length && j <= i + 120; j++) {
+      final k = cs[j];
+      if (k.l <= stop) {
+        exit = stop;
+        break;
+      }
+      if (!half && k.h >= tp1) {
+        half = true;
+        res += (tp1 / e - 1) * 50;
+        stop = e;
+      }
+      if (k.h >= tp2) {
+        exit = tp2;
+        break;
+      }
+    }
+    if (j >= cs.length) break; // transakcja jeszcze trwa - nie liczymy
+    exit ??= cs[j].c;
+    res += (exit / e - 1) * (half ? 50 : 100);
+    n++;
+    if (res > 0) wins++;
+    i = j + 1;
+  }
+  return (wins: wins, n: n);
+}
+
+/// Ocena okazji 0-4 z cech, które w teście na ~690 walorach 2021-2026 (612 sygnałów) wiązały się z lepszym wynikiem:
+/// cena wyraźnie nad średnią 200 sesji, realny cel (≤ 4,5× ryzyka), reguły działały wcześniej na tym walorze,
+/// walor o większych ruchach (stop > 10%). Ocena 3-4: średnio +3,7% … +10,4% na transakcję; 0-1,5: ok. 0%.
+({double score, List<String> why}) opportunityScore(Analysis a, {({int wins, int n})? history}) {
+  var score = 0.0;
+  final why = <String>[];
+  final sma = trendAverage(a.candles);
+  if (sma != null && a.last > sma * 1.012) {
+    score += 1;
+    why.add('wyraźnie nad średnią 200 sesji');
+  }
+  if (a.signal == Signal.kup && a.entry != null && a.stop != null && a.tp2 != null) {
+    final risk = a.entry! - a.stop!;
+    if (risk > 0 && (a.tp2! - a.entry!) / risk < 4.5) {
+      score += 1;
+      why.add('realny cel');
+    }
+    if (risk / a.entry! > 0.10) {
+      score += 1;
+      why.add('duże ruchy (szeroki stop)');
+    }
+  }
+  final h = history;
+  if (h == null || h.n == 0) {
+    score += 0.5;
+  } else if (h.wins / h.n >= 0.5) {
+    score += 1;
+    why.add('tu działało ${h.wins}/${h.n}');
+  } else {
+    why.add('tu słabo: ${h.wins}/${h.n}');
+  }
+  return (score: score, why: why);
+}
+
 // ---------- test na historii ----------
 
 class BacktestTrade {

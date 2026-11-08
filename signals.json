@@ -1,5 +1,2166 @@
 {
- "updated": "2026-11-08T00:30:45.482918Z",
+ "updated": "2026-11-08T06:30:00.422967Z",
+ "top": [
+  {
+   "s": "AMT",
+   "n": "American Tower Corporation (REI",
+   "sig": "kup",
+   "score": 4.0,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "realny cel",
+    "duże ruchy (szeroki stop)",
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "AOS",
+   "n": "A.O. Smith Corporation",
+   "sig": "kup",
+   "score": 3.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "realny cel",
+    "duże ruchy (szeroki stop)"
+   ]
+  },
+  {
+   "s": "CF",
+   "n": "CF Industries Holdings, Inc.",
+   "sig": "kup",
+   "score": 3.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "realny cel",
+    "duże ruchy (szeroki stop)"
+   ]
+  },
+  {
+   "s": "ISRG",
+   "n": "Intuitive Surgical, Inc.",
+   "sig": "kup",
+   "score": 3.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "realny cel",
+    "duże ruchy (szeroki stop)"
+   ]
+  },
+  {
+   "s": "RMD",
+   "n": "ResMed Inc.",
+   "sig": "kup",
+   "score": 3.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "realny cel",
+    "duże ruchy (szeroki stop)"
+   ]
+  },
+  {
+   "s": "GPP.WA",
+   "n": "GPP C.XWAR PLN",
+   "sig": "kup",
+   "score": 3.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "realny cel",
+    "duże ruchy (szeroki stop)"
+   ]
+  },
+  {
+   "s": "TXN",
+   "n": "Texas Instruments Incorporated",
+   "sig": "kup",
+   "score": 3.0,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "duże ruchy (szeroki stop)",
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "VMC",
+   "n": "Vulcan Materials Company (Holdi",
+   "sig": "kup",
+   "score": 2.5,
+   "why": [
+    "realny cel",
+    "duże ruchy (szeroki stop)"
+   ]
+  },
+  {
+   "s": "GE",
+   "n": "GE Aerospace",
+   "sig": "kup",
+   "score": 2.5,
+   "why": [
+    "realny cel",
+    "duże ruchy (szeroki stop)"
+   ]
+  },
+  {
+   "s": "NTRS",
+   "n": "Northern Trust Corporation",
+   "sig": "kup",
+   "score": 2.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "realny cel"
+   ]
+  },
+  {
+   "s": "DXCM",
+   "n": "DexCom, Inc.",
+   "sig": "kup",
+   "score": 2.0,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "AIG",
+   "n": "American International Group, I",
+   "sig": "kup",
+   "score": 1.5,
+   "why": [
+    "realny cel"
+   ]
+  },
+  {
+   "s": "NXPI",
+   "n": "NXP Semiconductors N.V.",
+   "sig": "kup",
+   "score": 1.5,
+   "why": [
+    "duże ruchy (szeroki stop)"
+   ]
+  },
+  {
+   "s": "NSC",
+   "n": "Norfolk Southern Corporation",
+   "sig": "kup",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "ZBRA",
+   "n": "Zebra Technologies Corporation",
+   "sig": "obserwuj",
+   "score": 2.0,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "HPE",
+   "n": "Hewlett Packard Enterprise Comp",
+   "sig": "obserwuj",
+   "score": 2.0,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "RCL",
+   "n": "Royal Caribbean Cruises Ltd.",
+   "sig": "obserwuj",
+   "score": 2.0,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "NTAP",
+   "n": "NetApp, Inc.",
+   "sig": "obserwuj",
+   "score": 2.0,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "SOLV",
+   "n": "Solventum Corporation",
+   "sig": "obserwuj",
+   "score": 2.0,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "UNP",
+   "n": "Union Pacific Corporation",
+   "sig": "obserwuj",
+   "score": 2.0,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "CI",
+   "n": "The Cigna Group",
+   "sig": "obserwuj",
+   "score": 2.0,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "ADP",
+   "n": "Automatic Data Processing, Inc.",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "ILMN",
+   "n": "Illumina, Inc.",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "AON",
+   "n": "Aon plc",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "JKHY",
+   "n": "Jack Henry & Associates, Inc.",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "MNST",
+   "n": "Monster Beverage Corporation",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "DHR",
+   "n": "Danaher Corporation",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "MPC",
+   "n": "Marathon Petroleum Corporation",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "ZAL.DE",
+   "n": "Zalando SE                    I",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "XTB.WA",
+   "n": "XTB C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "P",
+   "n": "Everpure, Inc.",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "PANW",
+   "n": "Palo Alto Networks, Inc.",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "PG",
+   "n": "Procter & Gamble Company (The)",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "PSX",
+   "n": "Phillips 66",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "PYPL",
+   "n": "PayPal Holdings, Inc.",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "SIE.DE",
+   "n": "SIEMENS AG                    N",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "ARES",
+   "n": "Ares Management Corporation",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "SHW",
+   "n": "Sherwin-Williams Company (The)",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "AMP",
+   "n": "Ameriprise Financial, Inc.",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "APR.WA",
+   "n": "APR C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "BF-B",
+   "n": "Brown Forman Inc",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "ADSK",
+   "n": "Autodesk, Inc.",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "GEHC",
+   "n": "GE HealthCare Technologies Inc.",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "D",
+   "n": "Dominion Energy, Inc.",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "VTR",
+   "n": "Ventas, Inc.",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "WMT",
+   "n": "Walmart Inc.",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "WTW",
+   "n": "Willis Towers Watson Public Lim",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "HPQ",
+   "n": "HP Inc.",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "ZBH",
+   "n": "Zimmer Biomet Holdings, Inc.",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "TEAM",
+   "n": "Atlassian Corporation",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "ZS",
+   "n": "Zscaler, Inc.",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "BNR.DE",
+   "n": "Brenntag SE                   N",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "SPGI",
+   "n": "S&P Global Inc.",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "APD",
+   "n": "Air Products and Chemicals, Inc",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "SNDK",
+   "n": "Sandisk Corporation",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "why": [
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "GFS",
+   "n": "GlobalFoundries Inc.",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "why": [
+    "tu działało 1/2"
+   ]
+  },
+  {
+   "s": "KMI",
+   "n": "Kinder Morgan, Inc.",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "why": [
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "ESS",
+   "n": "Essex Property Trust, Inc.",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "why": [
+    "tu działało 1/2"
+   ]
+  },
+  {
+   "s": "LYB",
+   "n": "LyondellBasell Industries NV",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "why": [
+    "tu działało 2/2"
+   ]
+  },
+  {
+   "s": "JSW.WA",
+   "n": "JSW C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "why": [
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "MLM",
+   "n": "Martin Marietta Materials, Inc.",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "why": [
+    "tu działało 1/2"
+   ]
+  },
+  {
+   "s": "NWS",
+   "n": "News Corporation",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "why": [
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "NWSA",
+   "n": "News Corporation",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "why": [
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "CVNA",
+   "n": "Carvana Co.",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "DHI",
+   "n": "D.R. Horton, Inc.",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "QCOM",
+   "n": "QUALCOMM Incorporated",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "why": [
+    "tu działało 1/2"
+   ]
+  },
+  {
+   "s": "DOV",
+   "n": "Dover Corporation",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "why": [
+    "tu działało 1/2"
+   ]
+  },
+  {
+   "s": "SNPS",
+   "n": "Synopsys, Inc.",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "DVN",
+   "n": "Devon Energy Corporation",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "why": [
+    "tu działało 1/2"
+   ]
+  },
+  {
+   "s": "SYY",
+   "n": "Sysco Corporation",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "why": [
+    "tu działało 1/2"
+   ]
+  },
+  {
+   "s": "CPS.WA",
+   "n": "CPS C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "why": [
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "EME",
+   "n": "EMCOR Group, Inc.",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "why": [
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "F",
+   "n": "Ford Motor Company",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "why": [
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "FTNT",
+   "n": "Fortinet, Inc.",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "why": [
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "AMAT",
+   "n": "Applied Materials, Inc.",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "MCHP",
+   "n": "Microchip Technology Incorporat",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "HUBB",
+   "n": "Hubbell Inc",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "MGM",
+   "n": "MGM Resorts International",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "HWM",
+   "n": "Howmet Aerospace Inc.",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "APO",
+   "n": "Apollo Global Management, Inc. ",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "GLW",
+   "n": "Corning Incorporated",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "IMC.WA",
+   "n": "IMC C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "NOW",
+   "n": "ServiceNow, Inc.",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "CLX",
+   "n": "Clorox Company (The)",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "HII",
+   "n": "Huntington Ingalls Industries, ",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "CNP",
+   "n": "CenterPoint Energy, Inc (Holdin",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "CDNS",
+   "n": "Cadence Design Systems, Inc.",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "INTC",
+   "n": "Intel Corporation",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "APP",
+   "n": "Applovin Corporation",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "ODFL",
+   "n": "Old Dominion Freight Line, Inc.",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "ORLY",
+   "n": "O'Reilly Automotive, Inc.",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "CVS",
+   "n": "CVS Health Corporation",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "GRX.WA",
+   "n": "GRX C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "ATO",
+   "n": "Atmos Energy Corporation",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "PCAR",
+   "n": "PACCAR Inc.",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "DASH",
+   "n": "DoorDash, Inc.",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "PLD",
+   "n": "Prologis, Inc.",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "PPL",
+   "n": "PPL Corporation",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "DELL",
+   "n": "Dell Technologies Inc.",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "PXM.WA",
+   "n": "PXM C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "Q",
+   "n": "Qnity Electronics, Inc.",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "CHRW",
+   "n": "C.H. Robinson Worldwide, Inc.",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "AVGO",
+   "n": "Broadcom Inc.",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "DLR",
+   "n": "Digital Realty Trust, Inc.",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "ROK",
+   "n": "Rockwell Automation, Inc.",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "JCI",
+   "n": "Johnson Controls International ",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "SMCI",
+   "n": "Super Micro Computer, Inc.",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "SPY",
+   "n": "State Street SPDR S&P 500 ETF T",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "KKR",
+   "n": "KKR & Co. Inc.",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "SNA",
+   "n": "Snap-On Incorporated",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "DTE",
+   "n": "DTE Energy Company",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "RBW.WA",
+   "n": "RBW C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "GOOG",
+   "n": "Alphabet Inc.",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "BG",
+   "n": "Bunge Limited",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "T",
+   "n": "AT&T Inc.",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "AXP",
+   "n": "American Express Company",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "DOM.WA",
+   "n": "DOM C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "TJX",
+   "n": "TJX Companies, Inc. (The)",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "DCR.WA",
+   "n": "DCR C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "TXT",
+   "n": "Textron Inc.",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "ECHO",
+   "n": "EchoStar Corporation",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "KGH.WA",
+   "n": "KGH C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "LITE",
+   "n": "Lumentum Holdings Inc.",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "WWL.WA",
+   "n": "WWL C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "CIG.WA",
+   "n": "CIG C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "EQT",
+   "n": "EQT Corporation",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "WMB",
+   "n": "Williams Companies, Inc. (The)",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "STX",
+   "n": "Seagate Technology Holdings PLC",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "ETN",
+   "n": "Eaton Corporation, PLC",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "BOS.WA",
+   "n": "BOS C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "LRCX",
+   "n": "Lam Research Corporation",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "FIX",
+   "n": "Comfort Systems USA, Inc.",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "LVS",
+   "n": "Las Vegas Sands Corp.",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "BA",
+   "n": "Boeing Company (The)",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "MDB",
+   "n": "MongoDB, Inc.",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "BKR",
+   "n": "Baker Hughes Company",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "ALB",
+   "n": "Albemarle Corporation",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "TOR.WA",
+   "n": "TOR C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "DTG.DE",
+   "n": "Daimler Truck Holding AG      N",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "IFX.DE",
+   "n": "INFINEON TECHNOLOGIES AG      N",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "GC=F",
+   "n": "Gold Dec 26",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "MDG.WA",
+   "n": "MDG C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "COHR",
+   "n": "Coherent Corp.",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "why": []
+  },
+  {
+   "s": "WYNN",
+   "n": "Wynn Resorts, Limited",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "VST",
+   "n": "Vistra Corp.",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "UBER",
+   "n": "Uber Technologies, Inc.",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "DAT.WA",
+   "n": "DAT C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "TT",
+   "n": "Trane Technologies plc",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "TER",
+   "n": "Teradyne, Inc.",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "TEL",
+   "n": "TE Connectivity plc",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "OXY",
+   "n": "Occidental Petroleum Corporatio",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "MU",
+   "n": "Micron Technology, Inc.",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "META",
+   "n": "Meta Platforms, Inc.",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "LHX",
+   "n": "L3Harris Technologies, Inc.",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "LDOS",
+   "n": "Leidos Holdings, Inc.",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "MRB.WA",
+   "n": "MRB C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "IRM",
+   "n": "Iron Mountain Incorporated (Del",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "why": [
+    "tu słabo: 0/2"
+   ]
+  },
+  {
+   "s": "HOOD",
+   "n": "Robinhood Markets, Inc.",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "GEV",
+   "n": "GE Vernova Inc.",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "EQIX",
+   "n": "Equinix, Inc.",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "AKAM",
+   "n": "Akamai Technologies, Inc.",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "why": [
+    "tu słabo: 0/2"
+   ]
+  },
+  {
+   "s": "ENR.DE",
+   "n": "Siemens Energy AG             N",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  }
+ ],
+ "hist": {
+  "GC=F": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "ADP": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "ADSK": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "AIG": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "AKAM": {
+   "w": 0,
+   "n": 2,
+   "d": "2026-11-08"
+  },
+  "ALB": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "AMAT": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "AMT": {
+   "w": 1,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "AMP": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "AON": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "AOS": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "APD": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "APP": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "APO": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "ARES": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "ATO": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "AVGO": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "AXP": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "BA": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "BF-B": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "BG": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "BKR": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "CDNS": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "CF": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "CHRW": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "CI": {
+   "w": 1,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "CLX": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "COHR": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "CNP": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "CVNA": {
+   "w": 0,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "CVS": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "D": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "DASH": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "DELL": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "DHI": {
+   "w": 0,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "DHR": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "DLR": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "DOV": {
+   "w": 1,
+   "n": 2,
+   "d": "2026-11-08"
+  },
+  "DTE": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "DVN": {
+   "w": 1,
+   "n": 2,
+   "d": "2026-11-08"
+  },
+  "DXCM": {
+   "w": 1,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "ECHO": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "EME": {
+   "w": 1,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "EQIX": {
+   "w": 0,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "EQT": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "ESS": {
+   "w": 1,
+   "n": 2,
+   "d": "2026-11-08"
+  },
+  "ETN": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "F": {
+   "w": 1,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "FIX": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "FTNT": {
+   "w": 1,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "GE": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "GEHC": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "GEV": {
+   "w": 0,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "GLW": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "GOOG": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "HII": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "HOOD": {
+   "w": 0,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "HPE": {
+   "w": 1,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "HPQ": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "HUBB": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "HWM": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "ILMN": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "INTC": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "ISRG": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "IRM": {
+   "w": 0,
+   "n": 2,
+   "d": "2026-11-08"
+  },
+  "JKHY": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "JCI": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "KKR": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "KMI": {
+   "w": 1,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "LDOS": {
+   "w": 0,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "LHX": {
+   "w": 0,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "LITE": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "LRCX": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "LVS": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "LYB": {
+   "w": 2,
+   "n": 2,
+   "d": "2026-11-08"
+  },
+  "MCHP": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "META": {
+   "w": 0,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "MGM": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "MLM": {
+   "w": 1,
+   "n": 2,
+   "d": "2026-11-08"
+  },
+  "MNST": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "MPC": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "MU": {
+   "w": 0,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "NOW": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "NSC": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "NTRS": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "NTAP": {
+   "w": 1,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "NWS": {
+   "w": 1,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "NWSA": {
+   "w": 1,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "NXPI": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "ODFL": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "ORLY": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "P": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "OXY": {
+   "w": 0,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "PANW": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "PCAR": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "PG": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "PLD": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "PPL": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "PSX": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "PYPL": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "Q": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "QCOM": {
+   "w": 1,
+   "n": 2,
+   "d": "2026-11-08"
+  },
+  "RCL": {
+   "w": 1,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "RMD": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "ROK": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "SHW": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "SMCI": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "SNDK": {
+   "w": 1,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "SNPS": {
+   "w": 0,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "SNA": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "SOLV": {
+   "w": 1,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "SPGI": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "STX": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "SYY": {
+   "w": 1,
+   "n": 2,
+   "d": "2026-11-08"
+  },
+  "T": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "TEL": {
+   "w": 0,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "TER": {
+   "w": 0,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "TJX": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "TT": {
+   "w": 0,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "TXT": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "TXN": {
+   "w": 1,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "UBER": {
+   "w": 0,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "UNP": {
+   "w": 1,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "VMC": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "VST": {
+   "w": 0,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "VTR": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "WMB": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "WMT": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "WTW": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "WYNN": {
+   "w": 0,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "ZBRA": {
+   "w": 1,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "ZBH": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "TEAM": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "ZS": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "MDB": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "GFS": {
+   "w": 1,
+   "n": 2,
+   "d": "2026-11-08"
+  },
+  "BNR.DE": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "ENR.DE": {
+   "w": 0,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "DTG.DE": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "IFX.DE": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "SIE.DE": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "ZAL.DE": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "APR.WA": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "BOS.WA": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "CIG.WA": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "CPS.WA": {
+   "w": 1,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "DAT.WA": {
+   "w": 0,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "DCR.WA": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "DOM.WA": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "GPP.WA": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "GRX.WA": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "IMC.WA": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "JSW.WA": {
+   "w": 1,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "KGH.WA": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "MDG.WA": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "MRB.WA": {
+   "w": 0,
+   "n": 1,
+   "d": "2026-11-08"
+  },
+  "PXM.WA": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "RBW.WA": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "TOR.WA": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "WWL.WA": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "XTB.WA": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  },
+  "SPY": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-08"
+  }
+ },
  "nextId": 1,
  "events": [],
  "sig": {
