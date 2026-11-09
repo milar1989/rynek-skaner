@@ -767,10 +767,17 @@ List<Candle> weeklyCandles(List<Candle> d) {
 /// Czy wykres tygodniowy nie neguje sygnału z dziennego (nie NIE KUPUJ / UWAGA). null = za krótka historia.
 /// Test na 688 walorach: ocena 3-4 + tydzień nie neguje → 65% trafień i +6,8% (bez tego 64% i +6,6%).
 bool? weeklyAgrees(List<Candle> daily) {
+  final s = weeklyView(daily);
+  return s == null ? null : s.signal != Signal.nieKupuj && s.signal != Signal.ostrzezenie;
+}
+
+/// Wykres tygodniowy z dziennego: sygnał i czy cena jest nad średnią 40 tygodni (pełne potwierdzenie = KUP albo nad średnią).
+({Signal signal, bool aboveAvg})? weeklyView(List<Candle> daily) {
   final wk = weeklyCandles(daily);
   if (wk.length < 60) return null;
-  final s = analyze(wk).signal;
-  return s != Signal.nieKupuj && s != Signal.ostrzezenie;
+  final a = analyze(wk);
+  final avg = trendAverage(wk);
+  return (signal: a.signal, aboveAvg: avg != null && wk.last.c > avg);
 }
 
 // ---------- ranking „warte uwagi” ----------
