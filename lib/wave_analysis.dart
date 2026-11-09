@@ -257,6 +257,64 @@ String _p(double v) => v >= 1000 ? v.toStringAsFixed(0) : v >= 10 ? v.toStringAs
 /// że większa zgodność NIE dawała lepszych transakcji, więc domyślnie zawsze pełna pozycja (docs/metoda.md).
 const defaultSizeTiers = [100];
 
+// ---------- formacje świecowe (film 3) ----------
+
+enum CandlePattern { mlotek, gwiazda, objecieHossy, objecieBessy }
+
+const candlePatternNames = {
+  CandlePattern.mlotek: 'młotek',
+  CandlePattern.gwiazda: 'spadająca gwiazda',
+  CandlePattern.objecieHossy: 'objęcie hossy',
+  CandlePattern.objecieBessy: 'objęcie bessy',
+};
+
+bool isBullishPattern(CandlePattern p) => p == CandlePattern.mlotek || p == CandlePattern.objecieHossy;
+
+/// Formacja na świecy [i]:
+/// - młotek: korpus (dowolny kolor) w górnych 33% zakresu świecy, długi dolny cień; spadająca gwiazda - lustrzanie, korpus w dolnych 33%,
+/// - objęcie hossy: świeca wzrostowa zamyka się korpusem powyżej korpusu poprzedniej spadkowej; objęcie bessy - odwrotnie.
+/// Pomijamy świece mniejsze niż połowa średniego zakresu z 14 świec (szum).
+CandlePattern? candlePattern(List<Candle> cs, int i) {
+  if (i < 1 || i >= cs.length) return null;
+  final c = cs[i], p = cs[i - 1];
+  final range = c.h - c.l;
+  if (range <= 0) return null;
+  final from = max(0, i - 14);
+  final avg = cs.sublist(from, i).fold(0.0, (s, x) => s + (x.h - x.l)) / max(1, i - from);
+  if (range < avg * 0.5) return null;
+  final top = max(c.o, c.c), bot = min(c.o, c.c);
+  if (bot >= c.l + range * 0.67) return CandlePattern.mlotek;
+  if (top <= c.l + range * 0.33) return CandlePattern.gwiazda;
+  if (p.c < p.o && c.c > c.o && c.c > p.o) return CandlePattern.objecieHossy;
+  if (p.c > p.o && c.c < c.o && c.c < p.o) return CandlePattern.objecieBessy;
+  return null;
+}
+
+/// Formacje świecowe z ostatnich [n] świec (indeks, formacja).
+List<(int, CandlePattern)> recentPatterns(List<Candle> cs, {int n = 60}) => [
+      for (var i = max(1, cs.length - n); i < cs.length; i++)
+        if (candlePattern(cs, i) case final p?) (i, p),
+    ];
+
+/// Jak używać formacji świecowych przy sygnale KUP.
+enum CandleUse {
+  /// tylko informacja
+  info,
+  /// formacja wzrostowa przy dołku C (i cena nad nią) może zastąpić potwierdzenie impulsem
+  alt,
+  /// formacja wzrostowa przy dołku C wymagana dodatkowo
+  require,
+}
+
+/// Wzrostowa formacja przy dołku C (do 3 świec po nim), potwierdzona zamknięciem powyżej jej szczytu.
+({int i, CandlePattern p})? patternAtLow(List<Candle> cs, int lowIdx) {
+  for (var i = max(1, lowIdx - 1); i <= min(cs.length - 1, lowIdx + 3); i++) {
+    final p = candlePattern(cs, i);
+    if (p != null && isBullishPattern(p) && cs.last.c > cs[i].h) return (i: i, p: p);
+  }
+  return null;
+}
+
 /// Kiedy scenariusz korekty uznajemy za zanegowany.
 enum Negation {
   /// zejście poniżej 0.886 całego ruchu
@@ -268,7 +326,7 @@ enum Negation {
 }
 
 /// [minReward] - minimalny zysk do TP1 jako wielokrotność ryzyka (odległości stopu).
-Analysis analyze(List<Candle> cs, {double minReward = 1.0, List<int> sizeTiers = defaultSizeTiers, Negation negation = Negation.flat}) {
+Analysis analyze(List<Candle> cs, {double minReward = 1.0, List<int> sizeTiers = defaultSizeTiers, Negation negation = Negation.flat, CandleUse candles = CandleUse.alt}) {
   final (piv, degree) = _chooseDegree(cs);
   final last = cs.last.c, lastI = cs.length - 1;
   if (piv.length < 4) {
@@ -445,7 +503,18 @@ Analysis analyze(List<Candle> cs, {double minReward = 1.0, List<int> sizeTiers =
   }
   // cena w strefie: potrzebne A-B-C i potwierdzenie
   final abc = legs.length >= 3;
-  final conf2 = cLow == null ? (ok: false, how: '', piv: <Pivot>[]) : confirmUp(cs, cLow.i, degree);
+  var conf2 = cLow == null ? (ok: false, how: '', piv: <Pivot>[]) : confirmUp(cs, cLow.i, degree);
+  final pat = cLow == null ? null : patternAtLow(cs, cLow.i);
+  if (candles == CandleUse.alt && !conf2.ok && pat != null) {
+    conf2 = (ok: true, how: '${candlePatternNames[pat.p]} przy dołku C', piv: conf2.piv);
+  }
+  if (candles == CandleUse.require && conf2.ok && pat == null) {
+    conf2 = (ok: false, how: '', piv: conf2.piv);
+  }
+  if (cLow != null) {
+    checks.add(Check(pat != null,
+        pat != null ? 'Formacja świecowa przy dołku C: ${candlePatternNames[pat.p]} (potwierdzona)' : 'Brak wzrostowej formacji świecowej przy dołku C'));
+  }
   checks.add(Check(conf2.ok, conf2.ok ? 'Potwierdzenie: ${conf2.how}' : 'Brak potwierdzenia (impulsu w górę od dołka)'));
   if (abc && conf2.ok && cLow != null) {
     final stop = cLow.price * 0.99;
@@ -612,6 +681,16 @@ HoldAdvice holdingAdvice(Analysis a, {double? entry}) {
     return HoldAdvice(HoldAction.czesc, 'WYJMIJ WKŁAD',
         'Cena podwoiła się od Twojego zakupu.$pnlTxt Sprzedaj połowę - odzyskasz cały wkład, a reszta pracuje „za darmo”.$stopTxt',
         stop: stop, target: res);
+  }
+  // świeca spadkowa (spadająca gwiazda / objęcie bessy) na ostatnich 2 świecach przy zysku - sygnał do realizacji części
+  final lastPat = [for (var i = a.candles.length - 2; i < a.candles.length; i++) candlePattern(a.candles, i)].whereType<CandlePattern>().toList();
+  final bearCandle = lastPat.any((p) => !isBullishPattern(p));
+  if (bearCandle && (pnl ?? 0) > 3 && a.signal != Signal.kup) {
+    final name = candlePatternNames[lastPat.firstWhere((p) => !isBullishPattern(p))]!;
+    return HoldAdvice(HoldAction.czesc, 'ZREALIZUJ CZĘŚĆ',
+        'Na ostatniej świecy formacja spadkowa ($name) - często zatrzymuje wzrosty.$pnlTxt '
+        'Rozważ sprzedaż części i stop dla reszty na cenie zakupu${entry == null ? '' : ' ${_p(entry)}'}.$resTxt',
+        stop: entry ?? stop, target: res);
   }
   // po zakończonym impulsie 5 fal trwa korekta A-B-C: z zyskiem na pozycji warto go zabezpieczyć (część + stop na wejście)
   final labels = a.pivots.map((p) => p.label).toList();
