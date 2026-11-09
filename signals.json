@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T01:51:01.816901Z",
+ "updated": "2026-11-09T08:45:07.702596Z",
  "top": [
   {
    "s": "AMT",
@@ -81,6 +81,19 @@
    ]
   },
   {
+   "s": "ZAL.DE",
+   "n": "Zalando SE                    I",
+   "sig": "kup",
+   "score": 3.5,
+   "wok": true,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "realny cel",
+    "duże ruchy (szeroki stop)",
+    "tydzień potwierdza"
+   ]
+  },
+  {
    "s": "TXN",
    "n": "Texas Instruments Incorporated",
    "sig": "kup",
@@ -130,6 +143,18 @@
    ]
   },
   {
+   "s": "SIE.DE",
+   "n": "SIEMENS AG                    N",
+   "sig": "kup",
+   "score": 2.5,
+   "wok": false,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "realny cel",
+    "tydzień neguje"
+   ]
+  },
+  {
    "s": "DXCM",
    "n": "DexCom, Inc.",
    "sig": "kup",
@@ -138,6 +163,17 @@
    "why": [
     "wyraźnie nad średnią 200 sesji",
     "tu działało 1/1",
+    "tydzień potwierdza"
+   ]
+  },
+  {
+   "s": "APR.WA",
+   "n": "APR C.XWAR PLN",
+   "sig": "kup",
+   "score": 1.5,
+   "wok": true,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
     "tydzień potwierdza"
    ]
   },
@@ -174,39 +210,6 @@
    ]
   },
   {
-   "s": "NTAP",
-   "n": "NetApp, Inc.",
-   "sig": "obserwuj",
-   "score": 2.0,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu działało 1/1"
-   ]
-  },
-  {
-   "s": "APD",
-   "n": "Air Products and Chemicals, Inc",
-   "sig": "obserwuj",
-   "score": 2.0,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu działało 1/1"
-   ]
-  },
-  {
-   "s": "RCL",
-   "n": "Royal Caribbean Cruises Ltd.",
-   "sig": "obserwuj",
-   "score": 2.0,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu działało 1/1"
-   ]
-  },
-  {
    "s": "UNP",
    "n": "Union Pacific Corporation",
    "sig": "obserwuj",
@@ -218,8 +221,8 @@
    ]
   },
   {
-   "s": "SOLV",
-   "n": "Solventum Corporation",
+   "s": "NTAP",
+   "n": "NetApp, Inc.",
    "sig": "obserwuj",
    "score": 2.0,
    "wok": null,
@@ -262,38 +265,41 @@
    ]
   },
   {
-   "s": "MPC",
-   "n": "Marathon Petroleum Corporation",
+   "s": "RCL",
+   "n": "Royal Caribbean Cruises Ltd.",
    "sig": "obserwuj",
-   "score": 1.5,
+   "score": 2.0,
    "wok": null,
    "why": [
-    "wyraźnie nad średnią 200 sesji"
+    "wyraźnie nad średnią 200 sesji",
+    "tu działało 1/1"
    ]
   },
   {
-   "s": "AON",
-   "n": "Aon plc",
+   "s": "APD",
+   "n": "Air Products and Chemicals, Inc",
    "sig": "obserwuj",
-   "score": 1.5,
+   "score": 2.0,
    "wok": null,
    "why": [
-    "wyraźnie nad średnią 200 sesji"
+    "wyraźnie nad średnią 200 sesji",
+    "tu działało 1/1"
    ]
   },
   {
-   "s": "JKHY",
-   "n": "Jack Henry & Associates, Inc.",
+   "s": "SOLV",
+   "n": "Solventum Corporation",
    "sig": "obserwuj",
-   "score": 1.5,
+   "score": 2.0,
    "wok": null,
    "why": [
-    "wyraźnie nad średnią 200 sesji"
+    "wyraźnie nad średnią 200 sesji",
+    "tu działało 1/1"
    ]
   },
   {
-   "s": "MNST",
-   "n": "Monster Beverage Corporation",
+   "s": "P",
+   "n": "Everpure, Inc.",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -322,8 +328,8 @@
    ]
   },
   {
-   "s": "ZAL.DE",
-   "n": "Zalando SE                    I",
+   "s": "MPC",
+   "n": "Marathon Petroleum Corporation",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -342,8 +348,8 @@
    ]
   },
   {
-   "s": "P",
-   "n": "Everpure, Inc.",
+   "s": "JKHY",
+   "n": "Jack Henry & Associates, Inc.",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -392,8 +398,8 @@
    ]
   },
   {
-   "s": "ILMN",
-   "n": "Illumina, Inc.",
+   "s": "AON",
+   "n": "Aon plc",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -442,8 +448,8 @@
    ]
   },
   {
-   "s": "ADSK",
-   "n": "Autodesk, Inc.",
+   "s": "MNST",
+   "n": "Monster Beverage Corporation",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -562,8 +568,8 @@
    ]
   },
   {
-   "s": "APR.WA",
-   "n": "APR C.XWAR PLN",
+   "s": "ADSK",
+   "n": "Autodesk, Inc.",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -572,33 +578,13 @@
    ]
   },
   {
-   "s": "SIE.DE",
-   "n": "SIEMENS AG                    N",
+   "s": "ILMN",
+   "n": "Illumina, Inc.",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
    "why": [
     "wyraźnie nad średnią 200 sesji"
-   ]
-  },
-  {
-   "s": "GFS",
-   "n": "GlobalFoundries Inc.",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "tu działało 1/2"
-   ]
-  },
-  {
-   "s": "SNDK",
-   "n": "Sandisk Corporation",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "tu działało 1/1"
    ]
   },
   {
@@ -610,6 +596,26 @@
    "why": [
     "wyraźnie nad średnią 200 sesji",
     "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "SKA.WA",
+   "n": "SKA C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "wok": null,
+   "why": [
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "GFS",
+   "n": "GlobalFoundries Inc.",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "wok": null,
+   "why": [
+    "tu działało 1/2"
    ]
   },
   {
@@ -796,24 +802,29 @@
    ]
   },
   {
-   "s": "CDNS",
-   "n": "Cadence Design Systems, Inc.",
+   "s": "SNDK",
+   "n": "Sandisk Corporation",
    "sig": "obserwuj",
-   "score": 0.5,
+   "score": 1.0,
    "wok": null,
-   "why": []
+   "why": [
+    "tu działało 1/1"
+   ]
   },
   {
-   "s": "HUBB",
-   "n": "Hubbell Inc",
+   "s": "FME.DE",
+   "n": "Fresenius Medical Care AG     I",
    "sig": "obserwuj",
-   "score": 0.5,
+   "score": 1.0,
    "wok": null,
-   "why": []
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu słabo: 0/1"
+   ]
   },
   {
-   "s": "MGM",
-   "n": "MGM Resorts International",
+   "s": "AMAT",
+   "n": "Applied Materials, Inc.",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -884,8 +895,8 @@
    "why": []
   },
   {
-   "s": "AMAT",
-   "n": "Applied Materials, Inc.",
+   "s": "CDNS",
+   "n": "Cadence Design Systems, Inc.",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1092,8 +1103,8 @@
    "why": []
   },
   {
-   "s": "GOOG",
-   "n": "Alphabet Inc.",
+   "s": "TXT.WA",
+   "n": "TXT C.XWAR PLN",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1124,8 +1135,8 @@
    "why": []
   },
   {
-   "s": "DOM.WA",
-   "n": "DOM C.XWAR PLN",
+   "s": "HUBB",
+   "n": "Hubbell Inc",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1372,34 +1383,28 @@
    "why": []
   },
   {
-   "s": "TT",
-   "n": "Trane Technologies plc",
+   "s": "MGM",
+   "n": "MGM Resorts International",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 0/1"
-   ]
+   "why": []
   },
   {
-   "s": "TER",
-   "n": "Teradyne, Inc.",
+   "s": "DOM.WA",
+   "n": "DOM C.XWAR PLN",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 0/1"
-   ]
+   "why": []
   },
   {
-   "s": "TEL",
-   "n": "TE Connectivity plc",
+   "s": "GOOG",
+   "n": "Alphabet Inc.",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 0/1"
-   ]
+   "why": []
   },
   {
    "s": "OXY",
@@ -1562,8 +1567,28 @@
    ]
   },
   {
-   "s": "DAT.WA",
-   "n": "DAT C.XWAR PLN",
+   "s": "TER",
+   "n": "Teradyne, Inc.",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "TT",
+   "n": "Trane Technologies plc",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "TEL",
+   "n": "TE Connectivity plc",
    "sig": "obserwuj",
    "score": 0.0,
    "wok": null,
@@ -2407,9 +2432,24 @@
    "w": 0,
    "n": 0,
    "d": "2026-11-09"
+  },
+  "FME.DE": {
+   "w": 0,
+   "n": 1,
+   "d": "2026-11-09"
+  },
+  "SKA.WA": {
+   "w": 1,
+   "n": 1,
+   "d": "2026-11-09"
+  },
+  "TXT.WA": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-09"
   }
  },
- "nextId": 6,
+ "nextId": 12,
  "events": [
   {
    "id": 1,
@@ -2468,6 +2508,74 @@
    "why": "poprawa",
    "p": 2124.0400390625,
    "h": "Korekta A-B-C i potwierdzenie są, ale cena jest pod średnią 200 sesji - w trendzie spadkowym takie sygnały częściej zawodzą.",
+   "score": 0.5,
+   "wok": null
+  },
+  {
+   "id": 6,
+   "at": "2026-11-09T08:45:07.702596Z",
+   "s": "SIE.DE",
+   "n": "SIEMENS AG                    N",
+   "t": "kup",
+   "why": "korekta A-B-C + impuls",
+   "p": 264.95001220703125,
+   "h": "Sygnał KUP: korekta A-B-C w strefie 2 narzędzi i objęcie hossy przy dołku C. Dodatkowo zgodne: 1 z 4 (informacyjnie).",
+   "score": 2.5,
+   "wok": false
+  },
+  {
+   "id": 7,
+   "at": "2026-11-09T08:45:07.702596Z",
+   "s": "ZAL.DE",
+   "n": "Zalando SE                    I",
+   "t": "kup",
+   "why": "korekta A-B-C + impuls",
+   "p": 27.809999465942383,
+   "h": "Sygnał KUP: korekta A-B-C w strefie 1 narzędzi i objęcie hossy przy dołku C. Dodatkowo zgodne: 2 z 4 (informacyjnie).",
+   "score": 3.5,
+   "wok": true
+  },
+  {
+   "id": 8,
+   "at": "2026-11-09T08:45:07.702596Z",
+   "s": "APR.WA",
+   "n": "APR C.XWAR PLN",
+   "t": "kup",
+   "why": "korekta A-B-C + impuls",
+   "p": 28.0,
+   "h": "Sygnał KUP: korekta A-B-C w strefie 1 narzędzi i objęcie hossy przy dołku C. Dodatkowo zgodne: 0 z 4 (informacyjnie).",
+   "score": 1.5,
+   "wok": true
+  },
+  {
+   "id": 9,
+   "at": "2026-11-09T08:45:07.702596Z",
+   "s": "DAT.WA",
+   "n": "DAT C.XWAR PLN",
+   "t": "neg",
+   "why": "trend spadkowy",
+   "p": 87.80000305175781,
+   "h": "Trend spadkowy - niższe szczyty i dołki. Nie kupuję, dopóki nie pojawi się impuls 5 fal w górę."
+  },
+  {
+   "id": 10,
+   "at": "2026-11-09T08:45:07.702596Z",
+   "s": "SGN.WA",
+   "n": "SGN C.XWAR PLN",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 95.0,
+   "h": "Trwa wzrost - nie gonię ceny. Okazja pojawi się po korekcie trójfalowej do strefy 80.13–80.50."
+  },
+  {
+   "id": 11,
+   "at": "2026-11-09T08:45:07.702596Z",
+   "s": "TXT.WA",
+   "n": "TXT C.XWAR PLN",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 37.900001525878906,
+   "h": "Cena w strefie, korekta A-B-C kompletna - czekam na impuls w górę jako potwierdzenie.",
    "score": 0.5,
    "wok": null
   }
@@ -3014,7 +3122,7 @@
   "EOAN.DE": "nie",
   "G1A.DE": "czekaj",
   "FRE.DE": "czekaj",
-  "FME.DE": "czekaj",
+  "FME.DE": "obserwuj",
   "G24.DE": "czekaj",
   "HEN3.DE": "czekaj",
   "HNR1.DE": "czekaj",
@@ -3029,12 +3137,12 @@
   "RHM.DE": "nie",
   "RWE.DE": "czekaj",
   "SHL.DE": "nie",
-  "SIE.DE": "obserwuj",
+  "SIE.DE": "kup",
   "SAP.DE": "nie",
   "SY1.DE": "uwaga",
   "VNA.DE": "nie",
   "VOW3.DE": "nie",
-  "ZAL.DE": "obserwuj",
+  "ZAL.DE": "kup",
   "11B.WA": "nie",
   "ABE.WA": "uwaga",
   "ACT.WA": "czekaj",
@@ -3044,7 +3152,7 @@
   "AGO.WA": "czekaj",
   "AMB.WA": "nie",
   "AMC.WA": "nie",
-  "APR.WA": "obserwuj",
+  "APR.WA": "kup",
   "ARH.WA": "czekaj",
   "APT.WA": "uwaga",
   "ASB.WA": "czekaj",
@@ -3065,7 +3173,7 @@
   "COG.WA": "nie",
   "CPS.WA": "obserwuj",
   "CRI.WA": "nie",
-  "DAT.WA": "obserwuj",
+  "DAT.WA": "nie",
   "DNP.WA": "uwaga",
   "DCR.WA": "obserwuj",
   "DOM.WA": "obserwuj",
@@ -3122,16 +3230,16 @@
   "QRS.WA": "czekaj",
   "RBW.WA": "obserwuj",
   "RVU.WA": "nie",
-  "SGN.WA": "uwaga",
+  "SGN.WA": "czekaj",
   "SEL.WA": "nie",
-  "SKA.WA": "czekaj",
+  "SKA.WA": "obserwuj",
   "SLV.WA": "nie",
   "SNT.WA": "czekaj",
   "STP.WA": "nie",
   "STX.WA": "nie",
   "TEN.WA": "nie",
   "TOR.WA": "obserwuj",
-  "TXT.WA": "nie",
+  "TXT.WA": "obserwuj",
   "UNI.WA": "czekaj",
   "VGO.WA": "nie",
   "VOX.WA": "czekaj",
@@ -3851,6 +3959,12 @@
   "BX|pos": "2026-11-08T07:16:09.180555Z",
   "MCD|pos": "2026-11-08T07:16:09.180555Z",
   "NEU.WA|pos": "2026-11-08T07:16:09.180555Z",
-  "ETH-USD|pos": "2026-11-08T22:26:54.097401Z"
+  "ETH-USD|pos": "2026-11-08T22:26:54.097401Z",
+  "SIE.DE|kup": "2026-11-09T08:45:07.702596Z",
+  "ZAL.DE|kup": "2026-11-09T08:45:07.702596Z",
+  "APR.WA|kup": "2026-11-09T08:45:07.702596Z",
+  "DAT.WA|neg": "2026-11-09T08:45:07.702596Z",
+  "SGN.WA|pos": "2026-11-09T08:45:07.702596Z",
+  "TXT.WA|pos": "2026-11-09T08:45:07.702596Z"
  }
 }
