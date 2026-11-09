@@ -90,14 +90,18 @@ Future<void> main(List<String> args) async {
           hist[s] = {'w': h.wins, 'n': h.n, 'd': today};
         }
         final sc = opportunityScore(a, history: (wins: hist[s]!['w'] as int, n: hist[s]!['n'] as int));
-        final wok = a.signal == Signal.kup ? weeklyAgrees(d.candles) : null;
+        // potwierdzenie tygodniowe: KUP albo cena nad średnią 40 tyg. (bez NIE KUPUJ / UWAGA)
+        final wv = a.signal == Signal.kup ? weeklyView(d.candles) : null;
+        final wok = wv == null
+            ? null
+            : wv.signal == Signal.kup || (wv.aboveAvg && wv.signal != Signal.nieKupuj && wv.signal != Signal.ostrzezenie);
         top[s] = {
           's': s,
           'n': d.name,
           'sig': now2,
           'score': sc.score,
           'wok': wok,
-          'why': [...sc.why, if (wok == true) 'tydzień potwierdza', if (wok == false) 'tydzień neguje'],
+          'why': [...sc.why, if (wok == true) 'tydzień potwierdza', if (wok == false) 'tydzień nie potwierdza'],
         };
       } else {
         top.remove(s);
@@ -133,7 +137,7 @@ Future<void> main(List<String> args) async {
   }
   final ranked = top.values.toList()
     ..sort((x, y) {
-      int tier(Map<String, dynamic> m) => m['sig'] != 'kup' ? 2 : ((m['score'] as num) >= 3 && m['wok'] != false ? 0 : 1);
+      int tier(Map<String, dynamic> m) => m['sig'] != 'kup' ? 2 : ((m['score'] as num) >= 3.5 && m['wok'] != false ? 0 : 1);
       final k = tier(x).compareTo(tier(y));
       return k != 0 ? k : (y['score'] as num).compareTo(x['score'] as num);
     });

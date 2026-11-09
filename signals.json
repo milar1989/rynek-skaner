@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T08:45:07.702596Z",
+ "updated": "2026-11-09T11:01:14.786826Z",
  "top": [
   {
    "s": "AMT",
@@ -68,8 +68,8 @@
    ]
   },
   {
-   "s": "GPP.WA",
-   "n": "GPP C.XWAR PLN",
+   "s": "ZAL.DE",
+   "n": "Zalando SE                    I",
    "sig": "kup",
    "score": 3.5,
    "wok": true,
@@ -81,8 +81,34 @@
    ]
   },
   {
-   "s": "ZAL.DE",
-   "n": "Zalando SE                    I",
+   "s": "ARES",
+   "n": "Ares Management Corporation",
+   "sig": "kup",
+   "score": 3.5,
+   "wok": true,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "realny cel",
+    "duże ruchy (szeroki stop)",
+    "tydzień potwierdza"
+   ]
+  },
+  {
+   "s": "VTR",
+   "n": "Ventas, Inc.",
+   "sig": "kup",
+   "score": 3.5,
+   "wok": true,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "realny cel",
+    "duże ruchy (szeroki stop)",
+    "tydzień potwierdza"
+   ]
+  },
+  {
+   "s": "ZS",
+   "n": "Zscaler, Inc.",
    "sig": "kup",
    "score": 3.5,
    "wok": true,
@@ -123,11 +149,11 @@
    "n": "GE Aerospace",
    "sig": "kup",
    "score": 2.5,
-   "wok": true,
+   "wok": false,
    "why": [
     "realny cel",
     "duże ruchy (szeroki stop)",
-    "tydzień potwierdza"
+    "tydzień nie potwierdza"
    ]
   },
   {
@@ -151,7 +177,7 @@
    "why": [
     "wyraźnie nad średnią 200 sesji",
     "realny cel",
-    "tydzień neguje"
+    "tydzień nie potwierdza"
    ]
   },
   {
@@ -167,13 +193,14 @@
    ]
   },
   {
-   "s": "APR.WA",
-   "n": "APR C.XWAR PLN",
+   "s": "ESS",
+   "n": "Essex Property Trust, Inc.",
    "sig": "kup",
-   "score": 1.5,
+   "score": 2.0,
    "wok": true,
    "why": [
-    "wyraźnie nad średnią 200 sesji",
+    "realny cel",
+    "tu działało 1/2",
     "tydzień potwierdza"
    ]
   },
@@ -298,48 +325,18 @@
    ]
   },
   {
-   "s": "P",
-   "n": "Everpure, Inc.",
-   "sig": "obserwuj",
-   "score": 1.5,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji"
-   ]
-  },
-  {
-   "s": "DHR",
-   "n": "Danaher Corporation",
-   "sig": "obserwuj",
-   "score": 1.5,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji"
-   ]
-  },
-  {
-   "s": "AJG",
-   "n": "Arthur J. Gallagher & Co.",
-   "sig": "obserwuj",
-   "score": 1.5,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji"
-   ]
-  },
-  {
-   "s": "MPC",
-   "n": "Marathon Petroleum Corporation",
-   "sig": "obserwuj",
-   "score": 1.5,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji"
-   ]
-  },
-  {
    "s": "XTB.WA",
    "n": "XTB C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "wok": null,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "APR.WA",
+   "n": "APR C.XWAR PLN",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -408,8 +405,8 @@
    ]
   },
   {
-   "s": "ARES",
-   "n": "Ares Management Corporation",
+   "s": "P",
+   "n": "Everpure, Inc.",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -478,8 +475,8 @@
    ]
   },
   {
-   "s": "VTR",
-   "n": "Ventas, Inc.",
+   "s": "DHR",
+   "n": "Danaher Corporation",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -538,8 +535,8 @@
    ]
   },
   {
-   "s": "ZS",
-   "n": "Zscaler, Inc.",
+   "s": "AJG",
+   "n": "Arthur J. Gallagher & Co.",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -588,24 +585,23 @@
    ]
   },
   {
-   "s": "BF-B",
-   "n": "Brown Forman Inc",
+   "s": "MPC",
+   "n": "Marathon Petroleum Corporation",
    "sig": "obserwuj",
-   "score": 1.0,
+   "score": 1.5,
    "wok": null,
    "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu słabo: 0/1"
+    "wyraźnie nad średnią 200 sesji"
    ]
   },
   {
-   "s": "SKA.WA",
-   "n": "SKA C.XWAR PLN",
+   "s": "DVN",
+   "n": "Devon Energy Corporation",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 1/1"
+    "tu działało 1/2"
    ]
   },
   {
@@ -619,13 +615,14 @@
    ]
   },
   {
-   "s": "ESS",
-   "n": "Essex Property Trust, Inc.",
+   "s": "BF-B",
+   "n": "Brown Forman Inc",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 1/2"
+    "wyraźnie nad średnią 200 sesji",
+    "tu słabo: 0/1"
    ]
   },
   {
@@ -732,13 +729,13 @@
    ]
   },
   {
-   "s": "DVN",
-   "n": "Devon Energy Corporation",
+   "s": "SKA.WA",
+   "n": "SKA C.XWAR PLN",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 1/2"
+    "tu działało 1/1"
    ]
   },
   {
@@ -823,8 +820,8 @@
    ]
   },
   {
-   "s": "AMAT",
-   "n": "Applied Materials, Inc.",
+   "s": "CDNS",
+   "n": "Cadence Design Systems, Inc.",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -895,8 +892,8 @@
    "why": []
   },
   {
-   "s": "CDNS",
-   "n": "Cadence Design Systems, Inc.",
+   "s": "AMAT",
+   "n": "Applied Materials, Inc.",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1071,8 +1068,8 @@
    "why": []
   },
   {
-   "s": "KKR",
-   "n": "KKR & Co. Inc.",
+   "s": "DOM.WA",
+   "n": "DOM C.XWAR PLN",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1111,8 +1108,8 @@
    "why": []
   },
   {
-   "s": "BG",
-   "n": "Bunge Limited",
+   "s": "GOOG",
+   "n": "Alphabet Inc.",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1135,8 +1132,8 @@
    "why": []
   },
   {
-   "s": "HUBB",
-   "n": "Hubbell Inc",
+   "s": "MGM",
+   "n": "MGM Resorts International",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1383,24 +1380,24 @@
    "why": []
   },
   {
-   "s": "MGM",
-   "n": "MGM Resorts International",
+   "s": "HUBB",
+   "n": "Hubbell Inc",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
    "why": []
   },
   {
-   "s": "DOM.WA",
-   "n": "DOM C.XWAR PLN",
+   "s": "KKR",
+   "n": "KKR & Co. Inc.",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
    "why": []
   },
   {
-   "s": "GOOG",
-   "n": "Alphabet Inc.",
+   "s": "BG",
+   "n": "Bunge Limited",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1594,6 +1591,16 @@
    "wok": null,
    "why": [
     "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "ENT.WA",
+   "n": "ENT C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/2"
    ]
   }
  ],
@@ -2447,9 +2454,14 @@
    "w": 0,
    "n": 0,
    "d": "2026-11-09"
+  },
+  "ENT.WA": {
+   "w": 0,
+   "n": 2,
+   "d": "2026-11-09"
   }
  },
- "nextId": 12,
+ "nextId": 18,
  "events": [
   {
    "id": 1,
@@ -2578,6 +2590,76 @@
    "h": "Cena w strefie, korekta A-B-C kompletna - czekam na impuls w górę jako potwierdzenie.",
    "score": 0.5,
    "wok": null
+  },
+  {
+   "id": 12,
+   "at": "2026-11-09T11:01:14.786826Z",
+   "s": "ARES",
+   "n": "Ares Management Corporation",
+   "t": "kup",
+   "why": "korekta A-B-C + impuls",
+   "p": 133.97999572753906,
+   "h": "Sygnał KUP: korekta A-B-C w strefie 2 narzędzi i objęcie hossy przy dołku C. Dodatkowo zgodne: 1 z 4 (informacyjnie).",
+   "score": 3.5,
+   "wok": true
+  },
+  {
+   "id": 13,
+   "at": "2026-11-09T11:01:14.786826Z",
+   "s": "ESS",
+   "n": "Essex Property Trust, Inc.",
+   "t": "kup",
+   "why": "korekta A-B-C + impuls",
+   "p": 272.17999267578125,
+   "h": "Sygnał KUP: korekta A-B-C w strefie 2 narzędzi i objęcie hossy przy dołku C. Dodatkowo zgodne: 1 z 4 (informacyjnie).",
+   "score": 2.0,
+   "wok": true
+  },
+  {
+   "id": 14,
+   "at": "2026-11-09T11:01:14.786826Z",
+   "s": "VTR",
+   "n": "Ventas, Inc.",
+   "t": "kup",
+   "why": "korekta A-B-C + impuls",
+   "p": 88.75,
+   "h": "Sygnał KUP: korekta A-B-C w strefie 3 narzędzi i młotek przy dołku C. Dodatkowo zgodne: 2 z 4 (informacyjnie).",
+   "score": 3.5,
+   "wok": true
+  },
+  {
+   "id": 15,
+   "at": "2026-11-09T11:01:14.786826Z",
+   "s": "ZS",
+   "n": "Zscaler, Inc.",
+   "t": "kup",
+   "why": "korekta A-B-C + impuls",
+   "p": 197.66000366210938,
+   "h": "Sygnał KUP: korekta A-B-C w strefie 2 narzędzi i objęcie hossy przy dołku C. Dodatkowo zgodne: 2 z 4 (informacyjnie).",
+   "score": 3.5,
+   "wok": true
+  },
+  {
+   "id": 16,
+   "at": "2026-11-09T11:01:14.786826Z",
+   "s": "ENT.WA",
+   "n": "ENT C.XWAR PLN",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 49.599998474121094,
+   "h": "Cena w strefie, korekta A-B-C kompletna - czekam na impuls w górę jako potwierdzenie.",
+   "score": 0.0,
+   "wok": null
+  },
+  {
+   "id": 17,
+   "at": "2026-11-09T11:01:14.786826Z",
+   "s": "GPP.WA",
+   "n": "GPP C.XWAR PLN",
+   "t": "neg",
+   "why": "scenariusz zanegowany",
+   "p": 52.20000076293945,
+   "h": "Cena poniżej 52.27 (0.886 całego ruchu) - scenariusz korekty zanegowany. Możliwy koniec trendu; czekam na nową strukturę."
   }
  ],
  "sig": {
@@ -2633,7 +2715,7 @@
   "APP": "obserwuj",
   "APTV": "nie",
   "APD": "obserwuj",
-  "ARES": "obserwuj",
+  "ARES": "kup",
   "AXON": "nie",
   "AWK": "czekaj",
   "AVGO": "obserwuj",
@@ -2756,7 +2838,7 @@
   "ERIE": "nie",
   "EQT": "obserwuj",
   "ES": "uwaga",
-  "ESS": "obserwuj",
+  "ESS": "kup",
   "ETN": "obserwuj",
   "ETR": "czekaj",
   "EW": "czekaj",
@@ -3063,7 +3145,7 @@
   "VRSN": "czekaj",
   "VRTX": "czekaj",
   "VST": "obserwuj",
-  "VTR": "obserwuj",
+  "VTR": "kup",
   "VRT": "nie",
   "VTRS": "czekaj",
   "VZ": "czekaj",
@@ -3096,7 +3178,7 @@
   "PDD": "nie",
   "MELI": "nie",
   "TEAM": "obserwuj",
-  "ZS": "obserwuj",
+  "ZS": "kup",
   "AZN": "czekaj",
   "CCEP": "czekaj",
   "MDB": "obserwuj",
@@ -3152,7 +3234,7 @@
   "AGO.WA": "czekaj",
   "AMB.WA": "nie",
   "AMC.WA": "nie",
-  "APR.WA": "kup",
+  "APR.WA": "obserwuj",
   "ARH.WA": "czekaj",
   "APT.WA": "uwaga",
   "ASB.WA": "czekaj",
@@ -3182,11 +3264,11 @@
   "ECH.WA": "czekaj",
   "ELT.WA": "czekaj",
   "ENA.WA": "czekaj",
-  "ENT.WA": "nie",
+  "ENT.WA": "obserwuj",
   "ERB.WA": "nie",
   "EUR.WA": "nie",
   "FTE.WA": "nie",
-  "GPP.WA": "kup",
+  "GPP.WA": "nie",
   "GPW.WA": "czekaj",
   "GRX.WA": "obserwuj",
   "HUG.WA": "czekaj",
@@ -3965,6 +4047,12 @@
   "APR.WA|kup": "2026-11-09T08:45:07.702596Z",
   "DAT.WA|neg": "2026-11-09T08:45:07.702596Z",
   "SGN.WA|pos": "2026-11-09T08:45:07.702596Z",
-  "TXT.WA|pos": "2026-11-09T08:45:07.702596Z"
+  "TXT.WA|pos": "2026-11-09T08:45:07.702596Z",
+  "ARES|kup": "2026-11-09T11:01:14.786826Z",
+  "ESS|kup": "2026-11-09T11:01:14.786826Z",
+  "VTR|kup": "2026-11-09T11:01:14.786826Z",
+  "ZS|kup": "2026-11-09T11:01:14.786826Z",
+  "ENT.WA|pos": "2026-11-09T11:01:14.786826Z",
+  "GPP.WA|neg": "2026-11-09T11:01:14.786826Z"
  }
 }
