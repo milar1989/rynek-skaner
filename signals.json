@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T02:10:54.990863Z",
+ "updated": "2026-11-10T09:49:45.359667Z",
  "top": [
   {
    "s": "RMD",
@@ -173,18 +173,6 @@
    ]
   },
   {
-   "s": "SIE.DE",
-   "n": "SIEMENS AG                    N",
-   "sig": "kup",
-   "score": 2.5,
-   "wok": false,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "realny cel",
-    "tydzień nie potwierdza"
-   ]
-  },
-  {
    "s": "TXN",
    "n": "Texas Instruments Incorporated",
    "sig": "kup",
@@ -222,17 +210,6 @@
    ]
   },
   {
-   "s": "DXCM",
-   "n": "DexCom, Inc.",
-   "sig": "kup",
-   "score": 1.5,
-   "wok": true,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tydzień potwierdza"
-   ]
-  },
-  {
    "s": "AIG",
    "n": "American International Group, I",
    "sig": "kup",
@@ -244,6 +221,17 @@
    ]
   },
   {
+   "s": "DXCM",
+   "n": "DexCom, Inc.",
+   "sig": "kup",
+   "score": 1.5,
+   "wok": true,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tydzień potwierdza"
+   ]
+  },
+  {
    "s": "NXPI",
    "n": "NXP Semiconductors N.V.",
    "sig": "kup",
@@ -251,6 +239,28 @@
    "wok": true,
    "why": [
     "duże ruchy (szeroki stop)",
+    "tydzień potwierdza"
+   ]
+  },
+  {
+   "s": "XTB.WA",
+   "n": "XTB C.XWAR PLN",
+   "sig": "kup",
+   "score": 1.5,
+   "wok": true,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tydzień potwierdza"
+   ]
+  },
+  {
+   "s": "APR.WA",
+   "n": "APR C.XWAR PLN",
+   "sig": "kup",
+   "score": 1.5,
+   "wok": true,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
     "tydzień potwierdza"
    ]
   },
@@ -320,17 +330,6 @@
    ]
   },
   {
-   "s": "RCL",
-   "n": "Royal Caribbean Cruises Ltd.",
-   "sig": "obserwuj",
-   "score": 2.0,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu działało 1/1"
-   ]
-  },
-  {
    "s": "APD",
    "n": "Air Products and Chemicals, Inc",
    "sig": "obserwuj",
@@ -364,23 +363,14 @@
    ]
   },
   {
-   "s": "PYPL",
-   "n": "PayPal Holdings, Inc.",
+   "s": "RCL",
+   "n": "Royal Caribbean Cruises Ltd.",
    "sig": "obserwuj",
-   "score": 1.5,
+   "score": 2.0,
    "wok": null,
    "why": [
-    "wyraźnie nad średnią 200 sesji"
-   ]
-  },
-  {
-   "s": "DHR",
-   "n": "Danaher Corporation",
-   "sig": "obserwuj",
-   "score": 1.5,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji"
+    "wyraźnie nad średnią 200 sesji",
+    "tu działało 1/1"
    ]
   },
   {
@@ -404,8 +394,8 @@
    ]
   },
   {
-   "s": "HPQ",
-   "n": "HP Inc.",
+   "s": "PANW",
+   "n": "Palo Alto Networks, Inc.",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -484,8 +474,8 @@
    ]
   },
   {
-   "s": "APR.WA",
-   "n": "APR C.XWAR PLN",
+   "s": "PYPL",
+   "n": "PayPal Holdings, Inc.",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -494,8 +484,8 @@
    ]
   },
   {
-   "s": "XTB.WA",
-   "n": "XTB C.XWAR PLN",
+   "s": "HPQ",
+   "n": "HP Inc.",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -574,8 +564,8 @@
    ]
   },
   {
-   "s": "PANW",
-   "n": "Palo Alto Networks, Inc.",
+   "s": "DHR",
+   "n": "Danaher Corporation",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -584,18 +574,18 @@
    ]
   },
   {
-   "s": "LYB",
-   "n": "LyondellBasell Industries NV",
+   "s": "NWS",
+   "n": "News Corporation",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 2/3"
+    "tu działało 1/1"
    ]
   },
   {
-   "s": "GOOG",
-   "n": "Alphabet Inc.",
+   "s": "CNP",
+   "n": "CenterPoint Energy, Inc (Holdin",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
@@ -637,13 +627,13 @@
    ]
   },
   {
-   "s": "NWS",
-   "n": "News Corporation",
+   "s": "LYB",
+   "n": "LyondellBasell Industries NV",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 1/1"
+    "tu działało 2/3"
    ]
   },
   {
@@ -891,8 +881,8 @@
    ]
   },
   {
-   "s": "CNP",
-   "n": "CenterPoint Energy, Inc (Holdin",
+   "s": "GOOG",
+   "n": "Alphabet Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
@@ -978,14 +968,6 @@
   {
    "s": "SMCI",
    "n": "Super Micro Computer, Inc.",
-   "sig": "obserwuj",
-   "score": 0.5,
-   "wok": null,
-   "why": []
-  },
-  {
-   "s": "DOM.WA",
-   "n": "DOM C.XWAR PLN",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1136,8 +1118,8 @@
    "why": []
   },
   {
-   "s": "BOS.WA",
-   "n": "BOS C.XWAR PLN",
+   "s": "ENA.WA",
+   "n": "ENA C.XWAR PLN",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1160,8 +1142,8 @@
    "why": []
   },
   {
-   "s": "BA",
-   "n": "Boeing Company (The)",
+   "s": "PKN.WA",
+   "n": "PKN C.XWAR PLN",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1376,24 +1358,20 @@
    "why": []
   },
   {
-   "s": "NEU.WA",
-   "n": "NEU C.XWAR PLN",
+   "s": "BOS.WA",
+   "n": "BOS C.XWAR PLN",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 0/1"
-   ]
+   "why": []
   },
   {
-   "s": "UBER",
-   "n": "Uber Technologies, Inc.",
+   "s": "BA",
+   "n": "Boeing Company (The)",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 0/1"
-   ]
+   "why": []
   },
   {
    "s": "TT",
@@ -1483,16 +1461,6 @@
    "wok": null,
    "why": [
     "tu słabo: 0/1"
-   ]
-  },
-  {
-   "s": "IFX.DE",
-   "n": "INFINEON TECHNOLOGIES AG      N",
-   "sig": "obserwuj",
-   "score": 0.0,
-   "wok": null,
-   "why": [
-    "tu słabo: 0/3"
    ]
   },
   {
@@ -1646,18 +1614,38 @@
    ]
   },
   {
-   "s": "DAT.WA",
-   "n": "DAT C.XWAR PLN",
+   "s": "FIX",
+   "n": "Comfort Systems USA, Inc.",
    "sig": "obserwuj",
    "score": 0.0,
    "wok": null,
    "why": [
-    "tu słabo: 0/3"
+    "tu słabo: 0/1"
    ]
   },
   {
-   "s": "FIX",
-   "n": "Comfort Systems USA, Inc.",
+   "s": "ENT.WA",
+   "n": "ENT C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/2"
+   ]
+  },
+  {
+   "s": "NEU.WA",
+   "n": "NEU C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "UBER",
+   "n": "Uber Technologies, Inc.",
    "sig": "obserwuj",
    "score": 0.0,
    "wok": null,
@@ -2520,7 +2508,7 @@
   "ENT.WA": {
    "w": 0,
    "n": 2,
-   "d": "2026-11-09"
+   "d": "2026-11-10"
   },
   "CL=F": {
    "w": 3,
@@ -2551,9 +2539,19 @@
    "w": 0,
    "n": 0,
    "d": "2026-11-09"
+  },
+  "ENA.WA": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-10"
+  },
+  "PKN.WA": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-10"
   }
  },
- "nextId": 63,
+ "nextId": 69,
  "events": [
   {
    "id": 1,
@@ -3252,6 +3250,70 @@
    "why": "scenariusz zanegowany",
    "p": 37.79999923706055,
    "h": "Cena poniżej 37.85 (zasięg 1.618 fali A (korekta płaska nieregularna)) - scenariusz korekty zanegowany. Możliwy koniec trendu; czekam na nową strukturę."
+  },
+  {
+   "id": 63,
+   "at": "2026-11-10T09:49:45.359667Z",
+   "s": "SY1.DE",
+   "n": "Symrise AG                    I",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 92.4000015258789,
+   "h": "Korekta trwa (A). Strefa zakupu 83.75–85.82; kupuję dopiero po A-B-C i impulsie w górę."
+  },
+  {
+   "id": 64,
+   "at": "2026-11-10T09:49:45.359667Z",
+   "s": "APR.WA",
+   "n": "APR C.XWAR PLN",
+   "t": "kup",
+   "why": "korekta A-B-C + impuls",
+   "p": 28.049999237060547,
+   "h": "Sygnał KUP: korekta A-B-C w strefie 1 narzędzi i objęcie hossy przy dołku C. Dodatkowo zgodne: 0 z 4 (informacyjnie).",
+   "score": 1.5,
+   "wok": true
+  },
+  {
+   "id": 65,
+   "at": "2026-11-10T09:49:45.359667Z",
+   "s": "DAT.WA",
+   "n": "DAT C.XWAR PLN",
+   "t": "neg",
+   "why": "trend spadkowy",
+   "p": 86.9000015258789,
+   "h": "Trend spadkowy - niższe szczyty i dołki. Nie kupuję, dopóki nie pojawi się impuls 5 fal w górę."
+  },
+  {
+   "id": 66,
+   "at": "2026-11-10T09:49:45.359667Z",
+   "s": "DNP.WA",
+   "n": "DNP C.XWAR PLN",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 37.540000915527344,
+   "h": "Korekta trwa (A). Strefa zakupu 36.16–36.16; kupuję dopiero po A-B-C i impulsie w górę."
+  },
+  {
+   "id": 67,
+   "at": "2026-11-10T09:49:45.359667Z",
+   "s": "SGN.WA",
+   "n": "SGN C.XWAR PLN",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 96.5999984741211,
+   "h": "Trwa wzrost - nie gonię ceny. Okazja pojawi się po korekcie trójfalowej do strefy 80.41–80.50."
+  },
+  {
+   "id": 68,
+   "at": "2026-11-10T09:49:45.359667Z",
+   "s": "XTB.WA",
+   "n": "XTB C.XWAR PLN",
+   "t": "kup",
+   "why": "korekta A-B-C + impuls",
+   "p": 135.13999938964844,
+   "h": "Sygnał KUP: korekta A-B-C w strefie 1 narzędzi i objęcie hossy przy dołku C. Dodatkowo zgodne: 1 z 4 (informacyjnie).",
+   "score": 1.5,
+   "wok": true
   }
  ],
  "sig": {
@@ -3801,7 +3863,7 @@
   "HEN3.DE": "czekaj",
   "HNR1.DE": "czekaj",
   "HEI.DE": "nie",
-  "IFX.DE": "obserwuj",
+  "IFX.DE": "czekaj",
   "MBG.DE": "nie",
   "MRK.DE": "nie",
   "MTX.DE": "czekaj",
@@ -3811,9 +3873,9 @@
   "RHM.DE": "nie",
   "RWE.DE": "czekaj",
   "SHL.DE": "nie",
-  "SIE.DE": "kup",
+  "SIE.DE": "czekaj",
   "SAP.DE": "nie",
-  "SY1.DE": "uwaga",
+  "SY1.DE": "czekaj",
   "VNA.DE": "nie",
   "VOW3.DE": "nie",
   "ZAL.DE": "kup",
@@ -3826,7 +3888,7 @@
   "AGO.WA": "czekaj",
   "AMB.WA": "nie",
   "AMC.WA": "nie",
-  "APR.WA": "obserwuj",
+  "APR.WA": "kup",
   "ARH.WA": "czekaj",
   "APT.WA": "uwaga",
   "ASB.WA": "czekaj",
@@ -3847,16 +3909,16 @@
   "COG.WA": "nie",
   "CPS.WA": "obserwuj",
   "CRI.WA": "nie",
-  "DAT.WA": "obserwuj",
-  "DNP.WA": "uwaga",
+  "DAT.WA": "nie",
+  "DNP.WA": "czekaj",
   "DCR.WA": "obserwuj",
-  "DOM.WA": "obserwuj",
+  "DOM.WA": "czekaj",
   "DVL.WA": "czekaj",
   "EAT.WA": "nie",
   "ECH.WA": "czekaj",
   "ELT.WA": "czekaj",
-  "ENA.WA": "czekaj",
-  "ENT.WA": "nie",
+  "ENA.WA": "obserwuj",
+  "ENT.WA": "obserwuj",
   "ERB.WA": "nie",
   "EUR.WA": "nie",
   "FTE.WA": "nie",
@@ -3896,7 +3958,7 @@
   "PEP.WA": "nie",
   "PGE.WA": "czekaj",
   "PHN.WA": "nie",
-  "PKN.WA": "czekaj",
+  "PKN.WA": "obserwuj",
   "PLW.WA": "nie",
   "PKO.WA": "czekaj",
   "PXM.WA": "obserwuj",
@@ -3904,7 +3966,7 @@
   "QRS.WA": "czekaj",
   "RBW.WA": "obserwuj",
   "RVU.WA": "nie",
-  "SGN.WA": "uwaga",
+  "SGN.WA": "czekaj",
   "SEL.WA": "nie",
   "SKA.WA": "obserwuj",
   "SLV.WA": "nie",
@@ -3921,7 +3983,7 @@
   "VRG.WA": "czekaj",
   "WTN.WA": "nie",
   "WWL.WA": "obserwuj",
-  "XTB.WA": "obserwuj",
+  "XTB.WA": "kup",
   "XTP.WA": "nie",
   "ZAB.WA": "uwaga",
   "SPY": "obserwuj",
@@ -4636,9 +4698,9 @@
   "ETH-USD|pos": "2026-11-08T22:26:54.097401Z",
   "SIE.DE|kup": "2026-11-09T08:45:07.702596Z",
   "ZAL.DE|kup": "2026-11-09T08:45:07.702596Z",
-  "APR.WA|kup": "2026-11-09T08:45:07.702596Z",
-  "DAT.WA|neg": "2026-11-09T08:45:07.702596Z",
-  "SGN.WA|pos": "2026-11-09T08:45:07.702596Z",
+  "APR.WA|kup": "2026-11-10T09:49:45.359667Z",
+  "DAT.WA|neg": "2026-11-10T09:49:45.359667Z",
+  "SGN.WA|pos": "2026-11-10T09:49:45.359667Z",
   "TXT.WA|pos": "2026-11-09T08:45:07.702596Z",
   "ARES|kup": "2026-11-09T11:01:14.786826Z",
   "ESS|kup": "2026-11-09T11:01:14.786826Z",
@@ -4690,6 +4752,9 @@
   "ENT.WA|neg": "2026-11-10T02:10:54.990863Z",
   "GPP.WA|pos": "2026-11-10T02:10:54.990863Z",
   "SGN.WA|neg": "2026-11-10T02:10:54.990863Z",
-  "TXT.WA|neg": "2026-11-10T02:10:54.990863Z"
+  "TXT.WA|neg": "2026-11-10T02:10:54.990863Z",
+  "SY1.DE|pos": "2026-11-10T09:49:45.359667Z",
+  "DNP.WA|pos": "2026-11-10T09:49:45.359667Z",
+  "XTB.WA|kup": "2026-11-10T09:49:45.359667Z"
  }
 }
