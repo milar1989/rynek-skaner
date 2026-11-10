@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-10T09:49:45.359667Z",
+ "updated": "2026-11-10T17:20:26.294248Z",
  "top": [
+  {
+   "s": "AMT",
+   "n": "American Tower Corporation (REI",
+   "sig": "kup",
+   "score": 4.0,
+   "wok": true,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "realny cel",
+    "duże ruchy (szeroki stop)",
+    "tu działało 1/1",
+    "tydzień potwierdza"
+   ]
+  },
   {
    "s": "RMD",
    "n": "ResMed Inc.",
@@ -16,8 +30,8 @@
    ]
   },
   {
-   "s": "AMT",
-   "n": "American Tower Corporation (REI",
+   "s": "META",
+   "n": "Meta Platforms, Inc.",
    "sig": "kup",
    "score": 4.0,
    "wok": true,
@@ -25,7 +39,7 @@
     "wyraźnie nad średnią 200 sesji",
     "realny cel",
     "duże ruchy (szeroki stop)",
-    "tu działało 1/1",
+    "tu działało 1/2",
     "tydzień potwierdza"
    ]
   },
@@ -82,32 +96,6 @@
    ]
   },
   {
-   "s": "VTR",
-   "n": "Ventas, Inc.",
-   "sig": "kup",
-   "score": 3.5,
-   "wok": true,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "realny cel",
-    "duże ruchy (szeroki stop)",
-    "tydzień potwierdza"
-   ]
-  },
-  {
-   "s": "ARES",
-   "n": "Ares Management Corporation",
-   "sig": "kup",
-   "score": 3.5,
-   "wok": true,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "realny cel",
-    "duże ruchy (szeroki stop)",
-    "tydzień potwierdza"
-   ]
-  },
-  {
    "s": "DOC",
    "n": "Healthpeak Properties, Inc.",
    "sig": "kup",
@@ -134,8 +122,8 @@
    ]
   },
   {
-   "s": "CF",
-   "n": "CF Industries Holdings, Inc.",
+   "s": "TEL",
+   "n": "TE Connectivity plc",
    "sig": "kup",
    "score": 3.0,
    "wok": true,
@@ -143,44 +131,7 @@
     "wyraźnie nad średnią 200 sesji",
     "realny cel",
     "duże ruchy (szeroki stop)",
-    "tu słabo: 0/1",
-    "tydzień potwierdza"
-   ]
-  },
-  {
-   "s": "GE",
-   "n": "GE Aerospace",
-   "sig": "kup",
-   "score": 3.0,
-   "wok": false,
-   "why": [
-    "realny cel",
-    "duże ruchy (szeroki stop)",
-    "tu działało 1/2",
-    "tydzień nie potwierdza"
-   ]
-  },
-  {
-   "s": "VMC",
-   "n": "Vulcan Materials Company (Holdi",
-   "sig": "kup",
-   "score": 2.5,
-   "wok": true,
-   "why": [
-    "realny cel",
-    "duże ruchy (szeroki stop)",
-    "tydzień potwierdza"
-   ]
-  },
-  {
-   "s": "TXN",
-   "n": "Texas Instruments Incorporated",
-   "sig": "kup",
-   "score": 2.5,
-   "wok": true,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "duże ruchy (szeroki stop)",
+    "tu słabo: 0/2",
     "tydzień potwierdza"
    ]
   },
@@ -188,35 +139,76 @@
    "s": "ESS",
    "n": "Essex Property Trust, Inc.",
    "sig": "kup",
-   "score": 2.0,
+   "score": 3.0,
    "wok": true,
    "why": [
+    "wyraźnie nad średnią 200 sesji",
     "realny cel",
     "tu działało 1/2",
     "tydzień potwierdza"
    ]
   },
   {
-   "s": "NTRS",
-   "n": "Northern Trust Corporation",
+   "s": "DHI",
+   "n": "D.R. Horton, Inc.",
    "sig": "kup",
-   "score": 2.0,
+   "score": 3.0,
    "wok": true,
    "why": [
     "wyraźnie nad średnią 200 sesji",
     "realny cel",
-    "tu słabo: 0/1",
+    "duże ruchy (szeroki stop)",
+    "tu słabo: 0/2",
     "tydzień potwierdza"
    ]
   },
   {
-   "s": "AIG",
-   "n": "American International Group, I",
+   "s": "CDNS",
+   "n": "Cadence Design Systems, Inc.",
    "sig": "kup",
-   "score": 1.5,
+   "score": 3.0,
    "wok": true,
    "why": [
     "realny cel",
+    "duże ruchy (szeroki stop)",
+    "tu działało 1/2",
+    "tydzień potwierdza"
+   ]
+  },
+  {
+   "s": "STT",
+   "n": "State Street Corporation",
+   "sig": "kup",
+   "score": 3.0,
+   "wok": true,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "realny cel",
+    "tu działało 1/1",
+    "tydzień potwierdza"
+   ]
+  },
+  {
+   "s": "MCD",
+   "n": "McDonald's Corporation",
+   "sig": "kup",
+   "score": 2.5,
+   "wok": false,
+   "why": [
+    "realny cel",
+    "duże ruchy (szeroki stop)",
+    "tydzień nie potwierdza"
+   ]
+  },
+  {
+   "s": "APO",
+   "n": "Apollo Global Management, Inc. ",
+   "sig": "kup",
+   "score": 2.5,
+   "wok": true,
+   "why": [
+    "realny cel",
+    "duże ruchy (szeroki stop)",
     "tydzień potwierdza"
    ]
   },
@@ -228,17 +220,6 @@
    "wok": true,
    "why": [
     "wyraźnie nad średnią 200 sesji",
-    "tydzień potwierdza"
-   ]
-  },
-  {
-   "s": "NXPI",
-   "n": "NXP Semiconductors N.V.",
-   "sig": "kup",
-   "score": 1.5,
-   "wok": true,
-   "why": [
-    "duże ruchy (szeroki stop)",
     "tydzień potwierdza"
    ]
   },
@@ -268,10 +249,100 @@
    "s": "NSC",
    "n": "Norfolk Southern Corporation",
    "sig": "kup",
-   "score": 0.5,
+   "score": 1.5,
    "wok": true,
    "why": [
+    "wyraźnie nad średnią 200 sesji",
     "tydzień potwierdza"
+   ]
+  },
+  {
+   "s": "QCOM",
+   "n": "QUALCOMM Incorporated",
+   "sig": "kup",
+   "score": 1.0,
+   "wok": false,
+   "why": [
+    "duże ruchy (szeroki stop)",
+    "tu słabo: 1/4",
+    "tydzień nie potwierdza"
+   ]
+  },
+  {
+   "s": "RCL",
+   "n": "Royal Caribbean Cruises Ltd.",
+   "sig": "obserwuj",
+   "score": 2.0,
+   "wok": null,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "NTAP",
+   "n": "NetApp, Inc.",
+   "sig": "obserwuj",
+   "score": 2.0,
+   "wok": null,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "APD",
+   "n": "Air Products and Chemicals, Inc",
+   "sig": "obserwuj",
+   "score": 2.0,
+   "wok": null,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "MNST",
+   "n": "Monster Beverage Corporation",
+   "sig": "obserwuj",
+   "score": 2.0,
+   "wok": null,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "ZBRA",
+   "n": "Zebra Technologies Corporation",
+   "sig": "obserwuj",
+   "score": 2.0,
+   "wok": null,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "GE",
+   "n": "GE Aerospace",
+   "sig": "obserwuj",
+   "score": 2.0,
+   "wok": null,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu działało 1/2"
+   ]
+  },
+  {
+   "s": "CI",
+   "n": "The Cigna Group",
+   "sig": "obserwuj",
+   "score": 2.0,
+   "wok": null,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu działało 1/1"
    ]
   },
   {
@@ -297,85 +368,8 @@
    ]
   },
   {
-   "s": "NTAP",
-   "n": "NetApp, Inc.",
-   "sig": "obserwuj",
-   "score": 2.0,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu działało 1/1"
-   ]
-  },
-  {
-   "s": "CI",
-   "n": "The Cigna Group",
-   "sig": "obserwuj",
-   "score": 2.0,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu działało 1/1"
-   ]
-  },
-  {
-   "s": "ZBRA",
-   "n": "Zebra Technologies Corporation",
-   "sig": "obserwuj",
-   "score": 2.0,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu działało 1/1"
-   ]
-  },
-  {
-   "s": "APD",
-   "n": "Air Products and Chemicals, Inc",
-   "sig": "obserwuj",
-   "score": 2.0,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu działało 1/1"
-   ]
-  },
-  {
-   "s": "HPE",
-   "n": "Hewlett Packard Enterprise Comp",
-   "sig": "obserwuj",
-   "score": 2.0,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu działało 1/1"
-   ]
-  },
-  {
-   "s": "MNST",
-   "n": "Monster Beverage Corporation",
-   "sig": "obserwuj",
-   "score": 2.0,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu działało 1/1"
-   ]
-  },
-  {
-   "s": "RCL",
-   "n": "Royal Caribbean Cruises Ltd.",
-   "sig": "obserwuj",
-   "score": 2.0,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu działało 1/1"
-   ]
-  },
-  {
-   "s": "WMT",
-   "n": "Walmart Inc.",
+   "s": "VTR",
+   "n": "Ventas, Inc.",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -384,8 +378,8 @@
    ]
   },
   {
-   "s": "WTW",
-   "n": "Willis Towers Watson Public Lim",
+   "s": "WMT",
+   "n": "Walmart Inc.",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -554,16 +548,6 @@
    ]
   },
   {
-   "s": "SHW",
-   "n": "Sherwin-Williams Company (The)",
-   "sig": "obserwuj",
-   "score": 1.5,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji"
-   ]
-  },
-  {
    "s": "DHR",
    "n": "Danaher Corporation",
    "sig": "obserwuj",
@@ -574,98 +558,63 @@
    ]
   },
   {
-   "s": "NWS",
-   "n": "News Corporation",
+   "s": "ARES",
+   "n": "Ares Management Corporation",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "wok": null,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "TXN",
+   "n": "Texas Instruments Incorporated",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "wok": null,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "KKR",
+   "n": "KKR & Co. Inc.",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "wok": null,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "SPY",
+   "n": "State Street SPDR S&P 500 ETF T",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "wok": null,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "MRSH",
+   "n": "Marsh",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "wok": null,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "CPS.WA",
+   "n": "CPS C.XWAR PLN",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
     "tu działało 1/1"
-   ]
-  },
-  {
-   "s": "CNP",
-   "n": "CenterPoint Energy, Inc (Holdin",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "tu działało 1/1"
-   ]
-  },
-  {
-   "s": "D",
-   "n": "Dominion Energy, Inc.",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu słabo: 0/1"
-   ]
-  },
-  {
-   "s": "SPGI",
-   "n": "S&P Global Inc.",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu słabo: 0/1"
-   ]
-  },
-  {
-   "s": "SNPS",
-   "n": "Synopsys, Inc.",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu słabo: 0/1"
-   ]
-  },
-  {
-   "s": "LYB",
-   "n": "LyondellBasell Industries NV",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "tu działało 2/3"
-   ]
-  },
-  {
-   "s": "NWSA",
-   "n": "News Corporation",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "tu działało 1/1"
-   ]
-  },
-  {
-   "s": "CVNA",
-   "n": "Carvana Co.",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu słabo: 0/1"
-   ]
-  },
-  {
-   "s": "DHI",
-   "n": "D.R. Horton, Inc.",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu słabo: 0/2"
    ]
   },
   {
@@ -680,26 +629,6 @@
    ]
   },
   {
-   "s": "META",
-   "n": "Meta Platforms, Inc.",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "tu działało 1/2"
-   ]
-  },
-  {
-   "s": "SKA.WA",
-   "n": "SKA C.XWAR PLN",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "tu działało 1/1"
-   ]
-  },
-  {
    "s": "SYY",
    "n": "Sysco Corporation",
    "sig": "obserwuj",
@@ -710,8 +639,8 @@
    ]
   },
   {
-   "s": "CPS.WA",
-   "n": "CPS C.XWAR PLN",
+   "s": "CNP",
+   "n": "CenterPoint Energy, Inc (Holdin",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
@@ -760,13 +689,14 @@
    ]
   },
   {
-   "s": "CDNS",
-   "n": "Cadence Design Systems, Inc.",
+   "s": "D",
+   "n": "Dominion Energy, Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 1/2"
+    "wyraźnie nad średnią 200 sesji",
+    "tu słabo: 0/1"
    ]
   },
   {
@@ -793,16 +723,6 @@
   {
    "s": "JSW.WA",
    "n": "JSW C.XWAR PLN",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "tu działało 1/1"
-   ]
-  },
-  {
-   "s": "ATO",
-   "n": "Atmos Energy Corporation",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
@@ -871,16 +791,6 @@
    ]
   },
   {
-   "s": "COHR",
-   "n": "Coherent Corp.",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "tu działało 1/2"
-   ]
-  },
-  {
    "s": "GOOG",
    "n": "Alphabet Inc.",
    "sig": "obserwuj",
@@ -888,26 +798,6 @@
    "wok": null,
    "why": [
     "tu działało 1/1"
-   ]
-  },
-  {
-   "s": "DLR",
-   "n": "Digital Realty Trust, Inc.",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "tu działało 1/1"
-   ]
-  },
-  {
-   "s": "EQIX",
-   "n": "Equinix, Inc.",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "tu działało 1/2"
    ]
   },
   {
@@ -942,88 +832,92 @@
    ]
   },
   {
-   "s": "CHRW",
-   "n": "C.H. Robinson Worldwide, Inc.",
+   "s": "SKA.WA",
+   "n": "SKA C.XWAR PLN",
    "sig": "obserwuj",
-   "score": 0.5,
+   "score": 1.0,
    "wok": null,
-   "why": []
+   "why": [
+    "tu działało 1/1"
+   ]
   },
   {
-   "s": "AVGO",
-   "n": "Broadcom Inc.",
+   "s": "SPGI",
+   "n": "S&P Global Inc.",
    "sig": "obserwuj",
-   "score": 0.5,
+   "score": 1.0,
    "wok": null,
-   "why": []
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu słabo: 0/1"
+   ]
   },
   {
-   "s": "JCI",
-   "n": "Johnson Controls International ",
+   "s": "SNPS",
+   "n": "Synopsys, Inc.",
    "sig": "obserwuj",
-   "score": 0.5,
+   "score": 1.0,
    "wok": null,
-   "why": []
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu słabo: 0/1"
+   ]
   },
   {
-   "s": "SMCI",
-   "n": "Super Micro Computer, Inc.",
+   "s": "CF",
+   "n": "CF Industries Holdings, Inc.",
    "sig": "obserwuj",
-   "score": 0.5,
+   "score": 1.0,
    "wok": null,
-   "why": []
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "LYB",
+   "n": "LyondellBasell Industries NV",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "wok": null,
+   "why": [
+    "tu działało 2/3"
+   ]
+  },
+  {
+   "s": "NWSA",
+   "n": "News Corporation",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "wok": null,
+   "why": [
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "CVNA",
+   "n": "Carvana Co.",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "wok": null,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "NWS",
+   "n": "News Corporation",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "wok": null,
+   "why": [
+    "tu działało 1/1"
+   ]
   },
   {
    "s": "ODFL",
    "n": "Old Dominion Freight Line, Inc.",
-   "sig": "obserwuj",
-   "score": 0.5,
-   "wok": null,
-   "why": []
-  },
-  {
-   "s": "DTE",
-   "n": "DTE Energy Company",
-   "sig": "obserwuj",
-   "score": 0.5,
-   "wok": null,
-   "why": []
-  },
-  {
-   "s": "RBW.WA",
-   "n": "RBW C.XWAR PLN",
-   "sig": "obserwuj",
-   "score": 0.5,
-   "wok": null,
-   "why": []
-  },
-  {
-   "s": "MCHP",
-   "n": "Microchip Technology Incorporat",
-   "sig": "obserwuj",
-   "score": 0.5,
-   "wok": null,
-   "why": []
-  },
-  {
-   "s": "INTC",
-   "n": "Intel Corporation",
-   "sig": "obserwuj",
-   "score": 0.5,
-   "wok": null,
-   "why": []
-  },
-  {
-   "s": "MGM",
-   "n": "MGM Resorts International",
-   "sig": "obserwuj",
-   "score": 0.5,
-   "wok": null,
-   "why": []
-  },
-  {
-   "s": "TJX",
-   "n": "TJX Companies, Inc. (The)",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1086,22 +980,6 @@
    "why": []
   },
   {
-   "s": "EQT",
-   "n": "EQT Corporation",
-   "sig": "obserwuj",
-   "score": 0.5,
-   "wok": null,
-   "why": []
-  },
-  {
-   "s": "LRCX",
-   "n": "Lam Research Corporation",
-   "sig": "obserwuj",
-   "score": 0.5,
-   "wok": null,
-   "why": []
-  },
-  {
    "s": "CVS",
    "n": "CVS Health Corporation",
    "sig": "obserwuj",
@@ -1110,8 +988,8 @@
    "why": []
   },
   {
-   "s": "GRX.WA",
-   "n": "GRX C.XWAR PLN",
+   "s": "AVGO",
+   "n": "Broadcom Inc.",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1182,24 +1060,16 @@
    "why": []
   },
   {
-   "s": "BX",
-   "n": "Blackstone Inc.",
+   "s": "SMCI",
+   "n": "Super Micro Computer, Inc.",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
    "why": []
   },
   {
-   "s": "DELL",
-   "n": "Dell Technologies Inc.",
-   "sig": "obserwuj",
-   "score": 0.5,
-   "wok": null,
-   "why": []
-  },
-  {
-   "s": "CLX",
-   "n": "Clorox Company (The)",
+   "s": "CHRW",
+   "n": "C.H. Robinson Worldwide, Inc.",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1214,8 +1084,8 @@
    "why": []
   },
   {
-   "s": "MCD",
-   "n": "McDonald's Corporation",
+   "s": "DTE",
+   "n": "DTE Energy Company",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1246,8 +1116,8 @@
    "why": []
   },
   {
-   "s": "KKR",
-   "n": "KKR & Co. Inc.",
+   "s": "RBW.WA",
+   "n": "RBW C.XWAR PLN",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1294,8 +1164,8 @@
    "why": []
   },
   {
-   "s": "APO",
-   "n": "Apollo Global Management, Inc. ",
+   "s": "INTC",
+   "n": "Intel Corporation",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1326,8 +1196,8 @@
    "why": []
   },
   {
-   "s": "SPY",
-   "n": "State Street SPDR S&P 500 ETF T",
+   "s": "MGM",
+   "n": "MGM Resorts International",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1374,64 +1244,52 @@
    "why": []
   },
   {
-   "s": "TT",
-   "n": "Trane Technologies plc",
+   "s": "OKE",
+   "n": "ONEOK, Inc.",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 1/4"
-   ]
+   "why": []
   },
   {
-   "s": "MRB.WA",
-   "n": "MRB C.XWAR PLN",
+   "s": "TJX",
+   "n": "TJX Companies, Inc. (The)",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 0/1"
-   ]
+   "why": []
   },
   {
-   "s": "WYNN",
-   "n": "Wynn Resorts, Limited",
+   "s": "COF",
+   "n": "Capital One Financial Corporati",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 0/3"
-   ]
+   "why": []
   },
   {
-   "s": "ENR.DE",
-   "n": "Siemens Energy AG             N",
+   "s": "DELL",
+   "n": "Dell Technologies Inc.",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 1/3"
-   ]
+   "why": []
   },
   {
-   "s": "MU",
-   "n": "Micron Technology, Inc.",
+   "s": "GRX.WA",
+   "n": "GRX C.XWAR PLN",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 0/1"
-   ]
+   "why": []
   },
   {
-   "s": "AKAM",
-   "n": "Akamai Technologies, Inc.",
+   "s": "BX",
+   "n": "Blackstone Inc.",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 2/6"
-   ]
+   "why": []
   },
   {
    "s": "HOOD",
@@ -1494,16 +1352,6 @@
    ]
   },
   {
-   "s": "IRM",
-   "n": "Iron Mountain Incorporated (Del",
-   "sig": "obserwuj",
-   "score": 0.0,
-   "wok": null,
-   "why": [
-    "tu słabo: 0/2"
-   ]
-  },
-  {
    "s": "ROK",
    "n": "Rockwell Automation, Inc.",
    "sig": "obserwuj",
@@ -1544,13 +1392,13 @@
    ]
   },
   {
-   "s": "TEL",
-   "n": "TE Connectivity plc",
+   "s": "MU",
+   "n": "Micron Technology, Inc.",
    "sig": "obserwuj",
    "score": 0.0,
    "wok": null,
    "why": [
-    "tu słabo: 0/2"
+    "tu słabo: 0/1"
    ]
   },
   {
@@ -1584,33 +1432,13 @@
    ]
   },
   {
-   "s": "TER",
-   "n": "Teradyne, Inc.",
+   "s": "ENR.DE",
+   "n": "Siemens Energy AG             N",
    "sig": "obserwuj",
    "score": 0.0,
    "wok": null,
    "why": [
-    "tu słabo: 0/1"
-   ]
-  },
-  {
-   "s": "QCOM",
-   "n": "QUALCOMM Incorporated",
-   "sig": "obserwuj",
-   "score": 0.0,
-   "wok": null,
-   "why": [
-    "tu słabo: 1/4"
-   ]
-  },
-  {
-   "s": "VST",
-   "n": "Vistra Corp.",
-   "sig": "obserwuj",
-   "score": 0.0,
-   "wok": null,
-   "why": [
-    "tu słabo: 0/2"
+    "tu słabo: 1/3"
    ]
   },
   {
@@ -1651,6 +1479,56 @@
    "wok": null,
    "why": [
     "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "WYNN",
+   "n": "Wynn Resorts, Limited",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/3"
+   ]
+  },
+  {
+   "s": "HSY",
+   "n": "The Hershey Company",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "MRB.WA",
+   "n": "MRB C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "TT",
+   "n": "Trane Technologies plc",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 1/4"
+   ]
+  },
+  {
+   "s": "AKAM",
+   "n": "Akamai Technologies, Inc.",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 2/6"
    ]
   }
  ],
@@ -2518,7 +2396,7 @@
   "COF": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-09"
+   "d": "2026-11-10"
   },
   "DOC": {
    "w": 0,
@@ -2528,12 +2406,12 @@
   "HSY": {
    "w": 0,
    "n": 1,
-   "d": "2026-11-09"
+   "d": "2026-11-10"
   },
   "STT": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-09"
+   "d": "2026-11-10"
   },
   "VMRK": {
    "w": 0,
@@ -2549,9 +2427,19 @@
    "w": 0,
    "n": 0,
    "d": "2026-11-10"
+  },
+  "MRSH": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-10"
+  },
+  "OKE": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-10"
   }
  },
- "nextId": 69,
+ "nextId": 78,
  "events": [
   {
    "id": 1,
@@ -3314,6 +3202,104 @@
    "h": "Sygnał KUP: korekta A-B-C w strefie 1 narzędzi i objęcie hossy przy dołku C. Dodatkowo zgodne: 1 z 4 (informacyjnie).",
    "score": 1.5,
    "wok": true
+  },
+  {
+   "id": 69,
+   "at": "2026-11-10T17:20:26.294248Z",
+   "s": "ABBV",
+   "n": "AbbVie Inc.",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 293.239990234375,
+   "h": "Korekta trwa (A). Strefa zakupu 239.52–241.20; kupuję dopiero po A-B-C i impulsie w górę."
+  },
+  {
+   "id": 70,
+   "at": "2026-11-10T17:20:26.294248Z",
+   "s": "APO",
+   "n": "Apollo Global Management, Inc. ",
+   "t": "kup",
+   "why": "korekta A-B-C + impuls",
+   "p": 122.80000305175781,
+   "h": "Sygnał KUP: korekta A-B-C w strefie 2 narzędzi i wyższy dołek i wybicie szczytu pierwszej fali (start fali 3). Dodatkowo zgodne: 2 z 4 (informacyjnie).",
+   "score": 2.5,
+   "wok": true
+  },
+  {
+   "id": 71,
+   "at": "2026-11-10T17:20:26.294248Z",
+   "s": "DHI",
+   "n": "D.R. Horton, Inc.",
+   "t": "kup",
+   "why": "korekta A-B-C + impuls",
+   "p": 149.47999572753906,
+   "h": "Sygnał KUP: korekta A-B-C w strefie 2 narzędzi i wyższy dołek i wybicie szczytu pierwszej fali (start fali 3). Dodatkowo zgodne: 2 z 4 (informacyjnie).",
+   "score": 3.0,
+   "wok": true
+  },
+  {
+   "id": 72,
+   "at": "2026-11-10T17:20:26.294248Z",
+   "s": "EXPD",
+   "n": "Expeditors International of Was",
+   "t": "neg",
+   "why": "wypadek z klina",
+   "p": 188.1300048828125,
+   "h": "Wypadek z klina po 5 falach - ryzyko końca wzrostów. Nie dokładam, rozważ ograniczenie ryzyka."
+  },
+  {
+   "id": 73,
+   "at": "2026-11-10T17:20:26.294248Z",
+   "s": "HCA",
+   "n": "HCA Healthcare, Inc.",
+   "t": "neg",
+   "why": "wypadek z klina",
+   "p": 504.69000244140625,
+   "h": "Wypadek z klina po 5 falach - ryzyko końca wzrostów. Nie dokładam, rozważ ograniczenie ryzyka."
+  },
+  {
+   "id": 74,
+   "at": "2026-11-10T17:20:26.294248Z",
+   "s": "MCK",
+   "n": "McKesson Corporation",
+   "t": "neg",
+   "why": "wypadek z klina",
+   "p": 1073.3349609375,
+   "h": "Wypadek z klina po 5 falach - ryzyko końca wzrostów. Nie dokładam, rozważ ograniczenie ryzyka."
+  },
+  {
+   "id": 75,
+   "at": "2026-11-10T17:20:26.294248Z",
+   "s": "MRSH",
+   "n": "Marsh",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 206.8249969482422,
+   "h": "Korekta A-B-C i potwierdzenie są, ale cena już blisko oporu - stosunek zysku do ryzyka za słaby. Czekam na lepsze miejsce.",
+   "score": 1.5,
+   "wok": null
+  },
+  {
+   "id": 76,
+   "at": "2026-11-10T17:20:26.294248Z",
+   "s": "OKE",
+   "n": "ONEOK, Inc.",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 87.23500061035156,
+   "h": "Korekta A-B-C i potwierdzenie są, ale cena już blisko oporu - stosunek zysku do ryzyka za słaby. Czekam na lepsze miejsce.",
+   "score": 0.5,
+   "wok": null
+  },
+  {
+   "id": 77,
+   "at": "2026-11-10T17:20:26.294248Z",
+   "s": "PAYX",
+   "n": "Paychex, Inc.",
+   "t": "neg",
+   "why": "scenariusz zanegowany",
+   "p": 116.56999969482422,
+   "h": "Cena poniżej 134.32 (zasięg 1.618 fali A (korekta płaska nieregularna)) - scenariusz korekty zanegowany. Możliwy koniec trendu; czekam na nową strukturę."
   }
  ],
  "sig": {
@@ -3328,7 +3314,7 @@
   "CL=F": "obserwuj",
   "ABNB": "czekaj",
   "A": "czekaj",
-  "ABBV": "uwaga",
+  "ABBV": "czekaj",
   "AAPL": "uwaga",
   "GC=F": "obserwuj",
   "ACGL": "czekaj",
@@ -3343,7 +3329,7 @@
   "AES": "uwaga",
   "AEP": "czekaj",
   "AFL": "czekaj",
-  "AIG": "kup",
+  "AIG": "czekaj",
   "XRP-USD": "nie",
   "AKAM": "obserwuj",
   "AIZ": "czekaj",
@@ -3358,22 +3344,22 @@
   "AMGN": "czekaj",
   "AME": "czekaj",
   "AMP": "obserwuj",
-  "AMZN": "uwaga",
+  "AMZN": "czekaj",
   "AMT": "kup",
   "ANET": "czekaj",
   "AON": "obserwuj",
   "AOS": "kup",
   "APH": "czekaj",
   "APA": "czekaj",
-  "APO": "obserwuj",
+  "APO": "kup",
   "APP": "obserwuj",
   "APTV": "nie",
   "APD": "obserwuj",
-  "ARES": "kup",
+  "ARES": "obserwuj",
   "AXON": "nie",
   "AWK": "czekaj",
   "AVGO": "obserwuj",
-  "ATO": "obserwuj",
+  "ATO": "czekaj",
   "AVY": "czekaj",
   "AXP": "obserwuj",
   "ARE": "nie",
@@ -3407,11 +3393,11 @@
   "CBRE": "nie",
   "CB": "czekaj",
   "CAT": "nie",
-  "CCI": "uwaga",
+  "CCI": "czekaj",
   "CCL": "nie",
   "CDW": "czekaj",
-  "CDNS": "obserwuj",
-  "CF": "kup",
+  "CDNS": "kup",
+  "CF": "obserwuj",
   "CEG": "nie",
   "CHD": "czekaj",
   "CFG": "czekaj",
@@ -3421,16 +3407,16 @@
   "CI": "obserwuj",
   "CINF": "czekaj",
   "CL": "czekaj",
-  "CLX": "obserwuj",
+  "CLX": "czekaj",
   "CMCSA": "nie",
   "CME": "czekaj",
   "CMG": "nie",
   "CMI": "nie",
-  "CNC": "uwaga",
+  "CNC": "czekaj",
   "CMS": "nie",
   "COIN": "nie",
-  "COHR": "obserwuj",
-  "COF": "czekaj",
+  "COHR": "nie",
+  "COF": "obserwuj",
   "COO": "nie",
   "COP": "czekaj",
   "COR": "czekaj",
@@ -3461,9 +3447,9 @@
   "DELL": "obserwuj",
   "DG": "czekaj",
   "DGX": "czekaj",
-  "DHI": "obserwuj",
+  "DHI": "kup",
   "DHR": "obserwuj",
-  "DLR": "obserwuj",
+  "DLR": "czekaj",
   "DIS": "czekaj",
   "DLTR": "czekaj",
   "DOC": "kup",
@@ -3484,13 +3470,13 @@
   "EFX": "czekaj",
   "EL": "czekaj",
   "EIX": "nie",
-  "EG": "uwaga",
+  "EG": "czekaj",
   "EME": "obserwuj",
   "EMR": "czekaj",
-  "EQIX": "obserwuj",
+  "EQIX": "czekaj",
   "EOG": "czekaj",
   "ERIE": "nie",
-  "EQT": "obserwuj",
+  "EQT": "czekaj",
   "ES": "uwaga",
   "ESS": "kup",
   "ETN": "obserwuj",
@@ -3500,7 +3486,7 @@
   "EXE": "nie",
   "EXC": "nie",
   "EXPE": "czekaj",
-  "EXPD": "czekaj",
+  "EXPD": "uwaga",
   "EXR": "czekaj",
   "FANG": "czekaj",
   "F": "obserwuj",
@@ -3528,7 +3514,7 @@
   "GEHC": "obserwuj",
   "GEV": "obserwuj",
   "GEN": "czekaj",
-  "GE": "kup",
+  "GE": "obserwuj",
   "GILD": "czekaj",
   "GIS": "nie",
   "GL": "czekaj",
@@ -3545,19 +3531,19 @@
   "HAS": "czekaj",
   "HBAN": "czekaj",
   "HAL": "czekaj",
-  "HCA": "czekaj",
+  "HCA": "uwaga",
   "HD": "nie",
   "HIG": "czekaj",
   "HII": "obserwuj",
   "HLT": "czekaj",
   "HOOD": "obserwuj",
-  "HPE": "obserwuj",
+  "HPE": "czekaj",
   "HON": "nie",
   "HPQ": "obserwuj",
   "HRL": "nie",
   "HSIC": "czekaj",
   "HST": "czekaj",
-  "HSY": "czekaj",
+  "HSY": "obserwuj",
   "HUBB": "obserwuj",
   "HUM": "czekaj",
   "HWM": "obserwuj",
@@ -3576,7 +3562,7 @@
   "IQV": "uwaga",
   "IR": "czekaj",
   "ISRG": "kup",
-  "IRM": "obserwuj",
+  "IRM": "czekaj",
   "IT": "nie",
   "IVZ": "czekaj",
   "ITW": "czekaj",
@@ -3584,7 +3570,7 @@
   "JBHT": "czekaj",
   "JBL": "czekaj",
   "JKHY": "obserwuj",
-  "JCI": "obserwuj",
+  "JCI": "czekaj",
   "JNJ": "czekaj",
   "KDP": "czekaj",
   "JPM": "czekaj",
@@ -3610,7 +3596,7 @@
   "LNT": "czekaj",
   "LMT": "czekaj",
   "LOW": "nie",
-  "LRCX": "obserwuj",
+  "LRCX": "czekaj",
   "LULU": "nie",
   "LYV": "czekaj",
   "LYB": "obserwuj",
@@ -3620,14 +3606,14 @@
   "MAA": "nie",
   "MAR": "czekaj",
   "MAS": "czekaj",
-  "MCHP": "obserwuj",
-  "MCD": "obserwuj",
+  "MCHP": "czekaj",
+  "MCD": "kup",
   "MDLZ": "czekaj",
   "MCO": "czekaj",
-  "MCK": "czekaj",
+  "MCK": "uwaga",
   "MDT": "czekaj",
   "MET": "czekaj",
-  "META": "obserwuj",
+  "META": "kup",
   "MGM": "obserwuj",
   "MKC": "nie",
   "MLM": "obserwuj",
@@ -3640,7 +3626,7 @@
   "MRNA": "czekaj",
   "MRVL": "czekaj",
   "MRK": "czekaj",
-  "MRSH": "nie",
+  "MRSH": "obserwuj",
   "MSCI": "czekaj",
   "MSFT": "czekaj",
   "MS": "czekaj",
@@ -3662,15 +3648,15 @@
   "NSC": "kup",
   "NTAP": "obserwuj",
   "NUE": "czekaj",
-  "NTRS": "kup",
+  "NTRS": "czekaj",
   "NVDA": "uwaga",
   "NVR": "nie",
   "NWS": "obserwuj",
-  "NXPI": "kup",
+  "NXPI": "czekaj",
   "NWSA": "obserwuj",
   "O": "nie",
   "OKTA": "czekaj",
-  "OKE": "nie",
+  "OKE": "obserwuj",
   "ODFL": "obserwuj",
   "OMC": "czekaj",
   "ON": "czekaj",
@@ -3679,7 +3665,7 @@
   "PANW": "obserwuj",
   "OTIS": "nie",
   "P": "obserwuj",
-  "PAYX": "czekaj",
+  "PAYX": "nie",
   "PCAR": "obserwuj",
   "PCG": "nie",
   "PEG": "nie",
@@ -3708,7 +3694,7 @@
   "PWR": "nie",
   "PYPL": "obserwuj",
   "Q": "obserwuj",
-  "QCOM": "obserwuj",
+  "QCOM": "kup",
   "RDDT": "nie",
   "RCL": "obserwuj",
   "REG": "czekaj",
@@ -3726,8 +3712,8 @@
   "RVTY": "uwaga",
   "SBUX": "czekaj",
   "SBAC": "nie",
-  "SCHW": "uwaga",
-  "SHW": "obserwuj",
+  "SCHW": "czekaj",
+  "SHW": "czekaj",
   "SJM": "czekaj",
   "SKYD": "nie",
   "SMCI": "obserwuj",
@@ -3742,7 +3728,7 @@
   "SPGI": "obserwuj",
   "STE": "czekaj",
   "STLD": "czekaj",
-  "STT": "nie",
+  "STT": "kup",
   "STZ": "nie",
   "STX": "obserwuj",
   "SW": "nie",
@@ -3755,8 +3741,8 @@
   "T": "obserwuj",
   "TDY": "czekaj",
   "TECH": "czekaj",
-  "TEL": "obserwuj",
-  "TER": "obserwuj",
+  "TEL": "kup",
+  "TER": "czekaj",
   "TFC": "czekaj",
   "TGT": "czekaj",
   "TJX": "obserwuj",
@@ -3777,7 +3763,7 @@
   "TWLO": "uwaga",
   "TYL": "czekaj",
   "UAL": "czekaj",
-  "TXN": "kup",
+  "TXN": "obserwuj",
   "TXT": "obserwuj",
   "UBER": "obserwuj",
   "UDR": "nie",
@@ -3792,14 +3778,14 @@
   "VEEV": "czekaj",
   "VICI": "nie",
   "VLTO": "czekaj",
-  "VMC": "kup",
+  "VMC": "czekaj",
   "VMRK": "nie",
   "VRSK": "nie",
   "VLO": "czekaj",
   "VRSN": "czekaj",
   "VRTX": "czekaj",
-  "VST": "obserwuj",
-  "VTR": "kup",
+  "VST": "czekaj",
+  "VTR": "obserwuj",
   "VRT": "nie",
   "VTRS": "czekaj",
   "VZ": "czekaj",
@@ -3816,7 +3802,7 @@
   "WRB": "czekaj",
   "WSM": "czekaj",
   "WST": "czekaj",
-  "WTW": "obserwuj",
+  "WTW": "czekaj",
   "WYNN": "obserwuj",
   "WY": "nie",
   "XEL": "nie",
@@ -4755,6 +4741,15 @@
   "TXT.WA|neg": "2026-11-10T02:10:54.990863Z",
   "SY1.DE|pos": "2026-11-10T09:49:45.359667Z",
   "DNP.WA|pos": "2026-11-10T09:49:45.359667Z",
-  "XTB.WA|kup": "2026-11-10T09:49:45.359667Z"
+  "XTB.WA|kup": "2026-11-10T09:49:45.359667Z",
+  "ABBV|pos": "2026-11-10T17:20:26.294248Z",
+  "APO|kup": "2026-11-10T17:20:26.294248Z",
+  "DHI|kup": "2026-11-10T17:20:26.294248Z",
+  "EXPD|neg": "2026-11-10T17:20:26.294248Z",
+  "HCA|neg": "2026-11-10T17:20:26.294248Z",
+  "MCK|neg": "2026-11-10T17:20:26.294248Z",
+  "MRSH|pos": "2026-11-10T17:20:26.294248Z",
+  "OKE|pos": "2026-11-10T17:20:26.294248Z",
+  "PAYX|neg": "2026-11-10T17:20:26.294248Z"
  }
 }
