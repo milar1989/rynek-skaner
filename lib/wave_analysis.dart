@@ -257,36 +257,77 @@ String _p(double v) => v >= 1000 ? v.toStringAsFixed(0) : v >= 10 ? v.toStringAs
 /// że większa zgodność NIE dawała lepszych transakcji, więc domyślnie zawsze pełna pozycja (docs/metoda.md).
 const defaultSizeTiers = [100];
 
-// ---------- formacje świecowe (film 3) ----------
+// ---------- formacje świecowe (filmy 3 i 4) ----------
 
-enum CandlePattern { mlotek, gwiazda, objecieHossy, objecieBessy }
+enum CandlePattern { mlotek, gwiazda, objecieHossy, objecieBessy, przenikanie, zaslonaChmury, gwiazdaPoranna, gwiazdaWieczorna }
 
 const candlePatternNames = {
   CandlePattern.mlotek: 'młotek',
   CandlePattern.gwiazda: 'spadająca gwiazda',
   CandlePattern.objecieHossy: 'objęcie hossy',
   CandlePattern.objecieBessy: 'objęcie bessy',
+  CandlePattern.przenikanie: 'przenikanie',
+  CandlePattern.zaslonaChmury: 'przenikanie spadkowe',
+  CandlePattern.gwiazdaPoranna: 'gwiazda poranna',
+  CandlePattern.gwiazdaWieczorna: 'gwiazda wieczorna',
 };
 
-bool isBullishPattern(CandlePattern p) => p == CandlePattern.mlotek || p == CandlePattern.objecieHossy;
+const _bullish = {CandlePattern.mlotek, CandlePattern.objecieHossy, CandlePattern.przenikanie, CandlePattern.gwiazdaPoranna};
+bool isBullishPattern(CandlePattern p) => _bullish.contains(p);
 
-/// Formacja na świecy [i]:
+/// Które formacje rozpoznajemy (do testów porównawczych na historii).
+Set<CandlePattern> enabledPatterns = CandlePattern.values.toSet();
+
+/// Formacje, które wpływają na sygnały (potwierdzenie KUP przy dołku C, „zrealizuj część”).
+/// Przenikanie i gwiazdy (film 4) tylko informacyjnie: test na 690 walorach × 5 lat - dodane przez nie sygnały KUP
+/// 36,5% trafnych / −0,1% wobec 45,3% / +2,7% dotychczasowych (docs/metoda.md).
+Set<CandlePattern> signalPatterns = {CandlePattern.mlotek, CandlePattern.gwiazda, CandlePattern.objecieHossy, CandlePattern.objecieBessy};
+
+/// Formacja kończąca się na świecy [i]:
 /// - młotek: korpus (dowolny kolor) w górnych 33% zakresu świecy, długi dolny cień; spadająca gwiazda - lustrzanie, korpus w dolnych 33%,
-/// - objęcie hossy: świeca wzrostowa zamyka się korpusem powyżej korpusu poprzedniej spadkowej; objęcie bessy - odwrotnie.
-/// Pomijamy świece mniejsze niż połowa średniego zakresu z 14 świec (szum).
+/// - gwiazda poranna: świeca spadkowa, dowolna środkowa (doji, długie cienie - bez znaczenia, ale mniejszy korpus niż pierwszej),
+///   trzecia wzrostowa zamyka się powyżej połowy korpusu pierwszej; gwiazda wieczorna - lustrzanie,
+/// - objęcie hossy: świeca wzrostowa zamyka się korpusem powyżej korpusu poprzedniej spadkowej; objęcie bessy - odwrotnie,
+/// - przenikanie: po świecy spadkowej wzrostowa zamyka się powyżej połowy jej korpusu (ale nie nad całym - to już objęcie);
+///   przenikanie spadkowe - lustrzanie. Liczą się korpusy, nie cienie.
+/// Pomijamy formacje mniejsze niż 11 z 20 poprzednich świec (film 5, [patternSizeRule]).
 CandlePattern? candlePattern(List<Candle> cs, int i) {
   if (i < 1 || i >= cs.length) return null;
-  final c = cs[i], p = cs[i - 1];
+  final c = cs[i];
   final range = c.h - c.l;
   if (range <= 0) return null;
-  final from = max(0, i - 14);
-  final avg = cs.sublist(from, i).fold(0.0, (s, x) => s + (x.h - x.l)) / max(1, i - from);
-  if (range < avg * 0.5) return null;
+  if (patternSizeRule == PatternSize.avgHalf) {
+    final from = max(0, i - 14);
+    final avg = cs.sublist(from, i).fold(0.0, (s, x) => s + (x.h - x.l)) / max(1, i - from);
+    if (range < avg * 0.5) return null;
+  }
+  final p = _rawPattern(cs, i);
+  if (p == null || patternSizeRule == PatternSize.avgHalf) return p;
+  return patternBigEnough(cs, i, p) ? p : null;
+}
+
+CandlePattern? _rawPattern(List<Candle> cs, int i) {
+  final c = cs[i], p = cs[i - 1];
+  final range = c.h - c.l;
+  CandlePattern? on(CandlePattern x) => enabledPatterns.contains(x) ? x : null;
   final top = max(c.o, c.c), bot = min(c.o, c.c);
-  if (bot >= c.l + range * 0.67) return CandlePattern.mlotek;
-  if (top <= c.l + range * 0.33) return CandlePattern.gwiazda;
-  if (p.c < p.o && c.c > c.o && c.c > p.o) return CandlePattern.objecieHossy;
-  if (p.c > p.o && c.c < c.o && c.c < p.o) return CandlePattern.objecieBessy;
+  if (bot >= c.l + range * 0.67) return on(CandlePattern.mlotek);
+  if (top <= c.l + range * 0.33) return on(CandlePattern.gwiazda);
+  if (p.c < p.o && c.c > c.o && c.c > p.o) return on(CandlePattern.objecieHossy);
+  if (p.c > p.o && c.c < c.o && c.c < p.o) return on(CandlePattern.objecieBessy);
+  // gwiazdy i przenikanie dopiero gdy nie ma formacji z cz. 1 (te same świece nie zmieniają nazwy)
+  if (i >= 2) {
+    final a = cs[i - 2];
+    final aBody = (a.o - a.c).abs(), bBody = (p.o - p.c).abs();
+    final mid = (a.o + a.c) / 2;
+    if (bBody < aBody && aBody > 0) {
+      if (a.c < a.o && c.c > c.o && c.c > mid && enabledPatterns.contains(CandlePattern.gwiazdaPoranna)) return CandlePattern.gwiazdaPoranna;
+      if (a.c > a.o && c.c < c.o && c.c < mid && enabledPatterns.contains(CandlePattern.gwiazdaWieczorna)) return CandlePattern.gwiazdaWieczorna;
+    }
+  }
+  final pm = (p.o + p.c) / 2;
+  if (p.c < p.o && c.c > c.o && c.c > pm) return on(CandlePattern.przenikanie);
+  if (p.c > p.o && c.c < c.o && c.c < pm) return on(CandlePattern.zaslonaChmury);
   return null;
 }
 
@@ -295,6 +336,102 @@ List<(int, CandlePattern)> recentPatterns(List<Candle> cs, {int n = 60}) => [
       for (var i = max(1, cs.length - n); i < cs.length; i++)
         if (candlePattern(cs, i) case final p?) (i, p),
     ];
+
+// ---------- formacje świecowe cz. 3 (film 5): pułapka, wielkość, test formacji, beton ----------
+
+/// Jak odsiewamy za małe formacje.
+enum PatternSize {
+  /// ostatnia świeca co najmniej połowa średniego zakresu z 14 świec (dotychczas)
+  avgHalf,
+  /// zakres całej formacji większy niż zakres co najmniej 11 z 20 poprzednich świec (film 5)
+  elevenOf20,
+}
+
+/// Test na 689 walorach × 5 lat: 11 z 20 → najwyższy stopień 59,6% / +5,7% (było 59,5% / +5,5%), lepiej w obu okresach.
+PatternSize patternSizeRule = PatternSize.elevenOf20;
+
+/// Liczba świec formacji.
+int patternSpan(CandlePattern p) => switch (p) {
+      CandlePattern.mlotek || CandlePattern.gwiazda => 1,
+      CandlePattern.gwiazdaPoranna || CandlePattern.gwiazdaWieczorna => 3,
+      _ => 2,
+    };
+
+/// Górne i dolne ograniczenie formacji kończącej się na świecy [i] (szczyt i dołek jej świec, z cieniami).
+({double hi, double lo}) patternBounds(List<Candle> cs, int i, CandlePattern p) {
+  var hi = cs[i].h, lo = cs[i].l;
+  for (var k = max(0, i - patternSpan(p) + 1); k < i; k++) {
+    hi = max(hi, cs[k].h);
+    lo = min(lo, cs[k].l);
+  }
+  return (hi: hi, lo: lo);
+}
+
+/// Formacja większa niż co najmniej 11 z 20 poprzednich świec (porównanie zakresów od szczytu do dołka).
+bool patternBigEnough(List<Candle> cs, int i, CandlePattern p) {
+  final b = patternBounds(cs, i, p);
+  final size = b.hi - b.lo;
+  final start = i - patternSpan(p) + 1;
+  final from = max(0, start - 20);
+  if (start - from < 20) return false;
+  var smaller = 0;
+  for (var k = from; k < start; k++) {
+    if (cs[k].h - cs[k].l < size) smaller++;
+  }
+  return smaller >= 11;
+}
+
+/// Pułapka: świeca kończąca formację ma długi cień od strony ruchu, który formacja zapowiada
+/// (wzrostowa - górny, spadkowa - dolny), co najmniej tak długi jak jej korpus. Młotek i gwiazda nie mają pułapki.
+bool hasTrap(List<Candle> cs, int i, CandlePattern p) {
+  if (patternSpan(p) == 1) return false;
+  final c = cs[i];
+  final body = (c.c - c.o).abs();
+  final wick = isBullishPattern(p) ? c.h - max(c.o, c.c) : min(c.o, c.c) - c.l;
+  return wick >= body;
+}
+
+enum PatternOutcome { czeka, potwierdzona, zanegowana }
+
+/// Co się stało po formacji (do świecy [upTo] włącznie): rozstrzyga pierwsza świeca, która zamknie się poza formacją.
+/// Wzrostowa: zamknięcie nad górnym ograniczeniem = potwierdzona (pułapka zanegowana), pod dolnym = zanegowana.
+PatternOutcome patternOutcome(List<Candle> cs, int i, CandlePattern p, {int? upTo}) {
+  final b = patternBounds(cs, i, p);
+  final up = isBullishPattern(p);
+  for (var j = i + 1; j <= (upTo ?? cs.length - 1) && j < cs.length; j++) {
+    if (cs[j].c > b.hi) return up ? PatternOutcome.potwierdzona : PatternOutcome.zanegowana;
+    if (cs[j].c < b.lo) return up ? PatternOutcome.zanegowana : PatternOutcome.potwierdzona;
+  }
+  return PatternOutcome.czeka;
+}
+
+/// Test formacji: cofnięcie do połowy formacji (50% od szczytu do dołka) - lepsza cena wejścia, stop za formacją.
+double patternTestPrice(List<Candle> cs, int i, CandlePattern p) {
+  final b = patternBounds(cs, i, p);
+  return (b.hi + b.lo) / 2;
+}
+
+/// Beton: co najmniej 5 kolejnych świec, których korpusy zamykają się nad jednym poziomem, a pod nim zostają
+/// tylko knoty (co najmniej 3 wyraźne - pół średniej świecy). Szukane w oknie obejmującym świecę [at]. Zwraca poziom i ostatnią świecę.
+({double level, int start, int end})? betonAt(List<Candle> cs, int at, {int minLen = 5, int maxLen = 15}) {
+  if (at < 15 || at >= cs.length) return null;
+  final avg = cs.sublist(at - 14, at).fold(0.0, (s, x) => s + (x.h - x.l)) / 14;
+  ({double level, int start, int end})? best;
+  for (var s = max(0, at - maxLen + 1); s <= at; s++) {
+    for (var e = max(at, s + minLen - 1); e < min(cs.length, s + maxLen); e++) {
+      var floor = double.infinity;
+      for (var k = s; k <= e; k++) {
+        floor = min(floor, min(cs[k].o, cs[k].c));
+      }
+      var wicks = 0;
+      for (var k = s; k <= e; k++) {
+        if (cs[k].l < floor - avg * 0.5) wicks++;
+      }
+      if (wicks >= 3 && (best == null || e - s > best.end - best.start)) best = (level: floor, start: s, end: e);
+    }
+  }
+  return best;
+}
 
 /// Jak używać formacji świecowych przy sygnale KUP.
 enum CandleUse {
@@ -310,9 +447,41 @@ enum CandleUse {
 ({int i, CandlePattern p})? patternAtLow(List<Candle> cs, int lowIdx) {
   for (var i = max(1, lowIdx - 1); i <= min(cs.length - 1, lowIdx + 3); i++) {
     final p = candlePattern(cs, i);
-    if (p != null && isBullishPattern(p) && cs.last.c > cs[i].h) return (i: i, p: p);
+    if (p == null || !signalPatterns.contains(p) || !isBullishPattern(p) || cs.last.c <= cs[i].h) continue;
+    if (trapRule == TrapRule.outcome && patternOutcome(cs, i, p) != PatternOutcome.potwierdzona) continue;
+    if (trapRule == TrapRule.skipTraps && hasTrap(cs, i, p)) continue;
+    return (i: i, p: p);
   }
   return null;
+}
+
+/// Pułapka przy formacji przy dołku C (do testów porównawczych).
+enum TrapRule {
+  /// wystarczy zamknięcie nad szczytem świecy formacji (dotychczas)
+  ignore,
+  /// pierwsze zamknięcie poza formacją musi być górą (zamknięcie pod nią najpierw = pułapka potwierdzona)
+  outcome,
+  /// formacje z pułapką pomijane
+  skipTraps,
+}
+
+/// Test na 689 walorach × 5 lat (najwyższy stopień: ocena 3,5-4 + tydzień): ignore 59,5% / +5,5%, outcome 59,9% / +5,5%
+/// (gorzej w 2024-26), skipTraps 59,1% / +5,4% - pułapka tylko jako informacja na wykresie.
+TrapRule trapRule = TrapRule.ignore;
+
+/// Czy beton przy dołku C (z zamknięciem nad jego korpusami) może zastąpić potwierdzenie impulsem.
+/// Test na 689 walorach: 2 dodatkowe sygnały na 1630, wynik bez zmian - wyłączone.
+bool betonConfirms = false;
+
+/// Beton przy dołku C, po którym cena zamknęła się nad najwyższym korpusem betonu.
+({double level, int start, int end})? betonAtLow(List<Candle> cs, int lowIdx) {
+  final b = betonAt(cs, lowIdx);
+  if (b == null || b.end >= cs.length - 1) return null;
+  var top = 0.0;
+  for (var k = b.start; k <= b.end; k++) {
+    top = max(top, max(cs[k].o, cs[k].c));
+  }
+  return cs.last.c > top ? b : null;
 }
 
 /// Kiedy scenariusz korekty uznajemy za zanegowany.
@@ -508,6 +677,9 @@ Analysis analyze(List<Candle> cs, {double minReward = 1.0, List<int> sizeTiers =
   if (candles == CandleUse.alt && !conf2.ok && pat != null) {
     conf2 = (ok: true, how: '${candlePatternNames[pat.p]} przy dołku C', piv: conf2.piv);
   }
+  if (betonConfirms && candles != CandleUse.info && !conf2.ok && cLow != null && betonAtLow(cs, cLow.i) != null) {
+    conf2 = (ok: true, how: 'beton przy dołku C', piv: conf2.piv);
+  }
   if (candles == CandleUse.require && conf2.ok && pat == null) {
     conf2 = (ok: false, how: '', piv: conf2.piv);
   }
@@ -683,7 +855,10 @@ HoldAdvice holdingAdvice(Analysis a, {double? entry}) {
         stop: stop, target: res);
   }
   // świeca spadkowa (spadająca gwiazda / objęcie bessy) na ostatnich 2 świecach przy zysku - sygnał do realizacji części
-  final lastPat = [for (var i = a.candles.length - 2; i < a.candles.length; i++) candlePattern(a.candles, i)].whereType<CandlePattern>().toList();
+  final lastPat = [for (var i = a.candles.length - 2; i < a.candles.length; i++) candlePattern(a.candles, i)]
+      .whereType<CandlePattern>()
+      .where(signalPatterns.contains)
+      .toList();
   final bearCandle = lastPat.any((p) => !isBullishPattern(p));
   if (bearCandle && (pnl ?? 0) > 3 && a.signal != Signal.kup) {
     final name = candlePatternNames[lastPat.firstWhere((p) => !isBullishPattern(p))]!;
@@ -734,6 +909,51 @@ HoldAdvice holdingAdvice(Analysis a, {double? entry}) {
           '${a.trend == 'wzrostowy' ? 'Trend wzrostowy, ' : ''}korekta w toku nie neguje scenariusza - nie ma sygnału do sprzedaży.$pnlTxt$stopTxt$resTxt',
           stop: stop, target: res);
   }
+}
+
+/// Strona rady: 0 trzymaj, 1 sprzedaj część, 2 sprzedaj.
+int holdSide(HoldAction a) => switch (a) { HoldAction.trzymaj || HoldAction.dokup => 0, HoldAction.czesc => 1, _ => 2 };
+
+/// Interwał, z którym porównujemy radę (krótszy ↔ dłuższy): godz.→dzień, dzień→tydzień, tydzień→dzień, miesiąc→tydzień.
+String pairInterval(String i) => switch (i) { '1h' => '1d', '1d' => '1wk', '1mo' => '1wk', _ => '1d' };
+
+const intervalNames = {'1h': 'Godz.', '1d': 'Dzień', '1wk': 'Tydz.', '1mo': 'Mies.'};
+const intervalSpan = {'1h': '60 dni', '1d': '2 lat', '1wk': '10 lat', '1mo': 'całej historii'};
+const _order = ['1h', '1d', '1wk', '1mo'];
+
+/// Krótko: co widzi analiza na danym interwale.
+String whatItSees(Analysis a) {
+  final labels = a.pivots.map((p) => p.label).toSet();
+  if (a.signal == Signal.nieKupuj && a.trend == 'spadkowy') return 'niższe szczyty i dołki - trend spadkowy';
+  if (a.signal == Signal.nieKupuj) return 'cena przebiła poziom, który neguje korektę - możliwy koniec trendu';
+  if (a.signal == Signal.ostrzezenie) return 'wypadek z klina po wzrostach';
+  if (labels.contains('5')) {
+    final inZone = a.zones.any((z) => a.last >= z.lo * 0.98 && a.last <= z.hi * 1.02);
+    return 'cały wzrost w 5 falach, a spadek to jego korekta${inZone ? ' - cena jest w strefie wsparcia' : ''}';
+  }
+  return a.headline;
+}
+
+/// Gdy dwa interwały dają różne rady dla posiadanego waloru: co mówi każdy, który rozstrzyga i wspólna granica wyjścia.
+class IntervalConflict {
+  final String shortI, longI;
+  final HoldAdvice shortH, longH;
+  final String shortSees, longSees;
+  IntervalConflict(this.shortI, this.longI, this.shortH, this.longH, this.shortSees, this.longSees);
+
+  /// Granica, pod którą upada też scenariusz długoterminowy.
+  double? get longStop => longH.stop;
+  double? get shortStop => shortH.stop;
+  bool get sameStop => longStop != null && shortStop != null && (longStop! / shortStop! - 1).abs() < 0.01;
+}
+
+IntervalConflict? intervalConflict(String i1, Analysis a1, String i2, Analysis a2, {double? entry}) {
+  final h1 = holdingAdvice(a1, entry: entry), h2 = holdingAdvice(a2, entry: entry);
+  if (holdSide(h1.action) == holdSide(h2.action)) return null;
+  final first = _order.indexOf(i1) < _order.indexOf(i2);
+  return first
+      ? IntervalConflict(i1, i2, h1, h2, whatItSees(a1), whatItSees(a2))
+      : IntervalConflict(i2, i1, h2, h1, whatItSees(a2), whatItSees(a1));
 }
 
 // ---------- wyższy interwał ----------
