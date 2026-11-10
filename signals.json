@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T17:20:26.294248Z",
+ "updated": "2026-11-10T22:26:01.968269Z",
  "top": [
   {
    "s": "AMT",
@@ -368,8 +368,8 @@
    ]
   },
   {
-   "s": "VTR",
-   "n": "Ventas, Inc.",
+   "s": "SPY",
+   "n": "State Street SPDR S&P 500 ETF T",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -588,8 +588,8 @@
    ]
   },
   {
-   "s": "SPY",
-   "n": "State Street SPDR S&P 500 ETF T",
+   "s": "VTR",
+   "n": "Ventas, Inc.",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -608,18 +608,18 @@
    ]
   },
   {
-   "s": "CPS.WA",
-   "n": "CPS C.XWAR PLN",
+   "s": "DVN",
+   "n": "Devon Energy Corporation",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 1/1"
+    "tu działało 1/2"
    ]
   },
   {
-   "s": "BF-B",
-   "n": "Brown Forman Inc",
+   "s": "CF",
+   "n": "CF Industries Holdings, Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
@@ -711,13 +711,13 @@
    ]
   },
   {
-   "s": "DVN",
-   "n": "Devon Energy Corporation",
+   "s": "CPS.WA",
+   "n": "CPS C.XWAR PLN",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 1/2"
+    "tu działało 1/1"
    ]
   },
   {
@@ -864,8 +864,8 @@
    ]
   },
   {
-   "s": "CF",
-   "n": "CF Industries Holdings, Inc.",
+   "s": "BF-B",
+   "n": "Brown Forman Inc",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
@@ -1012,8 +1012,8 @@
    "why": []
   },
   {
-   "s": "LVS",
-   "n": "Las Vegas Sands Corp.",
+   "s": "GRX.WA",
+   "n": "GRX C.XWAR PLN",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1060,16 +1060,16 @@
    "why": []
   },
   {
-   "s": "SMCI",
-   "n": "Super Micro Computer, Inc.",
+   "s": "BX",
+   "n": "Blackstone Inc.",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
    "why": []
   },
   {
-   "s": "CHRW",
-   "n": "C.H. Robinson Worldwide, Inc.",
+   "s": "DELL",
+   "n": "Dell Technologies Inc.",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1268,24 +1268,24 @@
    "why": []
   },
   {
-   "s": "DELL",
-   "n": "Dell Technologies Inc.",
+   "s": "CHRW",
+   "n": "C.H. Robinson Worldwide, Inc.",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
    "why": []
   },
   {
-   "s": "GRX.WA",
-   "n": "GRX C.XWAR PLN",
+   "s": "LVS",
+   "n": "Las Vegas Sands Corp.",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
    "why": []
   },
   {
-   "s": "BX",
-   "n": "Blackstone Inc.",
+   "s": "SMCI",
+   "n": "Super Micro Computer, Inc.",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
