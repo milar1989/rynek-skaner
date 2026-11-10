@@ -123,7 +123,9 @@ Future<void> main(List<String> args) async {
         'nie' => a.headline.startsWith('Trend spadkowy') ? 'trend spadkowy' : 'scenariusz zanegowany',
         _ => a.signal == Signal.kup ? 'korekta A-B-C + impuls' : 'poprawa',
       };
-      added.add({'id': nextId++, 'at': now.toIso8601String(), 's': s, 'n': d.name, 't': t, 'why': why, 'p': d.candles.last.c, 'h': a.headline, if (top[s] != null) 'score': top[s]!['score'], if (top[s] != null) 'wok': top[s]!['wok']});
+      added.add({'id': nextId++, 'at': now.toIso8601String(), 's': s, 'n': d.name, 't': t, 'why': why, 'p': d.candles.last.c, 'h': a.headline, if (top[s] != null) 'score': top[s]!['score'], if (top[s] != null) 'wok': top[s]!['wok'],
+        // plan transakcji (publiczne poziomy z analizy) - powiadomienie pokazuje cenę, stop, TP1 i cel
+        if (a.signal == Signal.kup && a.stop != null) ...{'st': a.stop, 't1': a.tp1, 't2': a.tp2}});
     }
   }
 
