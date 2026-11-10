@@ -290,7 +290,7 @@ Set<CandlePattern> signalPatterns = {CandlePattern.mlotek, CandlePattern.gwiazda
 /// - objęcie hossy: świeca wzrostowa zamyka się korpusem powyżej korpusu poprzedniej spadkowej; objęcie bessy - odwrotnie,
 /// - przenikanie: po świecy spadkowej wzrostowa zamyka się powyżej połowy jej korpusu (ale nie nad całym - to już objęcie);
 ///   przenikanie spadkowe - lustrzanie. Liczą się korpusy, nie cienie.
-/// Pomijamy formacje mniejsze niż 11 z 20 poprzednich świec (film 5, [patternSizeRule]).
+/// Pomijamy świece mniejsze niż połowa średniego zakresu z 14 świec (szum); wariant z filmu 5 - [patternSizeRule].
 CandlePattern? candlePattern(List<Candle> cs, int i) {
   if (i < 1 || i >= cs.length) return null;
   final c = cs[i];
@@ -347,8 +347,9 @@ enum PatternSize {
   elevenOf20,
 }
 
-/// Test na 689 walorach × 5 lat: 11 z 20 → najwyższy stopień 59,6% / +5,7% (było 59,5% / +5,5%), lepiej w obu okresach.
-PatternSize patternSizeRule = PatternSize.elevenOf20;
+/// Test na 689 walorach × 5 lat: 11 z 20 → pojedyncze sygnały minimalnie lepsze (59,6% / +5,7% vs 59,5% / +5,5%),
+/// ale bot na całym rynku gorszy we wszystkich okresach (5 lat +44,5% vs +54,3%) - zostaje dotychczasowa reguła.
+PatternSize patternSizeRule = PatternSize.avgHalf;
 
 /// Liczba świec formacji.
 int patternSpan(CandlePattern p) => switch (p) {
