@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T04:05:34.365039Z",
+ "updated": "2026-11-12T12:35:49.804559Z",
  "top": [
   {
    "s": "AMT",
@@ -148,6 +148,19 @@
    ]
   },
   {
+   "s": "CDNS",
+   "n": "Cadence Design Systems, Inc.",
+   "sig": "kup",
+   "score": 3.0,
+   "wok": true,
+   "why": [
+    "realny cel",
+    "duże ruchy (szeroki stop)",
+    "tu działało 1/2",
+    "tydzień potwierdza"
+   ]
+  },
+  {
    "s": "TEL",
    "n": "TE Connectivity plc",
    "sig": "kup",
@@ -158,19 +171,6 @@
     "realny cel",
     "duże ruchy (szeroki stop)",
     "tu słabo: 0/2",
-    "tydzień potwierdza"
-   ]
-  },
-  {
-   "s": "CDNS",
-   "n": "Cadence Design Systems, Inc.",
-   "sig": "kup",
-   "score": 3.0,
-   "wok": true,
-   "why": [
-    "realny cel",
-    "duże ruchy (szeroki stop)",
-    "tu działało 1/2",
     "tydzień potwierdza"
    ]
   },
@@ -222,6 +222,18 @@
     "wyraźnie nad średnią 200 sesji",
     "duże ruchy (szeroki stop)",
     "tydzień nie potwierdza"
+   ]
+  },
+  {
+   "s": "XTB.WA",
+   "n": "XTB C.XWAR PLN",
+   "sig": "kup",
+   "score": 2.5,
+   "wok": true,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "duże ruchy (szeroki stop)",
+    "tydzień potwierdza"
    ]
   },
   {
@@ -287,17 +299,6 @@
    ]
   },
   {
-   "s": "APR.WA",
-   "n": "APR C.XWAR PLN",
-   "sig": "kup",
-   "score": 1.5,
-   "wok": true,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tydzień potwierdza"
-   ]
-  },
-  {
    "s": "ORLY",
    "n": "O'Reilly Automotive, Inc.",
    "sig": "kup",
@@ -353,23 +354,13 @@
    ]
   },
   {
-   "s": "XTB.WA",
-   "n": "XTB C.XWAR PLN",
+   "s": "APR.WA",
+   "n": "APR C.XWAR PLN",
    "sig": "kup",
    "score": 1.5,
    "wok": true,
    "why": [
     "wyraźnie nad średnią 200 sesji",
-    "tydzień potwierdza"
-   ]
-  },
-  {
-   "s": "BOS.WA",
-   "n": "BOS C.XWAR PLN",
-   "sig": "kup",
-   "score": 0.5,
-   "wok": true,
-   "why": [
     "tydzień potwierdza"
    ]
   },
@@ -437,6 +428,16 @@
    "why": [
     "wyraźnie nad średnią 200 sesji",
     "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "WMT",
+   "n": "Walmart Inc.",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "wok": null,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
    ]
   },
   {
@@ -570,16 +571,6 @@
    ]
   },
   {
-   "s": "WMT",
-   "n": "Walmart Inc.",
-   "sig": "obserwuj",
-   "score": 1.5,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji"
-   ]
-  },
-  {
    "s": "HPQ",
    "n": "HP Inc.",
    "sig": "obserwuj",
@@ -630,8 +621,8 @@
    ]
   },
   {
-   "s": "BNR.DE",
-   "n": "Brenntag SE                   N",
+   "s": "VMC",
+   "n": "Vulcan Materials Company (Holdi",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -640,13 +631,23 @@
    ]
   },
   {
-   "s": "VMC",
-   "n": "Vulcan Materials Company (Holdi",
+   "s": "LDOS",
+   "n": "Leidos Holdings, Inc.",
    "sig": "obserwuj",
-   "score": 1.5,
+   "score": 1.0,
    "wok": null,
    "why": [
-    "wyraźnie nad średnią 200 sesji"
+    "tu działało 1/2"
+   ]
+  },
+  {
+   "s": "CPS.WA",
+   "n": "CPS C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "wok": null,
+   "why": [
+    "tu działało 1/1"
    ]
   },
   {
@@ -737,16 +738,6 @@
    "wok": null,
    "why": [
     "tu działało 1/1"
-   ]
-  },
-  {
-   "s": "LDOS",
-   "n": "Leidos Holdings, Inc.",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "tu działało 1/2"
    ]
   },
   {
@@ -874,16 +865,6 @@
    ]
   },
   {
-   "s": "CPS.WA",
-   "n": "CPS C.XWAR PLN",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "tu działało 1/1"
-   ]
-  },
-  {
    "s": "CL=F",
    "n": "Crude Oil Dec 26",
    "sig": "obserwuj",
@@ -926,6 +907,16 @@
    ]
   },
   {
+   "s": "EME",
+   "n": "EMCOR Group, Inc.",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "wok": null,
+   "why": [
+    "tu działało 2/2"
+   ]
+  },
+  {
    "s": "CNP",
    "n": "CenterPoint Energy, Inc (Holdin",
    "sig": "obserwuj",
@@ -936,14 +927,20 @@
    ]
   },
   {
-   "s": "EME",
-   "n": "EMCOR Group, Inc.",
+   "s": "BOS.WA",
+   "n": "BOS C.XWAR PLN",
    "sig": "obserwuj",
-   "score": 1.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu działało 2/2"
-   ]
+   "why": []
+  },
+  {
+   "s": "BNR.DE",
+   "n": "Brenntag SE                   N",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "wok": null,
+   "why": []
   },
   {
    "s": "PKN.WA",
@@ -1026,8 +1023,8 @@
    "why": []
   },
   {
-   "s": "SNA",
-   "n": "Snap-On Incorporated",
+   "s": "HUBB",
+   "n": "Hubbell Inc",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1050,8 +1047,8 @@
    "why": []
   },
   {
-   "s": "NOW",
-   "n": "ServiceNow, Inc.",
+   "s": "TXT.WA",
+   "n": "TXT C.XWAR PLN",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1066,8 +1063,8 @@
    "why": []
   },
   {
-   "s": "IMC.WA",
-   "n": "IMC C.XWAR PLN",
+   "s": "BKR",
+   "n": "Baker Hughes Company",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1258,30 +1255,28 @@
    "why": []
   },
   {
-   "s": "BKR",
-   "n": "Baker Hughes Company",
+   "s": "IMC.WA",
+   "n": "IMC C.XWAR PLN",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
    "why": []
   },
   {
-   "s": "HUBB",
-   "n": "Hubbell Inc",
+   "s": "SNA",
+   "n": "Snap-On Incorporated",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
    "why": []
   },
   {
-   "s": "WMB",
-   "n": "Williams Companies, Inc. (The)",
+   "s": "NOW",
+   "n": "ServiceNow, Inc.",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 0/1"
-   ]
+   "why": []
   },
   {
    "s": "GFS",
@@ -1486,6 +1481,16 @@
   {
    "s": "DASH",
    "n": "DoorDash, Inc.",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "WMB",
+   "n": "Williams Companies, Inc. (The)",
    "sig": "obserwuj",
    "score": 0.0,
    "wok": null,
@@ -2343,7 +2348,7 @@
   "TXT.WA": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-09"
+   "d": "2026-11-12"
   },
   "ENT.WA": {
    "w": 0,
@@ -2421,7 +2426,7 @@
    "d": "2026-11-12"
   }
  },
- "nextId": 129,
+ "nextId": 132,
  "events": [
   {
    "id": 1,
@@ -3900,6 +3905,38 @@
    "why": "poprawa",
    "p": 85.33999633789062,
    "h": "Korekta trwa (A). Strefa zakupu 78.22–79.14; kupuję dopiero po A-B-C i impulsie w górę."
+  },
+  {
+   "id": 129,
+   "at": "2026-11-12T12:35:49.804559Z",
+   "s": "BEI.DE",
+   "n": "BEIERSDORF AG                 I",
+   "t": "neg",
+   "why": "wypadek z klina",
+   "p": 84.54000091552734,
+   "h": "Wypadek z klina po 5 falach - ryzyko końca wzrostów. Nie dokładam, rozważ ograniczenie ryzyka."
+  },
+  {
+   "id": 130,
+   "at": "2026-11-12T12:35:49.804559Z",
+   "s": "MRK.DE",
+   "n": "MERCK KGAA                    I",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 154.6999969482422,
+   "h": "Trwa wzrost - nie gonię ceny. Okazja pojawi się po korekcie trójfalowej do strefy 132.11–132.11."
+  },
+  {
+   "id": 131,
+   "at": "2026-11-12T12:35:49.804559Z",
+   "s": "TXT.WA",
+   "n": "TXT C.XWAR PLN",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 38.540000915527344,
+   "h": "Korekta A-B-C i potwierdzenie są, ale cena jest pod średnią 200 sesji - w trendzie spadkowym takie sygnały częściej zawodzą.",
+   "score": 0.5,
+   "wok": null
   }
  ],
  "sig": {
@@ -4430,7 +4467,7 @@
   "ALV.DE": "czekaj",
   "BAS.DE": "czekaj",
   "BAYN.DE": "czekaj",
-  "BEI.DE": "czekaj",
+  "BEI.DE": "uwaga",
   "BMW.DE": "nie",
   "BNR.DE": "obserwuj",
   "CBK.DE": "czekaj",
@@ -4451,7 +4488,7 @@
   "HEI.DE": "nie",
   "IFX.DE": "czekaj",
   "MBG.DE": "nie",
-  "MRK.DE": "nie",
+  "MRK.DE": "czekaj",
   "MTX.DE": "czekaj",
   "MUV2.DE": "nie",
   "QIA.DE": "czekaj",
@@ -4486,7 +4523,7 @@
   "BIO.WA": "nie",
   "BHW.WA": "czekaj",
   "BNP.WA": "czekaj",
-  "BOS.WA": "kup",
+  "BOS.WA": "obserwuj",
   "BRS.WA": "nie",
   "CAR.WA": "czekaj",
   "CDR.WA": "czekaj",
@@ -4561,7 +4598,7 @@
   "STX.WA": "nie",
   "TEN.WA": "nie",
   "TOR.WA": "obserwuj",
-  "TXT.WA": "nie",
+  "TXT.WA": "obserwuj",
   "UNI.WA": "czekaj",
   "VGO.WA": "nie",
   "VOX.WA": "czekaj",
@@ -5287,7 +5324,7 @@
   "APR.WA|kup": "2026-11-10T09:49:45.359667Z",
   "DAT.WA|neg": "2026-11-10T09:49:45.359667Z",
   "SGN.WA|pos": "2026-11-10T09:49:45.359667Z",
-  "TXT.WA|pos": "2026-11-09T08:45:07.702596Z",
+  "TXT.WA|pos": "2026-11-12T12:35:49.804559Z",
   "ARES|kup": "2026-11-12T04:05:34.365039Z",
   "ESS|kup": "2026-11-09T11:01:14.786826Z",
   "VTR|kup": "2026-11-09T11:01:14.786826Z",
@@ -5356,7 +5393,7 @@
   "CVS|kup": "2026-11-12T04:05:34.365039Z",
   "MCK|pos": "2026-11-11T02:05:23.468763Z",
   "OXY|kup": "2026-11-11T02:05:23.468763Z",
-  "BEI.DE|neg": "2026-11-11T02:05:23.468763Z",
+  "BEI.DE|neg": "2026-11-12T12:35:49.804559Z",
   "SY1.DE|neg": "2026-11-11T02:05:23.468763Z",
   "DNP.WA|neg": "2026-11-11T02:05:23.468763Z",
   "APT.WA|pos": "2026-11-11T09:17:13.772802Z",
@@ -5387,6 +5424,7 @@
   "RSG|pos": "2026-11-12T04:05:34.365039Z",
   "SNDK|neg": "2026-11-12T04:05:34.365039Z",
   "WEC|pos": "2026-11-12T04:05:34.365039Z",
-  "BEI.DE|pos": "2026-11-12T04:05:34.365039Z"
+  "BEI.DE|pos": "2026-11-12T04:05:34.365039Z",
+  "MRK.DE|pos": "2026-11-12T12:35:49.804559Z"
  }
 }
