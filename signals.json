@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T01:20:29.954138Z",
+ "updated": "2026-11-13T08:10:53.409443Z",
  "top": [
   {
    "s": "MNST",
@@ -148,6 +148,19 @@
    ]
   },
   {
+   "s": "ESS",
+   "n": "Essex Property Trust, Inc.",
+   "sig": "kup",
+   "score": 3.0,
+   "wok": true,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "realny cel",
+    "tu działało 1/2",
+    "tydzień potwierdza"
+   ]
+  },
+  {
    "s": "TEL",
    "n": "TE Connectivity plc",
    "sig": "kup",
@@ -158,19 +171,6 @@
     "realny cel",
     "duże ruchy (szeroki stop)",
     "tu słabo: 0/2",
-    "tydzień potwierdza"
-   ]
-  },
-  {
-   "s": "ESS",
-   "n": "Essex Property Trust, Inc.",
-   "sig": "kup",
-   "score": 3.0,
-   "wok": true,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "realny cel",
-    "tu działało 1/2",
     "tydzień potwierdza"
    ]
   },
@@ -311,13 +311,13 @@
    ]
   },
   {
-   "s": "CVS",
-   "n": "CVS Health Corporation",
+   "s": "PSX",
+   "n": "Phillips 66",
    "sig": "kup",
    "score": 1.5,
    "wok": false,
    "why": [
-    "duże ruchy (szeroki stop)",
+    "wyraźnie nad średnią 200 sesji",
     "tydzień nie potwierdza"
    ]
   },
@@ -366,13 +366,13 @@
    ]
   },
   {
-   "s": "PSX",
-   "n": "Phillips 66",
+   "s": "CVS",
+   "n": "CVS Health Corporation",
    "sig": "kup",
    "score": 1.5,
    "wok": false,
    "why": [
-    "wyraźnie nad średnią 200 sesji",
+    "duże ruchy (szeroki stop)",
     "tydzień nie potwierdza"
    ]
   },
@@ -464,8 +464,8 @@
    ]
   },
   {
-   "s": "MRSH",
-   "n": "Marsh",
+   "s": "VMC",
+   "n": "Vulcan Materials Company (Holdi",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -584,8 +584,8 @@
    ]
   },
   {
-   "s": "VMC",
-   "n": "Vulcan Materials Company (Holdi",
+   "s": "MRSH",
+   "n": "Marsh",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -674,19 +674,18 @@
    ]
   },
   {
-   "s": "CVNA",
-   "n": "Carvana Co.",
+   "s": "LDOS",
+   "n": "Leidos Holdings, Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu słabo: 0/1"
+    "tu działało 1/2"
    ]
   },
   {
-   "s": "PCAR",
-   "n": "PACCAR Inc.",
+   "s": "SKA.WA",
+   "n": "SKA C.XWAR PLN",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
@@ -768,13 +767,14 @@
    ]
   },
   {
-   "s": "LDOS",
-   "n": "Leidos Holdings, Inc.",
+   "s": "CVNA",
+   "n": "Carvana Co.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 1/2"
+    "wyraźnie nad średnią 200 sesji",
+    "tu słabo: 0/1"
    ]
   },
   {
@@ -909,8 +909,8 @@
    ]
   },
   {
-   "s": "SKA.WA",
-   "n": "SKA C.XWAR PLN",
+   "s": "PCAR",
+   "n": "PACCAR Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
@@ -1029,8 +1029,8 @@
    "why": []
   },
   {
-   "s": "ETN",
-   "n": "Eaton Corporation, PLC",
+   "s": "INTC",
+   "n": "Intel Corporation",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1045,8 +1045,8 @@
    "why": []
   },
   {
-   "s": "MDG.WA",
-   "n": "MDG C.XWAR PLN",
+   "s": "PLD",
+   "n": "Prologis, Inc.",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1077,8 +1077,8 @@
    "why": []
   },
   {
-   "s": "Q",
-   "n": "Qnity Electronics, Inc.",
+   "s": "ECHO",
+   "n": "EchoStar Corporation",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1253,24 +1253,24 @@
    "why": []
   },
   {
-   "s": "ECHO",
-   "n": "EchoStar Corporation",
+   "s": "Q",
+   "n": "Qnity Electronics, Inc.",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
    "why": []
   },
   {
-   "s": "INTC",
-   "n": "Intel Corporation",
+   "s": "ETN",
+   "n": "Eaton Corporation, PLC",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
    "why": []
   },
   {
-   "s": "PLD",
-   "n": "Prologis, Inc.",
+   "s": "MDG.WA",
+   "n": "MDG C.XWAR PLN",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
