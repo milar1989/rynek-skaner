@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T16:23:00.187719Z",
+ "updated": "2026-11-13T22:04:12.800231Z",
  "top": [
   {
    "s": "GE",
@@ -390,8 +390,8 @@
    ]
   },
   {
-   "s": "TEAM",
-   "n": "Atlassian Corporation",
+   "s": "AON",
+   "n": "Aon plc",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -560,8 +560,8 @@
    ]
   },
   {
-   "s": "AON",
-   "n": "Aon plc",
+   "s": "TEAM",
+   "n": "Atlassian Corporation",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -580,13 +580,13 @@
    ]
   },
   {
-   "s": "LITE",
-   "n": "Lumentum Holdings Inc.",
+   "s": "JSW.WA",
+   "n": "JSW C.XWAR PLN",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 2/4"
+    "tu działało 1/1"
    ]
   },
   {
@@ -824,13 +824,13 @@
    ]
   },
   {
-   "s": "JSW.WA",
-   "n": "JSW C.XWAR PLN",
+   "s": "LITE",
+   "n": "Lumentum Holdings Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 1/1"
+    "tu działało 2/4"
    ]
   },
   {
@@ -1024,16 +1024,16 @@
    "why": []
   },
   {
-   "s": "MDB",
-   "n": "MongoDB, Inc.",
+   "s": "INTC",
+   "n": "Intel Corporation",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
    "why": []
   },
   {
-   "s": "BNR.DE",
-   "n": "Brenntag SE                   N",
+   "s": "KGH.WA",
+   "n": "KGH C.XWAR PLN",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1224,16 +1224,16 @@
    "why": []
   },
   {
-   "s": "INTC",
-   "n": "Intel Corporation",
+   "s": "MDB",
+   "n": "MongoDB, Inc.",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
    "why": []
   },
   {
-   "s": "KGH.WA",
-   "n": "KGH C.XWAR PLN",
+   "s": "BNR.DE",
+   "n": "Brenntag SE                   N",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
