@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T04:33:24.251447Z",
+ "updated": "2026-11-15T12:12:47.650273Z",
  "top": [
   {
    "s": "STT",
@@ -284,14 +284,14 @@
    ]
   },
   {
-   "s": "NTAP",
-   "n": "NetApp, Inc.",
+   "s": "ESS",
+   "n": "Essex Property Trust, Inc.",
    "sig": "kup",
    "score": 2.0,
    "wok": true,
    "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu działało 1/1",
+    "realny cel",
+    "tu działało 1/2",
     "tydzień potwierdza"
    ]
   },
@@ -309,14 +309,14 @@
    ]
   },
   {
-   "s": "ESS",
-   "n": "Essex Property Trust, Inc.",
+   "s": "NTAP",
+   "n": "NetApp, Inc.",
    "sig": "kup",
    "score": 2.0,
    "wok": true,
    "why": [
-    "realny cel",
-    "tu działało 1/2",
+    "wyraźnie nad średnią 200 sesji",
+    "tu działało 1/1",
     "tydzień potwierdza"
    ]
   },
@@ -431,8 +431,8 @@
    ]
   },
   {
-   "s": "GPP.WA",
-   "n": "GPP C.XWAR PLN",
+   "s": "PYPL",
+   "n": "PayPal Holdings, Inc.",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -591,8 +591,8 @@
    ]
   },
   {
-   "s": "PYPL",
-   "n": "PayPal Holdings, Inc.",
+   "s": "GPP.WA",
+   "n": "GPP C.XWAR PLN",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -661,18 +661,18 @@
    ]
   },
   {
-   "s": "CPS.WA",
-   "n": "CPS C.XWAR PLN",
+   "s": "EME",
+   "n": "EMCOR Group, Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 1/1"
+    "tu działało 2/2"
    ]
   },
   {
-   "s": "GEV",
-   "n": "GE Vernova Inc.",
+   "s": "GOOG",
+   "n": "Alphabet Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
@@ -751,13 +751,13 @@
    ]
   },
   {
-   "s": "EME",
-   "n": "EMCOR Group, Inc.",
+   "s": "CPS.WA",
+   "n": "CPS C.XWAR PLN",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 2/2"
+    "tu działało 1/1"
    ]
   },
   {
@@ -902,8 +902,8 @@
    ]
   },
   {
-   "s": "GOOG",
-   "n": "Alphabet Inc.",
+   "s": "GEV",
+   "n": "GE Vernova Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
@@ -1037,8 +1037,8 @@
    "why": []
   },
   {
-   "s": "TJX",
-   "n": "TJX Companies, Inc. (The)",
+   "s": "KGH.WA",
+   "n": "KGH C.XWAR PLN",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1069,8 +1069,8 @@
    "why": []
   },
   {
-   "s": "BG",
-   "n": "Bunge Limited",
+   "s": "COF",
+   "n": "Capital One Financial Corporati",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1093,8 +1093,8 @@
    "why": []
   },
   {
-   "s": "LVS",
-   "n": "Las Vegas Sands Corp.",
+   "s": "HII",
+   "n": "Huntington Ingalls Industries, ",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1277,24 +1277,24 @@
    "why": []
   },
   {
-   "s": "HII",
-   "n": "Huntington Ingalls Industries, ",
+   "s": "LVS",
+   "n": "Las Vegas Sands Corp.",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
    "why": []
   },
   {
-   "s": "KGH.WA",
-   "n": "KGH C.XWAR PLN",
+   "s": "TJX",
+   "n": "TJX Companies, Inc. (The)",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
    "why": []
   },
   {
-   "s": "COF",
-   "n": "Capital One Financial Corporati",
+   "s": "BG",
+   "n": "Bunge Limited",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
