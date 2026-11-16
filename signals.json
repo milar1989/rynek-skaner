@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T02:51:39.860526Z",
+ "updated": "2026-11-16T10:16:21.991617Z",
  "top": [
   {
    "s": "STT",
@@ -284,14 +284,14 @@
    ]
   },
   {
-   "s": "NTAP",
-   "n": "NetApp, Inc.",
+   "s": "ESS",
+   "n": "Essex Property Trust, Inc.",
    "sig": "kup",
    "score": 2.0,
    "wok": true,
    "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu działało 1/1",
+    "realny cel",
+    "tu działało 1/2",
     "tydzień potwierdza"
    ]
   },
@@ -309,14 +309,14 @@
    ]
   },
   {
-   "s": "ESS",
-   "n": "Essex Property Trust, Inc.",
+   "s": "NTAP",
+   "n": "NetApp, Inc.",
    "sig": "kup",
    "score": 2.0,
    "wok": true,
    "why": [
-    "realny cel",
-    "tu działało 1/2",
+    "wyraźnie nad średnią 200 sesji",
+    "tu działało 1/1",
     "tydzień potwierdza"
    ]
   },
@@ -431,8 +431,8 @@
    ]
   },
   {
-   "s": "GPP.WA",
-   "n": "GPP C.XWAR PLN",
+   "s": "PYPL",
+   "n": "PayPal Holdings, Inc.",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -591,8 +591,8 @@
    ]
   },
   {
-   "s": "PYPL",
-   "n": "PayPal Holdings, Inc.",
+   "s": "GPP.WA",
+   "n": "GPP C.XWAR PLN",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -661,8 +661,8 @@
    ]
   },
   {
-   "s": "CPS.WA",
-   "n": "CPS C.XWAR PLN",
+   "s": "CNP",
+   "n": "CenterPoint Energy, Inc (Holdin",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
@@ -671,13 +671,14 @@
    ]
   },
   {
-   "s": "GEV",
-   "n": "GE Vernova Inc.",
+   "s": "SPGI",
+   "n": "S&P Global Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 1/1"
+    "wyraźnie nad średnią 200 sesji",
+    "tu słabo: 0/1"
    ]
   },
   {
@@ -731,16 +732,6 @@
    ]
   },
   {
-   "s": "DTG.DE",
-   "n": "Daimler Truck Holding AG      N",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "tu działało 1/2"
-   ]
-  },
-  {
    "s": "LDOS",
    "n": "Leidos Holdings, Inc.",
    "sig": "obserwuj",
@@ -761,8 +752,8 @@
    ]
   },
   {
-   "s": "CNP",
-   "n": "CenterPoint Energy, Inc (Holdin",
+   "s": "CPS.WA",
+   "n": "CPS C.XWAR PLN",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
@@ -912,14 +903,13 @@
    ]
   },
   {
-   "s": "SPGI",
-   "n": "S&P Global Inc.",
+   "s": "GEV",
+   "n": "GE Vernova Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu słabo: 0/1"
+    "tu działało 1/1"
    ]
   },
   {
@@ -965,20 +955,25 @@
    ]
   },
   {
-   "s": "BKR",
-   "n": "Baker Hughes Company",
+   "s": "APT.WA",
+   "n": "APT C.XWAR PLN",
    "sig": "obserwuj",
-   "score": 0.5,
+   "score": 1.0,
    "wok": null,
-   "why": []
+   "why": [
+    "tu działało 2/2"
+   ]
   },
   {
-   "s": "MDB",
-   "n": "MongoDB, Inc.",
+   "s": "FME.DE",
+   "n": "Fresenius Medical Care AG     I",
    "sig": "obserwuj",
-   "score": 0.5,
+   "score": 1.0,
    "wok": null,
-   "why": []
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu słabo: 0/1"
+   ]
   },
   {
    "s": "VMC",
@@ -1045,8 +1040,8 @@
    "why": []
   },
   {
-   "s": "BA",
-   "n": "Boeing Company (The)",
+   "s": "MDB",
+   "n": "MongoDB, Inc.",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1077,8 +1072,8 @@
    "why": []
   },
   {
-   "s": "CHRW",
-   "n": "C.H. Robinson Worldwide, Inc.",
+   "s": "BKR",
+   "n": "Baker Hughes Company",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1101,8 +1096,8 @@
    "why": []
   },
   {
-   "s": "T",
-   "n": "AT&T Inc.",
+   "s": "COF",
+   "n": "Capital One Financial Corporati",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1293,32 +1288,28 @@
    "why": []
   },
   {
-   "s": "COF",
-   "n": "Capital One Financial Corporati",
+   "s": "T",
+   "n": "AT&T Inc.",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
    "why": []
   },
   {
-   "s": "ROK",
-   "n": "Rockwell Automation, Inc.",
+   "s": "BA",
+   "n": "Boeing Company (The)",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 0/3"
-   ]
+   "why": []
   },
   {
-   "s": "DOV",
-   "n": "Dover Corporation",
+   "s": "CHRW",
+   "n": "C.H. Robinson Worldwide, Inc.",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 1/3"
-   ]
+   "why": []
   },
   {
    "s": "DASH",
@@ -1431,13 +1422,13 @@
    ]
   },
   {
-   "s": "FME.DE",
-   "n": "Fresenius Medical Care AG     I",
+   "s": "ROK",
+   "n": "Rockwell Automation, Inc.",
    "sig": "obserwuj",
    "score": 0.0,
    "wok": null,
    "why": [
-    "tu słabo: 0/1"
+    "tu słabo: 0/3"
    ]
   },
   {
@@ -1528,6 +1519,26 @@
    "wok": null,
    "why": [
     "tu słabo: 0/2"
+   ]
+  },
+  {
+   "s": "DTE.DE",
+   "n": "DEUTSCHE TELEKOM AG           N",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "DOV",
+   "n": "Dover Corporation",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 1/3"
    ]
   }
  ],
@@ -2471,9 +2482,19 @@
    "w": 0,
    "n": 0,
    "d": "2026-11-16"
+  },
+  "DTE.DE": {
+   "w": 0,
+   "n": 1,
+   "d": "2026-11-16"
+  },
+  "APT.WA": {
+   "w": 2,
+   "n": 2,
+   "d": "2026-11-16"
   }
  },
- "nextId": 199,
+ "nextId": 201,
  "events": [
   {
    "id": 1,
@@ -4783,6 +4804,28 @@
    "why": "wypadek z klina",
    "p": 92.5,
    "h": "Wypadek z klina po 5 falach - ryzyko końca wzrostów. Nie dokładam, rozważ ograniczenie ryzyka."
+  },
+  {
+   "id": 199,
+   "at": "2026-11-16T10:16:21.991617Z",
+   "s": "DTE.DE",
+   "n": "DEUTSCHE TELEKOM AG           N",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 26.969999313354492,
+   "h": "Cena w strefie, korekta A-B-C kompletna - czekam na impuls w górę jako potwierdzenie.",
+   "score": 0.0,
+   "wok": null
+  },
+  {
+   "id": 200,
+   "at": "2026-11-16T10:16:21.991617Z",
+   "s": "SGN.WA",
+   "n": "SGN C.XWAR PLN",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 90.30000305175781,
+   "h": "Korekta trwa (A). Strefa zakupu 80.41–80.50; kupuję dopiero po A-B-C i impulsie w górę."
   }
  ],
  "sig": {
@@ -5321,8 +5364,8 @@
   "DB1.DE": "czekaj",
   "DBK.DE": "czekaj",
   "DHL.DE": "czekaj",
-  "DTG.DE": "obserwuj",
-  "DTE.DE": "nie",
+  "DTG.DE": "czekaj",
+  "DTE.DE": "obserwuj",
   "ENR.DE": "obserwuj",
   "EOAN.DE": "nie",
   "G1A.DE": "czekaj",
@@ -5359,7 +5402,7 @@
   "AMC.WA": "nie",
   "APR.WA": "czekaj",
   "ARH.WA": "czekaj",
-  "APT.WA": "czekaj",
+  "APT.WA": "obserwuj",
   "ASB.WA": "czekaj",
   "ASE.WA": "czekaj",
   "ATC.WA": "nie",
@@ -5435,7 +5478,7 @@
   "QRS.WA": "czekaj",
   "RBW.WA": "obserwuj",
   "RVU.WA": "nie",
-  "SGN.WA": "uwaga",
+  "SGN.WA": "czekaj",
   "SEL.WA": "nie",
   "SKA.WA": "obserwuj",
   "SLV.WA": "nie",
@@ -6171,7 +6214,7 @@
   "ZAL.DE|kup": "2026-11-09T08:45:07.702596Z",
   "APR.WA|kup": "2026-11-10T09:49:45.359667Z",
   "DAT.WA|neg": "2026-11-10T09:49:45.359667Z",
-  "SGN.WA|pos": "2026-11-10T09:49:45.359667Z",
+  "SGN.WA|pos": "2026-11-16T10:16:21.991617Z",
   "TXT.WA|pos": "2026-11-14T02:18:45.525649Z",
   "ARES|kup": "2026-11-12T04:05:34.365039Z",
   "ESS|kup": "2026-11-09T11:01:14.786826Z",
@@ -6310,6 +6353,7 @@
   "TEL|neg": "2026-11-14T02:18:45.525649Z",
   "MAB.WA|pos": "2026-11-14T02:18:45.525649Z",
   "GDDY|pos": "2026-11-15T04:33:24.251447Z",
-  "CRI.WA|pos": "2026-11-15T04:33:24.251447Z"
+  "CRI.WA|pos": "2026-11-15T04:33:24.251447Z",
+  "DTE.DE|pos": "2026-11-16T10:16:21.991617Z"
  }
 }
