@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T03:07:15.822380Z",
+ "updated": "2026-11-17T11:44:25.984457Z",
  "top": [
   {
    "s": "AMT",
@@ -198,14 +198,15 @@
    ]
   },
   {
-   "s": "BOS.WA",
-   "n": "BOS C.XWAR PLN",
+   "s": "SNPS",
+   "n": "Synopsys, Inc.",
    "sig": "kup",
-   "score": 2.5,
+   "score": 2.0,
    "wok": true,
    "why": [
-    "wyraźnie nad średnią 200 sesji",
+    "realny cel",
     "duże ruchy (szeroki stop)",
+    "tu słabo: 0/1",
     "tydzień potwierdza"
    ]
   },
@@ -222,15 +223,13 @@
    ]
   },
   {
-   "s": "SNPS",
-   "n": "Synopsys, Inc.",
+   "s": "APR.WA",
+   "n": "APR C.XWAR PLN",
    "sig": "kup",
-   "score": 2.0,
+   "score": 1.5,
    "wok": true,
    "why": [
-    "realny cel",
-    "duże ruchy (szeroki stop)",
-    "tu słabo: 0/1",
+    "wyraźnie nad średnią 200 sesji",
     "tydzień potwierdza"
    ]
   },
@@ -268,19 +267,19 @@
    ]
   },
   {
-   "s": "APD",
-   "n": "Air Products and Chemicals, Inc",
-   "sig": "obserwuj",
-   "score": 2.0,
-   "wok": null,
+   "s": "BOS.WA",
+   "n": "BOS C.XWAR PLN",
+   "sig": "kup",
+   "score": 1.5,
+   "wok": true,
    "why": [
     "wyraźnie nad średnią 200 sesji",
-    "tu działało 1/1"
+    "tydzień potwierdza"
    ]
   },
   {
-   "s": "ZBRA",
-   "n": "Zebra Technologies Corporation",
+   "s": "NTAP",
+   "n": "NetApp, Inc.",
    "sig": "obserwuj",
    "score": 2.0,
    "wok": null,
@@ -345,8 +344,19 @@
    ]
   },
   {
-   "s": "NTAP",
-   "n": "NetApp, Inc.",
+   "s": "ZBRA",
+   "n": "Zebra Technologies Corporation",
+   "sig": "obserwuj",
+   "score": 2.0,
+   "wok": null,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "APD",
+   "n": "Air Products and Chemicals, Inc",
    "sig": "obserwuj",
    "score": 2.0,
    "wok": null,
@@ -396,16 +406,6 @@
    ]
   },
   {
-   "s": "HPQ",
-   "n": "HP Inc.",
-   "sig": "obserwuj",
-   "score": 1.5,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji"
-   ]
-  },
-  {
    "s": "ZBH",
    "n": "Zimmer Biomet Holdings, Inc.",
    "sig": "obserwuj",
@@ -446,8 +446,8 @@
    ]
   },
   {
-   "s": "GEHC",
-   "n": "GE HealthCare Technologies Inc.",
+   "s": "VTR",
+   "n": "Ventas, Inc.",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -566,8 +566,8 @@
    ]
   },
   {
-   "s": "VTR",
-   "n": "Ventas, Inc.",
+   "s": "GEHC",
+   "n": "GE HealthCare Technologies Inc.",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -576,8 +576,18 @@
    ]
   },
   {
-   "s": "GOOG",
-   "n": "Alphabet Inc.",
+   "s": "HPQ",
+   "n": "HP Inc.",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "wok": null,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "GEV",
+   "n": "GE Vernova Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
@@ -586,19 +596,8 @@
    ]
   },
   {
-   "s": "CVNA",
-   "n": "Carvana Co.",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu słabo: 0/1"
-   ]
-  },
-  {
-   "s": "GEV",
-   "n": "GE Vernova Inc.",
+   "s": "BNR.DE",
+   "n": "Brenntag SE                   N",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
@@ -859,8 +858,8 @@
    ]
   },
   {
-   "s": "BNR.DE",
-   "n": "Brenntag SE                   N",
+   "s": "GOOG",
+   "n": "Alphabet Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
@@ -931,12 +930,15 @@
    ]
   },
   {
-   "s": "APO",
-   "n": "Apollo Global Management, Inc. ",
+   "s": "CVNA",
+   "n": "Carvana Co.",
    "sig": "obserwuj",
-   "score": 0.5,
+   "score": 1.0,
    "wok": null,
-   "why": []
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu słabo: 0/1"
+   ]
   },
   {
    "s": "VMC",
@@ -979,8 +981,8 @@
    "why": []
   },
   {
-   "s": "ODFL",
-   "n": "Old Dominion Freight Line, Inc.",
+   "s": "APO",
+   "n": "Apollo Global Management, Inc. ",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1013,14 +1015,6 @@
   {
    "s": "OKE",
    "n": "ONEOK, Inc.",
-   "sig": "obserwuj",
-   "score": 0.5,
-   "wok": null,
-   "why": []
-  },
-  {
-   "s": "TXT.WA",
-   "n": "TXT C.XWAR PLN",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1091,8 +1085,8 @@
    "why": []
   },
   {
-   "s": "CVS",
-   "n": "CVS Health Corporation",
+   "s": "AXP",
+   "n": "American Express Company",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1299,22 +1293,20 @@
    "why": []
   },
   {
-   "s": "AXP",
-   "n": "American Express Company",
+   "s": "ODFL",
+   "n": "Old Dominion Freight Line, Inc.",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
    "why": []
   },
   {
-   "s": "NEU.WA",
-   "n": "NEU C.XWAR PLN",
+   "s": "CVS",
+   "n": "CVS Health Corporation",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 0/1"
-   ]
+   "why": []
   },
   {
    "s": "UBER",
@@ -1549,6 +1541,26 @@
   {
    "s": "FME.DE",
    "n": "Fresenius Medical Care AG     I",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "DTE.DE",
+   "n": "DEUTSCHE TELEKOM AG           N",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "NEU.WA",
+   "n": "NEU C.XWAR PLN",
    "sig": "obserwuj",
    "score": 0.0,
    "wok": null,
@@ -2271,7 +2283,7 @@
   "APR.WA": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-14"
+   "d": "2026-11-17"
   },
   "BOS.WA": {
    "w": 0,
@@ -2501,7 +2513,7 @@
   "DTE.DE": {
    "w": 0,
    "n": 1,
-   "d": "2026-11-16"
+   "d": "2026-11-17"
   },
   "APT.WA": {
    "w": 2,
@@ -2519,7 +2531,7 @@
    "d": "2026-11-17"
   }
  },
- "nextId": 221,
+ "nextId": 226,
  "events": [
   {
    "id": 1,
@@ -5078,6 +5090,63 @@
    "why": "wypadek z klina",
    "p": 92.5,
    "h": "Wypadek z klina po 5 falach - ryzyko końca wzrostów. Nie dokładam, rozważ ograniczenie ryzyka."
+  },
+  {
+   "id": 221,
+   "at": "2026-11-17T11:44:25.984457Z",
+   "s": "BEI.DE",
+   "n": "BEIERSDORF AG                 I",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 83.04000091552734,
+   "h": "Korekta trwa (A). Strefa zakupu 78.22–79.14; kupuję dopiero po A-B-C i impulsie w górę."
+  },
+  {
+   "id": 222,
+   "at": "2026-11-17T11:44:25.984457Z",
+   "s": "DTE.DE",
+   "n": "DEUTSCHE TELEKOM AG           N",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 27.209999084472656,
+   "h": "Cena w strefie, korekta A-B-C kompletna - czekam na impuls w górę jako potwierdzenie.",
+   "score": 0.0,
+   "wok": null
+  },
+  {
+   "id": 223,
+   "at": "2026-11-17T11:44:25.984457Z",
+   "s": "APR.WA",
+   "n": "APR C.XWAR PLN",
+   "t": "kup",
+   "why": "korekta A-B-C + impuls",
+   "p": 28.799999237060547,
+   "h": "Sygnał KUP: korekta A-B-C w strefie 1 narzędzi i wyższy dołek i wybicie szczytu pierwszej fali (start fali 3). Dodatkowo zgodne: 0 z 4 (informacyjnie).",
+   "score": 1.5,
+   "wok": true,
+   "st": 26.680500755310057,
+   "t1": 31.950000762939453,
+   "t2": 42.74156392612232
+  },
+  {
+   "id": 224,
+   "at": "2026-11-17T11:44:25.984457Z",
+   "s": "SGN.WA",
+   "n": "SGN C.XWAR PLN",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 92.0,
+   "h": "Korekta trwa (A). Strefa zakupu 80.41–80.50; kupuję dopiero po A-B-C i impulsie w górę."
+  },
+  {
+   "id": 225,
+   "at": "2026-11-17T11:44:25.984457Z",
+   "s": "TXT.WA",
+   "n": "TXT C.XWAR PLN",
+   "t": "neg",
+   "why": "scenariusz zanegowany",
+   "p": 37.619998931884766,
+   "h": "Cena poniżej 37.85 (zasięg 1.618 fali A (korekta płaska nieregularna)) - scenariusz korekty zanegowany. Możliwy koniec trendu; czekam na nową strukturę."
   }
  ],
  "sig": {
@@ -5608,7 +5677,7 @@
   "ALV.DE": "czekaj",
   "BAS.DE": "czekaj",
   "BAYN.DE": "czekaj",
-  "BEI.DE": "uwaga",
+  "BEI.DE": "czekaj",
   "BMW.DE": "nie",
   "BNR.DE": "obserwuj",
   "CBK.DE": "czekaj",
@@ -5617,7 +5686,7 @@
   "DBK.DE": "czekaj",
   "DHL.DE": "czekaj",
   "DTG.DE": "obserwuj",
-  "DTE.DE": "nie",
+  "DTE.DE": "obserwuj",
   "ENR.DE": "obserwuj",
   "EOAN.DE": "nie",
   "G1A.DE": "czekaj",
@@ -5652,7 +5721,7 @@
   "AGO.WA": "czekaj",
   "AMB.WA": "nie",
   "AMC.WA": "nie",
-  "APR.WA": "czekaj",
+  "APR.WA": "kup",
   "ARH.WA": "czekaj",
   "APT.WA": "obserwuj",
   "ASB.WA": "czekaj",
@@ -5730,7 +5799,7 @@
   "QRS.WA": "czekaj",
   "RBW.WA": "obserwuj",
   "RVU.WA": "nie",
-  "SGN.WA": "uwaga",
+  "SGN.WA": "czekaj",
   "SEL.WA": "nie",
   "SKA.WA": "obserwuj",
   "SLV.WA": "nie",
@@ -5739,7 +5808,7 @@
   "STX.WA": "nie",
   "TEN.WA": "nie",
   "TOR.WA": "obserwuj",
-  "TXT.WA": "obserwuj",
+  "TXT.WA": "nie",
   "UNI.WA": "czekaj",
   "VGO.WA": "nie",
   "VOX.WA": "czekaj",
@@ -6464,9 +6533,9 @@
   "ETH-USD|pos": "2026-11-08T22:26:54.097401Z",
   "SIE.DE|kup": "2026-11-09T08:45:07.702596Z",
   "ZAL.DE|kup": "2026-11-09T08:45:07.702596Z",
-  "APR.WA|kup": "2026-11-10T09:49:45.359667Z",
+  "APR.WA|kup": "2026-11-17T11:44:25.984457Z",
   "DAT.WA|neg": "2026-11-10T09:49:45.359667Z",
-  "SGN.WA|pos": "2026-11-16T10:16:21.991617Z",
+  "SGN.WA|pos": "2026-11-17T11:44:25.984457Z",
   "TXT.WA|pos": "2026-11-14T02:18:45.525649Z",
   "ARES|kup": "2026-11-12T04:05:34.365039Z",
   "ESS|kup": "2026-11-09T11:01:14.786826Z",
@@ -6518,7 +6587,7 @@
   "ENT.WA|neg": "2026-11-10T02:10:54.990863Z",
   "GPP.WA|pos": "2026-11-11T09:17:13.772802Z",
   "SGN.WA|neg": "2026-11-17T03:07:15.822380Z",
-  "TXT.WA|neg": "2026-11-13T01:20:29.954138Z",
+  "TXT.WA|neg": "2026-11-17T11:44:25.984457Z",
   "SY1.DE|pos": "2026-11-10T09:49:45.359667Z",
   "DNP.WA|pos": "2026-11-10T09:49:45.359667Z",
   "XTB.WA|kup": "2026-11-10T09:49:45.359667Z",
@@ -6567,7 +6636,7 @@
   "RSG|pos": "2026-11-12T04:05:34.365039Z",
   "SNDK|neg": "2026-11-12T04:05:34.365039Z",
   "WEC|pos": "2026-11-12T04:05:34.365039Z",
-  "BEI.DE|pos": "2026-11-13T16:23:00.187719Z",
+  "BEI.DE|pos": "2026-11-17T11:44:25.984457Z",
   "MRK.DE|pos": "2026-11-13T16:23:00.187719Z",
   "A|neg": "2026-11-12T20:25:25.093036Z",
   "IQV|pos": "2026-11-12T20:25:25.093036Z",
@@ -6606,7 +6675,7 @@
   "MAB.WA|pos": "2026-11-14T02:18:45.525649Z",
   "GDDY|pos": "2026-11-15T04:33:24.251447Z",
   "CRI.WA|pos": "2026-11-15T04:33:24.251447Z",
-  "DTE.DE|pos": "2026-11-16T10:16:21.991617Z",
+  "DTE.DE|pos": "2026-11-17T11:44:25.984457Z",
   "CARR|neg": "2026-11-16T20:33:47.235437Z",
   "CF|kup": "2026-11-16T20:33:47.235437Z",
   "ES|pos": "2026-11-16T20:33:47.235437Z",
