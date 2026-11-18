@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-18T10:25:35.158018Z",
+ "updated": "2026-11-18T18:57:46.108985Z",
  "top": [
+  {
+   "s": "GE",
+   "n": "GE Aerospace",
+   "sig": "kup",
+   "score": 4.0,
+   "wok": true,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "realny cel",
+    "duże ruchy (szeroki stop)",
+    "tu działało 1/2",
+    "tydzień potwierdza"
+   ]
+  },
   {
    "s": "AMT",
    "n": "American Tower Corporation (REI",
@@ -16,8 +30,22 @@
    ]
   },
   {
-   "s": "APP",
-   "n": "Applovin Corporation",
+   "s": "ABT",
+   "n": "Abbott Laboratories",
+   "sig": "kup",
+   "score": 4.0,
+   "wok": true,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "realny cel",
+    "duże ruchy (szeroki stop)",
+    "tu działało 1/1",
+    "tydzień potwierdza"
+   ]
+  },
+  {
+   "s": "BXP",
+   "n": "BXP, Inc.",
    "sig": "kup",
    "score": 3.5,
    "wok": true,
@@ -68,19 +96,6 @@
    ]
   },
   {
-   "s": "PGR",
-   "n": "Progressive Corporation (The)",
-   "sig": "kup",
-   "score": 3.5,
-   "wok": true,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "realny cel",
-    "duże ruchy (szeroki stop)",
-    "tydzień potwierdza"
-   ]
-  },
-  {
    "s": "AOS",
    "n": "A.O. Smith Corporation",
    "sig": "kup",
@@ -107,62 +122,34 @@
    ]
   },
   {
-   "s": "ISRG",
-   "n": "Intuitive Surgical, Inc.",
+   "s": "PYPL",
+   "n": "PayPal Holdings, Inc.",
    "sig": "kup",
    "score": 3.5,
-   "wok": false,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "realny cel",
-    "duże ruchy (szeroki stop)",
-    "tydzień nie potwierdza"
-   ]
-  },
-  {
-   "s": "GE",
-   "n": "GE Aerospace",
-   "sig": "kup",
-   "score": 3.0,
-   "wok": true,
-   "why": [
-    "realny cel",
-    "duże ruchy (szeroki stop)",
-    "tu działało 1/2",
-    "tydzień potwierdza"
-   ]
-  },
-  {
-   "s": "NTRS",
-   "n": "Northern Trust Corporation",
-   "sig": "kup",
-   "score": 3.0,
    "wok": true,
    "why": [
     "wyraźnie nad średnią 200 sesji",
     "realny cel",
     "duże ruchy (szeroki stop)",
-    "tu słabo: 0/1",
     "tydzień potwierdza"
    ]
   },
   {
-   "s": "CF",
-   "n": "CF Industries Holdings, Inc.",
+   "s": "VTR",
+   "n": "Ventas, Inc.",
    "sig": "kup",
-   "score": 3.0,
+   "score": 3.5,
    "wok": true,
    "why": [
     "wyraźnie nad średnią 200 sesji",
     "realny cel",
     "duże ruchy (szeroki stop)",
-    "tu słabo: 0/1",
     "tydzień potwierdza"
    ]
   },
   {
-   "s": "STT",
-   "n": "State Street Corporation",
+   "s": "MNST",
+   "n": "Monster Beverage Corporation",
    "sig": "kup",
    "score": 3.0,
    "wok": true,
@@ -174,27 +161,66 @@
    ]
   },
   {
-   "s": "OXY",
-   "n": "Occidental Petroleum Corporatio",
+   "s": "CI",
+   "n": "The Cigna Group",
    "sig": "kup",
    "score": 3.0,
-   "wok": false,
+   "wok": true,
    "why": [
     "realny cel",
     "duże ruchy (szeroki stop)",
-    "tu działało 2/2",
-    "tydzień nie potwierdza"
+    "tu działało 1/1",
+    "tydzień potwierdza"
    ]
   },
   {
-   "s": "DOC",
-   "n": "Healthpeak Properties, Inc.",
+   "s": "SPGI",
+   "n": "S&P Global Inc.",
+   "sig": "kup",
+   "score": 3.0,
+   "wok": true,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "realny cel",
+    "duże ruchy (szeroki stop)",
+    "tu słabo: 0/1",
+    "tydzień potwierdza"
+   ]
+  },
+  {
+   "s": "SOLV",
+   "n": "Solventum Corporation",
    "sig": "kup",
    "score": 2.5,
    "wok": true,
    "why": [
     "wyraźnie nad średnią 200 sesji",
     "realny cel",
+    "tydzień potwierdza"
+   ]
+  },
+  {
+   "s": "VMC",
+   "n": "Vulcan Materials Company (Holdi",
+   "sig": "kup",
+   "score": 2.5,
+   "wok": true,
+   "why": [
+    "realny cel",
+    "duże ruchy (szeroki stop)",
+    "tydzień potwierdza"
+   ]
+  },
+  {
+   "s": "NTRS",
+   "n": "Northern Trust Corporation",
+   "sig": "kup",
+   "score": 2.0,
+   "wok": true,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "realny cel",
+    "tu słabo: 0/1",
     "tydzień potwierdza"
    ]
   },
@@ -211,38 +237,15 @@
    ]
   },
   {
-   "s": "SNPS",
-   "n": "Synopsys, Inc.",
+   "s": "NSC",
+   "n": "Norfolk Southern Corporation",
    "sig": "kup",
    "score": 2.0,
    "wok": true,
    "why": [
-    "realny cel",
-    "duże ruchy (szeroki stop)",
-    "tu słabo: 0/1",
-    "tydzień potwierdza"
-   ]
-  },
-  {
-   "s": "MPC",
-   "n": "Marathon Petroleum Corporation",
-   "sig": "kup",
-   "score": 1.5,
-   "wok": true,
-   "why": [
     "wyraźnie nad średnią 200 sesji",
+    "tu działało 1/1",
     "tydzień potwierdza"
-   ]
-  },
-  {
-   "s": "PSX",
-   "n": "Phillips 66",
-   "sig": "kup",
-   "score": 1.5,
-   "wok": false,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tydzień nie potwierdza"
    ]
   },
   {
@@ -268,8 +271,18 @@
    ]
   },
   {
-   "s": "NTAP",
-   "n": "NetApp, Inc.",
+   "s": "DOC",
+   "n": "Healthpeak Properties, Inc.",
+   "sig": "kup",
+   "score": 0.5,
+   "wok": true,
+   "why": [
+    "tydzień potwierdza"
+   ]
+  },
+  {
+   "s": "WAT",
+   "n": "Waters Corporation",
    "sig": "obserwuj",
    "score": 2.0,
    "wok": null,
@@ -281,6 +294,17 @@
   {
    "s": "UNP",
    "n": "Union Pacific Corporation",
+   "sig": "obserwuj",
+   "score": 2.0,
+   "wok": null,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "NTAP",
+   "n": "NetApp, Inc.",
    "sig": "obserwuj",
    "score": 2.0,
    "wok": null,
@@ -312,8 +336,41 @@
    ]
   },
   {
+   "s": "TWLO",
+   "n": "Twilio Inc.",
+   "sig": "obserwuj",
+   "score": 2.0,
+   "wok": null,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu działało 3/3"
+   ]
+  },
+  {
    "s": "ZBRA",
    "n": "Zebra Technologies Corporation",
+   "sig": "obserwuj",
+   "score": 2.0,
+   "wok": null,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "KDP",
+   "n": "Keurig Dr Pepper Inc.",
+   "sig": "obserwuj",
+   "score": 2.0,
+   "wok": null,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "ELV",
+   "n": "Elevance Health, Inc.",
    "sig": "obserwuj",
    "score": 2.0,
    "wok": null,
@@ -334,30 +391,18 @@
    ]
   },
   {
-   "s": "MNST",
-   "n": "Monster Beverage Corporation",
+   "s": "PSX",
+   "n": "Phillips 66",
    "sig": "obserwuj",
-   "score": 2.0,
+   "score": 1.5,
    "wok": null,
    "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu działało 1/1"
+    "wyraźnie nad średnią 200 sesji"
    ]
   },
   {
-   "s": "CI",
-   "n": "The Cigna Group",
-   "sig": "obserwuj",
-   "score": 2.0,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu działało 1/1"
-   ]
-  },
-  {
-   "s": "PYPL",
-   "n": "PayPal Holdings, Inc.",
+   "s": "VEEV",
+   "n": "Veeva Systems Inc.",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -368,16 +413,6 @@
   {
    "s": "ADSK",
    "n": "Autodesk, Inc.",
-   "sig": "obserwuj",
-   "score": 1.5,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji"
-   ]
-  },
-  {
-   "s": "ZBH",
-   "n": "Zimmer Biomet Holdings, Inc.",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -466,8 +501,8 @@
    ]
   },
   {
-   "s": "GEHC",
-   "n": "GE HealthCare Technologies Inc.",
+   "s": "ADP",
+   "n": "Automatic Data Processing, Inc.",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -486,28 +521,8 @@
    ]
   },
   {
-   "s": "PANW",
-   "n": "Palo Alto Networks, Inc.",
-   "sig": "obserwuj",
-   "score": 1.5,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji"
-   ]
-  },
-  {
    "s": "ILMN",
    "n": "Illumina, Inc.",
-   "sig": "obserwuj",
-   "score": 1.5,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji"
-   ]
-  },
-  {
-   "s": "MRSH",
-   "n": "Marsh",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -546,18 +561,8 @@
    ]
   },
   {
-   "s": "SOLV",
-   "n": "Solventum Corporation",
-   "sig": "obserwuj",
-   "score": 1.5,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji"
-   ]
-  },
-  {
-   "s": "VTR",
-   "n": "Ventas, Inc.",
+   "s": "MPC",
+   "n": "Marathon Petroleum Corporation",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -576,93 +581,33 @@
    ]
   },
   {
-   "s": "META",
-   "n": "Meta Platforms, Inc.",
+   "s": "GEHC",
+   "n": "GE HealthCare Technologies Inc.",
    "sig": "obserwuj",
-   "score": 1.0,
+   "score": 1.5,
    "wok": null,
    "why": [
-    "tu działało 1/2"
+    "wyraźnie nad średnią 200 sesji"
    ]
   },
   {
-   "s": "CL=F",
-   "n": "Crude Oil Dec 26",
+   "s": "CCI",
+   "n": "Crown Castle Inc.",
    "sig": "obserwuj",
-   "score": 1.0,
+   "score": 1.5,
    "wok": null,
    "why": [
-    "tu działało 3/3"
+    "wyraźnie nad średnią 200 sesji"
    ]
   },
   {
-   "s": "KMI",
-   "n": "Kinder Morgan, Inc.",
+   "s": "ZBH",
+   "n": "Zimmer Biomet Holdings, Inc.",
    "sig": "obserwuj",
-   "score": 1.0,
+   "score": 1.5,
    "wok": null,
    "why": [
-    "tu działało 2/2"
-   ]
-  },
-  {
-   "s": "CPS.WA",
-   "n": "CPS C.XWAR PLN",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "tu działało 1/1"
-   ]
-  },
-  {
-   "s": "LHX",
-   "n": "L3Harris Technologies, Inc.",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "tu działało 2/3"
-   ]
-  },
-  {
-   "s": "PCAR",
-   "n": "PACCAR Inc.",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "tu działało 1/1"
-   ]
-  },
-  {
-   "s": "SCHW",
-   "n": "Charles Schwab Corporation (The",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "tu działało 1/1"
-   ]
-  },
-  {
-   "s": "DVN",
-   "n": "Devon Energy Corporation",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "tu działało 1/2"
-   ]
-  },
-  {
-   "s": "CNP",
-   "n": "CenterPoint Energy, Inc (Holdin",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "tu działało 1/1"
+    "wyraźnie nad średnią 200 sesji"
    ]
   },
   {
@@ -673,6 +618,26 @@
    "wok": null,
    "why": [
     "tu działało 1/2"
+   ]
+  },
+  {
+   "s": "APT.WA",
+   "n": "APT C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "wok": null,
+   "why": [
+    "tu działało 2/2"
+   ]
+  },
+  {
+   "s": "OXY",
+   "n": "Occidental Petroleum Corporatio",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "wok": null,
+   "why": [
+    "tu działało 2/2"
    ]
   },
   {
@@ -768,13 +733,13 @@
    ]
   },
   {
-   "s": "APT.WA",
-   "n": "APT C.XWAR PLN",
+   "s": "SCHW",
+   "n": "Charles Schwab Corporation (The",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 2/2"
+    "tu działało 1/1"
    ]
   },
   {
@@ -800,17 +765,6 @@
   {
    "s": "CVNA",
    "n": "Carvana Co.",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu słabo: 0/1"
-   ]
-  },
-  {
-   "s": "SPGI",
-   "n": "S&P Global Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
@@ -881,33 +835,13 @@
    ]
   },
   {
-   "s": "LDOS",
-   "n": "Leidos Holdings, Inc.",
+   "s": "ATO",
+   "n": "Atmos Energy Corporation",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 1/2"
-   ]
-  },
-  {
-   "s": "MLM",
-   "n": "Martin Marietta Materials, Inc.",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "tu działało 1/2"
-   ]
-  },
-  {
-   "s": "F",
-   "n": "Ford Motor Company",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "tu działało 2/3"
+    "tu działało 1/1"
    ]
   },
   {
@@ -931,80 +865,108 @@
    ]
   },
   {
-   "s": "XTB.WA",
-   "n": "XTB C.XWAR PLN",
+   "s": "CNP",
+   "n": "CenterPoint Energy, Inc (Holdin",
    "sig": "obserwuj",
-   "score": 0.5,
+   "score": 1.0,
    "wok": null,
-   "why": []
+   "why": [
+    "tu działało 1/1"
+   ]
   },
   {
-   "s": "LVS",
-   "n": "Las Vegas Sands Corp.",
+   "s": "DVN",
+   "n": "Devon Energy Corporation",
    "sig": "obserwuj",
-   "score": 0.5,
+   "score": 1.0,
    "wok": null,
-   "why": []
+   "why": [
+    "tu działało 1/2"
+   ]
   },
   {
-   "s": "COF",
-   "n": "Capital One Financial Corporati",
+   "s": "META",
+   "n": "Meta Platforms, Inc.",
    "sig": "obserwuj",
-   "score": 0.5,
+   "score": 1.0,
    "wok": null,
-   "why": []
+   "why": [
+    "tu działało 1/2"
+   ]
+  },
+  {
+   "s": "CL=F",
+   "n": "Crude Oil Dec 26",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "wok": null,
+   "why": [
+    "tu działało 3/3"
+   ]
+  },
+  {
+   "s": "KMI",
+   "n": "Kinder Morgan, Inc.",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "wok": null,
+   "why": [
+    "tu działało 2/2"
+   ]
+  },
+  {
+   "s": "HBAN",
+   "n": "Huntington Bancshares Incorpora",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "wok": null,
+   "why": [
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "CPS.WA",
+   "n": "CPS C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "wok": null,
+   "why": [
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "LHX",
+   "n": "L3Harris Technologies, Inc.",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "wok": null,
+   "why": [
+    "tu działało 2/3"
+   ]
+  },
+  {
+   "s": "PCAR",
+   "n": "PACCAR Inc.",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "wok": null,
+   "why": [
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "F",
+   "n": "Ford Motor Company",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "wok": null,
+   "why": [
+    "tu działało 2/3"
+   ]
   },
   {
    "s": "ALB",
    "n": "Albemarle Corporation",
-   "sig": "obserwuj",
-   "score": 0.5,
-   "wok": null,
-   "why": []
-  },
-  {
-   "s": "GLW",
-   "n": "Corning Incorporated",
-   "sig": "obserwuj",
-   "score": 0.5,
-   "wok": null,
-   "why": []
-  },
-  {
-   "s": "SPY",
-   "n": "State Street SPDR S&P 500 ETF T",
-   "sig": "obserwuj",
-   "score": 0.5,
-   "wok": null,
-   "why": []
-  },
-  {
-   "s": "AXP",
-   "n": "American Express Company",
-   "sig": "obserwuj",
-   "score": 0.5,
-   "wok": null,
-   "why": []
-  },
-  {
-   "s": "TXT",
-   "n": "Textron Inc.",
-   "sig": "obserwuj",
-   "score": 0.5,
-   "wok": null,
-   "why": []
-  },
-  {
-   "s": "SNA",
-   "n": "Snap-On Incorporated",
-   "sig": "obserwuj",
-   "score": 0.5,
-   "wok": null,
-   "why": []
-  },
-  {
-   "s": "NOW",
-   "n": "ServiceNow, Inc.",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1075,8 +1037,8 @@
    "why": []
   },
   {
-   "s": "VMC",
-   "n": "Vulcan Materials Company (Holdi",
+   "s": "APP",
+   "n": "Applovin Corporation",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1179,16 +1141,16 @@
    "why": []
   },
   {
-   "s": "MGM",
-   "n": "MGM Resorts International",
+   "s": "XTB.WA",
+   "n": "XTB C.XWAR PLN",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
    "why": []
   },
   {
-   "s": "ODFL",
-   "n": "Old Dominion Freight Line, Inc.",
+   "s": "WFC",
+   "n": "Wells Fargo & Company",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1315,134 +1277,108 @@
    "why": []
   },
   {
-   "s": "QCOM",
-   "n": "QUALCOMM Incorporated",
+   "s": "LVS",
+   "n": "Las Vegas Sands Corp.",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 1/3"
-   ]
+   "why": []
   },
   {
-   "s": "MU",
-   "n": "Micron Technology, Inc.",
+   "s": "TPR",
+   "n": "Tapestry, Inc.",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 0/1"
-   ]
+   "why": []
   },
   {
-   "s": "GFS",
-   "n": "GlobalFoundries Inc.",
+   "s": "NVDA",
+   "n": "NVIDIA Corporation",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 1/4"
-   ]
+   "why": []
   },
   {
-   "s": "FME.DE",
-   "n": "Fresenius Medical Care AG     I",
+   "s": "COF",
+   "n": "Capital One Financial Corporati",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 0/1"
-   ]
+   "why": []
   },
   {
-   "s": "DTE.DE",
-   "n": "DEUTSCHE TELEKOM AG           N",
+   "s": "ISRG",
+   "n": "Intuitive Surgical, Inc.",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 0/1"
-   ]
+   "why": []
   },
   {
-   "s": "NEU.WA",
-   "n": "NEU C.XWAR PLN",
+   "s": "GLW",
+   "n": "Corning Incorporated",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 0/1"
-   ]
+   "why": []
   },
   {
-   "s": "DOV",
-   "n": "Dover Corporation",
+   "s": "SPY",
+   "n": "State Street SPDR S&P 500 ETF T",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 1/3"
-   ]
+   "why": []
   },
   {
-   "s": "PPL",
-   "n": "PPL Corporation",
+   "s": "AXP",
+   "n": "American Express Company",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 0/2"
-   ]
+   "why": []
   },
   {
-   "s": "WWL.WA",
-   "n": "WWL C.XWAR PLN",
+   "s": "TXT",
+   "n": "Textron Inc.",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 0/1"
-   ]
+   "why": []
   },
   {
-   "s": "AKAM",
-   "n": "Akamai Technologies, Inc.",
+   "s": "SNA",
+   "n": "Snap-On Incorporated",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 2/6"
-   ]
+   "why": []
   },
   {
-   "s": "HOOD",
-   "n": "Robinhood Markets, Inc.",
+   "s": "NOW",
+   "n": "ServiceNow, Inc.",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 0/1"
-   ]
+   "why": []
   },
   {
-   "s": "ETH-USD",
-   "n": "Ethereum USD",
+   "s": "MGM",
+   "n": "MGM Resorts International",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 0/1"
-   ]
+   "why": []
   },
   {
-   "s": "GC=F",
-   "n": "Gold Dec 26",
+   "s": "ODFL",
+   "n": "Old Dominion Freight Line, Inc.",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 0/1"
-   ]
+   "why": []
   },
   {
    "s": "TT",
@@ -1573,6 +1509,166 @@
    "why": [
     "tu słabo: 0/1"
    ]
+  },
+  {
+   "s": "ETH-USD",
+   "n": "Ethereum USD",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "HOOD",
+   "n": "Robinhood Markets, Inc.",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "AKAM",
+   "n": "Akamai Technologies, Inc.",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 2/6"
+   ]
+  },
+  {
+   "s": "WWL.WA",
+   "n": "WWL C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "PPL",
+   "n": "PPL Corporation",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/2"
+   ]
+  },
+  {
+   "s": "DOV",
+   "n": "Dover Corporation",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 1/3"
+   ]
+  },
+  {
+   "s": "NEU.WA",
+   "n": "NEU C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "DTE.DE",
+   "n": "DEUTSCHE TELEKOM AG           N",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "FME.DE",
+   "n": "Fresenius Medical Care AG     I",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "GFS",
+   "n": "GlobalFoundries Inc.",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 1/4"
+   ]
+  },
+  {
+   "s": "MU",
+   "n": "Micron Technology, Inc.",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "QCOM",
+   "n": "QUALCOMM Incorporated",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 1/3"
+   ]
+  },
+  {
+   "s": "SNPS",
+   "n": "Synopsys, Inc.",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "VST",
+   "n": "Vistra Corp.",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/2"
+   ]
+  },
+  {
+   "s": "CF",
+   "n": "CF Industries Holdings, Inc.",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "GC=F",
+   "n": "Gold Dec 26",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
   }
  ],
  "hist": {
@@ -1584,7 +1680,7 @@
   "ADP": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-13"
+   "d": "2026-11-18"
   },
   "ADSK": {
    "w": 0,
@@ -1654,7 +1750,7 @@
   "ATO": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-17"
+   "d": "2026-11-18"
   },
   "AVGO": {
    "w": 0,
@@ -1992,9 +2088,9 @@
    "d": "2026-11-18"
   },
   "NSC": {
-   "w": 0,
-   "n": 0,
-   "d": "2026-11-17"
+   "w": 1,
+   "n": 1,
+   "d": "2026-11-18"
   },
   "NTRS": {
    "w": 0,
@@ -2199,7 +2295,7 @@
   "VST": {
    "w": 0,
    "n": 2,
-   "d": "2026-11-17"
+   "d": "2026-11-18"
   },
   "VTR": {
    "w": 0,
@@ -2484,7 +2580,7 @@
   "BXP": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-17"
+   "d": "2026-11-18"
   },
   "CARR": {
    "w": 0,
@@ -2544,7 +2640,7 @@
   "ABT": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-17"
+   "d": "2026-11-18"
   },
   "GPC": {
    "w": 0,
@@ -2554,30 +2650,55 @@
   "HBAN": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-17"
+   "d": "2026-11-18"
   },
   "NVDA": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-17"
+   "d": "2026-11-18"
   },
   "TPR": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-17"
+   "d": "2026-11-18"
   },
   "TWLO": {
    "w": 3,
    "n": 3,
-   "d": "2026-11-17"
+   "d": "2026-11-18"
   },
   "WAT": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-17"
+   "d": "2026-11-18"
+  },
+  "CCI": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-18"
+  },
+  "ELV": {
+   "w": 1,
+   "n": 1,
+   "d": "2026-11-18"
+  },
+  "KDP": {
+   "w": 1,
+   "n": 1,
+   "d": "2026-11-18"
+  },
+  "VEEV": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-18"
+  },
+  "WFC": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-18"
   }
  },
- "nextId": 282,
+ "nextId": 301,
  "events": [
   {
    "id": 1,
@@ -5820,6 +5941,211 @@
    "why": "poprawa",
    "p": 131.8000030517578,
    "h": "Korekta trwa (A). Strefa zakupu 110.01–112.00; kupuję dopiero po A-B-C i impulsie w górę."
+  },
+  {
+   "id": 282,
+   "at": "2026-11-18T18:57:46.108985Z",
+   "s": "ACGL",
+   "n": "Arch Capital Group Ltd.",
+   "t": "neg",
+   "why": "wypadek z klina",
+   "p": 108.75,
+   "h": "Wypadek z klina po 5 falach - ryzyko końca wzrostów. Nie dokładam, rozważ ograniczenie ryzyka."
+  },
+  {
+   "id": 283,
+   "at": "2026-11-18T18:57:46.108985Z",
+   "s": "AFL",
+   "n": "AFLAC Incorporated",
+   "t": "neg",
+   "why": "wypadek z klina",
+   "p": 126.18000030517578,
+   "h": "Wypadek z klina po 5 falach - ryzyko końca wzrostów. Nie dokładam, rozważ ograniczenie ryzyka."
+  },
+  {
+   "id": 284,
+   "at": "2026-11-18T18:57:46.108985Z",
+   "s": "ALLE",
+   "n": "Allegion plc",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 188.22999572753906,
+   "h": "Korekta trwa (A). Strefa zakupu 142.00–142.00; kupuję dopiero po A-B-C i impulsie w górę."
+  },
+  {
+   "id": 285,
+   "at": "2026-11-18T18:57:46.108985Z",
+   "s": "AMZN",
+   "n": "Amazon.com, Inc.",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 267.17608642578125,
+   "h": "Korekta trwa (A). Strefa zakupu 215.29–225.55; kupuję dopiero po A-B-C i impulsie w górę."
+  },
+  {
+   "id": 286,
+   "at": "2026-11-18T18:57:46.108985Z",
+   "s": "BRK-B",
+   "n": "Berkshire Hathaway Inc. New",
+   "t": "neg",
+   "why": "wypadek z klina",
+   "p": 574.6400146484375,
+   "h": "Wypadek z klina po 5 falach - ryzyko końca wzrostów. Nie dokładam, rozważ ograniczenie ryzyka."
+  },
+  {
+   "id": 287,
+   "at": "2026-11-18T18:57:46.108985Z",
+   "s": "CTAS",
+   "n": "Cintas Corporation",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 223.9246063232422,
+   "h": "Korekta trwa (A-B-C). Strefa zakupu 205.80–209.60; kupuję dopiero po A-B-C i impulsie w górę."
+  },
+  {
+   "id": 288,
+   "at": "2026-11-18T18:57:46.108985Z",
+   "s": "EVRG",
+   "n": "Evergy, Inc.",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 87.2699966430664,
+   "h": "Korekta trwa (A). Strefa zakupu 86.10–86.10; kupuję dopiero po A-B-C i impulsie w górę."
+  },
+  {
+   "id": 289,
+   "at": "2026-11-18T18:57:46.108985Z",
+   "s": "HCA",
+   "n": "HCA Healthcare, Inc.",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 481.82000732421875,
+   "h": "Korekta trwa (A-B-C). Strefa zakupu 445.00–449.75; kupuję dopiero po A-B-C i impulsie w górę."
+  },
+  {
+   "id": 290,
+   "at": "2026-11-18T18:57:46.108985Z",
+   "s": "MA",
+   "n": "Mastercard Incorporated",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 644.280029296875,
+   "h": "Korekta trwa (A). Strefa zakupu 537.91–545.41; kupuję dopiero po A-B-C i impulsie w górę."
+  },
+  {
+   "id": 291,
+   "at": "2026-11-18T18:57:46.108985Z",
+   "s": "MCK",
+   "n": "McKesson Corporation",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 1081.135009765625,
+   "h": "Korekta trwa (A). Strefa zakupu 954.05–969.37; kupuję dopiero po A-B-C i impulsie w górę."
+  },
+  {
+   "id": 292,
+   "at": "2026-11-18T18:57:46.108985Z",
+   "s": "MRNA",
+   "n": "Moderna, Inc.",
+   "t": "neg",
+   "why": "wypadek z klina",
+   "p": 200.75,
+   "h": "Wypadek z klina po 5 falach - ryzyko końca wzrostów. Nie dokładam, rozważ ograniczenie ryzyka."
+  },
+  {
+   "id": 293,
+   "at": "2026-11-18T18:57:46.108985Z",
+   "s": "MRSH",
+   "n": "Marsh",
+   "t": "neg",
+   "why": "scenariusz zanegowany",
+   "p": 205.7100067138672,
+   "h": "Cena poniżej 206.17 (zasięg 1.618 fali A (korekta płaska nieregularna)) - scenariusz korekty zanegowany. Możliwy koniec trendu; czekam na nową strukturę."
+  },
+  {
+   "id": 294,
+   "at": "2026-11-18T18:57:46.108985Z",
+   "s": "PGR",
+   "n": "Progressive Corporation (The)",
+   "t": "neg",
+   "why": "scenariusz zanegowany",
+   "p": 227.60000610351562,
+   "h": "Cena poniżej 235.10 (0.886 całego ruchu) - scenariusz korekty zanegowany. Możliwy koniec trendu; czekam na nową strukturę."
+  },
+  {
+   "id": 295,
+   "at": "2026-11-18T18:57:46.108985Z",
+   "s": "PYPL",
+   "n": "PayPal Holdings, Inc.",
+   "t": "kup",
+   "why": "korekta A-B-C + impuls",
+   "p": 58.369998931884766,
+   "h": "Sygnał KUP: korekta A-B-C w strefie 2 narzędzi i wyższy dołek i wybicie szczytu pierwszej fali (start fali 3). Dodatkowo zgodne: 2 z 4 (informacyjnie).",
+   "score": 3.5,
+   "wok": true,
+   "st": 38.07539909362793,
+   "t1": 79.21499633789062,
+   "t2": 90.52926335346449
+  },
+  {
+   "id": 296,
+   "at": "2026-11-18T18:57:46.108985Z",
+   "s": "REGN",
+   "n": "Regeneron Pharmaceuticals, Inc.",
+   "t": "neg",
+   "why": "wypadek z klina",
+   "p": 949.219970703125,
+   "h": "Wypadek z klina po 5 falach - ryzyko końca wzrostów. Nie dokładam, rozważ ograniczenie ryzyka."
+  },
+  {
+   "id": 297,
+   "at": "2026-11-18T18:57:46.108985Z",
+   "s": "SPGI",
+   "n": "S&P Global Inc.",
+   "t": "kup",
+   "why": "korekta A-B-C + impuls",
+   "p": 447.6600036621094,
+   "h": "Sygnał KUP: korekta A-B-C w strefie 1 narzędzi i wyższy dołek i wybicie szczytu pierwszej fali (start fali 3). Dodatkowo zgodne: 2 z 4 (informacyjnie).",
+   "score": 3.0,
+   "wok": true,
+   "st": 357.42090728759763,
+   "t1": 547.8240356445312,
+   "t2": 615.3479953280539
+  },
+  {
+   "id": 298,
+   "at": "2026-11-18T18:57:46.108985Z",
+   "s": "TYL",
+   "n": "Tyler Technologies, Inc.",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 411.4024963378906,
+   "h": "Korekta trwa (A). Strefa zakupu 346.27–348.52; kupuję dopiero po A-B-C i impulsie w górę."
+  },
+  {
+   "id": 299,
+   "at": "2026-11-18T18:57:46.108985Z",
+   "s": "V",
+   "n": "Visa Inc.",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 416.8999938964844,
+   "h": "Korekta trwa (A-B-C). Strefa zakupu 378.32–385.47; kupuję dopiero po A-B-C i impulsie w górę."
+  },
+  {
+   "id": 300,
+   "at": "2026-11-18T18:57:46.108985Z",
+   "s": "VMC",
+   "n": "Vulcan Materials Company (Holdi",
+   "t": "kup",
+   "why": "korekta A-B-C + impuls",
+   "p": 279.7950134277344,
+   "h": "Sygnał KUP: korekta A-B-C w strefie 2 narzędzi i wyższy dołek i wybicie szczytu pierwszej fali (start fali 3). Dodatkowo zgodne: 2 z 4 (informacyjnie).",
+   "score": 2.5,
+   "wok": true,
+   "st": 234.6596987915039,
+   "t1": 331.0899963378906,
+   "t2": 390.4021867020455
   }
  ],
  "sig": {
@@ -5837,18 +6163,18 @@
   "ABBV": "czekaj",
   "AAPL": "uwaga",
   "GC=F": "obserwuj",
-  "ACGL": "czekaj",
-  "ABT": "czekaj",
+  "ACGL": "uwaga",
+  "ABT": "kup",
   "ADBE": "nie",
   "ACN": "uwaga",
   "ADI": "czekaj",
   "ADM": "uwaga",
-  "ADP": "czekaj",
+  "ADP": "obserwuj",
   "ADSK": "obserwuj",
   "AEE": "czekaj",
   "AES": "uwaga",
   "AEP": "czekaj",
-  "AFL": "czekaj",
+  "AFL": "uwaga",
   "AIG": "czekaj",
   "XRP-USD": "nie",
   "AKAM": "obserwuj",
@@ -5857,14 +6183,14 @@
   "ALGN": "nie",
   "ALB": "obserwuj",
   "ALL": "czekaj",
-  "ALLE": "uwaga",
+  "ALLE": "czekaj",
   "AMAT": "obserwuj",
   "AMD": "czekaj",
   "AMCR": "nie",
   "AMGN": "czekaj",
   "AME": "czekaj",
   "AMP": "obserwuj",
-  "AMZN": "uwaga",
+  "AMZN": "czekaj",
   "AMT": "kup",
   "ANET": "czekaj",
   "AON": "obserwuj",
@@ -5872,14 +6198,14 @@
   "APH": "czekaj",
   "APA": "czekaj",
   "APO": "obserwuj",
-  "APP": "kup",
+  "APP": "obserwuj",
   "APTV": "nie",
   "APD": "obserwuj",
   "ARES": "kup",
   "AXON": "nie",
   "AWK": "czekaj",
   "AVGO": "nie",
-  "ATO": "czekaj",
+  "ATO": "obserwuj",
   "AVY": "czekaj",
   "AXP": "obserwuj",
   "ARE": "nie",
@@ -5901,10 +6227,10 @@
   "BMY": "czekaj",
   "BR": "nie",
   "BNY": "czekaj",
-  "BRK-B": "czekaj",
+  "BRK-B": "uwaga",
   "BSX": "nie",
   "BRO": "nie",
-  "BXP": "czekaj",
+  "BXP": "kup",
   "BX": "obserwuj",
   "C": "czekaj",
   "CARR": "nie",
@@ -5913,19 +6239,19 @@
   "CBRE": "nie",
   "CB": "czekaj",
   "CAT": "nie",
-  "CCI": "czekaj",
+  "CCI": "obserwuj",
   "CCL": "nie",
   "CDW": "czekaj",
   "CDNS": "obserwuj",
-  "CF": "kup",
+  "CF": "obserwuj",
   "CEG": "nie",
   "CHD": "czekaj",
   "CFG": "czekaj",
   "CHRW": "obserwuj",
   "CHTR": "nie",
   "CIEN": "nie",
-  "CI": "obserwuj",
-  "CINF": "czekaj",
+  "CI": "kup",
+  "CINF": "uwaga",
   "CL": "czekaj",
   "CLX": "nie",
   "CMCSA": "nie",
@@ -5952,7 +6278,7 @@
   "CSGP": "nie",
   "CSCO": "nie",
   "CSX": "czekaj",
-  "CTAS": "uwaga",
+  "CTAS": "czekaj",
   "CTSH": "nie",
   "CVNA": "obserwuj",
   "CVS": "obserwuj",
@@ -5986,23 +6312,23 @@
   "ECHO": "obserwuj",
   "ECL": "czekaj",
   "ED": "czekaj",
-  "ELV": "czekaj",
+  "ELV": "obserwuj",
   "EFX": "czekaj",
   "EL": "czekaj",
   "EIX": "nie",
-  "EG": "czekaj",
+  "EG": "uwaga",
   "EME": "obserwuj",
   "EMR": "czekaj",
   "EQIX": "czekaj",
   "EOG": "czekaj",
   "ERIE": "nie",
   "EQT": "czekaj",
-  "ES": "czekaj",
+  "ES": "uwaga",
   "ESS": "kup",
   "ETN": "obserwuj",
   "ETR": "czekaj",
   "EW": "czekaj",
-  "EVRG": "uwaga",
+  "EVRG": "czekaj",
   "EXE": "nie",
   "EXC": "nie",
   "EXPE": "czekaj",
@@ -6049,9 +6375,9 @@
   "GS": "czekaj",
   "GWW": "czekaj",
   "HAS": "czekaj",
-  "HBAN": "czekaj",
+  "HBAN": "obserwuj",
   "HAL": "czekaj",
-  "HCA": "uwaga",
+  "HCA": "czekaj",
   "HD": "nie",
   "HIG": "czekaj",
   "HII": "obserwuj",
@@ -6068,7 +6394,7 @@
   "HUM": "czekaj",
   "HWM": "obserwuj",
   "IBKR": "czekaj",
-  "ICE": "czekaj",
+  "ICE": "uwaga",
   "IBM": "nie",
   "IDXX": "nie",
   "ILMN": "obserwuj",
@@ -6081,7 +6407,7 @@
   "IP": "nie",
   "IQV": "czekaj",
   "IR": "czekaj",
-  "ISRG": "kup",
+  "ISRG": "obserwuj",
   "IRM": "czekaj",
   "IT": "nie",
   "IVZ": "czekaj",
@@ -6092,7 +6418,7 @@
   "JKHY": "obserwuj",
   "JCI": "czekaj",
   "JNJ": "czekaj",
-  "KDP": "uwaga",
+  "KDP": "obserwuj",
   "JPM": "czekaj",
   "KEY": "czekaj",
   "KEYS": "czekaj",
@@ -6105,7 +6431,7 @@
   "KO": "czekaj",
   "KR": "czekaj",
   "L": "czekaj",
-  "LDOS": "obserwuj",
+  "LDOS": "nie",
   "LEN": "nie",
   "LH": "czekaj",
   "LHX": "obserwuj",
@@ -6122,7 +6448,7 @@
   "LYB": "obserwuj",
   "LVS": "obserwuj",
   "LUV": "czekaj",
-  "MA": "uwaga",
+  "MA": "czekaj",
   "MAA": "nie",
   "MAR": "czekaj",
   "MAS": "czekaj",
@@ -6130,23 +6456,23 @@
   "MCD": "nie",
   "MDLZ": "czekaj",
   "MCO": "czekaj",
-  "MCK": "uwaga",
+  "MCK": "czekaj",
   "MDT": "czekaj",
   "MET": "czekaj",
   "META": "obserwuj",
   "MGM": "obserwuj",
   "MKC": "nie",
-  "MLM": "obserwuj",
-  "MNST": "obserwuj",
+  "MLM": "nie",
+  "MNST": "kup",
   "MMM": "czekaj",
   "MOS": "nie",
-  "MPC": "kup",
+  "MPC": "obserwuj",
   "MO": "czekaj",
   "MPWR": "nie",
-  "MRNA": "czekaj",
+  "MRNA": "uwaga",
   "MRVL": "czekaj",
   "MRK": "czekaj",
-  "MRSH": "obserwuj",
+  "MRSH": "nie",
   "MSCI": "czekaj",
   "MSFT": "czekaj",
   "MS": "czekaj",
@@ -6165,11 +6491,11 @@
   "NOC": "nie",
   "NOW": "obserwuj",
   "NRG": "nie",
-  "NSC": "czekaj",
+  "NSC": "kup",
   "NTAP": "obserwuj",
   "NUE": "czekaj",
   "NTRS": "kup",
-  "NVDA": "uwaga",
+  "NVDA": "obserwuj",
   "NVR": "nie",
   "NWS": "obserwuj",
   "NXPI": "czekaj",
@@ -6182,23 +6508,23 @@
   "ON": "czekaj",
   "ORCL": "nie",
   "ORLY": "czekaj",
-  "PANW": "obserwuj",
+  "PANW": "czekaj",
   "OTIS": "nie",
   "P": "obserwuj",
   "PAYX": "czekaj",
   "PCAR": "obserwuj",
   "PCG": "nie",
   "PEG": "nie",
-  "OXY": "kup",
-  "PFE": "uwaga",
+  "OXY": "obserwuj",
+  "PFE": "czekaj",
   "PEP": "nie",
   "PFG": "czekaj",
   "PG": "czekaj",
-  "PGR": "kup",
+  "PGR": "nie",
   "PKG": "czekaj",
   "PH": "czekaj",
   "PHM": "czekaj",
-  "PLTR": "czekaj",
+  "PLTR": "uwaga",
   "PLD": "obserwuj",
   "PM": "czekaj",
   "PNC": "czekaj",
@@ -6209,16 +6535,16 @@
   "PRU": "czekaj",
   "PPL": "obserwuj",
   "PSA": "czekaj",
-  "PSX": "kup",
+  "PSX": "obserwuj",
   "PTC": "czekaj",
   "PWR": "nie",
-  "PYPL": "obserwuj",
+  "PYPL": "kup",
   "Q": "obserwuj",
   "QCOM": "obserwuj",
   "RDDT": "nie",
   "RCL": "obserwuj",
   "REG": "czekaj",
-  "REGN": "czekaj",
+  "REGN": "uwaga",
   "RF": "czekaj",
   "RL": "czekaj",
   "RJF": "czekaj",
@@ -6240,15 +6566,15 @@
   "SLB": "czekaj",
   "SNDK": "nie",
   "SNA": "obserwuj",
-  "SNPS": "kup",
+  "SNPS": "obserwuj",
   "SO": "nie",
-  "SOLV": "obserwuj",
+  "SOLV": "kup",
   "SPG": "czekaj",
   "SRE": "nie",
-  "SPGI": "obserwuj",
+  "SPGI": "kup",
   "STE": "czekaj",
   "STLD": "czekaj",
-  "STT": "kup",
+  "STT": "nie",
   "STZ": "nie",
   "STX": "obserwuj",
   "SW": "nie",
@@ -6270,7 +6596,7 @@
   "TMUS": "nie",
   "TPL": "nie",
   "TKO": "czekaj",
-  "TPR": "uwaga",
+  "TPR": "obserwuj",
   "TRGP": "czekaj",
   "TRMB": "nie",
   "TRV": "czekaj",
@@ -6278,10 +6604,10 @@
   "TSCO": "nie",
   "TSLA": "nie",
   "TSN": "nie",
-  "TTWO": "czekaj",
+  "TTWO": "nie",
   "TT": "obserwuj",
-  "TWLO": "uwaga",
-  "TYL": "uwaga",
+  "TWLO": "obserwuj",
+  "TYL": "czekaj",
   "UAL": "czekaj",
   "TXN": "obserwuj",
   "TXT": "obserwuj",
@@ -6294,29 +6620,29 @@
   "URI": "czekaj",
   "UNP": "obserwuj",
   "USB": "czekaj",
-  "V": "uwaga",
-  "VEEV": "czekaj",
+  "V": "czekaj",
+  "VEEV": "obserwuj",
   "VICI": "nie",
-  "VLTO": "czekaj",
-  "VMC": "obserwuj",
+  "VLTO": "uwaga",
+  "VMC": "kup",
   "VMRK": "nie",
   "VRSK": "nie",
   "VLO": "czekaj",
   "VRSN": "czekaj",
   "VRTX": "czekaj",
-  "VST": "czekaj",
-  "VTR": "obserwuj",
+  "VST": "obserwuj",
+  "VTR": "kup",
   "VRT": "nie",
   "VTRS": "czekaj",
   "VZ": "czekaj",
-  "WAT": "czekaj",
+  "WAT": "obserwuj",
   "WAB": "czekaj",
   "WDAY": "nie",
   "WDC": "nie",
   "WEC": "uwaga",
   "WELL": "czekaj",
   "WM": "nie",
-  "WFC": "czekaj",
+  "WFC": "obserwuj",
   "WMB": "obserwuj",
   "WMT": "obserwuj",
   "WRB": "czekaj",
@@ -6493,7 +6819,7 @@
   "XTP.WA": "nie",
   "ZAB.WA": "uwaga",
   "SPY": "obserwuj",
-  "QQQ": "uwaga",
+  "QQQ": "czekaj",
   "IWM": "czekaj",
   "DIA": "czekaj",
   "VOO": "czekaj",
@@ -7218,7 +7544,7 @@
   "GPP.WA|neg": "2026-11-11T02:05:23.468763Z",
   "CL=F|kup": "2026-11-12T20:25:25.093036Z",
   "ACN|neg": "2026-11-16T20:33:47.235437Z",
-  "AMZN|pos": "2026-11-09T19:13:14.183843Z",
+  "AMZN|pos": "2026-11-18T18:57:46.108985Z",
   "APP|kup": "2026-11-18T02:22:21.087770Z",
   "AXP|kup": "2026-11-09T19:13:14.183843Z",
   "BX|kup": "2026-11-11T17:16:04.448909Z",
@@ -7254,7 +7580,7 @@
   "SCHW|neg": "2026-11-11T17:16:04.448909Z",
   "STT|neg": "2026-11-17T20:03:51.422646Z",
   "TXN|kup": "2026-11-10T02:10:54.990863Z",
-  "VMC|kup": "2026-11-12T20:25:25.093036Z",
+  "VMC|kup": "2026-11-18T18:57:46.108985Z",
   "VMRK|neg": "2026-11-10T02:10:54.990863Z",
   "DAT.WA|pos": "2026-11-10T02:10:54.990863Z",
   "ENT.WA|neg": "2026-11-10T02:10:54.990863Z",
@@ -7276,7 +7602,7 @@
   "BXP|kup": "2026-11-17T20:03:51.422646Z",
   "CLX|neg": "2026-11-11T02:05:23.468763Z",
   "CVS|kup": "2026-11-14T02:18:45.525649Z",
-  "MCK|pos": "2026-11-11T02:05:23.468763Z",
+  "MCK|pos": "2026-11-18T18:57:46.108985Z",
   "OXY|kup": "2026-11-17T03:07:15.822380Z",
   "BEI.DE|neg": "2026-11-18T10:25:35.158018Z",
   "SY1.DE|neg": "2026-11-11T02:05:23.468763Z",
@@ -7292,7 +7618,7 @@
   "ICE|pos": "2026-11-18T02:22:21.087770Z",
   "MPC|kup": "2026-11-11T17:16:04.448909Z",
   "MPWR|pos": "2026-11-11T17:16:04.448909Z",
-  "MRSH|neg": "2026-11-11T17:16:04.448909Z",
+  "MRSH|neg": "2026-11-18T18:57:46.108985Z",
   "MU|kup": "2026-11-14T02:18:45.525649Z",
   "NTAP|kup": "2026-11-14T02:18:45.525649Z",
   "P|kup": "2026-11-14T02:18:45.525649Z",
@@ -7302,7 +7628,7 @@
   "TRMB|pos": "2026-11-11T17:16:04.448909Z",
   "WEC|neg": "2026-11-14T02:18:45.525649Z",
   "MDB|kup": "2026-11-14T02:18:45.525649Z",
-  "ALLE|pos": "2026-11-12T04:05:34.365039Z",
+  "ALLE|pos": "2026-11-18T18:57:46.108985Z",
   "MCD|neg": "2026-11-17T03:07:15.822380Z",
   "ORLY|kup": "2026-11-12T04:05:34.365039Z",
   "PM|pos": "2026-11-18T02:22:21.087770Z",
@@ -7316,7 +7642,7 @@
   "KDP|neg": "2026-11-18T02:22:21.087770Z",
   "MMM|neg": "2026-11-12T20:25:25.093036Z",
   "PGR|pos": "2026-11-12T20:25:25.093036Z",
-  "PYPL|kup": "2026-11-16T20:33:47.235437Z",
+  "PYPL|kup": "2026-11-18T18:57:46.108985Z",
   "RVTY|pos": "2026-11-12T20:25:25.093036Z",
   "SWKS|neg": "2026-11-12T20:25:25.093036Z",
   "TYL|neg": "2026-11-12T20:25:25.093036Z",
@@ -7327,11 +7653,11 @@
   "MMM|pos": "2026-11-14T02:18:45.525649Z",
   "MPWR|neg": "2026-11-13T01:20:29.954138Z",
   "PAYX|pos": "2026-11-13T01:20:29.954138Z",
-  "PGR|neg": "2026-11-13T01:20:29.954138Z",
+  "PGR|neg": "2026-11-18T18:57:46.108985Z",
   "RVTY|neg": "2026-11-13T01:20:29.954138Z",
   "SWKS|pos": "2026-11-13T01:20:29.954138Z",
-  "TYL|pos": "2026-11-13T01:20:29.954138Z",
-  "V|pos": "2026-11-13T01:20:29.954138Z",
+  "TYL|pos": "2026-11-18T18:57:46.108985Z",
+  "V|pos": "2026-11-18T18:57:46.108985Z",
   "MRK.DE|neg": "2026-11-13T01:20:29.954138Z",
   "CI|kup": "2026-11-17T20:03:51.422646Z",
   "GDDY|neg": "2026-11-18T02:22:21.087770Z",
@@ -7385,6 +7711,16 @@
   "TTWO|pos": "2026-11-18T02:22:21.087770Z",
   "VLTO|pos": "2026-11-18T02:22:21.087770Z",
   "QQQ|neg": "2026-11-18T02:22:21.087770Z",
-  "ABE.WA|pos": "2026-11-18T10:25:35.158018Z"
+  "ABE.WA|pos": "2026-11-18T10:25:35.158018Z",
+  "ACGL|neg": "2026-11-18T18:57:46.108985Z",
+  "AFL|neg": "2026-11-18T18:57:46.108985Z",
+  "BRK-B|neg": "2026-11-18T18:57:46.108985Z",
+  "CTAS|pos": "2026-11-18T18:57:46.108985Z",
+  "EVRG|pos": "2026-11-18T18:57:46.108985Z",
+  "HCA|pos": "2026-11-18T18:57:46.108985Z",
+  "MA|pos": "2026-11-18T18:57:46.108985Z",
+  "MRNA|neg": "2026-11-18T18:57:46.108985Z",
+  "REGN|neg": "2026-11-18T18:57:46.108985Z",
+  "SPGI|kup": "2026-11-18T18:57:46.108985Z"
  }
 }
