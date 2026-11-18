@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T02:22:21.087770Z",
+ "updated": "2026-11-18T10:25:35.158018Z",
  "top": [
   {
    "s": "AMT",
@@ -184,18 +184,6 @@
     "duże ruchy (szeroki stop)",
     "tu działało 2/2",
     "tydzień nie potwierdza"
-   ]
-  },
-  {
-   "s": "XTB.WA",
-   "n": "XTB C.XWAR PLN",
-   "sig": "kup",
-   "score": 2.5,
-   "wok": true,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "duże ruchy (szeroki stop)",
-    "tydzień potwierdza"
    ]
   },
   {
@@ -408,8 +396,8 @@
    ]
   },
   {
-   "s": "RMD",
-   "n": "ResMed Inc.",
+   "s": "DHR",
+   "n": "Danaher Corporation",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -578,23 +566,13 @@
    ]
   },
   {
-   "s": "DHR",
-   "n": "Danaher Corporation",
+   "s": "RMD",
+   "n": "ResMed Inc.",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
    "why": [
     "wyraźnie nad średnią 200 sesji"
-   ]
-  },
-  {
-   "s": "EME",
-   "n": "EMCOR Group, Inc.",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "tu działało 2/2"
    ]
   },
   {
@@ -605,6 +583,16 @@
    "wok": null,
    "why": [
     "tu działało 1/2"
+   ]
+  },
+  {
+   "s": "CL=F",
+   "n": "Crude Oil Dec 26",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "wok": null,
+   "why": [
+    "tu działało 3/3"
    ]
   },
   {
@@ -862,13 +850,13 @@
    ]
   },
   {
-   "s": "CL=F",
-   "n": "Crude Oil Dec 26",
+   "s": "EME",
+   "n": "EMCOR Group, Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 3/3"
+    "tu działało 2/2"
    ]
   },
   {
@@ -941,6 +929,14 @@
    "why": [
     "tu działało 1/1"
    ]
+  },
+  {
+   "s": "XTB.WA",
+   "n": "XTB C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "wok": null,
+   "why": []
   },
   {
    "s": "LVS",
@@ -1087,8 +1083,8 @@
    "why": []
   },
   {
-   "s": "PKN.WA",
-   "n": "PKN C.XWAR PLN",
+   "s": "IMC.WA",
+   "n": "IMC C.XWAR PLN",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1207,14 +1203,6 @@
    "why": []
   },
   {
-   "s": "TXT.WA",
-   "n": "TXT C.XWAR PLN",
-   "sig": "obserwuj",
-   "score": 0.5,
-   "wok": null,
-   "why": []
-  },
-  {
    "s": "PLD",
    "n": "Prologis, Inc.",
    "sig": "obserwuj",
@@ -1311,16 +1299,16 @@
    "why": []
   },
   {
-   "s": "IMC.WA",
-   "n": "IMC C.XWAR PLN",
+   "s": "HUBB",
+   "n": "Hubbell Inc",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
    "why": []
   },
   {
-   "s": "HUBB",
-   "n": "Hubbell Inc",
+   "s": "PKN.WA",
+   "n": "PKN C.XWAR PLN",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -2589,7 +2577,7 @@
    "d": "2026-11-17"
   }
  },
- "nextId": 280,
+ "nextId": 282,
  "events": [
   {
    "id": 1,
@@ -5812,6 +5800,26 @@
    "why": "wypadek z klina",
    "p": 661.75,
    "h": "Wypadek z klina po 5 falach - ryzyko końca wzrostów. Nie dokładam, rozważ ograniczenie ryzyka."
+  },
+  {
+   "id": 280,
+   "at": "2026-11-18T10:25:35.158018Z",
+   "s": "BEI.DE",
+   "n": "BEIERSDORF AG                 I",
+   "t": "neg",
+   "why": "wypadek z klina",
+   "p": 82.5199966430664,
+   "h": "Wypadek z klina po 5 falach - ryzyko końca wzrostów. Nie dokładam, rozważ ograniczenie ryzyka."
+  },
+  {
+   "id": 281,
+   "at": "2026-11-18T10:25:35.158018Z",
+   "s": "ABE.WA",
+   "n": "ABE C.XWAR PLN",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 131.8000030517578,
+   "h": "Korekta trwa (A). Strefa zakupu 110.01–112.00; kupuję dopiero po A-B-C i impulsie w górę."
   }
  ],
  "sig": {
@@ -6342,7 +6350,7 @@
   "ALV.DE": "czekaj",
   "BAS.DE": "czekaj",
   "BAYN.DE": "czekaj",
-  "BEI.DE": "czekaj",
+  "BEI.DE": "uwaga",
   "BMW.DE": "nie",
   "BNR.DE": "obserwuj",
   "CBK.DE": "czekaj",
@@ -6378,7 +6386,7 @@
   "VOW3.DE": "nie",
   "ZAL.DE": "kup",
   "11B.WA": "nie",
-  "ABE.WA": "uwaga",
+  "ABE.WA": "czekaj",
   "ACT.WA": "czekaj",
   "ACP.WA": "czekaj",
   "ALE.WA": "czekaj",
@@ -6473,7 +6481,7 @@
   "STX.WA": "nie",
   "TEN.WA": "nie",
   "TOR.WA": "obserwuj",
-  "TXT.WA": "obserwuj",
+  "TXT.WA": "nie",
   "UNI.WA": "czekaj",
   "VGO.WA": "nie",
   "VOX.WA": "czekaj",
@@ -6481,7 +6489,7 @@
   "VRG.WA": "czekaj",
   "WTN.WA": "nie",
   "WWL.WA": "obserwuj",
-  "XTB.WA": "kup",
+  "XTB.WA": "obserwuj",
   "XTP.WA": "nie",
   "ZAB.WA": "uwaga",
   "SPY": "obserwuj",
@@ -7270,7 +7278,7 @@
   "CVS|kup": "2026-11-14T02:18:45.525649Z",
   "MCK|pos": "2026-11-11T02:05:23.468763Z",
   "OXY|kup": "2026-11-17T03:07:15.822380Z",
-  "BEI.DE|neg": "2026-11-15T04:33:24.251447Z",
+  "BEI.DE|neg": "2026-11-18T10:25:35.158018Z",
   "SY1.DE|neg": "2026-11-11T02:05:23.468763Z",
   "DNP.WA|neg": "2026-11-11T02:05:23.468763Z",
   "APT.WA|pos": "2026-11-11T09:17:13.772802Z",
@@ -7376,6 +7384,7 @@
   "TWLO|neg": "2026-11-18T02:22:21.087770Z",
   "TTWO|pos": "2026-11-18T02:22:21.087770Z",
   "VLTO|pos": "2026-11-18T02:22:21.087770Z",
-  "QQQ|neg": "2026-11-18T02:22:21.087770Z"
+  "QQQ|neg": "2026-11-18T02:22:21.087770Z",
+  "ABE.WA|pos": "2026-11-18T10:25:35.158018Z"
  }
 }
