@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T17:38:27.262817Z",
+ "updated": "2026-11-19T23:49:18.621556Z",
  "top": [
   {
    "s": "AMT",
@@ -171,14 +171,14 @@
    ]
   },
   {
-   "s": "SOLV",
-   "n": "Solventum Corporation",
+   "s": "RVTY",
+   "n": "Revvity, Inc.",
    "sig": "kup",
    "score": 1.5,
-   "wok": true,
+   "wok": false,
    "why": [
     "wyraźnie nad średnią 200 sesji",
-    "tydzień potwierdza"
+    "tydzień nie potwierdza"
    ]
   },
   {
@@ -193,14 +193,14 @@
    ]
   },
   {
-   "s": "RVTY",
-   "n": "Revvity, Inc.",
+   "s": "SOLV",
+   "n": "Solventum Corporation",
    "sig": "kup",
    "score": 1.5,
-   "wok": false,
+   "wok": true,
    "why": [
     "wyraźnie nad średnią 200 sesji",
-    "tydzień nie potwierdza"
+    "tydzień potwierdza"
    ]
   },
   {
@@ -347,8 +347,8 @@
    ]
   },
   {
-   "s": "PSX",
-   "n": "Phillips 66",
+   "s": "WMT",
+   "n": "Walmart Inc.",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -507,8 +507,8 @@
    ]
   },
   {
-   "s": "WMT",
-   "n": "Walmart Inc.",
+   "s": "PSX",
+   "n": "Phillips 66",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -517,23 +517,23 @@
    ]
   },
   {
-   "s": "LITE",
-   "n": "Lumentum Holdings Inc.",
+   "s": "CI",
+   "n": "The Cigna Group",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 2/4"
+    "tu działało 1/1"
    ]
   },
   {
-   "s": "LHX",
-   "n": "L3Harris Technologies, Inc.",
+   "s": "PCAR",
+   "n": "PACCAR Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 2/3"
+    "tu działało 1/1"
    ]
   },
   {
@@ -619,13 +619,13 @@
    ]
   },
   {
-   "s": "CI",
-   "n": "The Cigna Group",
+   "s": "LITE",
+   "n": "Lumentum Holdings Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 1/1"
+    "tu działało 2/4"
    ]
   },
   {
@@ -830,13 +830,13 @@
    ]
   },
   {
-   "s": "PCAR",
-   "n": "PACCAR Inc.",
+   "s": "LHX",
+   "n": "L3Harris Technologies, Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 1/1"
+    "tu działało 2/3"
    ]
   },
   {
@@ -1089,8 +1089,8 @@
    "why": []
   },
   {
-   "s": "NSC",
-   "n": "Norfolk Southern Corporation",
+   "s": "INTC",
+   "n": "Intel Corporation",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1129,8 +1129,8 @@
    "why": []
   },
   {
-   "s": "EEM",
-   "n": "iShares MSCI Emerging Index Fun",
+   "s": "HUBB",
+   "n": "Hubbell Inc",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1337,16 +1337,16 @@
    "why": []
   },
   {
-   "s": "INTC",
-   "n": "Intel Corporation",
+   "s": "NSC",
+   "n": "Norfolk Southern Corporation",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
    "why": []
   },
   {
-   "s": "HUBB",
-   "n": "Hubbell Inc",
+   "s": "EEM",
+   "n": "iShares MSCI Emerging Index Fun",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
