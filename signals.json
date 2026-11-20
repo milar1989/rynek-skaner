@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T04:25:06.674558Z",
+ "updated": "2026-11-20T13:25:38.212618Z",
  "top": [
   {
    "s": "AMT",
@@ -12,19 +12,6 @@
     "realny cel",
     "duże ruchy (szeroki stop)",
     "tu działało 1/1",
-    "tydzień potwierdza"
-   ]
-  },
-  {
-   "s": "ARES",
-   "n": "Ares Management Corporation",
-   "sig": "kup",
-   "score": 3.5,
-   "wok": true,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "realny cel",
-    "duże ruchy (szeroki stop)",
     "tydzień potwierdza"
    ]
   },
@@ -121,6 +108,32 @@
    ]
   },
   {
+   "s": "MAB.WA",
+   "n": "MAB C.XWAR PLN",
+   "sig": "kup",
+   "score": 3.0,
+   "wok": true,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "realny cel",
+    "duże ruchy (szeroki stop)",
+    "tu słabo: 0/1",
+    "tydzień potwierdza"
+   ]
+  },
+  {
+   "s": "ARES",
+   "n": "Ares Management Corporation",
+   "sig": "kup",
+   "score": 2.5,
+   "wok": true,
+   "why": [
+    "realny cel",
+    "duże ruchy (szeroki stop)",
+    "tydzień potwierdza"
+   ]
+  },
+  {
    "s": "BXP",
    "n": "BXP, Inc.",
    "sig": "kup",
@@ -145,13 +158,15 @@
    ]
   },
   {
-   "s": "BOS.WA",
-   "n": "BOS C.XWAR PLN",
+   "s": "P",
+   "n": "Everpure, Inc.",
    "sig": "kup",
-   "score": 1.5,
+   "score": 2.0,
    "wok": true,
    "why": [
     "wyraźnie nad średnią 200 sesji",
+    "duże ruchy (szeroki stop)",
+    "tu słabo: 0/1",
     "tydzień potwierdza"
    ]
   },
@@ -178,25 +193,13 @@
    ]
   },
   {
-   "s": "APD",
-   "n": "Air Products and Chemicals, Inc",
-   "sig": "obserwuj",
-   "score": 2.0,
-   "wok": null,
+   "s": "BOS.WA",
+   "n": "BOS C.XWAR PLN",
+   "sig": "kup",
+   "score": 0.5,
+   "wok": true,
    "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu działało 1/1"
-   ]
-  },
-  {
-   "s": "UNP",
-   "n": "Union Pacific Corporation",
-   "sig": "obserwuj",
-   "score": 2.0,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu działało 1/1"
+    "tydzień potwierdza"
    ]
   },
   {
@@ -310,6 +313,28 @@
    ]
   },
   {
+   "s": "APD",
+   "n": "Air Products and Chemicals, Inc",
+   "sig": "obserwuj",
+   "score": 2.0,
+   "wok": null,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "UNP",
+   "n": "Union Pacific Corporation",
+   "sig": "obserwuj",
+   "score": 2.0,
+   "wok": null,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu działało 1/1"
+   ]
+  },
+  {
    "s": "GPC",
    "n": "Genuine Parts Company",
    "sig": "obserwuj",
@@ -370,8 +395,8 @@
    ]
   },
   {
-   "s": "JKHY",
-   "n": "Jack Henry & Associates, Inc.",
+   "s": "APR.WA",
+   "n": "APR C.XWAR PLN",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -402,16 +427,6 @@
   {
    "s": "ADP",
    "n": "Automatic Data Processing, Inc.",
-   "sig": "obserwuj",
-   "score": 1.5,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji"
-   ]
-  },
-  {
-   "s": "GPP.WA",
-   "n": "GPP C.XWAR PLN",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -510,49 +525,28 @@
    ]
   },
   {
-   "s": "DTG.DE",
-   "n": "Daimler Truck Holding AG      N",
+   "s": "G24.DE",
+   "n": "Scout24 SE                    N",
    "sig": "obserwuj",
-   "score": 1.0,
+   "score": 1.5,
    "wok": null,
    "why": [
-    "tu działało 1/2"
+    "wyraźnie nad średnią 200 sesji"
    ]
   },
   {
-   "s": "ZBH",
-   "n": "Zimmer Biomet Holdings, Inc.",
+   "s": "JKHY",
+   "n": "Jack Henry & Associates, Inc.",
    "sig": "obserwuj",
-   "score": 1.0,
+   "score": 1.5,
    "wok": null,
    "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu słabo: 0/1"
+    "wyraźnie nad średnią 200 sesji"
    ]
   },
   {
-   "s": "OXY",
-   "n": "Occidental Petroleum Corporatio",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "tu działało 2/2"
-   ]
-  },
-  {
-   "s": "LYB",
-   "n": "LyondellBasell Industries NV",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "tu działało 2/3"
-   ]
-  },
-  {
-   "s": "JSW.WA",
-   "n": "JSW C.XWAR PLN",
+   "s": "GEV",
+   "n": "GE Vernova Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
@@ -561,8 +555,8 @@
    ]
   },
   {
-   "s": "NWSA",
-   "n": "News Corporation",
+   "s": "DLR",
+   "n": "Digital Realty Trust, Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
@@ -581,14 +575,13 @@
    ]
   },
   {
-   "s": "MAB.WA",
-   "n": "MAB C.XWAR PLN",
+   "s": "DTG.DE",
+   "n": "Daimler Truck Holding AG      N",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu słabo: 0/1"
+    "tu działało 1/2"
    ]
   },
   {
@@ -643,14 +636,13 @@
    ]
   },
   {
-   "s": "CVNA",
-   "n": "Carvana Co.",
+   "s": "VWCE.DE",
+   "n": "Vanguard FTSE All-World U.ETF R",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu słabo: 0/1"
+    "tu działało 1/1"
    ]
   },
   {
@@ -664,13 +656,14 @@
    ]
   },
   {
-   "s": "GEV",
-   "n": "GE Vernova Inc.",
+   "s": "ZBH",
+   "n": "Zimmer Biomet Holdings, Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 1/1"
+    "wyraźnie nad średnią 200 sesji",
+    "tu słabo: 0/1"
    ]
   },
   {
@@ -794,16 +787,6 @@
    ]
   },
   {
-   "s": "CPS.WA",
-   "n": "CPS C.XWAR PLN",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "tu działało 1/1"
-   ]
-  },
-  {
    "s": "SKA.WA",
    "n": "SKA C.XWAR PLN",
    "sig": "obserwuj",
@@ -894,8 +877,8 @@
    ]
   },
   {
-   "s": "DLR",
-   "n": "Digital Realty Trust, Inc.",
+   "s": "NWSA",
+   "n": "News Corporation",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
@@ -924,14 +907,13 @@
    ]
   },
   {
-   "s": "P",
-   "n": "Everpure, Inc.",
+   "s": "OXY",
+   "n": "Occidental Petroleum Corporatio",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu słabo: 0/1"
+    "tu działało 2/2"
    ]
   },
   {
@@ -955,28 +937,24 @@
    ]
   },
   {
-   "s": "BKR",
-   "n": "Baker Hughes Company",
+   "s": "LYB",
+   "n": "LyondellBasell Industries NV",
    "sig": "obserwuj",
-   "score": 0.5,
+   "score": 1.0,
    "wok": null,
-   "why": []
+   "why": [
+    "tu działało 2/3"
+   ]
   },
   {
-   "s": "RBW.WA",
-   "n": "RBW C.XWAR PLN",
+   "s": "JSW.WA",
+   "n": "JSW C.XWAR PLN",
    "sig": "obserwuj",
-   "score": 0.5,
+   "score": 1.0,
    "wok": null,
-   "why": []
-  },
-  {
-   "s": "DTE",
-   "n": "DTE Energy Company",
-   "sig": "obserwuj",
-   "score": 0.5,
-   "wok": null,
-   "why": []
+   "why": [
+    "tu działało 1/1"
+   ]
   },
   {
    "s": "CIG.WA",
@@ -1155,8 +1133,8 @@
    "why": []
   },
   {
-   "s": "NVDA",
-   "n": "NVIDIA Corporation",
+   "s": "DTE",
+   "n": "DTE Energy Company",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1219,16 +1197,8 @@
    "why": []
   },
   {
-   "s": "NOW",
-   "n": "ServiceNow, Inc.",
-   "sig": "obserwuj",
-   "score": 0.5,
-   "wok": null,
-   "why": []
-  },
-  {
-   "s": "MGM",
-   "n": "MGM Resorts International",
+   "s": "EUNL.DE",
+   "n": "iShsIII-Core MSCI World U.ETF R",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1411,43 +1381,37 @@
    "why": []
   },
   {
-   "s": "QCOM",
-   "n": "QUALCOMM Incorporated",
+   "s": "BKR",
+   "n": "Baker Hughes Company",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 1/3"
-   ]
+   "why": []
   },
   {
-   "s": "SNPS",
-   "n": "Synopsys, Inc.",
+   "s": "NVDA",
+   "n": "NVIDIA Corporation",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "wok": null,
+   "why": []
+  },
+  {
+   "s": "MGM",
+   "n": "MGM Resorts International",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "wok": null,
+   "why": []
+  },
+  {
+   "s": "WMB",
+   "n": "Williams Companies, Inc. (The)",
    "sig": "obserwuj",
    "score": 0.0,
    "wok": null,
    "why": [
     "tu słabo: 0/1"
-   ]
-  },
-  {
-   "s": "VST",
-   "n": "Vistra Corp.",
-   "sig": "obserwuj",
-   "score": 0.0,
-   "wok": null,
-   "why": [
-    "tu słabo: 0/2"
-   ]
-  },
-  {
-   "s": "DHI",
-   "n": "D.R. Horton, Inc.",
-   "sig": "obserwuj",
-   "score": 0.0,
-   "wok": null,
-   "why": [
-    "tu słabo: 0/2"
    ]
   },
   {
@@ -1551,13 +1515,13 @@
    ]
   },
   {
-   "s": "WMB",
-   "n": "Williams Companies, Inc. (The)",
+   "s": "DHI",
+   "n": "D.R. Horton, Inc.",
    "sig": "obserwuj",
    "score": 0.0,
    "wok": null,
    "why": [
-    "tu słabo: 0/1"
+    "tu słabo: 0/2"
    ]
   },
   {
@@ -1671,13 +1635,13 @@
    ]
   },
   {
-   "s": "AKAM",
-   "n": "Akamai Technologies, Inc.",
+   "s": "VST",
+   "n": "Vistra Corp.",
    "sig": "obserwuj",
    "score": 0.0,
    "wok": null,
    "why": [
-    "tu słabo: 1/5"
+    "tu słabo: 0/2"
    ]
   },
   {
@@ -1718,6 +1682,86 @@
    "wok": null,
    "why": [
     "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "SYF",
+   "n": "Synchrony Financial",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "SNPS",
+   "n": "Synopsys, Inc.",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "MTX.DE",
+   "n": "MTU Aero Engines AG           N",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 1/3"
+   ]
+  },
+  {
+   "s": "IFX.DE",
+   "n": "INFINEON TECHNOLOGIES AG      N",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/3"
+   ]
+  },
+  {
+   "s": "QCOM",
+   "n": "QUALCOMM Incorporated",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 1/3"
+   ]
+  },
+  {
+   "s": "MCI.WA",
+   "n": "MCI C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "CVNA",
+   "n": "Carvana Co.",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "AKAM",
+   "n": "Akamai Technologies, Inc.",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 1/5"
    ]
   }
  ],
@@ -2420,7 +2464,7 @@
   "IFX.DE": {
    "w": 0,
    "n": 3,
-   "d": "2026-11-10"
+   "d": "2026-11-20"
   },
   "SIE.DE": {
    "w": 0,
@@ -2435,7 +2479,7 @@
   "APR.WA": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "BOS.WA": {
    "w": 0,
@@ -2796,116 +2840,40 @@
    "w": 1,
    "n": 1,
    "d": "2026-11-20"
+  },
+  "SYF": {
+   "w": 0,
+   "n": 1,
+   "d": "2026-11-20"
+  },
+  "G24.DE": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-20"
+  },
+  "MTX.DE": {
+   "w": 1,
+   "n": 3,
+   "d": "2026-11-20"
+  },
+  "MCI.WA": {
+   "w": 0,
+   "n": 1,
+   "d": "2026-11-20"
+  },
+  "VWCE.DE": {
+   "w": 1,
+   "n": 1,
+   "d": "2026-11-20"
+  },
+  "EUNL.DE": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-20"
   }
  },
- "nextId": 361,
+ "nextId": 371,
  "events": [
-  {
-   "id": 61,
-   "at": "2026-11-10T02:10:54.990863Z",
-   "s": "SGN.WA",
-   "n": "SGN C.XWAR PLN",
-   "t": "neg",
-   "why": "wypadek z klina",
-   "p": 93.0,
-   "h": "Wypadek z klina po 5 falach - ryzyko końca wzrostów. Nie dokładam, rozważ ograniczenie ryzyka."
-  },
-  {
-   "id": 62,
-   "at": "2026-11-10T02:10:54.990863Z",
-   "s": "TXT.WA",
-   "n": "TXT C.XWAR PLN",
-   "t": "neg",
-   "why": "scenariusz zanegowany",
-   "p": 37.79999923706055,
-   "h": "Cena poniżej 37.85 (zasięg 1.618 fali A (korekta płaska nieregularna)) - scenariusz korekty zanegowany. Możliwy koniec trendu; czekam na nową strukturę."
-  },
-  {
-   "id": 63,
-   "at": "2026-11-10T09:49:45.359667Z",
-   "s": "SY1.DE",
-   "n": "Symrise AG                    I",
-   "t": "pos",
-   "why": "poprawa",
-   "p": 92.4000015258789,
-   "h": "Korekta trwa (A). Strefa zakupu 83.75–85.82; kupuję dopiero po A-B-C i impulsie w górę."
-  },
-  {
-   "id": 64,
-   "at": "2026-11-10T09:49:45.359667Z",
-   "s": "APR.WA",
-   "n": "APR C.XWAR PLN",
-   "t": "kup",
-   "why": "korekta A-B-C + impuls",
-   "p": 28.049999237060547,
-   "h": "Sygnał KUP: korekta A-B-C w strefie 1 narzędzi i objęcie hossy przy dołku C. Dodatkowo zgodne: 0 z 4 (informacyjnie).",
-   "score": 1.5,
-   "wok": true
-  },
-  {
-   "id": 65,
-   "at": "2026-11-10T09:49:45.359667Z",
-   "s": "DAT.WA",
-   "n": "DAT C.XWAR PLN",
-   "t": "neg",
-   "why": "trend spadkowy",
-   "p": 86.9000015258789,
-   "h": "Trend spadkowy - niższe szczyty i dołki. Nie kupuję, dopóki nie pojawi się impuls 5 fal w górę."
-  },
-  {
-   "id": 66,
-   "at": "2026-11-10T09:49:45.359667Z",
-   "s": "DNP.WA",
-   "n": "DNP C.XWAR PLN",
-   "t": "pos",
-   "why": "poprawa",
-   "p": 37.540000915527344,
-   "h": "Korekta trwa (A). Strefa zakupu 36.16–36.16; kupuję dopiero po A-B-C i impulsie w górę."
-  },
-  {
-   "id": 67,
-   "at": "2026-11-10T09:49:45.359667Z",
-   "s": "SGN.WA",
-   "n": "SGN C.XWAR PLN",
-   "t": "pos",
-   "why": "poprawa",
-   "p": 96.5999984741211,
-   "h": "Trwa wzrost - nie gonię ceny. Okazja pojawi się po korekcie trójfalowej do strefy 80.41–80.50."
-  },
-  {
-   "id": 68,
-   "at": "2026-11-10T09:49:45.359667Z",
-   "s": "XTB.WA",
-   "n": "XTB C.XWAR PLN",
-   "t": "kup",
-   "why": "korekta A-B-C + impuls",
-   "p": 135.13999938964844,
-   "h": "Sygnał KUP: korekta A-B-C w strefie 1 narzędzi i objęcie hossy przy dołku C. Dodatkowo zgodne: 1 z 4 (informacyjnie).",
-   "score": 1.5,
-   "wok": true
-  },
-  {
-   "id": 69,
-   "at": "2026-11-10T17:20:26.294248Z",
-   "s": "ABBV",
-   "n": "AbbVie Inc.",
-   "t": "pos",
-   "why": "poprawa",
-   "p": 293.239990234375,
-   "h": "Korekta trwa (A). Strefa zakupu 239.52–241.20; kupuję dopiero po A-B-C i impulsie w górę."
-  },
-  {
-   "id": 70,
-   "at": "2026-11-10T17:20:26.294248Z",
-   "s": "APO",
-   "n": "Apollo Global Management, Inc. ",
-   "t": "kup",
-   "why": "korekta A-B-C + impuls",
-   "p": 122.80000305175781,
-   "h": "Sygnał KUP: korekta A-B-C w strefie 2 narzędzi i wyższy dołek i wybicie szczytu pierwszej fali (start fali 3). Dodatkowo zgodne: 2 z 4 (informacyjnie).",
-   "score": 2.5,
-   "wok": true
-  },
   {
    "id": 71,
    "at": "2026-11-10T17:20:26.294248Z",
@@ -6214,12 +6182,117 @@
    "why": "poprawa",
    "p": 73.68000030517578,
    "h": "Korekta trwa (A). Strefa zakupu 59.33–60.78; kupuję dopiero po A-B-C i impulsie w górę."
+  },
+  {
+   "id": 361,
+   "at": "2026-11-20T13:25:38.212618Z",
+   "s": "^GDAXI",
+   "n": "DAX                           P",
+   "t": "neg",
+   "why": "wypadek z klina",
+   "p": 24880.51953125,
+   "h": "Wypadek z klina po 5 falach - ryzyko końca wzrostów. Nie dokładam, rozważ ograniczenie ryzyka."
+  },
+  {
+   "id": 362,
+   "at": "2026-11-20T13:25:38.212618Z",
+   "s": "FTV",
+   "n": "Fortive Corporation",
+   "t": "neg",
+   "why": "wypadek z klina",
+   "p": 65.41000366210938,
+   "h": "Wypadek z klina po 5 falach - ryzyko końca wzrostów. Nie dokładam, rozważ ograniczenie ryzyka."
+  },
+  {
+   "id": 363,
+   "at": "2026-11-20T13:25:38.212618Z",
+   "s": "NOW",
+   "n": "ServiceNow, Inc.",
+   "t": "neg",
+   "why": "scenariusz zanegowany",
+   "p": 88.87000274658203,
+   "h": "Cena poniżej 88.94 (zasięg 1.618 fali A (korekta płaska nieregularna)) - scenariusz korekty zanegowany. Możliwy koniec trendu; czekam na nową strukturę."
+  },
+  {
+   "id": 364,
+   "at": "2026-11-20T13:25:38.212618Z",
+   "s": "ACP.WA",
+   "n": "ACP C.XWAR PLN",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 208.5,
+   "h": "Korekta trwa (A). Strefa zakupu 167.67–167.67; kupuję dopiero po A-B-C i impulsie w górę."
+  },
+  {
+   "id": 365,
+   "at": "2026-11-20T13:25:38.212618Z",
+   "s": "APT.WA",
+   "n": "APT C.XWAR PLN",
+   "t": "neg",
+   "why": "wypadek z klina",
+   "p": 22.350000381469727,
+   "h": "Wypadek z klina po 5 falach - ryzyko końca wzrostów. Nie dokładam, rozważ ograniczenie ryzyka."
+  },
+  {
+   "id": 366,
+   "at": "2026-11-20T13:25:38.212618Z",
+   "s": "CPS.WA",
+   "n": "CPS C.XWAR PLN",
+   "t": "neg",
+   "why": "scenariusz zanegowany",
+   "p": 12.470000267028809,
+   "h": "Cena poniżej 12.57 (0.886 całego ruchu) - scenariusz korekty zanegowany. Możliwy koniec trendu; czekam na nową strukturę."
+  },
+  {
+   "id": 367,
+   "at": "2026-11-20T13:25:38.212618Z",
+   "s": "GPP.WA",
+   "n": "GPP C.XWAR PLN",
+   "t": "neg",
+   "why": "scenariusz zanegowany",
+   "p": 52.0,
+   "h": "Cena poniżej 52.27 (0.886 całego ruchu) - scenariusz korekty zanegowany. Możliwy koniec trendu; czekam na nową strukturę."
+  },
+  {
+   "id": 368,
+   "at": "2026-11-20T13:25:38.212618Z",
+   "s": "MAB.WA",
+   "n": "MAB C.XWAR PLN",
+   "t": "kup",
+   "why": "korekta A-B-C + impuls",
+   "p": 9.050000190734863,
+   "h": "Sygnał KUP: korekta A-B-C w strefie 1 narzędzi i wyższy dołek i wybicie szczytu pierwszej fali (start fali 3). Dodatkowo zgodne: 3 z 4 (informacyjnie).",
+   "score": 3.0,
+   "wok": true,
+   "st": 6.6329998111724855,
+   "t1": 11.800000190734863,
+   "t2": 13.448124665859078
+  },
+  {
+   "id": 369,
+   "at": "2026-11-20T13:25:38.212618Z",
+   "s": "MBR.WA",
+   "n": "MBR C.XWAR PLN",
+   "t": "neg",
+   "why": "wypadek z klina",
+   "p": 411.5,
+   "h": "Wypadek z klina po 5 falach - ryzyko końca wzrostów. Nie dokładam, rozważ ograniczenie ryzyka."
+  },
+  {
+   "id": 370,
+   "at": "2026-11-20T13:25:38.212618Z",
+   "s": "RBW.WA",
+   "n": "RBW C.XWAR PLN",
+   "t": "neg",
+   "why": "scenariusz zanegowany",
+   "p": 111.80000305175781,
+   "h": "Cena poniżej 112.44 (zasięg 1.618 fali A (korekta płaska nieregularna)) - scenariusz korekty zanegowany. Możliwy koniec trendu; czekam na nową strukturę."
   }
  ],
  "sig": {
   "^NDX": "czekaj",
   "^DJI": "czekaj",
-  "^GDAXI": "czekaj",
+  "^GDAXI": "uwaga",
   "^GSPC": "obserwuj",
   "BTC-USD": "nie",
   "ETH-USD": "obserwuj",
@@ -6422,7 +6495,7 @@
   "FSLR": "nie",
   "FTNT": "obserwuj",
   "FRT": "czekaj",
-  "FTV": "czekaj",
+  "FTV": "uwaga",
   "GDDY": "uwaga",
   "GD": "czekaj",
   "GEHC": "obserwuj",
@@ -6557,7 +6630,7 @@
   "NI": "uwaga",
   "NKE": "nie",
   "NOC": "nie",
-  "NOW": "obserwuj",
+  "NOW": "nie",
   "NRG": "nie",
   "NSC": "obserwuj",
   "NTAP": "obserwuj",
@@ -6578,7 +6651,7 @@
   "ORLY": "czekaj",
   "PANW": "czekaj",
   "OTIS": "nie",
-  "P": "obserwuj",
+  "P": "kup",
   "PAYX": "nie",
   "PCAR": "obserwuj",
   "PCG": "nie",
@@ -6648,7 +6721,7 @@
   "SW": "nie",
   "SWKS": "nie",
   "SWK": "czekaj",
-  "SYF": "czekaj",
+  "SYF": "obserwuj",
   "SYK": "nie",
   "SYY": "obserwuj",
   "TDG": "nie",
@@ -6759,14 +6832,14 @@
   "G1A.DE": "czekaj",
   "FRE.DE": "czekaj",
   "FME.DE": "nie",
-  "G24.DE": "czekaj",
+  "G24.DE": "obserwuj",
   "HEN3.DE": "czekaj",
   "HNR1.DE": "czekaj",
   "HEI.DE": "nie",
-  "IFX.DE": "czekaj",
+  "IFX.DE": "obserwuj",
   "MBG.DE": "nie",
   "MRK.DE": "czekaj",
-  "MTX.DE": "czekaj",
+  "MTX.DE": "obserwuj",
   "MUV2.DE": "nie",
   "QIA.DE": "czekaj",
   "PAH3.DE": "nie",
@@ -6782,15 +6855,15 @@
   "11B.WA": "nie",
   "ABE.WA": "uwaga",
   "ACT.WA": "czekaj",
-  "ACP.WA": "uwaga",
+  "ACP.WA": "czekaj",
   "ALE.WA": "czekaj",
   "ALR.WA": "czekaj",
   "AGO.WA": "czekaj",
   "AMB.WA": "nie",
   "AMC.WA": "nie",
-  "APR.WA": "czekaj",
+  "APR.WA": "obserwuj",
   "ARH.WA": "czekaj",
-  "APT.WA": "czekaj",
+  "APT.WA": "uwaga",
   "ASB.WA": "czekaj",
   "ASE.WA": "czekaj",
   "ATC.WA": "nie",
@@ -6807,7 +6880,7 @@
   "CLN.WA": "nie",
   "CIG.WA": "obserwuj",
   "COG.WA": "nie",
-  "CPS.WA": "obserwuj",
+  "CPS.WA": "nie",
   "CRI.WA": "czekaj",
   "DAT.WA": "nie",
   "DNP.WA": "czekaj",
@@ -6822,7 +6895,7 @@
   "ERB.WA": "nie",
   "EUR.WA": "nie",
   "FTE.WA": "nie",
-  "GPP.WA": "obserwuj",
+  "GPP.WA": "nie",
   "GPW.WA": "czekaj",
   "GRX.WA": "obserwuj",
   "HUG.WA": "czekaj",
@@ -6836,10 +6909,10 @@
   "KTY.WA": "czekaj",
   "LBW.WA": "czekaj",
   "LPP.WA": "czekaj",
-  "MAB.WA": "obserwuj",
+  "MAB.WA": "kup",
   "MBK.WA": "czekaj",
-  "MBR.WA": "czekaj",
-  "MCI.WA": "czekaj",
+  "MBR.WA": "uwaga",
+  "MCI.WA": "obserwuj",
   "MDG.WA": "nie",
   "MIL.WA": "czekaj",
   "MLS.WA": "nie",
@@ -6864,7 +6937,7 @@
   "PXM.WA": "obserwuj",
   "PZU.WA": "czekaj",
   "QRS.WA": "czekaj",
-  "RBW.WA": "obserwuj",
+  "RBW.WA": "nie",
   "RVU.WA": "nie",
   "SGN.WA": "czekaj",
   "SEL.WA": "nie",
@@ -6894,8 +6967,8 @@
   "VTI": "czekaj",
   "GLD": "nie",
   "SLV": "nie",
-  "VWCE.DE": "czekaj",
-  "EUNL.DE": "czekaj",
+  "VWCE.DE": "obserwuj",
+  "EUNL.DE": "obserwuj",
   "SXR8.DE": "czekaj",
   "EEM": "obserwuj",
   "IS3N.DE": "czekaj",
@@ -7609,7 +7682,7 @@
   "VTR|kup": "2026-11-17T20:03:51.422646Z",
   "ZS|kup": "2026-11-09T11:01:14.786826Z",
   "ENT.WA|pos": "2026-11-09T11:01:14.786826Z",
-  "GPP.WA|neg": "2026-11-11T02:05:23.468763Z",
+  "GPP.WA|neg": "2026-11-20T13:25:38.212618Z",
   "CL=F|kup": "2026-11-12T20:25:25.093036Z",
   "ACN|neg": "2026-11-16T20:33:47.235437Z",
   "AMZN|pos": "2026-11-18T18:57:46.108985Z",
@@ -7755,7 +7828,7 @@
   "CINF|neg": "2026-11-17T20:03:51.422646Z",
   "ES|neg": "2026-11-17T20:03:51.422646Z",
   "FDS|neg": "2026-11-19T01:00:41.712392Z",
-  "FTV|neg": "2026-11-19T01:00:41.712392Z",
+  "FTV|neg": "2026-11-20T13:25:38.212618Z",
   "LDOS|neg": "2026-11-17T20:03:51.422646Z",
   "MLM|neg": "2026-11-17T20:03:51.422646Z",
   "NVDA|pos": "2026-11-17T20:03:51.422646Z",
@@ -7820,6 +7893,14 @@
   "MSFT|neg": "2026-11-20T04:25:06.674558Z",
   "NUE|neg": "2026-11-20T04:25:06.674558Z",
   "AGO.WA|pos": "2026-11-20T04:25:06.674558Z",
-  "PZU.WA|pos": "2026-11-20T04:25:06.674558Z"
+  "PZU.WA|pos": "2026-11-20T04:25:06.674558Z",
+  "^GDAXI|neg": "2026-11-20T13:25:38.212618Z",
+  "NOW|neg": "2026-11-20T13:25:38.212618Z",
+  "ACP.WA|pos": "2026-11-20T13:25:38.212618Z",
+  "APT.WA|neg": "2026-11-20T13:25:38.212618Z",
+  "CPS.WA|neg": "2026-11-20T13:25:38.212618Z",
+  "MAB.WA|kup": "2026-11-20T13:25:38.212618Z",
+  "MBR.WA|neg": "2026-11-20T13:25:38.212618Z",
+  "RBW.WA|neg": "2026-11-20T13:25:38.212618Z"
  }
 }
