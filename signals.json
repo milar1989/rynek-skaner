@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T23:49:18.621556Z",
+ "updated": "2026-11-20T04:25:06.674558Z",
  "top": [
   {
    "s": "AMT",
@@ -12,19 +12,6 @@
     "realny cel",
     "duże ruchy (szeroki stop)",
     "tu działało 1/1",
-    "tydzień potwierdza"
-   ]
-  },
-  {
-   "s": "BXP",
-   "n": "BXP, Inc.",
-   "sig": "kup",
-   "score": 3.5,
-   "wok": true,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "realny cel",
-    "duże ruchy (szeroki stop)",
     "tydzień potwierdza"
    ]
   },
@@ -134,20 +121,8 @@
    ]
   },
   {
-   "s": "BOS.WA",
-   "n": "BOS C.XWAR PLN",
-   "sig": "kup",
-   "score": 2.5,
-   "wok": true,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "duże ruchy (szeroki stop)",
-    "tydzień potwierdza"
-   ]
-  },
-  {
-   "s": "VTR",
-   "n": "Ventas, Inc.",
+   "s": "BXP",
+   "n": "BXP, Inc.",
    "sig": "kup",
    "score": 2.5,
    "wok": true,
@@ -158,43 +133,31 @@
    ]
   },
   {
-   "s": "P",
-   "n": "Everpure, Inc.",
+   "s": "SOLV",
+   "n": "Solventum Corporation",
    "sig": "kup",
-   "score": 2.0,
+   "score": 2.5,
    "wok": true,
    "why": [
     "wyraźnie nad średnią 200 sesji",
-    "duże ruchy (szeroki stop)",
-    "tu słabo: 0/1",
+    "realny cel",
     "tydzień potwierdza"
    ]
   },
   {
-   "s": "RVTY",
-   "n": "Revvity, Inc.",
+   "s": "BOS.WA",
+   "n": "BOS C.XWAR PLN",
    "sig": "kup",
    "score": 1.5,
-   "wok": false,
+   "wok": true,
    "why": [
     "wyraźnie nad średnią 200 sesji",
-    "tydzień nie potwierdza"
+    "tydzień potwierdza"
    ]
   },
   {
    "s": "DXCM",
    "n": "DexCom, Inc.",
-   "sig": "kup",
-   "score": 1.5,
-   "wok": true,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tydzień potwierdza"
-   ]
-  },
-  {
-   "s": "SOLV",
-   "n": "Solventum Corporation",
    "sig": "kup",
    "score": 1.5,
    "wok": true,
@@ -215,14 +178,14 @@
    ]
   },
   {
-   "s": "NTRS",
-   "n": "Northern Trust Corporation",
-   "sig": "kup",
-   "score": 0.0,
-   "wok": true,
+   "s": "APD",
+   "n": "Air Products and Chemicals, Inc",
+   "sig": "obserwuj",
+   "score": 2.0,
+   "wok": null,
    "why": [
-    "tu słabo: 0/1",
-    "tydzień potwierdza"
+    "wyraźnie nad średnią 200 sesji",
+    "tu działało 1/1"
    ]
   },
   {
@@ -292,30 +255,8 @@
    ]
   },
   {
-   "s": "APD",
-   "n": "Air Products and Chemicals, Inc",
-   "sig": "obserwuj",
-   "score": 2.0,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu działało 1/1"
-   ]
-  },
-  {
    "s": "RCL",
    "n": "Royal Caribbean Cruises Ltd.",
-   "sig": "obserwuj",
-   "score": 2.0,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu działało 1/1"
-   ]
-  },
-  {
-   "s": "FTNT",
-   "n": "Fortinet, Inc.",
    "sig": "obserwuj",
    "score": 2.0,
    "wok": null,
@@ -347,6 +288,48 @@
    ]
   },
   {
+   "s": "HPE",
+   "n": "Hewlett Packard Enterprise Comp",
+   "sig": "obserwuj",
+   "score": 2.0,
+   "wok": null,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "SBUX",
+   "n": "Starbucks Corporation",
+   "sig": "obserwuj",
+   "score": 2.0,
+   "wok": null,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "GPC",
+   "n": "Genuine Parts Company",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "wok": null,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "PM",
+   "n": "Philip Morris International Inc",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "wok": null,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
    "s": "WMT",
    "n": "Walmart Inc.",
    "sig": "obserwuj",
@@ -369,16 +352,6 @@
   {
    "s": "AJG",
    "n": "Arthur J. Gallagher & Co.",
-   "sig": "obserwuj",
-   "score": 1.5,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji"
-   ]
-  },
-  {
-   "s": "DHR",
-   "n": "Danaher Corporation",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -517,23 +490,44 @@
    ]
   },
   {
-   "s": "CI",
-   "n": "The Cigna Group",
+   "s": "RVTY",
+   "n": "Revvity, Inc.",
    "sig": "obserwuj",
-   "score": 1.0,
+   "score": 1.5,
    "wok": null,
    "why": [
-    "tu działało 1/1"
+    "wyraźnie nad średnią 200 sesji"
    ]
   },
   {
-   "s": "PCAR",
-   "n": "PACCAR Inc.",
+   "s": "DHR",
+   "n": "Danaher Corporation",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "wok": null,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "DTG.DE",
+   "n": "Daimler Truck Holding AG      N",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 1/1"
+    "tu działało 1/2"
+   ]
+  },
+  {
+   "s": "ZBH",
+   "n": "Zimmer Biomet Holdings, Inc.",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "wok": null,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu słabo: 0/1"
    ]
   },
   {
@@ -646,16 +640,6 @@
    "wok": null,
    "why": [
     "tu działało 1/1"
-   ]
-  },
-  {
-   "s": "DTG.DE",
-   "n": "Daimler Truck Holding AG      N",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "tu działało 1/2"
    ]
   },
   {
@@ -860,14 +844,13 @@
    ]
   },
   {
-   "s": "ZBH",
-   "n": "Zimmer Biomet Holdings, Inc.",
+   "s": "PCAR",
+   "n": "PACCAR Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu słabo: 0/1"
+    "tu działało 1/1"
    ]
   },
   {
@@ -878,16 +861,6 @@
    "wok": null,
    "why": [
     "tu działało 3/3"
-   ]
-  },
-  {
-   "s": "APT.WA",
-   "n": "APT C.XWAR PLN",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "tu działało 2/2"
    ]
   },
   {
@@ -921,44 +894,65 @@
    ]
   },
   {
-   "s": "ETN",
-   "n": "Eaton Corporation, PLC",
+   "s": "DLR",
+   "n": "Digital Realty Trust, Inc.",
    "sig": "obserwuj",
-   "score": 0.5,
+   "score": 1.0,
    "wok": null,
-   "why": []
+   "why": [
+    "tu działało 1/1"
+   ]
   },
   {
-   "s": "ECHO",
-   "n": "EchoStar Corporation",
+   "s": "GOOGL",
+   "n": "Alphabet Inc.",
    "sig": "obserwuj",
-   "score": 0.5,
+   "score": 1.0,
    "wok": null,
-   "why": []
+   "why": [
+    "tu działało 1/1"
+   ]
   },
   {
-   "s": "^GSPC",
-   "n": "S&P 500",
+   "s": "CI",
+   "n": "The Cigna Group",
    "sig": "obserwuj",
-   "score": 0.5,
+   "score": 1.0,
    "wok": null,
-   "why": []
+   "why": [
+    "tu działało 1/1"
+   ]
   },
   {
-   "s": "APP",
-   "n": "Applovin Corporation",
+   "s": "P",
+   "n": "Everpure, Inc.",
    "sig": "obserwuj",
-   "score": 0.5,
+   "score": 1.0,
    "wok": null,
-   "why": []
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu słabo: 0/1"
+   ]
   },
   {
-   "s": "IMC.WA",
-   "n": "IMC C.XWAR PLN",
+   "s": "NSC",
+   "n": "Norfolk Southern Corporation",
    "sig": "obserwuj",
-   "score": 0.5,
+   "score": 1.0,
    "wok": null,
-   "why": []
+   "why": [
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "FTNT",
+   "n": "Fortinet, Inc.",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "wok": null,
+   "why": [
+    "tu działało 1/1"
+   ]
   },
   {
    "s": "BKR",
@@ -1137,8 +1131,8 @@
    "why": []
   },
   {
-   "s": "PKN.WA",
-   "n": "PKN C.XWAR PLN",
+   "s": "GC=F",
+   "n": "Gold Dec 26",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1177,8 +1171,8 @@
    "why": []
   },
   {
-   "s": "VMC",
-   "n": "Vulcan Materials Company (Holdi",
+   "s": "IMC.WA",
+   "n": "IMC C.XWAR PLN",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1337,8 +1331,8 @@
    "why": []
   },
   {
-   "s": "NSC",
-   "n": "Norfolk Southern Corporation",
+   "s": "APP",
+   "n": "Applovin Corporation",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1353,84 +1347,68 @@
    "why": []
   },
   {
-   "s": "HOOD",
-   "n": "Robinhood Markets, Inc.",
+   "s": "JCI",
+   "n": "Johnson Controls International ",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 0/1"
-   ]
+   "why": []
   },
   {
-   "s": "AKAM",
-   "n": "Akamai Technologies, Inc.",
+   "s": "^GSPC",
+   "n": "S&P 500",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 2/6"
-   ]
+   "why": []
   },
   {
-   "s": "WWL.WA",
-   "n": "WWL C.XWAR PLN",
+   "s": "ECHO",
+   "n": "EchoStar Corporation",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 0/1"
-   ]
+   "why": []
   },
   {
-   "s": "PPL",
-   "n": "PPL Corporation",
+   "s": "ETN",
+   "n": "Eaton Corporation, PLC",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 0/1"
-   ]
+   "why": []
   },
   {
-   "s": "DOV",
-   "n": "Dover Corporation",
+   "s": "VTR",
+   "n": "Ventas, Inc.",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 1/3"
-   ]
+   "why": []
   },
   {
-   "s": "NEU.WA",
-   "n": "NEU C.XWAR PLN",
+   "s": "CASY",
+   "n": "Caseys General Stores, Inc.",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 0/1"
-   ]
+   "why": []
   },
   {
-   "s": "GFS",
-   "n": "GlobalFoundries Inc.",
+   "s": "PKN.WA",
+   "n": "PKN C.XWAR PLN",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 1/4"
-   ]
+   "why": []
   },
   {
-   "s": "MU",
-   "n": "Micron Technology, Inc.",
+   "s": "VMC",
+   "n": "Vulcan Materials Company (Holdi",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 0/1"
-   ]
+   "why": []
   },
   {
    "s": "QCOM",
@@ -1473,13 +1451,13 @@
    ]
   },
   {
-   "s": "GC=F",
-   "n": "Gold Dec 26",
+   "s": "GFS",
+   "n": "GlobalFoundries Inc.",
    "sig": "obserwuj",
    "score": 0.0,
    "wok": null,
    "why": [
-    "tu słabo: 0/1"
+    "tu słabo: 1/4"
    ]
   },
   {
@@ -1651,23 +1629,113 @@
    "why": [
     "tu słabo: 0/1"
    ]
+  },
+  {
+   "s": "NEU.WA",
+   "n": "NEU C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "DOV",
+   "n": "Dover Corporation",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 1/3"
+   ]
+  },
+  {
+   "s": "PPL",
+   "n": "PPL Corporation",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "WWL.WA",
+   "n": "WWL C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "AKAM",
+   "n": "Akamai Technologies, Inc.",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 1/5"
+   ]
+  },
+  {
+   "s": "IRM",
+   "n": "Iron Mountain Incorporated (Del",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/2"
+   ]
+  },
+  {
+   "s": "HOOD",
+   "n": "Robinhood Markets, Inc.",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "NTRS",
+   "n": "Northern Trust Corporation",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "MU",
+   "n": "Micron Technology, Inc.",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
   }
  ],
  "hist": {
   "GC=F": {
    "w": 0,
-   "n": 1,
-   "d": "2026-11-19"
+   "n": 0,
+   "d": "2026-11-20"
   },
   "ADP": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "ADSK": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "AIG": {
    "w": 0,
@@ -1675,29 +1743,29 @@
    "d": "2026-11-10"
   },
   "AKAM": {
-   "w": 2,
-   "n": 6,
-   "d": "2026-11-19"
+   "w": 1,
+   "n": 5,
+   "d": "2026-11-20"
   },
   "ALB": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "AMAT": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "AMT": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "AMP": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "AON": {
    "w": 0,
@@ -1707,32 +1775,32 @@
   "AOS": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "APD": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "APP": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "APO": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "ARES": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "ATO": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "AVGO": {
    "w": 0,
@@ -1742,47 +1810,47 @@
   "AXP": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "BA": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "BF-B": {
    "w": 0,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "BG": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "BKR": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "CDNS": {
    "w": 1,
    "n": 2,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "CF": {
    "w": 0,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "CHRW": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "CI": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "CLX": {
    "w": 0,
@@ -1797,102 +1865,102 @@
   "CNP": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "CVNA": {
    "w": 0,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "CVS": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "D": {
    "w": 1,
    "n": 2,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "DASH": {
    "w": 0,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "DELL": {
    "w": 0,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "DHI": {
    "w": 0,
    "n": 2,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "DHR": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "DLR": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-10"
+   "d": "2026-11-20"
   },
   "DOV": {
    "w": 1,
    "n": 3,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "DTE": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "DVN": {
    "w": 1,
    "n": 2,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "DXCM": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "ECHO": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "EME": {
    "w": 2,
    "n": 2,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "EQIX": {
    "w": 1,
    "n": 2,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "EQT": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "ESS": {
    "w": 1,
    "n": 2,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "ETN": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "F": {
    "w": 2,
    "n": 3,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "FIX": {
    "w": 0,
@@ -1902,72 +1970,72 @@
   "FTNT": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "GE": {
    "w": 1,
    "n": 2,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "GEHC": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "GEV": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "GLW": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "GOOG": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "HII": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "HOOD": {
    "w": 0,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "HPE": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-17"
+   "d": "2026-11-20"
   },
   "HPQ": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "HUBB": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "HWM": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "ILMN": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "INTC": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "ISRG": {
    "w": 0,
@@ -1977,27 +2045,27 @@
   "IRM": {
    "w": 0,
    "n": 2,
-   "d": "2026-11-10"
+   "d": "2026-11-20"
   },
   "JKHY": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "JCI": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "KKR": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "KMI": {
    "w": 2,
    "n": 2,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "LDOS": {
    "w": 1,
@@ -2007,12 +2075,12 @@
   "LHX": {
    "w": 2,
    "n": 3,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "LITE": {
    "w": 2,
    "n": 4,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "LRCX": {
    "w": 0,
@@ -2022,27 +2090,27 @@
   "LVS": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "LYB": {
    "w": 2,
    "n": 3,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "MCHP": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "META": {
    "w": 1,
    "n": 2,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "MGM": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "MLM": {
    "w": 1,
@@ -2052,47 +2120,47 @@
   "MNST": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "MPC": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "MU": {
    "w": 0,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "NOW": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "NSC": {
-   "w": 0,
-   "n": 0,
-   "d": "2026-11-19"
+   "w": 1,
+   "n": 1,
+   "d": "2026-11-20"
   },
   "NTRS": {
    "w": 0,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "NTAP": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "NWS": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "NWSA": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "NXPI": {
    "w": 0,
@@ -2102,7 +2170,7 @@
   "ODFL": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "ORLY": {
    "w": 0,
@@ -2112,12 +2180,12 @@
   "P": {
    "w": 0,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "OXY": {
    "w": 2,
    "n": 2,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "PANW": {
    "w": 0,
@@ -2127,7 +2195,7 @@
   "PCAR": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "PG": {
    "w": 0,
@@ -2137,52 +2205,52 @@
   "PLD": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "PPL": {
    "w": 0,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "PSX": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "PYPL": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "Q": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "QCOM": {
    "w": 1,
    "n": 3,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "RCL": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "RMD": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "ROK": {
    "w": 0,
    "n": 3,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "SHW": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "SMCI": {
    "w": 0,
@@ -2197,37 +2265,37 @@
   "SNPS": {
    "w": 0,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "SNA": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "SOLV": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "SPGI": {
    "w": 0,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "STX": {
    "w": 0,
    "n": 4,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "SYY": {
    "w": 1,
    "n": 2,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "T": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "TEL": {
    "w": 0,
@@ -2237,62 +2305,62 @@
   "TER": {
    "w": 0,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "TJX": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "TT": {
    "w": 1,
    "n": 4,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "TXT": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "TXN": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "UBER": {
    "w": 0,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "UNP": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "VMC": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "VST": {
    "w": 0,
    "n": 2,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "VTR": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "WMB": {
    "w": 0,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "WMT": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "WTW": {
    "w": 0,
@@ -2302,52 +2370,52 @@
   "WYNN": {
    "w": 0,
    "n": 3,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "ZBRA": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "ZBH": {
    "w": 0,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "TEAM": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "ZS": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "MDB": {
    "w": 0,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "GFS": {
    "w": 1,
    "n": 4,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "BNR.DE": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "ENR.DE": {
    "w": 1,
    "n": 3,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "DTG.DE": {
    "w": 1,
    "n": 2,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "IFX.DE": {
    "w": 0,
@@ -2362,7 +2430,7 @@
   "ZAL.DE": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "APR.WA": {
    "w": 0,
@@ -2372,17 +2440,17 @@
   "BOS.WA": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "CIG.WA": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "CPS.WA": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "DAT.WA": {
    "w": 0,
@@ -2392,7 +2460,7 @@
   "DCR.WA": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "DOM.WA": {
    "w": 0,
@@ -2402,27 +2470,27 @@
   "GPP.WA": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "GRX.WA": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "IMC.WA": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "JSW.WA": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "KGH.WA": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "MDG.WA": {
    "w": 0,
@@ -2432,47 +2500,47 @@
   "MRB.WA": {
    "w": 0,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "PXM.WA": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "RBW.WA": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "TOR.WA": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "WWL.WA": {
    "w": 0,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "XTB.WA": {
    "w": 0,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "SPY": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "AJG": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "BX": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "MCD": {
    "w": 0,
@@ -2482,12 +2550,12 @@
   "NEU.WA": {
    "w": 0,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "ETH-USD": {
    "w": 0,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "FME.DE": {
    "w": 0,
@@ -2497,7 +2565,7 @@
   "SKA.WA": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "TXT.WA": {
    "w": 0,
@@ -2507,27 +2575,27 @@
   "ENT.WA": {
    "w": 0,
    "n": 2,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "CL=F": {
    "w": 3,
    "n": 3,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "COF": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "DOC": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "HSY": {
    "w": 0,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "STT": {
    "w": 1,
@@ -2547,7 +2615,7 @@
   "PKN.WA": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "MRSH": {
    "w": 0,
@@ -2562,7 +2630,7 @@
   "BXP": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "CARR": {
    "w": 0,
@@ -2577,12 +2645,12 @@
   "SCHW": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "DVA": {
    "w": 2,
    "n": 2,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "PGR": {
    "w": 0,
@@ -2592,7 +2660,7 @@
   "MAB.WA": {
    "w": 0,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "DTE.DE": {
    "w": 0,
@@ -2607,189 +2675,131 @@
   "BE": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "RVTY": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "^GSPC": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "ABT": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "GPC": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "HBAN": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "NVDA": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "TPR": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "TWLO": {
    "w": 3,
    "n": 3,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "WAT": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "CCI": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "ELV": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "KDP": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "VEEV": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "WFC": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "CNC": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "GL": {
    "w": 1,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "MCO": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "REG": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "VOO": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
   },
   "EEM": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-19"
+   "d": "2026-11-20"
+  },
+  "CASY": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-20"
+  },
+  "GOOGL": {
+   "w": 1,
+   "n": 1,
+   "d": "2026-11-20"
+  },
+  "PM": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-20"
+  },
+  "SBUX": {
+   "w": 1,
+   "n": 1,
+   "d": "2026-11-20"
   }
  },
- "nextId": 354,
+ "nextId": 361,
  "events": [
-  {
-   "id": 54,
-   "at": "2026-11-10T02:10:54.990863Z",
-   "s": "STT",
-   "n": "State Street Corporation",
-   "t": "neg",
-   "why": "scenariusz zanegowany",
-   "p": 165.55999755859375,
-   "h": "Cena poniżej 168.03 (0.886 całego ruchu) - scenariusz korekty zanegowany. Możliwy koniec trendu; czekam na nową strukturę."
-  },
-  {
-   "id": 55,
-   "at": "2026-11-10T02:10:54.990863Z",
-   "s": "TXN",
-   "n": "Texas Instruments Incorporated",
-   "t": "kup",
-   "why": "korekta A-B-C + impuls",
-   "p": 277.3599853515625,
-   "h": "Sygnał KUP: korekta A-B-C w strefie 2 narzędzi i wyższy dołek i wybicie szczytu pierwszej fali (start fali 3). Dodatkowo zgodne: 1 z 4 (informacyjnie).",
-   "score": 2.5,
-   "wok": true
-  },
-  {
-   "id": 56,
-   "at": "2026-11-10T02:10:54.990863Z",
-   "s": "VMC",
-   "n": "Vulcan Materials Company (Holdi",
-   "t": "kup",
-   "why": "korekta A-B-C + impuls",
-   "p": 282.7200012207031,
-   "h": "Sygnał KUP: korekta A-B-C w strefie 2 narzędzi i wyższy dołek i wybicie szczytu pierwszej fali (start fali 3). Dodatkowo zgodne: 1 z 4 (informacyjnie).",
-   "score": 2.5,
-   "wok": true
-  },
-  {
-   "id": 57,
-   "at": "2026-11-10T02:10:54.990863Z",
-   "s": "VMRK",
-   "n": "Vivmark Residential",
-   "t": "neg",
-   "why": "scenariusz zanegowany",
-   "p": 65.51000213623047,
-   "h": "Cena poniżej 66.31 (zasięg 1.618 fali A (korekta płaska nieregularna)) - scenariusz korekty zanegowany. Możliwy koniec trendu; czekam na nową strukturę."
-  },
-  {
-   "id": 58,
-   "at": "2026-11-10T02:10:54.990863Z",
-   "s": "DAT.WA",
-   "n": "DAT C.XWAR PLN",
-   "t": "pos",
-   "why": "poprawa",
-   "p": 84.0,
-   "h": "Cena w strefie, korekta A-B-C kompletna - czekam na impuls w górę jako potwierdzenie.",
-   "score": 0.0,
-   "wok": null
-  },
-  {
-   "id": 59,
-   "at": "2026-11-10T02:10:54.990863Z",
-   "s": "ENT.WA",
-   "n": "ENT C.XWAR PLN",
-   "t": "neg",
-   "why": "scenariusz zanegowany",
-   "p": 48.25,
-   "h": "Cena poniżej 48.36 (zasięg 1.618 fali A (korekta płaska nieregularna)) - scenariusz korekty zanegowany. Możliwy koniec trendu; czekam na nową strukturę."
-  },
-  {
-   "id": 60,
-   "at": "2026-11-10T02:10:54.990863Z",
-   "s": "GPP.WA",
-   "n": "GPP C.XWAR PLN",
-   "t": "pos",
-   "why": "korekta A-B-C + impuls",
-   "p": 52.29999923706055,
-   "h": "Sygnał KUP: korekta A-B-C w strefie 3 narzędzi i wyższy dołek i wybicie szczytu pierwszej fali (start fali 3). Dodatkowo zgodne: 1 z 4 (informacyjnie).",
-   "score": 3.5,
-   "wok": true
-  },
   {
    "id": 61,
    "at": "2026-11-10T02:10:54.990863Z",
@@ -6132,6 +6142,78 @@
    "why": "trend spadkowy",
    "p": 175.64500427246094,
    "h": "Trend spadkowy - niższe szczyty i dołki. Nie kupuję, dopóki nie pojawi się impuls 5 fal w górę."
+  },
+  {
+   "id": 354,
+   "at": "2026-11-20T04:25:06.674558Z",
+   "s": "CRL",
+   "n": "Charles River Laboratories Inte",
+   "t": "neg",
+   "why": "wypadek z klina",
+   "p": 327.92999267578125,
+   "h": "Wypadek z klina po 5 falach - ryzyko końca wzrostów. Nie dokładam, rozważ ograniczenie ryzyka."
+  },
+  {
+   "id": 355,
+   "at": "2026-11-20T04:25:06.674558Z",
+   "s": "FTV",
+   "n": "Fortive Corporation",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 66.7300033569336,
+   "h": "Korekta trwa (A). Strefa zakupu 53.33–54.13; kupuję dopiero po A-B-C i impulsie w górę."
+  },
+  {
+   "id": 356,
+   "at": "2026-11-20T04:25:06.674558Z",
+   "s": "MSFT",
+   "n": "Microsoft Corporation",
+   "t": "neg",
+   "why": "wypadek z klina",
+   "p": 498.29998779296875,
+   "h": "Wypadek z klina po 5 falach - ryzyko końca wzrostów. Nie dokładam, rozważ ograniczenie ryzyka."
+  },
+  {
+   "id": 357,
+   "at": "2026-11-20T04:25:06.674558Z",
+   "s": "NUE",
+   "n": "Nucor Corporation",
+   "t": "neg",
+   "why": "wypadek z klina",
+   "p": 247.42999267578125,
+   "h": "Wypadek z klina po 5 falach - ryzyko końca wzrostów. Nie dokładam, rozważ ograniczenie ryzyka."
+  },
+  {
+   "id": 358,
+   "at": "2026-11-20T04:25:06.674558Z",
+   "s": "PM",
+   "n": "Philip Morris International Inc",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 186.42999267578125,
+   "h": "Cena w strefie, ale to dopiero fala A - jedno narzędzie (wsparcie) to za mało. Czekam na ruch trójfalowy.",
+   "score": 1.5,
+   "wok": null
+  },
+  {
+   "id": 359,
+   "at": "2026-11-20T04:25:06.674558Z",
+   "s": "AGO.WA",
+   "n": "AGO C.XWAR PLN",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 12.899999618530273,
+   "h": "Korekta trwa (A). Strefa zakupu 10.78–10.78; kupuję dopiero po A-B-C i impulsie w górę."
+  },
+  {
+   "id": 360,
+   "at": "2026-11-20T04:25:06.674558Z",
+   "s": "PZU.WA",
+   "n": "PZU C.XWAR PLN",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 73.68000030517578,
+   "h": "Korekta trwa (A). Strefa zakupu 59.33–60.78; kupuję dopiero po A-B-C i impulsie w górę."
   }
  ],
  "sig": {
@@ -6221,7 +6303,7 @@
   "C": "czekaj",
   "CARR": "nie",
   "CAH": "uwaga",
-  "CASY": "czekaj",
+  "CASY": "obserwuj",
   "CBRE": "nie",
   "CB": "uwaga",
   "CAT": "nie",
@@ -6258,7 +6340,7 @@
   "CPT": "nie",
   "CRH": "nie",
   "CNP": "obserwuj",
-  "CRL": "czekaj",
+  "CRL": "uwaga",
   "CRM": "nie",
   "CRWD": "czekaj",
   "CSGP": "nie",
@@ -6281,7 +6363,7 @@
   "DGX": "czekaj",
   "DHI": "obserwuj",
   "DHR": "obserwuj",
-  "DLR": "czekaj",
+  "DLR": "obserwuj",
   "DIS": "czekaj",
   "DLTR": "czekaj",
   "DOC": "obserwuj",
@@ -6340,7 +6422,7 @@
   "FSLR": "nie",
   "FTNT": "obserwuj",
   "FRT": "czekaj",
-  "FTV": "uwaga",
+  "FTV": "czekaj",
   "GDDY": "uwaga",
   "GD": "czekaj",
   "GEHC": "obserwuj",
@@ -6354,8 +6436,8 @@
   "GM": "czekaj",
   "GNRC": "czekaj",
   "GOOG": "obserwuj",
-  "GOOGL": "czekaj",
-  "GPC": "czekaj",
+  "GOOGL": "obserwuj",
+  "GPC": "obserwuj",
   "GPN": "czekaj",
   "GRMN": "czekaj",
   "GS": "czekaj",
@@ -6369,7 +6451,7 @@
   "HII": "obserwuj",
   "HLT": "czekaj",
   "HOOD": "obserwuj",
-  "HPE": "czekaj",
+  "HPE": "obserwuj",
   "HON": "nie",
   "HPQ": "obserwuj",
   "HRL": "nie",
@@ -6394,7 +6476,7 @@
   "IQV": "czekaj",
   "IR": "czekaj",
   "ISRG": "nie",
-  "IRM": "czekaj",
+  "IRM": "obserwuj",
   "IT": "nie",
   "IVZ": "czekaj",
   "ITW": "czekaj",
@@ -6402,7 +6484,7 @@
   "JBHT": "czekaj",
   "JBL": "czekaj",
   "JKHY": "obserwuj",
-  "JCI": "czekaj",
+  "JCI": "obserwuj",
   "JNJ": "czekaj",
   "KDP": "obserwuj",
   "JPM": "czekaj",
@@ -6460,7 +6542,7 @@
   "MRK": "czekaj",
   "MRSH": "nie",
   "MSCI": "czekaj",
-  "MSFT": "czekaj",
+  "MSFT": "uwaga",
   "MS": "czekaj",
   "MSI": "czekaj",
   "MTD": "czekaj",
@@ -6479,8 +6561,8 @@
   "NRG": "nie",
   "NSC": "obserwuj",
   "NTAP": "obserwuj",
-  "NUE": "czekaj",
-  "NTRS": "kup",
+  "NUE": "uwaga",
+  "NTRS": "obserwuj",
   "NVDA": "obserwuj",
   "NVR": "nie",
   "NWS": "obserwuj",
@@ -6496,7 +6578,7 @@
   "ORLY": "czekaj",
   "PANW": "czekaj",
   "OTIS": "nie",
-  "P": "kup",
+  "P": "obserwuj",
   "PAYX": "nie",
   "PCAR": "obserwuj",
   "PCG": "nie",
@@ -6512,7 +6594,7 @@
   "PHM": "czekaj",
   "PLTR": "uwaga",
   "PLD": "obserwuj",
-  "PM": "uwaga",
+  "PM": "obserwuj",
   "PNC": "czekaj",
   "PNR": "nie",
   "PODD": "nie",
@@ -6541,8 +6623,8 @@
   "ROST": "czekaj",
   "RSG": "czekaj",
   "RTX": "czekaj",
-  "RVTY": "kup",
-  "SBUX": "czekaj",
+  "RVTY": "obserwuj",
+  "SBUX": "obserwuj",
   "SBAC": "nie",
   "SCHW": "obserwuj",
   "SHW": "obserwuj",
@@ -6617,7 +6699,7 @@
   "VRSN": "czekaj",
   "VRTX": "czekaj",
   "VST": "obserwuj",
-  "VTR": "kup",
+  "VTR": "obserwuj",
   "VRT": "nie",
   "VTRS": "czekaj",
   "VZ": "czekaj",
@@ -6703,12 +6785,12 @@
   "ACP.WA": "uwaga",
   "ALE.WA": "czekaj",
   "ALR.WA": "czekaj",
-  "AGO.WA": "uwaga",
+  "AGO.WA": "czekaj",
   "AMB.WA": "nie",
   "AMC.WA": "nie",
   "APR.WA": "czekaj",
   "ARH.WA": "czekaj",
-  "APT.WA": "obserwuj",
+  "APT.WA": "czekaj",
   "ASB.WA": "czekaj",
   "ASE.WA": "czekaj",
   "ATC.WA": "nie",
@@ -6780,7 +6862,7 @@
   "PLW.WA": "nie",
   "PKO.WA": "czekaj",
   "PXM.WA": "obserwuj",
-  "PZU.WA": "uwaga",
+  "PZU.WA": "czekaj",
   "QRS.WA": "czekaj",
   "RBW.WA": "obserwuj",
   "RVU.WA": "nie",
@@ -6823,692 +6905,692 @@
   "FDXF": "nie"
  },
  "seen": {
-  "^NDX": "2026-11-19",
-  "^DJI": "2026-11-19",
-  "^GDAXI": "2026-11-19",
-  "^GSPC": "2026-11-19",
-  "BTC-USD": "2026-11-19",
-  "ETH-USD": "2026-11-19",
-  "SOL-USD": "2026-11-19",
-  "SI=F": "2026-11-19",
-  "CL=F": "2026-11-19",
-  "ABNB": "2026-11-19",
-  "A": "2026-11-19",
-  "ABBV": "2026-11-19",
-  "AAPL": "2026-11-19",
-  "GC=F": "2026-11-19",
-  "ACGL": "2026-11-19",
-  "ABT": "2026-11-19",
-  "ADBE": "2026-11-19",
-  "ACN": "2026-11-19",
-  "ADI": "2026-11-19",
-  "ADM": "2026-11-19",
-  "ADP": "2026-11-19",
-  "ADSK": "2026-11-19",
-  "AEE": "2026-11-19",
-  "AES": "2026-11-19",
-  "AEP": "2026-11-19",
-  "AFL": "2026-11-19",
-  "AIG": "2026-11-19",
-  "XRP-USD": "2026-11-19",
-  "AKAM": "2026-11-19",
-  "AIZ": "2026-11-19",
-  "AJG": "2026-11-19",
-  "ALGN": "2026-11-19",
-  "ALB": "2026-11-19",
-  "ALL": "2026-11-19",
-  "ALLE": "2026-11-19",
-  "AMAT": "2026-11-19",
-  "AMD": "2026-11-19",
-  "AMCR": "2026-11-19",
-  "AMGN": "2026-11-19",
-  "AME": "2026-11-19",
-  "AMP": "2026-11-19",
-  "AMZN": "2026-11-19",
-  "AMT": "2026-11-19",
-  "ANET": "2026-11-19",
-  "AON": "2026-11-19",
-  "AOS": "2026-11-19",
-  "APH": "2026-11-19",
-  "APA": "2026-11-19",
-  "APO": "2026-11-19",
-  "APP": "2026-11-19",
-  "APTV": "2026-11-19",
-  "APD": "2026-11-19",
-  "ARES": "2026-11-19",
-  "AXON": "2026-11-19",
-  "AWK": "2026-11-19",
-  "AVGO": "2026-11-19",
-  "ATO": "2026-11-19",
-  "AVY": "2026-11-19",
-  "AXP": "2026-11-19",
-  "ARE": "2026-11-19",
-  "AZO": "2026-11-19",
-  "BAC": "2026-11-19",
-  "BA": "2026-11-19",
-  "BALL": "2026-11-19",
-  "BAX": "2026-11-19",
-  "BBY": "2026-11-19",
-  "BDX": "2026-11-19",
-  "BE": "2026-11-19",
-  "BEN": "2026-11-19",
-  "BIIB": "2026-11-19",
-  "BF-B": "2026-11-19",
-  "BG": "2026-11-19",
-  "BKR": "2026-11-19",
-  "BKNG": "2026-11-19",
-  "BLK": "2026-11-19",
-  "BMY": "2026-11-19",
-  "BR": "2026-11-19",
-  "BNY": "2026-11-19",
-  "BRK-B": "2026-11-19",
-  "BSX": "2026-11-19",
-  "BRO": "2026-11-19",
-  "BXP": "2026-11-19",
-  "BX": "2026-11-19",
-  "C": "2026-11-19",
-  "CARR": "2026-11-19",
-  "CAH": "2026-11-19",
-  "CASY": "2026-11-19",
-  "CBRE": "2026-11-19",
-  "CB": "2026-11-19",
-  "CAT": "2026-11-19",
-  "CCI": "2026-11-19",
-  "CCL": "2026-11-19",
-  "CDW": "2026-11-19",
-  "CDNS": "2026-11-19",
-  "CF": "2026-11-19",
-  "CEG": "2026-11-19",
-  "CHD": "2026-11-19",
-  "CFG": "2026-11-19",
-  "CHRW": "2026-11-19",
-  "CHTR": "2026-11-19",
-  "CIEN": "2026-11-19",
-  "CI": "2026-11-19",
-  "CINF": "2026-11-19",
-  "CL": "2026-11-19",
-  "CLX": "2026-11-19",
-  "CMCSA": "2026-11-19",
-  "CME": "2026-11-19",
-  "CMG": "2026-11-19",
-  "CMI": "2026-11-19",
-  "CNC": "2026-11-19",
-  "CMS": "2026-11-19",
-  "COIN": "2026-11-19",
-  "COHR": "2026-11-19",
-  "COF": "2026-11-19",
-  "COO": "2026-11-19",
-  "COP": "2026-11-19",
-  "COR": "2026-11-19",
-  "COST": "2026-11-19",
-  "CPAY": "2026-11-19",
-  "CPRT": "2026-11-19",
-  "CPT": "2026-11-19",
-  "CRH": "2026-11-19",
-  "CNP": "2026-11-19",
-  "CRL": "2026-11-19",
-  "CRM": "2026-11-19",
-  "CRWD": "2026-11-19",
-  "CSGP": "2026-11-19",
-  "CSCO": "2026-11-19",
-  "CSX": "2026-11-19",
-  "CTAS": "2026-11-19",
-  "CTSH": "2026-11-19",
-  "CVNA": "2026-11-19",
-  "CVS": "2026-11-19",
-  "CVX": "2026-11-19",
-  "D": "2026-11-19",
-  "DAL": "2026-11-19",
-  "DASH": "2026-11-19",
-  "DDOG": "2026-11-19",
-  "DD": "2026-11-19",
-  "DE": "2026-11-19",
-  "DECK": "2026-11-19",
-  "DELL": "2026-11-19",
-  "DG": "2026-11-19",
-  "DGX": "2026-11-19",
-  "DHI": "2026-11-19",
-  "DHR": "2026-11-19",
-  "DLR": "2026-11-19",
-  "DIS": "2026-11-19",
-  "DLTR": "2026-11-19",
-  "DOC": "2026-11-19",
-  "DOW": "2026-11-19",
-  "DOV": "2026-11-19",
-  "DPZ": "2026-11-19",
-  "DRI": "2026-11-19",
-  "DVA": "2026-11-19",
-  "DUK": "2026-11-19",
-  "DTE": "2026-11-19",
-  "DXCM": "2026-11-19",
-  "EBAY": "2026-11-19",
-  "DVN": "2026-11-19",
-  "ECHO": "2026-11-19",
-  "ECL": "2026-11-19",
-  "ED": "2026-11-19",
-  "ELV": "2026-11-19",
-  "EFX": "2026-11-19",
-  "EL": "2026-11-19",
-  "EIX": "2026-11-19",
-  "EG": "2026-11-19",
-  "EME": "2026-11-19",
-  "EMR": "2026-11-19",
-  "EQIX": "2026-11-19",
-  "EOG": "2026-11-19",
-  "ERIE": "2026-11-19",
-  "EQT": "2026-11-19",
-  "ES": "2026-11-19",
-  "ESS": "2026-11-19",
-  "ETN": "2026-11-19",
-  "ETR": "2026-11-19",
-  "EW": "2026-11-19",
-  "EVRG": "2026-11-19",
-  "EXE": "2026-11-19",
-  "EXC": "2026-11-19",
-  "EXPE": "2026-11-19",
-  "EXPD": "2026-11-19",
-  "EXR": "2026-11-19",
-  "FANG": "2026-11-19",
-  "F": "2026-11-19",
-  "FAST": "2026-11-19",
-  "FCX": "2026-11-19",
-  "FDS": "2026-11-19",
-  "FDX": "2026-11-19",
-  "FE": "2026-11-19",
-  "FFIV": "2026-11-19",
-  "FERG": "2026-11-19",
-  "FISV": "2026-11-19",
-  "FIS": "2026-11-19",
-  "FICO": "2026-11-19",
-  "FIX": "2026-11-19",
-  "FITB": "2026-11-19",
-  "FLEX": "2026-11-19",
-  "FOX": "2026-11-19",
-  "FOXA": "2026-11-19",
-  "FSLR": "2026-11-19",
-  "FTNT": "2026-11-19",
-  "FRT": "2026-11-19",
-  "FTV": "2026-11-19",
-  "GDDY": "2026-11-19",
-  "GD": "2026-11-19",
-  "GEHC": "2026-11-19",
-  "GEV": "2026-11-19",
-  "GEN": "2026-11-19",
-  "GE": "2026-11-19",
-  "GILD": "2026-11-19",
-  "GIS": "2026-11-19",
-  "GL": "2026-11-19",
-  "GLW": "2026-11-19",
-  "GM": "2026-11-19",
-  "GNRC": "2026-11-19",
-  "GOOG": "2026-11-19",
-  "GOOGL": "2026-11-19",
-  "GPC": "2026-11-19",
-  "GPN": "2026-11-19",
-  "GRMN": "2026-11-19",
-  "GS": "2026-11-19",
-  "GWW": "2026-11-19",
-  "HAS": "2026-11-19",
-  "HBAN": "2026-11-19",
-  "HAL": "2026-11-19",
-  "HCA": "2026-11-19",
-  "HD": "2026-11-19",
-  "HIG": "2026-11-19",
-  "HII": "2026-11-19",
-  "HLT": "2026-11-19",
-  "HOOD": "2026-11-19",
-  "HPE": "2026-11-19",
-  "HON": "2026-11-19",
-  "HPQ": "2026-11-19",
-  "HRL": "2026-11-19",
-  "HSIC": "2026-11-19",
-  "HST": "2026-11-19",
-  "HSY": "2026-11-19",
-  "HUBB": "2026-11-19",
-  "HUM": "2026-11-19",
-  "HWM": "2026-11-19",
-  "IBKR": "2026-11-19",
-  "ICE": "2026-11-19",
-  "IBM": "2026-11-19",
-  "IDXX": "2026-11-19",
-  "ILMN": "2026-11-19",
-  "INCY": "2026-11-19",
-  "IFF": "2026-11-19",
-  "IEX": "2026-11-19",
-  "INTC": "2026-11-19",
-  "INVH": "2026-11-19",
-  "INTU": "2026-11-19",
-  "IP": "2026-11-19",
-  "IQV": "2026-11-19",
-  "IR": "2026-11-19",
-  "ISRG": "2026-11-19",
-  "IRM": "2026-11-19",
-  "IT": "2026-11-19",
-  "IVZ": "2026-11-19",
-  "ITW": "2026-11-19",
-  "J": "2026-11-19",
-  "JBHT": "2026-11-19",
-  "JBL": "2026-11-19",
-  "JKHY": "2026-11-19",
-  "JCI": "2026-11-19",
-  "JNJ": "2026-11-19",
-  "KDP": "2026-11-19",
-  "JPM": "2026-11-19",
-  "KEY": "2026-11-19",
-  "KEYS": "2026-11-19",
-  "KHC": "2026-11-19",
-  "KKR": "2026-11-19",
-  "KIM": "2026-11-19",
-  "KLAC": "2026-11-19",
-  "KMB": "2026-11-19",
-  "KMI": "2026-11-19",
-  "KO": "2026-11-19",
-  "KR": "2026-11-19",
-  "L": "2026-11-19",
-  "LDOS": "2026-11-19",
-  "LEN": "2026-11-19",
-  "LH": "2026-11-19",
-  "LHX": "2026-11-19",
-  "LII": "2026-11-19",
-  "LIN": "2026-11-19",
-  "LITE": "2026-11-19",
-  "LLY": "2026-11-19",
-  "LNT": "2026-11-19",
-  "LMT": "2026-11-19",
-  "LOW": "2026-11-19",
-  "LRCX": "2026-11-19",
-  "LULU": "2026-11-19",
-  "LYV": "2026-11-19",
-  "LYB": "2026-11-19",
-  "LVS": "2026-11-19",
-  "LUV": "2026-11-19",
-  "MA": "2026-11-19",
-  "MAA": "2026-11-19",
-  "MAR": "2026-11-19",
-  "MAS": "2026-11-19",
-  "MCHP": "2026-11-19",
-  "MCD": "2026-11-19",
-  "MDLZ": "2026-11-19",
-  "MCO": "2026-11-19",
-  "MCK": "2026-11-19",
-  "MDT": "2026-11-19",
-  "MET": "2026-11-19",
-  "META": "2026-11-19",
-  "MGM": "2026-11-19",
-  "MKC": "2026-11-19",
-  "MLM": "2026-11-19",
-  "MNST": "2026-11-19",
-  "MMM": "2026-11-19",
-  "MOS": "2026-11-19",
-  "MPC": "2026-11-19",
-  "MO": "2026-11-19",
-  "MPWR": "2026-11-19",
-  "MRNA": "2026-11-19",
-  "MRVL": "2026-11-19",
-  "MRK": "2026-11-19",
-  "MRSH": "2026-11-19",
-  "MSCI": "2026-11-19",
-  "MSFT": "2026-11-19",
-  "MS": "2026-11-19",
-  "MSI": "2026-11-19",
-  "MTD": "2026-11-19",
-  "NCLH": "2026-11-19",
-  "MTB": "2026-11-19",
-  "MU": "2026-11-19",
-  "NDAQ": "2026-11-19",
-  "NDSN": "2026-11-19",
-  "NEE": "2026-11-19",
-  "NFLX": "2026-11-19",
-  "NEM": "2026-11-19",
-  "NI": "2026-11-19",
-  "NKE": "2026-11-19",
-  "NOC": "2026-11-19",
-  "NOW": "2026-11-19",
-  "NRG": "2026-11-19",
-  "NSC": "2026-11-19",
-  "NTAP": "2026-11-19",
-  "NUE": "2026-11-19",
-  "NTRS": "2026-11-19",
-  "NVDA": "2026-11-19",
-  "NVR": "2026-11-19",
-  "NWS": "2026-11-19",
-  "NXPI": "2026-11-19",
-  "NWSA": "2026-11-19",
-  "O": "2026-11-19",
-  "OKTA": "2026-11-19",
-  "OKE": "2026-11-19",
-  "ODFL": "2026-11-19",
-  "OMC": "2026-11-19",
-  "ON": "2026-11-19",
-  "ORCL": "2026-11-19",
-  "ORLY": "2026-11-19",
-  "PANW": "2026-11-19",
-  "OTIS": "2026-11-19",
-  "P": "2026-11-19",
-  "PAYX": "2026-11-19",
-  "PCAR": "2026-11-19",
-  "PCG": "2026-11-19",
-  "PEG": "2026-11-19",
-  "OXY": "2026-11-19",
-  "PFE": "2026-11-19",
-  "PEP": "2026-11-19",
-  "PFG": "2026-11-19",
-  "PG": "2026-11-19",
-  "PGR": "2026-11-19",
-  "PKG": "2026-11-19",
-  "PH": "2026-11-19",
-  "PHM": "2026-11-19",
-  "PLTR": "2026-11-19",
-  "PLD": "2026-11-19",
-  "PM": "2026-11-19",
-  "PNC": "2026-11-19",
-  "PNR": "2026-11-19",
-  "PODD": "2026-11-19",
-  "PPG": "2026-11-19",
-  "PNW": "2026-11-19",
-  "PRU": "2026-11-19",
-  "PPL": "2026-11-19",
-  "PSA": "2026-11-19",
-  "PSX": "2026-11-19",
-  "PTC": "2026-11-19",
-  "PWR": "2026-11-19",
-  "PYPL": "2026-11-19",
-  "Q": "2026-11-19",
-  "QCOM": "2026-11-19",
-  "RDDT": "2026-11-19",
-  "RCL": "2026-11-19",
-  "REG": "2026-11-19",
-  "REGN": "2026-11-19",
-  "RF": "2026-11-19",
-  "RL": "2026-11-19",
-  "RJF": "2026-11-19",
-  "RMD": "2026-11-19",
-  "ROK": "2026-11-19",
-  "ROL": "2026-11-19",
-  "ROP": "2026-11-19",
-  "ROST": "2026-11-19",
-  "RSG": "2026-11-19",
-  "RTX": "2026-11-19",
-  "RVTY": "2026-11-19",
-  "SBUX": "2026-11-19",
-  "SBAC": "2026-11-19",
-  "SCHW": "2026-11-19",
-  "SHW": "2026-11-19",
-  "SJM": "2026-11-19",
-  "SKYD": "2026-11-19",
-  "SMCI": "2026-11-19",
-  "SLB": "2026-11-19",
-  "SNDK": "2026-11-19",
-  "SNA": "2026-11-19",
-  "SNPS": "2026-11-19",
-  "SO": "2026-11-19",
-  "SOLV": "2026-11-19",
-  "SPG": "2026-11-19",
-  "SRE": "2026-11-19",
-  "SPGI": "2026-11-19",
-  "STE": "2026-11-19",
-  "STLD": "2026-11-19",
-  "STT": "2026-11-19",
-  "STZ": "2026-11-19",
-  "STX": "2026-11-19",
-  "SW": "2026-11-19",
-  "SWKS": "2026-11-19",
-  "SWK": "2026-11-19",
-  "SYF": "2026-11-19",
-  "SYK": "2026-11-19",
-  "SYY": "2026-11-19",
-  "TDG": "2026-11-19",
-  "T": "2026-11-19",
-  "TDY": "2026-11-19",
-  "TECH": "2026-11-19",
-  "TEL": "2026-11-19",
-  "TER": "2026-11-19",
-  "TFC": "2026-11-19",
-  "TGT": "2026-11-19",
-  "TJX": "2026-11-19",
-  "TMO": "2026-11-19",
-  "TMUS": "2026-11-19",
-  "TPL": "2026-11-19",
-  "TKO": "2026-11-19",
-  "TPR": "2026-11-19",
-  "TRGP": "2026-11-19",
-  "TRMB": "2026-11-19",
-  "TRV": "2026-11-19",
-  "TROW": "2026-11-19",
-  "TSCO": "2026-11-19",
-  "TSLA": "2026-11-19",
-  "TSN": "2026-11-19",
-  "TTWO": "2026-11-19",
-  "TT": "2026-11-19",
-  "TWLO": "2026-11-19",
-  "TYL": "2026-11-19",
-  "UAL": "2026-11-19",
-  "TXN": "2026-11-19",
-  "TXT": "2026-11-19",
-  "UBER": "2026-11-19",
-  "UDR": "2026-11-19",
-  "UHS": "2026-11-19",
-  "ULTA": "2026-11-19",
-  "UNH": "2026-11-19",
-  "UPS": "2026-11-19",
-  "URI": "2026-11-19",
-  "UNP": "2026-11-19",
-  "USB": "2026-11-19",
-  "V": "2026-11-19",
-  "VEEV": "2026-11-19",
-  "VICI": "2026-11-19",
-  "VLTO": "2026-11-19",
-  "VMC": "2026-11-19",
-  "VMRK": "2026-11-19",
-  "VRSK": "2026-11-19",
-  "VLO": "2026-11-19",
-  "VRSN": "2026-11-19",
-  "VRTX": "2026-11-19",
-  "VST": "2026-11-19",
-  "VTR": "2026-11-19",
-  "VRT": "2026-11-19",
-  "VTRS": "2026-11-19",
-  "VZ": "2026-11-19",
-  "WAT": "2026-11-19",
-  "WAB": "2026-11-19",
-  "WDAY": "2026-11-19",
-  "WDC": "2026-11-19",
-  "WEC": "2026-11-19",
-  "WELL": "2026-11-19",
-  "WM": "2026-11-19",
-  "WFC": "2026-11-19",
-  "WMB": "2026-11-19",
-  "WMT": "2026-11-19",
-  "WRB": "2026-11-19",
-  "WSM": "2026-11-19",
-  "WST": "2026-11-19",
-  "WTW": "2026-11-19",
-  "WYNN": "2026-11-19",
-  "WY": "2026-11-19",
-  "XEL": "2026-11-19",
-  "XOM": "2026-11-19",
-  "XYL": "2026-11-19",
-  "XYZ": "2026-11-19",
-  "YUM": "2026-11-19",
-  "ZBH": "2026-11-19",
-  "ZBRA": "2026-11-19",
-  "ZTS": "2026-11-19",
-  "ARM": "2026-11-19",
-  "ASML": "2026-11-19",
-  "PDD": "2026-11-19",
-  "MELI": "2026-11-19",
-  "TEAM": "2026-11-19",
-  "ZS": "2026-11-19",
-  "AZN": "2026-11-19",
-  "CCEP": "2026-11-19",
-  "MDB": "2026-11-19",
-  "TTD": "2026-11-19",
-  "GFS": "2026-11-19",
-  "SHOP": "2026-11-19",
-  "MSTR": "2026-11-19",
-  "ADS.DE": "2026-11-19",
-  "ALV.DE": "2026-11-19",
-  "BAS.DE": "2026-11-19",
-  "BAYN.DE": "2026-11-19",
-  "BEI.DE": "2026-11-19",
-  "BMW.DE": "2026-11-19",
-  "BNR.DE": "2026-11-19",
-  "CBK.DE": "2026-11-19",
-  "CON.DE": "2026-11-19",
-  "DB1.DE": "2026-11-19",
-  "DBK.DE": "2026-11-19",
-  "DHL.DE": "2026-11-19",
-  "DTG.DE": "2026-11-19",
-  "DTE.DE": "2026-11-19",
-  "ENR.DE": "2026-11-19",
-  "EOAN.DE": "2026-11-19",
-  "G1A.DE": "2026-11-19",
-  "FRE.DE": "2026-11-19",
-  "FME.DE": "2026-11-19",
-  "G24.DE": "2026-11-19",
-  "HEN3.DE": "2026-11-19",
-  "HNR1.DE": "2026-11-19",
-  "HEI.DE": "2026-11-19",
-  "IFX.DE": "2026-11-19",
-  "MBG.DE": "2026-11-19",
-  "MRK.DE": "2026-11-19",
-  "MTX.DE": "2026-11-19",
-  "MUV2.DE": "2026-11-19",
-  "QIA.DE": "2026-11-19",
-  "PAH3.DE": "2026-11-19",
-  "RHM.DE": "2026-11-19",
-  "RWE.DE": "2026-11-19",
-  "SHL.DE": "2026-11-19",
-  "SIE.DE": "2026-11-19",
-  "SAP.DE": "2026-11-19",
-  "SY1.DE": "2026-11-19",
-  "VNA.DE": "2026-11-19",
-  "VOW3.DE": "2026-11-19",
-  "ZAL.DE": "2026-11-19",
-  "11B.WA": "2026-11-19",
-  "ABE.WA": "2026-11-19",
-  "ACT.WA": "2026-11-19",
-  "ACP.WA": "2026-11-19",
-  "ALE.WA": "2026-11-19",
-  "ALR.WA": "2026-11-19",
-  "AGO.WA": "2026-11-19",
-  "AMB.WA": "2026-11-19",
-  "AMC.WA": "2026-11-19",
-  "APR.WA": "2026-11-19",
-  "ARH.WA": "2026-11-19",
-  "APT.WA": "2026-11-19",
-  "ASB.WA": "2026-11-19",
-  "ASE.WA": "2026-11-19",
-  "ATC.WA": "2026-11-19",
-  "ATT.WA": "2026-11-19",
-  "BDX.WA": "2026-11-19",
-  "BFT.WA": "2026-11-19",
-  "BIO.WA": "2026-11-19",
-  "BHW.WA": "2026-11-19",
-  "BNP.WA": "2026-11-19",
-  "BOS.WA": "2026-11-19",
-  "BRS.WA": "2026-11-19",
-  "CAR.WA": "2026-11-19",
-  "CDR.WA": "2026-11-19",
-  "CLN.WA": "2026-11-19",
-  "CIG.WA": "2026-11-19",
-  "COG.WA": "2026-11-19",
-  "CPS.WA": "2026-11-19",
-  "CRI.WA": "2026-11-19",
-  "DAT.WA": "2026-11-19",
-  "DNP.WA": "2026-11-19",
-  "DCR.WA": "2026-11-19",
-  "DOM.WA": "2026-11-19",
-  "DVL.WA": "2026-11-19",
-  "EAT.WA": "2026-11-19",
-  "ECH.WA": "2026-11-19",
-  "ELT.WA": "2026-11-19",
-  "ENA.WA": "2026-11-19",
-  "ENT.WA": "2026-11-19",
-  "ERB.WA": "2026-11-19",
-  "EUR.WA": "2026-11-19",
-  "FTE.WA": "2026-11-19",
-  "GPP.WA": "2026-11-19",
-  "GPW.WA": "2026-11-19",
-  "GRX.WA": "2026-11-19",
-  "HUG.WA": "2026-11-19",
-  "IMC.WA": "2026-11-19",
-  "ING.WA": "2026-11-19",
-  "KER.WA": "2026-11-19",
-  "JSW.WA": "2026-11-19",
-  "KGH.WA": "2026-11-19",
-  "KGN.WA": "2026-11-19",
-  "KRU.WA": "2026-11-19",
-  "KTY.WA": "2026-11-19",
-  "LBW.WA": "2026-11-19",
-  "LPP.WA": "2026-11-19",
-  "MAB.WA": "2026-11-19",
-  "MBK.WA": "2026-11-19",
-  "MBR.WA": "2026-11-19",
-  "MCI.WA": "2026-11-19",
-  "MDG.WA": "2026-11-19",
-  "MIL.WA": "2026-11-19",
-  "MLS.WA": "2026-11-19",
-  "MNC.WA": "2026-11-19",
-  "MRB.WA": "2026-11-19",
-  "MRC.WA": "2026-11-19",
-  "NEU.WA": "2026-11-19",
-  "OND.WA": "2026-11-19",
-  "OPL.WA": "2026-11-19",
-  "PBX.WA": "2026-11-19",
-  "OPN.WA": "2026-11-19",
-  "PCO.WA": "2026-11-19",
-  "PCR.WA": "2026-11-19",
-  "PEN.WA": "2026-11-19",
-  "PEO.WA": "2026-11-19",
-  "PEP.WA": "2026-11-19",
-  "PGE.WA": "2026-11-19",
-  "PHN.WA": "2026-11-19",
-  "PKN.WA": "2026-11-19",
-  "PLW.WA": "2026-11-19",
-  "PKO.WA": "2026-11-19",
-  "PXM.WA": "2026-11-19",
-  "PZU.WA": "2026-11-19",
-  "QRS.WA": "2026-11-19",
-  "RBW.WA": "2026-11-19",
-  "RVU.WA": "2026-11-19",
-  "SGN.WA": "2026-11-19",
-  "SEL.WA": "2026-11-19",
-  "SKA.WA": "2026-11-19",
-  "SLV.WA": "2026-11-19",
-  "SNT.WA": "2026-11-19",
-  "STP.WA": "2026-11-19",
-  "STX.WA": "2026-11-19",
-  "TEN.WA": "2026-11-19",
-  "TOR.WA": "2026-11-19",
-  "TXT.WA": "2026-11-19",
-  "UNI.WA": "2026-11-19",
-  "VGO.WA": "2026-11-19",
-  "VOX.WA": "2026-11-19",
-  "WPL.WA": "2026-11-19",
-  "VRG.WA": "2026-11-19",
-  "WTN.WA": "2026-11-19",
-  "WWL.WA": "2026-11-19",
-  "XTB.WA": "2026-11-19",
-  "XTP.WA": "2026-11-19",
-  "ZAB.WA": "2026-11-19",
-  "SPY": "2026-11-19",
-  "QQQ": "2026-11-19",
-  "IWM": "2026-11-19",
-  "DIA": "2026-11-19",
-  "VOO": "2026-11-19",
-  "VTI": "2026-11-19",
-  "GLD": "2026-11-19",
-  "SLV": "2026-11-19",
-  "VWCE.DE": "2026-11-19",
-  "EUNL.DE": "2026-11-19",
-  "SXR8.DE": "2026-11-19",
-  "EEM": "2026-11-19",
-  "IS3N.DE": "2026-11-19",
-  "ETFBW20TR.WA": "2026-11-19",
-  "TLT": "2026-11-19",
-  "ETFBS80TR.WA": "2026-11-19",
-  "FDXF": "2026-11-19"
+  "^NDX": "2026-11-20",
+  "^DJI": "2026-11-20",
+  "^GDAXI": "2026-11-20",
+  "^GSPC": "2026-11-20",
+  "BTC-USD": "2026-11-20",
+  "ETH-USD": "2026-11-20",
+  "SOL-USD": "2026-11-20",
+  "SI=F": "2026-11-20",
+  "CL=F": "2026-11-20",
+  "ABNB": "2026-11-20",
+  "A": "2026-11-20",
+  "ABBV": "2026-11-20",
+  "AAPL": "2026-11-20",
+  "GC=F": "2026-11-20",
+  "ACGL": "2026-11-20",
+  "ABT": "2026-11-20",
+  "ADBE": "2026-11-20",
+  "ACN": "2026-11-20",
+  "ADI": "2026-11-20",
+  "ADM": "2026-11-20",
+  "ADP": "2026-11-20",
+  "ADSK": "2026-11-20",
+  "AEE": "2026-11-20",
+  "AES": "2026-11-20",
+  "AEP": "2026-11-20",
+  "AFL": "2026-11-20",
+  "AIG": "2026-11-20",
+  "XRP-USD": "2026-11-20",
+  "AKAM": "2026-11-20",
+  "AIZ": "2026-11-20",
+  "AJG": "2026-11-20",
+  "ALGN": "2026-11-20",
+  "ALB": "2026-11-20",
+  "ALL": "2026-11-20",
+  "ALLE": "2026-11-20",
+  "AMAT": "2026-11-20",
+  "AMD": "2026-11-20",
+  "AMCR": "2026-11-20",
+  "AMGN": "2026-11-20",
+  "AME": "2026-11-20",
+  "AMP": "2026-11-20",
+  "AMZN": "2026-11-20",
+  "AMT": "2026-11-20",
+  "ANET": "2026-11-20",
+  "AON": "2026-11-20",
+  "AOS": "2026-11-20",
+  "APH": "2026-11-20",
+  "APA": "2026-11-20",
+  "APO": "2026-11-20",
+  "APP": "2026-11-20",
+  "APTV": "2026-11-20",
+  "APD": "2026-11-20",
+  "ARES": "2026-11-20",
+  "AXON": "2026-11-20",
+  "AWK": "2026-11-20",
+  "AVGO": "2026-11-20",
+  "ATO": "2026-11-20",
+  "AVY": "2026-11-20",
+  "AXP": "2026-11-20",
+  "ARE": "2026-11-20",
+  "AZO": "2026-11-20",
+  "BAC": "2026-11-20",
+  "BA": "2026-11-20",
+  "BALL": "2026-11-20",
+  "BAX": "2026-11-20",
+  "BBY": "2026-11-20",
+  "BDX": "2026-11-20",
+  "BE": "2026-11-20",
+  "BEN": "2026-11-20",
+  "BIIB": "2026-11-20",
+  "BF-B": "2026-11-20",
+  "BG": "2026-11-20",
+  "BKR": "2026-11-20",
+  "BKNG": "2026-11-20",
+  "BLK": "2026-11-20",
+  "BMY": "2026-11-20",
+  "BR": "2026-11-20",
+  "BNY": "2026-11-20",
+  "BRK-B": "2026-11-20",
+  "BSX": "2026-11-20",
+  "BRO": "2026-11-20",
+  "BXP": "2026-11-20",
+  "BX": "2026-11-20",
+  "C": "2026-11-20",
+  "CARR": "2026-11-20",
+  "CAH": "2026-11-20",
+  "CASY": "2026-11-20",
+  "CBRE": "2026-11-20",
+  "CB": "2026-11-20",
+  "CAT": "2026-11-20",
+  "CCI": "2026-11-20",
+  "CCL": "2026-11-20",
+  "CDW": "2026-11-20",
+  "CDNS": "2026-11-20",
+  "CF": "2026-11-20",
+  "CEG": "2026-11-20",
+  "CHD": "2026-11-20",
+  "CFG": "2026-11-20",
+  "CHRW": "2026-11-20",
+  "CHTR": "2026-11-20",
+  "CIEN": "2026-11-20",
+  "CI": "2026-11-20",
+  "CINF": "2026-11-20",
+  "CL": "2026-11-20",
+  "CLX": "2026-11-20",
+  "CMCSA": "2026-11-20",
+  "CME": "2026-11-20",
+  "CMG": "2026-11-20",
+  "CMI": "2026-11-20",
+  "CNC": "2026-11-20",
+  "CMS": "2026-11-20",
+  "COIN": "2026-11-20",
+  "COHR": "2026-11-20",
+  "COF": "2026-11-20",
+  "COO": "2026-11-20",
+  "COP": "2026-11-20",
+  "COR": "2026-11-20",
+  "COST": "2026-11-20",
+  "CPAY": "2026-11-20",
+  "CPRT": "2026-11-20",
+  "CPT": "2026-11-20",
+  "CRH": "2026-11-20",
+  "CNP": "2026-11-20",
+  "CRL": "2026-11-20",
+  "CRM": "2026-11-20",
+  "CRWD": "2026-11-20",
+  "CSGP": "2026-11-20",
+  "CSCO": "2026-11-20",
+  "CSX": "2026-11-20",
+  "CTAS": "2026-11-20",
+  "CTSH": "2026-11-20",
+  "CVNA": "2026-11-20",
+  "CVS": "2026-11-20",
+  "CVX": "2026-11-20",
+  "D": "2026-11-20",
+  "DAL": "2026-11-20",
+  "DASH": "2026-11-20",
+  "DDOG": "2026-11-20",
+  "DD": "2026-11-20",
+  "DE": "2026-11-20",
+  "DECK": "2026-11-20",
+  "DELL": "2026-11-20",
+  "DG": "2026-11-20",
+  "DGX": "2026-11-20",
+  "DHI": "2026-11-20",
+  "DHR": "2026-11-20",
+  "DLR": "2026-11-20",
+  "DIS": "2026-11-20",
+  "DLTR": "2026-11-20",
+  "DOC": "2026-11-20",
+  "DOW": "2026-11-20",
+  "DOV": "2026-11-20",
+  "DPZ": "2026-11-20",
+  "DRI": "2026-11-20",
+  "DVA": "2026-11-20",
+  "DUK": "2026-11-20",
+  "DTE": "2026-11-20",
+  "DXCM": "2026-11-20",
+  "EBAY": "2026-11-20",
+  "DVN": "2026-11-20",
+  "ECHO": "2026-11-20",
+  "ECL": "2026-11-20",
+  "ED": "2026-11-20",
+  "ELV": "2026-11-20",
+  "EFX": "2026-11-20",
+  "EL": "2026-11-20",
+  "EIX": "2026-11-20",
+  "EG": "2026-11-20",
+  "EME": "2026-11-20",
+  "EMR": "2026-11-20",
+  "EQIX": "2026-11-20",
+  "EOG": "2026-11-20",
+  "ERIE": "2026-11-20",
+  "EQT": "2026-11-20",
+  "ES": "2026-11-20",
+  "ESS": "2026-11-20",
+  "ETN": "2026-11-20",
+  "ETR": "2026-11-20",
+  "EW": "2026-11-20",
+  "EVRG": "2026-11-20",
+  "EXE": "2026-11-20",
+  "EXC": "2026-11-20",
+  "EXPE": "2026-11-20",
+  "EXPD": "2026-11-20",
+  "EXR": "2026-11-20",
+  "FANG": "2026-11-20",
+  "F": "2026-11-20",
+  "FAST": "2026-11-20",
+  "FCX": "2026-11-20",
+  "FDS": "2026-11-20",
+  "FDX": "2026-11-20",
+  "FE": "2026-11-20",
+  "FFIV": "2026-11-20",
+  "FERG": "2026-11-20",
+  "FISV": "2026-11-20",
+  "FIS": "2026-11-20",
+  "FICO": "2026-11-20",
+  "FIX": "2026-11-20",
+  "FITB": "2026-11-20",
+  "FLEX": "2026-11-20",
+  "FOX": "2026-11-20",
+  "FOXA": "2026-11-20",
+  "FSLR": "2026-11-20",
+  "FTNT": "2026-11-20",
+  "FRT": "2026-11-20",
+  "FTV": "2026-11-20",
+  "GDDY": "2026-11-20",
+  "GD": "2026-11-20",
+  "GEHC": "2026-11-20",
+  "GEV": "2026-11-20",
+  "GEN": "2026-11-20",
+  "GE": "2026-11-20",
+  "GILD": "2026-11-20",
+  "GIS": "2026-11-20",
+  "GL": "2026-11-20",
+  "GLW": "2026-11-20",
+  "GM": "2026-11-20",
+  "GNRC": "2026-11-20",
+  "GOOG": "2026-11-20",
+  "GOOGL": "2026-11-20",
+  "GPC": "2026-11-20",
+  "GPN": "2026-11-20",
+  "GRMN": "2026-11-20",
+  "GS": "2026-11-20",
+  "GWW": "2026-11-20",
+  "HAS": "2026-11-20",
+  "HBAN": "2026-11-20",
+  "HAL": "2026-11-20",
+  "HCA": "2026-11-20",
+  "HD": "2026-11-20",
+  "HIG": "2026-11-20",
+  "HII": "2026-11-20",
+  "HLT": "2026-11-20",
+  "HOOD": "2026-11-20",
+  "HPE": "2026-11-20",
+  "HON": "2026-11-20",
+  "HPQ": "2026-11-20",
+  "HRL": "2026-11-20",
+  "HSIC": "2026-11-20",
+  "HST": "2026-11-20",
+  "HSY": "2026-11-20",
+  "HUBB": "2026-11-20",
+  "HUM": "2026-11-20",
+  "HWM": "2026-11-20",
+  "IBKR": "2026-11-20",
+  "ICE": "2026-11-20",
+  "IBM": "2026-11-20",
+  "IDXX": "2026-11-20",
+  "ILMN": "2026-11-20",
+  "INCY": "2026-11-20",
+  "IFF": "2026-11-20",
+  "IEX": "2026-11-20",
+  "INTC": "2026-11-20",
+  "INVH": "2026-11-20",
+  "INTU": "2026-11-20",
+  "IP": "2026-11-20",
+  "IQV": "2026-11-20",
+  "IR": "2026-11-20",
+  "ISRG": "2026-11-20",
+  "IRM": "2026-11-20",
+  "IT": "2026-11-20",
+  "IVZ": "2026-11-20",
+  "ITW": "2026-11-20",
+  "J": "2026-11-20",
+  "JBHT": "2026-11-20",
+  "JBL": "2026-11-20",
+  "JKHY": "2026-11-20",
+  "JCI": "2026-11-20",
+  "JNJ": "2026-11-20",
+  "KDP": "2026-11-20",
+  "JPM": "2026-11-20",
+  "KEY": "2026-11-20",
+  "KEYS": "2026-11-20",
+  "KHC": "2026-11-20",
+  "KKR": "2026-11-20",
+  "KIM": "2026-11-20",
+  "KLAC": "2026-11-20",
+  "KMB": "2026-11-20",
+  "KMI": "2026-11-20",
+  "KO": "2026-11-20",
+  "KR": "2026-11-20",
+  "L": "2026-11-20",
+  "LDOS": "2026-11-20",
+  "LEN": "2026-11-20",
+  "LH": "2026-11-20",
+  "LHX": "2026-11-20",
+  "LII": "2026-11-20",
+  "LIN": "2026-11-20",
+  "LITE": "2026-11-20",
+  "LLY": "2026-11-20",
+  "LNT": "2026-11-20",
+  "LMT": "2026-11-20",
+  "LOW": "2026-11-20",
+  "LRCX": "2026-11-20",
+  "LULU": "2026-11-20",
+  "LYV": "2026-11-20",
+  "LYB": "2026-11-20",
+  "LVS": "2026-11-20",
+  "LUV": "2026-11-20",
+  "MA": "2026-11-20",
+  "MAA": "2026-11-20",
+  "MAR": "2026-11-20",
+  "MAS": "2026-11-20",
+  "MCHP": "2026-11-20",
+  "MCD": "2026-11-20",
+  "MDLZ": "2026-11-20",
+  "MCO": "2026-11-20",
+  "MCK": "2026-11-20",
+  "MDT": "2026-11-20",
+  "MET": "2026-11-20",
+  "META": "2026-11-20",
+  "MGM": "2026-11-20",
+  "MKC": "2026-11-20",
+  "MLM": "2026-11-20",
+  "MNST": "2026-11-20",
+  "MMM": "2026-11-20",
+  "MOS": "2026-11-20",
+  "MPC": "2026-11-20",
+  "MO": "2026-11-20",
+  "MPWR": "2026-11-20",
+  "MRNA": "2026-11-20",
+  "MRVL": "2026-11-20",
+  "MRK": "2026-11-20",
+  "MRSH": "2026-11-20",
+  "MSCI": "2026-11-20",
+  "MSFT": "2026-11-20",
+  "MS": "2026-11-20",
+  "MSI": "2026-11-20",
+  "MTD": "2026-11-20",
+  "NCLH": "2026-11-20",
+  "MTB": "2026-11-20",
+  "MU": "2026-11-20",
+  "NDAQ": "2026-11-20",
+  "NDSN": "2026-11-20",
+  "NEE": "2026-11-20",
+  "NFLX": "2026-11-20",
+  "NEM": "2026-11-20",
+  "NI": "2026-11-20",
+  "NKE": "2026-11-20",
+  "NOC": "2026-11-20",
+  "NOW": "2026-11-20",
+  "NRG": "2026-11-20",
+  "NSC": "2026-11-20",
+  "NTAP": "2026-11-20",
+  "NUE": "2026-11-20",
+  "NTRS": "2026-11-20",
+  "NVDA": "2026-11-20",
+  "NVR": "2026-11-20",
+  "NWS": "2026-11-20",
+  "NXPI": "2026-11-20",
+  "NWSA": "2026-11-20",
+  "O": "2026-11-20",
+  "OKTA": "2026-11-20",
+  "OKE": "2026-11-20",
+  "ODFL": "2026-11-20",
+  "OMC": "2026-11-20",
+  "ON": "2026-11-20",
+  "ORCL": "2026-11-20",
+  "ORLY": "2026-11-20",
+  "PANW": "2026-11-20",
+  "OTIS": "2026-11-20",
+  "P": "2026-11-20",
+  "PAYX": "2026-11-20",
+  "PCAR": "2026-11-20",
+  "PCG": "2026-11-20",
+  "PEG": "2026-11-20",
+  "OXY": "2026-11-20",
+  "PFE": "2026-11-20",
+  "PEP": "2026-11-20",
+  "PFG": "2026-11-20",
+  "PG": "2026-11-20",
+  "PGR": "2026-11-20",
+  "PKG": "2026-11-20",
+  "PH": "2026-11-20",
+  "PHM": "2026-11-20",
+  "PLTR": "2026-11-20",
+  "PLD": "2026-11-20",
+  "PM": "2026-11-20",
+  "PNC": "2026-11-20",
+  "PNR": "2026-11-20",
+  "PODD": "2026-11-20",
+  "PPG": "2026-11-20",
+  "PNW": "2026-11-20",
+  "PRU": "2026-11-20",
+  "PPL": "2026-11-20",
+  "PSA": "2026-11-20",
+  "PSX": "2026-11-20",
+  "PTC": "2026-11-20",
+  "PWR": "2026-11-20",
+  "PYPL": "2026-11-20",
+  "Q": "2026-11-20",
+  "QCOM": "2026-11-20",
+  "RDDT": "2026-11-20",
+  "RCL": "2026-11-20",
+  "REG": "2026-11-20",
+  "REGN": "2026-11-20",
+  "RF": "2026-11-20",
+  "RL": "2026-11-20",
+  "RJF": "2026-11-20",
+  "RMD": "2026-11-20",
+  "ROK": "2026-11-20",
+  "ROL": "2026-11-20",
+  "ROP": "2026-11-20",
+  "ROST": "2026-11-20",
+  "RSG": "2026-11-20",
+  "RTX": "2026-11-20",
+  "RVTY": "2026-11-20",
+  "SBUX": "2026-11-20",
+  "SBAC": "2026-11-20",
+  "SCHW": "2026-11-20",
+  "SHW": "2026-11-20",
+  "SJM": "2026-11-20",
+  "SKYD": "2026-11-20",
+  "SMCI": "2026-11-20",
+  "SLB": "2026-11-20",
+  "SNDK": "2026-11-20",
+  "SNA": "2026-11-20",
+  "SNPS": "2026-11-20",
+  "SO": "2026-11-20",
+  "SOLV": "2026-11-20",
+  "SPG": "2026-11-20",
+  "SRE": "2026-11-20",
+  "SPGI": "2026-11-20",
+  "STE": "2026-11-20",
+  "STLD": "2026-11-20",
+  "STT": "2026-11-20",
+  "STZ": "2026-11-20",
+  "STX": "2026-11-20",
+  "SW": "2026-11-20",
+  "SWKS": "2026-11-20",
+  "SWK": "2026-11-20",
+  "SYF": "2026-11-20",
+  "SYK": "2026-11-20",
+  "SYY": "2026-11-20",
+  "TDG": "2026-11-20",
+  "T": "2026-11-20",
+  "TDY": "2026-11-20",
+  "TECH": "2026-11-20",
+  "TEL": "2026-11-20",
+  "TER": "2026-11-20",
+  "TFC": "2026-11-20",
+  "TGT": "2026-11-20",
+  "TJX": "2026-11-20",
+  "TMO": "2026-11-20",
+  "TMUS": "2026-11-20",
+  "TPL": "2026-11-20",
+  "TKO": "2026-11-20",
+  "TPR": "2026-11-20",
+  "TRGP": "2026-11-20",
+  "TRMB": "2026-11-20",
+  "TRV": "2026-11-20",
+  "TROW": "2026-11-20",
+  "TSCO": "2026-11-20",
+  "TSLA": "2026-11-20",
+  "TSN": "2026-11-20",
+  "TTWO": "2026-11-20",
+  "TT": "2026-11-20",
+  "TWLO": "2026-11-20",
+  "TYL": "2026-11-20",
+  "UAL": "2026-11-20",
+  "TXN": "2026-11-20",
+  "TXT": "2026-11-20",
+  "UBER": "2026-11-20",
+  "UDR": "2026-11-20",
+  "UHS": "2026-11-20",
+  "ULTA": "2026-11-20",
+  "UNH": "2026-11-20",
+  "UPS": "2026-11-20",
+  "URI": "2026-11-20",
+  "UNP": "2026-11-20",
+  "USB": "2026-11-20",
+  "V": "2026-11-20",
+  "VEEV": "2026-11-20",
+  "VICI": "2026-11-20",
+  "VLTO": "2026-11-20",
+  "VMC": "2026-11-20",
+  "VMRK": "2026-11-20",
+  "VRSK": "2026-11-20",
+  "VLO": "2026-11-20",
+  "VRSN": "2026-11-20",
+  "VRTX": "2026-11-20",
+  "VST": "2026-11-20",
+  "VTR": "2026-11-20",
+  "VRT": "2026-11-20",
+  "VTRS": "2026-11-20",
+  "VZ": "2026-11-20",
+  "WAT": "2026-11-20",
+  "WAB": "2026-11-20",
+  "WDAY": "2026-11-20",
+  "WDC": "2026-11-20",
+  "WEC": "2026-11-20",
+  "WELL": "2026-11-20",
+  "WM": "2026-11-20",
+  "WFC": "2026-11-20",
+  "WMB": "2026-11-20",
+  "WMT": "2026-11-20",
+  "WRB": "2026-11-20",
+  "WSM": "2026-11-20",
+  "WST": "2026-11-20",
+  "WTW": "2026-11-20",
+  "WYNN": "2026-11-20",
+  "WY": "2026-11-20",
+  "XEL": "2026-11-20",
+  "XOM": "2026-11-20",
+  "XYL": "2026-11-20",
+  "XYZ": "2026-11-20",
+  "YUM": "2026-11-20",
+  "ZBH": "2026-11-20",
+  "ZBRA": "2026-11-20",
+  "ZTS": "2026-11-20",
+  "ARM": "2026-11-20",
+  "ASML": "2026-11-20",
+  "PDD": "2026-11-20",
+  "MELI": "2026-11-20",
+  "TEAM": "2026-11-20",
+  "ZS": "2026-11-20",
+  "AZN": "2026-11-20",
+  "CCEP": "2026-11-20",
+  "MDB": "2026-11-20",
+  "TTD": "2026-11-20",
+  "GFS": "2026-11-20",
+  "SHOP": "2026-11-20",
+  "MSTR": "2026-11-20",
+  "ADS.DE": "2026-11-20",
+  "ALV.DE": "2026-11-20",
+  "BAS.DE": "2026-11-20",
+  "BAYN.DE": "2026-11-20",
+  "BEI.DE": "2026-11-20",
+  "BMW.DE": "2026-11-20",
+  "BNR.DE": "2026-11-20",
+  "CBK.DE": "2026-11-20",
+  "CON.DE": "2026-11-20",
+  "DB1.DE": "2026-11-20",
+  "DBK.DE": "2026-11-20",
+  "DHL.DE": "2026-11-20",
+  "DTG.DE": "2026-11-20",
+  "DTE.DE": "2026-11-20",
+  "ENR.DE": "2026-11-20",
+  "EOAN.DE": "2026-11-20",
+  "G1A.DE": "2026-11-20",
+  "FRE.DE": "2026-11-20",
+  "FME.DE": "2026-11-20",
+  "G24.DE": "2026-11-20",
+  "HEN3.DE": "2026-11-20",
+  "HNR1.DE": "2026-11-20",
+  "HEI.DE": "2026-11-20",
+  "IFX.DE": "2026-11-20",
+  "MBG.DE": "2026-11-20",
+  "MRK.DE": "2026-11-20",
+  "MTX.DE": "2026-11-20",
+  "MUV2.DE": "2026-11-20",
+  "QIA.DE": "2026-11-20",
+  "PAH3.DE": "2026-11-20",
+  "RHM.DE": "2026-11-20",
+  "RWE.DE": "2026-11-20",
+  "SHL.DE": "2026-11-20",
+  "SIE.DE": "2026-11-20",
+  "SAP.DE": "2026-11-20",
+  "SY1.DE": "2026-11-20",
+  "VNA.DE": "2026-11-20",
+  "VOW3.DE": "2026-11-20",
+  "ZAL.DE": "2026-11-20",
+  "11B.WA": "2026-11-20",
+  "ABE.WA": "2026-11-20",
+  "ACT.WA": "2026-11-20",
+  "ACP.WA": "2026-11-20",
+  "ALE.WA": "2026-11-20",
+  "ALR.WA": "2026-11-20",
+  "AGO.WA": "2026-11-20",
+  "AMB.WA": "2026-11-20",
+  "AMC.WA": "2026-11-20",
+  "APR.WA": "2026-11-20",
+  "ARH.WA": "2026-11-20",
+  "APT.WA": "2026-11-20",
+  "ASB.WA": "2026-11-20",
+  "ASE.WA": "2026-11-20",
+  "ATC.WA": "2026-11-20",
+  "ATT.WA": "2026-11-20",
+  "BDX.WA": "2026-11-20",
+  "BFT.WA": "2026-11-20",
+  "BIO.WA": "2026-11-20",
+  "BHW.WA": "2026-11-20",
+  "BNP.WA": "2026-11-20",
+  "BOS.WA": "2026-11-20",
+  "BRS.WA": "2026-11-20",
+  "CAR.WA": "2026-11-20",
+  "CDR.WA": "2026-11-20",
+  "CLN.WA": "2026-11-20",
+  "CIG.WA": "2026-11-20",
+  "COG.WA": "2026-11-20",
+  "CPS.WA": "2026-11-20",
+  "CRI.WA": "2026-11-20",
+  "DAT.WA": "2026-11-20",
+  "DNP.WA": "2026-11-20",
+  "DCR.WA": "2026-11-20",
+  "DOM.WA": "2026-11-20",
+  "DVL.WA": "2026-11-20",
+  "EAT.WA": "2026-11-20",
+  "ECH.WA": "2026-11-20",
+  "ELT.WA": "2026-11-20",
+  "ENA.WA": "2026-11-20",
+  "ENT.WA": "2026-11-20",
+  "ERB.WA": "2026-11-20",
+  "EUR.WA": "2026-11-20",
+  "FTE.WA": "2026-11-20",
+  "GPP.WA": "2026-11-20",
+  "GPW.WA": "2026-11-20",
+  "GRX.WA": "2026-11-20",
+  "HUG.WA": "2026-11-20",
+  "IMC.WA": "2026-11-20",
+  "ING.WA": "2026-11-20",
+  "KER.WA": "2026-11-20",
+  "JSW.WA": "2026-11-20",
+  "KGH.WA": "2026-11-20",
+  "KGN.WA": "2026-11-20",
+  "KRU.WA": "2026-11-20",
+  "KTY.WA": "2026-11-20",
+  "LBW.WA": "2026-11-20",
+  "LPP.WA": "2026-11-20",
+  "MAB.WA": "2026-11-20",
+  "MBK.WA": "2026-11-20",
+  "MBR.WA": "2026-11-20",
+  "MCI.WA": "2026-11-20",
+  "MDG.WA": "2026-11-20",
+  "MIL.WA": "2026-11-20",
+  "MLS.WA": "2026-11-20",
+  "MNC.WA": "2026-11-20",
+  "MRB.WA": "2026-11-20",
+  "MRC.WA": "2026-11-20",
+  "NEU.WA": "2026-11-20",
+  "OND.WA": "2026-11-20",
+  "OPL.WA": "2026-11-20",
+  "PBX.WA": "2026-11-20",
+  "OPN.WA": "2026-11-20",
+  "PCO.WA": "2026-11-20",
+  "PCR.WA": "2026-11-20",
+  "PEN.WA": "2026-11-20",
+  "PEO.WA": "2026-11-20",
+  "PEP.WA": "2026-11-20",
+  "PGE.WA": "2026-11-20",
+  "PHN.WA": "2026-11-20",
+  "PKN.WA": "2026-11-20",
+  "PLW.WA": "2026-11-20",
+  "PKO.WA": "2026-11-20",
+  "PXM.WA": "2026-11-20",
+  "PZU.WA": "2026-11-20",
+  "QRS.WA": "2026-11-20",
+  "RBW.WA": "2026-11-20",
+  "RVU.WA": "2026-11-20",
+  "SGN.WA": "2026-11-20",
+  "SEL.WA": "2026-11-20",
+  "SKA.WA": "2026-11-20",
+  "SLV.WA": "2026-11-20",
+  "SNT.WA": "2026-11-20",
+  "STP.WA": "2026-11-20",
+  "STX.WA": "2026-11-20",
+  "TEN.WA": "2026-11-20",
+  "TOR.WA": "2026-11-20",
+  "TXT.WA": "2026-11-20",
+  "UNI.WA": "2026-11-20",
+  "VGO.WA": "2026-11-20",
+  "VOX.WA": "2026-11-20",
+  "WPL.WA": "2026-11-20",
+  "VRG.WA": "2026-11-20",
+  "WTN.WA": "2026-11-20",
+  "WWL.WA": "2026-11-20",
+  "XTB.WA": "2026-11-20",
+  "XTP.WA": "2026-11-20",
+  "ZAB.WA": "2026-11-20",
+  "SPY": "2026-11-20",
+  "QQQ": "2026-11-20",
+  "IWM": "2026-11-20",
+  "DIA": "2026-11-20",
+  "VOO": "2026-11-20",
+  "VTI": "2026-11-20",
+  "GLD": "2026-11-20",
+  "SLV": "2026-11-20",
+  "VWCE.DE": "2026-11-20",
+  "EUNL.DE": "2026-11-20",
+  "SXR8.DE": "2026-11-20",
+  "EEM": "2026-11-20",
+  "IS3N.DE": "2026-11-20",
+  "ETFBW20TR.WA": "2026-11-20",
+  "TLT": "2026-11-20",
+  "ETFBS80TR.WA": "2026-11-20",
+  "FDXF": "2026-11-20"
  },
  "last": {
   "AJG|pos": "2026-11-08T07:16:09.180555Z",
@@ -7617,7 +7699,7 @@
   "ALLE|pos": "2026-11-18T18:57:46.108985Z",
   "MCD|neg": "2026-11-19T17:38:27.262817Z",
   "ORLY|kup": "2026-11-12T04:05:34.365039Z",
-  "PM|pos": "2026-11-18T02:22:21.087770Z",
+  "PM|pos": "2026-11-20T04:25:06.674558Z",
   "RSG|pos": "2026-11-12T04:05:34.365039Z",
   "SNDK|neg": "2026-11-12T04:05:34.365039Z",
   "WEC|pos": "2026-11-12T04:05:34.365039Z",
@@ -7687,7 +7769,7 @@
   "AMGN|pos": "2026-11-19T17:38:27.262817Z",
   "CINF|pos": "2026-11-18T02:22:21.087770Z",
   "FDS|pos": "2026-11-19T17:38:27.262817Z",
-  "FTV|pos": "2026-11-18T02:22:21.087770Z",
+  "FTV|pos": "2026-11-20T04:25:06.674558Z",
   "LDOS|pos": "2026-11-18T02:22:21.087770Z",
   "MLM|pos": "2026-11-18T02:22:21.087770Z",
   "NVDA|neg": "2026-11-18T02:22:21.087770Z",
@@ -7733,6 +7815,11 @@
   "ISRG|neg": "2026-11-19T17:38:27.262817Z",
   "OKE|neg": "2026-11-19T17:38:27.262817Z",
   "RVTY|kup": "2026-11-19T17:38:27.262817Z",
-  "AZN|neg": "2026-11-19T17:38:27.262817Z"
+  "AZN|neg": "2026-11-19T17:38:27.262817Z",
+  "CRL|neg": "2026-11-20T04:25:06.674558Z",
+  "MSFT|neg": "2026-11-20T04:25:06.674558Z",
+  "NUE|neg": "2026-11-20T04:25:06.674558Z",
+  "AGO.WA|pos": "2026-11-20T04:25:06.674558Z",
+  "PZU.WA|pos": "2026-11-20T04:25:06.674558Z"
  }
 }
