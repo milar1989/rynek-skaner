@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T17:37:05.904173Z",
+ "updated": "2026-11-21T22:22:12.812684Z",
  "top": [
   {
    "s": "AMT",
@@ -283,8 +283,8 @@
    ]
   },
   {
-   "s": "JKHY",
-   "n": "Jack Henry & Associates, Inc.",
+   "s": "HPQ",
+   "n": "HP Inc.",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -403,8 +403,8 @@
    ]
   },
   {
-   "s": "HPQ",
-   "n": "HP Inc.",
+   "s": "JKHY",
+   "n": "Jack Henry & Associates, Inc.",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -413,18 +413,18 @@
    ]
   },
   {
-   "s": "GE",
-   "n": "GE Aerospace",
+   "s": "CNP",
+   "n": "CenterPoint Energy, Inc (Holdin",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 1/2"
+    "tu działało 1/1"
    ]
   },
   {
-   "s": "GL",
-   "n": "Globe Life Inc.",
+   "s": "DLR",
+   "n": "Digital Realty Trust, Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
@@ -648,13 +648,13 @@
    ]
   },
   {
-   "s": "CNP",
-   "n": "CenterPoint Energy, Inc (Holdin",
+   "s": "GE",
+   "n": "GE Aerospace",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 1/1"
+    "tu działało 1/2"
    ]
   },
   {
@@ -789,8 +789,8 @@
    ]
   },
   {
-   "s": "DLR",
-   "n": "Digital Realty Trust, Inc.",
+   "s": "GL",
+   "n": "Globe Life Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
@@ -1091,8 +1091,8 @@
    "why": []
   },
   {
-   "s": "BA",
-   "n": "Boeing Company (The)",
+   "s": "SPY",
+   "n": "State Street SPDR S&P 500 ETF T",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1187,8 +1187,8 @@
    "why": []
   },
   {
-   "s": "RBW.WA",
-   "n": "RBW C.XWAR PLN",
+   "s": "DOC",
+   "n": "Healthpeak Properties, Inc.",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1379,29 +1379,29 @@
    "why": []
   },
   {
-   "s": "SPY",
-   "n": "State Street SPDR S&P 500 ETF T",
+   "s": "BA",
+   "n": "Boeing Company (The)",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
    "why": []
   },
   {
-   "s": "DOC",
-   "n": "Healthpeak Properties, Inc.",
+   "s": "RBW.WA",
+   "n": "RBW C.XWAR PLN",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
    "why": []
   },
   {
-   "s": "STX",
-   "n": "Seagate Technology Holdings PLC",
+   "s": "UBER",
+   "n": "Uber Technologies, Inc.",
    "sig": "obserwuj",
    "score": 0.0,
    "wok": null,
    "why": [
-    "tu słabo: 0/4"
+    "tu słabo: 0/1"
    ]
   },
   {
@@ -1515,13 +1515,13 @@
    ]
   },
   {
-   "s": "UBER",
-   "n": "Uber Technologies, Inc.",
+   "s": "STX",
+   "n": "Seagate Technology Holdings PLC",
    "sig": "obserwuj",
    "score": 0.0,
    "wok": null,
    "why": [
-    "tu słabo: 0/1"
+    "tu słabo: 0/4"
    ]
   },
   {
@@ -1615,13 +1615,13 @@
    ]
   },
   {
-   "s": "DASH",
-   "n": "DoorDash, Inc.",
+   "s": "TER",
+   "n": "Teradyne, Inc.",
    "sig": "obserwuj",
    "score": 0.0,
    "wok": null,
    "why": [
-    "tu słabo: 0/2"
+    "tu słabo: 0/1"
    ]
   },
   {
@@ -1735,13 +1735,13 @@
    ]
   },
   {
-   "s": "TER",
-   "n": "Teradyne, Inc.",
+   "s": "DASH",
+   "n": "DoorDash, Inc.",
    "sig": "obserwuj",
    "score": 0.0,
    "wok": null,
    "why": [
-    "tu słabo: 0/1"
+    "tu słabo: 0/2"
    ]
   }
  ],
