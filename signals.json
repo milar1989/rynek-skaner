@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T17:46:54.403593Z",
+ "updated": "2026-11-22T22:51:37.478516Z",
  "top": [
   {
    "s": "AMT",
@@ -281,8 +281,8 @@
    ]
   },
   {
-   "s": "APR.WA",
-   "n": "APR C.XWAR PLN",
+   "s": "SHW",
+   "n": "Sherwin-Williams Company (The)",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -411,8 +411,8 @@
    ]
   },
   {
-   "s": "SHW",
-   "n": "Sherwin-Williams Company (The)",
+   "s": "APR.WA",
+   "n": "APR C.XWAR PLN",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -421,18 +421,18 @@
    ]
   },
   {
-   "s": "CL=F",
-   "n": "Crude Oil Jan 27",
+   "s": "DLR",
+   "n": "Digital Realty Trust, Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 3/3"
+    "tu działało 1/1"
    ]
   },
   {
-   "s": "CI",
-   "n": "The Cigna Group",
+   "s": "MCO",
+   "n": "Moody's Corporation",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
@@ -665,13 +665,13 @@
    ]
   },
   {
-   "s": "DLR",
-   "n": "Digital Realty Trust, Inc.",
+   "s": "CL=F",
+   "n": "Crude Oil Jan 27",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 1/1"
+    "tu działało 3/3"
    ]
   },
   {
@@ -796,8 +796,8 @@
    ]
   },
   {
-   "s": "MCO",
-   "n": "Moody's Corporation",
+   "s": "CI",
+   "n": "The Cigna Group",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
@@ -1098,8 +1098,8 @@
    "why": []
   },
   {
-   "s": "MCHP",
-   "n": "Microchip Technology Incorporat",
+   "s": "MGM",
+   "n": "MGM Resorts International",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1202,8 +1202,8 @@
    "why": []
   },
   {
-   "s": "EUNL.DE",
-   "n": "iShsIII-Core MSCI World U.ETF R",
+   "s": "APP",
+   "n": "Applovin Corporation",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1386,24 +1386,24 @@
    "why": []
   },
   {
-   "s": "MGM",
-   "n": "MGM Resorts International",
+   "s": "MCHP",
+   "n": "Microchip Technology Incorporat",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
    "why": []
   },
   {
-   "s": "APP",
-   "n": "Applovin Corporation",
+   "s": "EUNL.DE",
+   "n": "iShsIII-Core MSCI World U.ETF R",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
    "why": []
   },
   {
-   "s": "SNPS",
-   "n": "Synopsys, Inc.",
+   "s": "CF",
+   "n": "CF Industries Holdings, Inc.",
    "sig": "obserwuj",
    "score": 0.0,
    "wok": null,
@@ -1522,8 +1522,8 @@
    ]
   },
   {
-   "s": "CF",
-   "n": "CF Industries Holdings, Inc.",
+   "s": "SNPS",
+   "n": "Synopsys, Inc.",
    "sig": "obserwuj",
    "score": 0.0,
    "wok": null,
@@ -1642,13 +1642,13 @@
    ]
   },
   {
-   "s": "WYNN",
-   "n": "Wynn Resorts, Limited",
+   "s": "MDB",
+   "n": "MongoDB, Inc.",
    "sig": "obserwuj",
    "score": 0.0,
    "wok": null,
    "why": [
-    "tu słabo: 0/3"
+    "tu słabo: 0/1"
    ]
   },
   {
@@ -1772,13 +1772,13 @@
    ]
   },
   {
-   "s": "MDB",
-   "n": "MongoDB, Inc.",
+   "s": "WYNN",
+   "n": "Wynn Resorts, Limited",
    "sig": "obserwuj",
    "score": 0.0,
    "wok": null,
    "why": [
-    "tu słabo: 0/1"
+    "tu słabo: 0/3"
    ]
   }
  ],
