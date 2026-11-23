@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T03:18:10.798171Z",
+ "updated": "2026-11-23T13:14:46.854853Z",
  "top": [
   {
    "s": "AMT",
@@ -281,8 +281,8 @@
    ]
   },
   {
-   "s": "APR.WA",
-   "n": "APR C.XWAR PLN",
+   "s": "SHW",
+   "n": "Sherwin-Williams Company (The)",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -401,8 +401,8 @@
    ]
   },
   {
-   "s": "G24.DE",
-   "n": "Scout24 SE                    N",
+   "s": "APR.WA",
+   "n": "APR C.XWAR PLN",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -411,28 +411,18 @@
    ]
   },
   {
-   "s": "SHW",
-   "n": "Sherwin-Williams Company (The)",
-   "sig": "obserwuj",
-   "score": 1.5,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji"
-   ]
-  },
-  {
-   "s": "CL=F",
-   "n": "Crude Oil Jan 27",
+   "s": "DLR",
+   "n": "Digital Realty Trust, Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 3/3"
+    "tu działało 1/1"
    ]
   },
   {
-   "s": "CI",
-   "n": "The Cigna Group",
+   "s": "MCO",
+   "n": "Moody's Corporation",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
@@ -665,13 +655,13 @@
    ]
   },
   {
-   "s": "DLR",
-   "n": "Digital Realty Trust, Inc.",
+   "s": "CL=F",
+   "n": "Crude Oil Jan 27",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 1/1"
+    "tu działało 3/3"
    ]
   },
   {
@@ -796,8 +786,8 @@
    ]
   },
   {
-   "s": "MCO",
-   "n": "Moody's Corporation",
+   "s": "CI",
+   "n": "The Cigna Group",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
@@ -1114,8 +1104,8 @@
    "why": []
   },
   {
-   "s": "EQT",
-   "n": "EQT Corporation",
+   "s": "DOM.WA",
+   "n": "DOM C.XWAR PLN",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1218,8 +1208,8 @@
    "why": []
   },
   {
-   "s": "JCI",
-   "n": "Johnson Controls International ",
+   "s": "RBW.WA",
+   "n": "RBW C.XWAR PLN",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1402,28 +1392,24 @@
    "why": []
   },
   {
-   "s": "SNPS",
-   "n": "Synopsys, Inc.",
+   "s": "EQT",
+   "n": "EQT Corporation",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 0/1"
-   ]
+   "why": []
   },
   {
-   "s": "ETH-USD",
-   "n": "Ethereum USD",
+   "s": "JCI",
+   "n": "Johnson Controls International ",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 0/1"
-   ]
+   "why": []
   },
   {
-   "s": "NEU.WA",
-   "n": "NEU C.XWAR PLN",
+   "s": "CVNA",
+   "n": "Carvana Co.",
    "sig": "obserwuj",
    "score": 0.0,
    "wok": null,
@@ -1542,8 +1528,8 @@
    ]
   },
   {
-   "s": "CVNA",
-   "n": "Carvana Co.",
+   "s": "NEU.WA",
+   "n": "NEU C.XWAR PLN",
    "sig": "obserwuj",
    "score": 0.0,
    "wok": null,
@@ -1662,13 +1648,13 @@
    ]
   },
   {
-   "s": "TEL",
-   "n": "TE Connectivity plc",
+   "s": "ETH-USD",
+   "n": "Ethereum USD",
    "sig": "obserwuj",
    "score": 0.0,
    "wok": null,
    "why": [
-    "tu słabo: 0/2"
+    "tu słabo: 0/1"
    ]
   },
   {
@@ -1752,16 +1738,6 @@
    ]
   },
   {
-   "s": "MCI.WA",
-   "n": "MCI C.XWAR PLN",
-   "sig": "obserwuj",
-   "score": 0.0,
-   "wok": null,
-   "why": [
-    "tu słabo: 0/1"
-   ]
-  },
-  {
    "s": "UBER",
    "n": "Uber Technologies, Inc.",
    "sig": "obserwuj",
@@ -1779,6 +1755,36 @@
    "wok": null,
    "why": [
     "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "SNPS",
+   "n": "Synopsys, Inc.",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "ENT.WA",
+   "n": "ENT C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/2"
+   ]
+  },
+  {
+   "s": "TEL",
+   "n": "TE Connectivity plc",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/2"
    ]
   }
  ],
@@ -2526,7 +2532,7 @@
   "DOM.WA": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-10"
+   "d": "2026-11-23"
   },
   "GPP.WA": {
    "w": 0,
@@ -2571,7 +2577,7 @@
   "RBW.WA": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-21"
+   "d": "2026-11-23"
   },
   "TOR.WA": {
    "w": 0,
@@ -2636,7 +2642,7 @@
   "ENT.WA": {
    "w": 0,
    "n": 2,
-   "d": "2026-11-20"
+   "d": "2026-11-23"
   },
   "CL=F": {
    "w": 3,
@@ -2944,77 +2950,8 @@
    "d": "2026-11-23"
   }
  },
- "nextId": 419,
+ "nextId": 425,
  "events": [
-  {
-   "id": 119,
-   "at": "2026-11-12T04:05:34.365039Z",
-   "s": "MCD",
-   "n": "McDonald's Corporation",
-   "t": "neg",
-   "why": "scenariusz zanegowany",
-   "p": 274.79998779296875,
-   "h": "Cena poniżej 275.15 (zasięg 1.618 fali A (korekta płaska nieregularna)) - scenariusz korekty zanegowany. Możliwy koniec trendu; czekam na nową strukturę."
-  },
-  {
-   "id": 120,
-   "at": "2026-11-12T04:05:34.365039Z",
-   "s": "MRSH",
-   "n": "Marsh",
-   "t": "pos",
-   "why": "poprawa",
-   "p": 207.52000427246094,
-   "h": "Korekta A-B-C i potwierdzenie są, ale cena już blisko oporu - stosunek zysku do ryzyka za słaby. Czekam na lepsze miejsce.",
-   "score": 1.5,
-   "wok": null
-  },
-  {
-   "id": 121,
-   "at": "2026-11-12T04:05:34.365039Z",
-   "s": "ORLY",
-   "n": "O'Reilly Automotive, Inc.",
-   "t": "kup",
-   "why": "korekta A-B-C + impuls",
-   "p": 90.54000091552734,
-   "h": "Sygnał KUP: korekta A-B-C w strefie 3 narzędzi i objęcie hossy przy dołku C. Dodatkowo zgodne: 3 z 4 (informacyjnie).",
-   "score": 1.5,
-   "wok": true,
-   "st": 81.76409637451172,
-   "t1": 102.11000061035156,
-   "t2": 113.54528608874601
-  },
-  {
-   "id": 122,
-   "at": "2026-11-12T04:05:34.365039Z",
-   "s": "PM",
-   "n": "Philip Morris International Inc",
-   "t": "pos",
-   "why": "poprawa",
-   "p": 196.35000610351562,
-   "h": "Korekta trwa (A). Strefa zakupu 184.00–184.00; kupuję dopiero po A-B-C i impulsie w górę."
-  },
-  {
-   "id": 123,
-   "at": "2026-11-12T04:05:34.365039Z",
-   "s": "RSG",
-   "n": "Republic Services, Inc.",
-   "t": "pos",
-   "why": "poprawa",
-   "p": 249.33999633789062,
-   "h": "Korekta trwa (A). Strefa zakupu 228.25–230.88; kupuję dopiero po A-B-C i impulsie w górę."
-  },
-  {
-   "id": 124,
-   "at": "2026-11-12T04:05:34.365039Z",
-   "s": "SCHW",
-   "n": "Charles Schwab Corporation (The",
-   "t": "pos",
-   "why": "poprawa",
-   "p": 92.77999877929688,
-   "h": "Cena w strefie, ale to dopiero A-B - jedno narzędzie (wsparcie) to za mało. Czekam na ruch trójfalowy.",
-   "score": 1.0,
-   "wok": null
-  },
   {
    "id": 125,
    "at": "2026-11-12T04:05:34.365039Z",
@@ -6289,6 +6226,70 @@
    "why": "poprawa",
    "p": 53.0,
    "h": "Korekta trwa (A-B-C-X-Y-Z-------). Strefa zakupu 45.85–46.07; kupuję dopiero po A-B-C i impulsie w górę."
+  },
+  {
+   "id": 419,
+   "at": "2026-11-23T13:14:46.854853Z",
+   "s": "DB1.DE",
+   "n": "DEUTSCHE BOERSE AG            N",
+   "t": "neg",
+   "why": "wypadek z klina",
+   "p": 310.6000061035156,
+   "h": "Wypadek z klina po 5 falach - ryzyko końca wzrostów. Nie dokładam, rozważ ograniczenie ryzyka."
+  },
+  {
+   "id": 420,
+   "at": "2026-11-23T13:14:46.854853Z",
+   "s": "ENT.WA",
+   "n": "ENT C.XWAR PLN",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 48.900001525878906,
+   "h": "Cena w strefie, korekta A-B-C kompletna - czekam na impuls w górę jako potwierdzenie.",
+   "score": 0.0,
+   "wok": null
+  },
+  {
+   "id": 421,
+   "at": "2026-11-23T13:14:46.854853Z",
+   "s": "MBR.WA",
+   "n": "MBR C.XWAR PLN",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 409.5,
+   "h": "Korekta trwa (A). Strefa zakupu 317.82–323.50; kupuję dopiero po A-B-C i impulsie w górę."
+  },
+  {
+   "id": 422,
+   "at": "2026-11-23T13:14:46.854853Z",
+   "s": "MIL.WA",
+   "n": "MIL C.XWAR PLN",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 22.639999389648438,
+   "h": "Korekta trwa (A). Strefa zakupu 21.50–21.61; kupuję dopiero po A-B-C i impulsie w górę."
+  },
+  {
+   "id": 423,
+   "at": "2026-11-23T13:14:46.854853Z",
+   "s": "RBW.WA",
+   "n": "RBW C.XWAR PLN",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 113.0,
+   "h": "Cena w strefie, korekta A-B-C kompletna - czekam na impuls w górę jako potwierdzenie.",
+   "score": 0.5,
+   "wok": null
+  },
+  {
+   "id": 424,
+   "at": "2026-11-23T13:14:46.854853Z",
+   "s": "ZAB.WA",
+   "n": "ZAB C.XWAR PLN",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 31.829999923706055,
+   "h": "Korekta trwa (A). Strefa zakupu 22.34–22.69; kupuję dopiero po A-B-C i impulsie w górę."
   }
  ],
  "sig": {
@@ -6824,7 +6825,7 @@
   "BNR.DE": "obserwuj",
   "CBK.DE": "czekaj",
   "CON.DE": "czekaj",
-  "DB1.DE": "czekaj",
+  "DB1.DE": "uwaga",
   "DBK.DE": "czekaj",
   "DHL.DE": "czekaj",
   "DTG.DE": "obserwuj",
@@ -6834,7 +6835,7 @@
   "G1A.DE": "czekaj",
   "FRE.DE": "czekaj",
   "FME.DE": "nie",
-  "G24.DE": "obserwuj",
+  "G24.DE": "czekaj",
   "HEN3.DE": "czekaj",
   "HNR1.DE": "czekaj",
   "HEI.DE": "nie",
@@ -6887,13 +6888,13 @@
   "DAT.WA": "nie",
   "DNP.WA": "czekaj",
   "DCR.WA": "obserwuj",
-  "DOM.WA": "czekaj",
+  "DOM.WA": "obserwuj",
   "DVL.WA": "czekaj",
   "EAT.WA": "nie",
   "ECH.WA": "czekaj",
   "ELT.WA": "czekaj",
   "ENA.WA": "czekaj",
-  "ENT.WA": "nie",
+  "ENT.WA": "obserwuj",
   "ERB.WA": "nie",
   "EUR.WA": "nie",
   "FTE.WA": "nie",
@@ -6913,10 +6914,10 @@
   "LPP.WA": "czekaj",
   "MAB.WA": "kup",
   "MBK.WA": "czekaj",
-  "MBR.WA": "uwaga",
-  "MCI.WA": "obserwuj",
+  "MBR.WA": "czekaj",
+  "MCI.WA": "czekaj",
   "MDG.WA": "nie",
-  "MIL.WA": "uwaga",
+  "MIL.WA": "czekaj",
   "MLS.WA": "nie",
   "MNC.WA": "nie",
   "MRB.WA": "obserwuj",
@@ -6939,7 +6940,7 @@
   "PXM.WA": "obserwuj",
   "PZU.WA": "czekaj",
   "QRS.WA": "czekaj",
-  "RBW.WA": "nie",
+  "RBW.WA": "obserwuj",
   "RVU.WA": "nie",
   "SGN.WA": "czekaj",
   "SEL.WA": "czekaj",
@@ -6960,7 +6961,7 @@
   "WWL.WA": "obserwuj",
   "XTB.WA": "obserwuj",
   "XTP.WA": "nie",
-  "ZAB.WA": "uwaga",
+  "ZAB.WA": "czekaj",
   "SPY": "obserwuj",
   "QQQ": "czekaj",
   "IWM": "czekaj",
@@ -7683,7 +7684,7 @@
   "ESS|kup": "2026-11-09T11:01:14.786826Z",
   "VTR|kup": "2026-11-17T20:03:51.422646Z",
   "ZS|kup": "2026-11-09T11:01:14.786826Z",
-  "ENT.WA|pos": "2026-11-09T11:01:14.786826Z",
+  "ENT.WA|pos": "2026-11-23T13:14:46.854853Z",
   "GPP.WA|neg": "2026-11-22T02:24:47.049298Z",
   "CL=F|kup": "2026-11-12T20:25:25.093036Z",
   "ACN|neg": "2026-11-16T20:33:47.235437Z",
@@ -7929,11 +7930,14 @@
   "XYZ|neg": "2026-11-21T02:41:15.263019Z",
   "BAS.DE|neg": "2026-11-21T02:41:15.263019Z",
   "BFT.WA|neg": "2026-11-21T02:41:15.263019Z",
-  "MBR.WA|pos": "2026-11-21T02:41:15.263019Z",
-  "RBW.WA|pos": "2026-11-21T02:41:15.263019Z",
+  "MBR.WA|pos": "2026-11-23T13:14:46.854853Z",
+  "RBW.WA|pos": "2026-11-23T13:14:46.854853Z",
   "BAS.DE|pos": "2026-11-22T02:24:47.049298Z",
   "BFT.WA|pos": "2026-11-22T02:24:47.049298Z",
   "MIL.WA|neg": "2026-11-22T02:24:47.049298Z",
-  "SEL.WA|pos": "2026-11-22T02:24:47.049298Z"
+  "SEL.WA|pos": "2026-11-22T02:24:47.049298Z",
+  "DB1.DE|neg": "2026-11-23T13:14:46.854853Z",
+  "MIL.WA|pos": "2026-11-23T13:14:46.854853Z",
+  "ZAB.WA|pos": "2026-11-23T13:14:46.854853Z"
  }
 }
