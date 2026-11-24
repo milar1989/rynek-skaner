@@ -1,22 +1,9 @@
 {
- "updated": "2026-11-24T00:58:33.658524Z",
+ "updated": "2026-11-24T10:46:38.796598Z",
  "top": [
   {
    "s": "GPC",
    "n": "Genuine Parts Company",
-   "sig": "kup",
-   "score": 3.5,
-   "wok": true,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "realny cel",
-    "duże ruchy (szeroki stop)",
-    "tydzień potwierdza"
-   ]
-  },
-  {
-   "s": "ZAL.DE",
-   "n": "Zalando SE                    I",
    "sig": "kup",
    "score": 3.5,
    "wok": true,
@@ -63,20 +50,6 @@
     "wyraźnie nad średnią 200 sesji",
     "realny cel",
     "duże ruchy (szeroki stop)",
-    "tydzień potwierdza"
-   ]
-  },
-  {
-   "s": "MAB.WA",
-   "n": "MAB C.XWAR PLN",
-   "sig": "kup",
-   "score": 3.0,
-   "wok": true,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "realny cel",
-    "duże ruchy (szeroki stop)",
-    "tu słabo: 0/1",
     "tydzień potwierdza"
    ]
   },
@@ -303,6 +276,16 @@
    ]
   },
   {
+   "s": "VWCE.DE",
+   "n": "Vanguard FTSE All-World U.ETF R",
+   "sig": "obserwuj",
+   "score": 1.5,
+   "wok": null,
+   "why": [
+    "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
    "s": "WMT",
    "n": "Walmart Inc.",
    "sig": "obserwuj",
@@ -343,8 +326,8 @@
    ]
   },
   {
-   "s": "ILMN",
-   "n": "Illumina, Inc.",
+   "s": "EUNL.DE",
+   "n": "iShsIII-Core MSCI World U.ETF R",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -453,16 +436,6 @@
    ]
   },
   {
-   "s": "G24.DE",
-   "n": "Scout24 SE                    N",
-   "sig": "obserwuj",
-   "score": 1.5,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji"
-   ]
-  },
-  {
    "s": "RMD",
    "n": "ResMed Inc.",
    "sig": "obserwuj",
@@ -483,43 +456,44 @@
    ]
   },
   {
-   "s": "SKA.WA",
-   "n": "SKA C.XWAR PLN",
+   "s": "ZAL.DE",
+   "n": "Zalando SE                    I",
    "sig": "obserwuj",
-   "score": 1.0,
+   "score": 1.5,
    "wok": null,
    "why": [
-    "tu działało 1/1"
+    "wyraźnie nad średnią 200 sesji"
    ]
   },
   {
-   "s": "GS",
-   "n": "Goldman Sachs Group, Inc. (The)",
+   "s": "ILMN",
+   "n": "Illumina, Inc.",
    "sig": "obserwuj",
-   "score": 1.0,
+   "score": 1.5,
    "wok": null,
    "why": [
-    "tu działało 1/1"
+    "wyraźnie nad średnią 200 sesji"
    ]
   },
   {
-   "s": "BE",
-   "n": "Bloom Energy Corporation",
+   "s": "F",
+   "n": "Ford Motor Company",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 1/2"
+    "tu działało 2/3"
    ]
   },
   {
-   "s": "DVA",
-   "n": "DaVita Inc.",
+   "s": "P",
+   "n": "Everpure, Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 2/2"
+    "wyraźnie nad średnią 200 sesji",
+    "tu słabo: 0/1"
    ]
   },
   {
@@ -663,13 +637,13 @@
    ]
   },
   {
-   "s": "F",
-   "n": "Ford Motor Company",
+   "s": "SKA.WA",
+   "n": "SKA C.XWAR PLN",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 2/3"
+    "tu działało 1/1"
    ]
   },
   {
@@ -845,14 +819,13 @@
    ]
   },
   {
-   "s": "P",
-   "n": "Everpure, Inc.",
+   "s": "DVA",
+   "n": "DaVita Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu słabo: 0/1"
+    "tu działało 2/2"
    ]
   },
   {
@@ -959,20 +932,24 @@
    ]
   },
   {
-   "s": "AMP",
-   "n": "Ameriprise Financial, Inc.",
+   "s": "BE",
+   "n": "Bloom Energy Corporation",
    "sig": "obserwuj",
-   "score": 0.5,
+   "score": 1.0,
    "wok": null,
-   "why": []
+   "why": [
+    "tu działało 1/2"
+   ]
   },
   {
-   "s": "HUBB",
-   "n": "Hubbell Inc",
+   "s": "GS",
+   "n": "Goldman Sachs Group, Inc. (The)",
    "sig": "obserwuj",
-   "score": 0.5,
+   "score": 1.0,
    "wok": null,
-   "why": []
+   "why": [
+    "tu działało 1/1"
+   ]
   },
   {
    "s": "GC=F",
@@ -1127,16 +1104,16 @@
    "why": []
   },
   {
-   "s": "VOO",
-   "n": "Vanguard S&P 500 ETF",
+   "s": "PKN.WA",
+   "n": "PKN C.XWAR PLN",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
    "why": []
   },
   {
-   "s": "EUNL.DE",
-   "n": "iShsIII-Core MSCI World U.ETF R",
+   "s": "HUBB",
+   "n": "Hubbell Inc",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1191,8 +1168,8 @@
    "why": []
   },
   {
-   "s": "DTE",
-   "n": "DTE Energy Company",
+   "s": "DOM.WA",
+   "n": "DOM C.XWAR PLN",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1375,8 +1352,8 @@
    "why": []
   },
   {
-   "s": "VWCE.DE",
-   "n": "Vanguard FTSE All-World U.ETF R",
+   "s": "AMP",
+   "n": "Ameriprise Financial, Inc.",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1391,22 +1368,20 @@
    "why": []
   },
   {
-   "s": "PKN.WA",
-   "n": "PKN C.XWAR PLN",
+   "s": "VOO",
+   "n": "Vanguard S&P 500 ETF",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
    "why": []
   },
   {
-   "s": "CF",
-   "n": "CF Industries Holdings, Inc.",
+   "s": "DTE",
+   "n": "DTE Energy Company",
    "sig": "obserwuj",
-   "score": 0.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu słabo: 0/1"
-   ]
+   "why": []
   },
   {
    "s": "VST",
@@ -1599,16 +1574,6 @@
    ]
   },
   {
-   "s": "MTX.DE",
-   "n": "MTU Aero Engines AG           N",
-   "sig": "obserwuj",
-   "score": 0.0,
-   "wok": null,
-   "why": [
-    "tu słabo: 1/3"
-   ]
-  },
-  {
    "s": "UBER",
    "n": "Uber Technologies, Inc.",
    "sig": "obserwuj",
@@ -1726,6 +1691,26 @@
    "wok": null,
    "why": [
     "tu słabo: 1/3"
+   ]
+  },
+  {
+   "s": "ENT.WA",
+   "n": "ENT C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/2"
+   ]
+  },
+  {
+   "s": "CF",
+   "n": "CF Industries Holdings, Inc.",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
    ]
   }
  ],
@@ -2473,7 +2458,7 @@
   "DOM.WA": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-23"
+   "d": "2026-11-24"
   },
   "GPP.WA": {
    "w": 0,
@@ -2583,7 +2568,7 @@
   "ENT.WA": {
    "w": 0,
    "n": 2,
-   "d": "2026-11-23"
+   "d": "2026-11-24"
   },
   "CL=F": {
    "w": 3,
@@ -2891,33 +2876,8 @@
    "d": "2026-11-23"
   }
  },
- "nextId": 449,
+ "nextId": 451,
  "events": [
-  {
-   "id": 149,
-   "at": "2026-11-13T01:20:29.954138Z",
-   "s": "KDP",
-   "n": "Keurig Dr Pepper Inc.",
-   "t": "pos",
-   "why": "poprawa",
-   "p": 38.25,
-   "h": "Trwa wzrost - nie gonię ceny. Okazja pojawi się po korekcie trójfalowej do strefy 33.91–34.37."
-  },
-  {
-   "id": 150,
-   "at": "2026-11-13T01:20:29.954138Z",
-   "s": "MNST",
-   "n": "Monster Beverage Corporation",
-   "t": "kup",
-   "why": "korekta A-B-C + impuls",
-   "p": 45.400001525878906,
-   "h": "Sygnał KUP: korekta A-B-C w strefie 1 narzędzi i wyższy dołek i wybicie szczytu pierwszej fali (start fali 3). Dodatkowo zgodne: 1 z 4 (informacyjnie).",
-   "score": 4.0,
-   "wok": true,
-   "st": 40.639499244689944,
-   "t1": 50.16999816894531,
-   "t2": 63.241922589792146
-  },
   {
    "id": 151,
    "at": "2026-11-13T01:20:29.954138Z",
@@ -6246,6 +6206,26 @@
    "why": "scenariusz zanegowany",
    "p": 111.0,
    "h": "Cena poniżej 112.44 (zasięg 1.618 fali A (korekta płaska nieregularna)) - scenariusz korekty zanegowany. Możliwy koniec trendu; czekam na nową strukturę."
+  },
+  {
+   "id": 449,
+   "at": "2026-11-24T10:46:38.796598Z",
+   "s": "MAB.WA",
+   "n": "MAB C.XWAR PLN",
+   "t": "neg",
+   "why": "scenariusz zanegowany",
+   "p": 8.119999885559082,
+   "h": "Cena poniżej 8.338 (zasięg 1.618 fali A (korekta płaska nieregularna)) - scenariusz korekty zanegowany. Możliwy koniec trendu; czekam na nową strukturę."
+  },
+  {
+   "id": 450,
+   "at": "2026-11-24T10:46:38.796598Z",
+   "s": "PZU.WA",
+   "n": "PZU C.XWAR PLN",
+   "t": "neg",
+   "why": "wypadek z klina",
+   "p": 69.55999755859375,
+   "h": "Wypadek z klina po 5 falach - ryzyko końca wzrostów. Nie dokładam, rozważ ograniczenie ryzyka."
   }
  ],
  "sig": {
@@ -6781,7 +6761,7 @@
   "BNR.DE": "obserwuj",
   "CBK.DE": "czekaj",
   "CON.DE": "czekaj",
-  "DB1.DE": "czekaj",
+  "DB1.DE": "uwaga",
   "DBK.DE": "czekaj",
   "DHL.DE": "czekaj",
   "DTG.DE": "obserwuj",
@@ -6791,14 +6771,14 @@
   "G1A.DE": "czekaj",
   "FRE.DE": "czekaj",
   "FME.DE": "nie",
-  "G24.DE": "obserwuj",
+  "G24.DE": "czekaj",
   "HEN3.DE": "czekaj",
   "HNR1.DE": "czekaj",
   "HEI.DE": "nie",
   "IFX.DE": "obserwuj",
   "MBG.DE": "nie",
   "MRK.DE": "czekaj",
-  "MTX.DE": "obserwuj",
+  "MTX.DE": "czekaj",
   "MUV2.DE": "nie",
   "QIA.DE": "czekaj",
   "PAH3.DE": "nie",
@@ -6810,7 +6790,7 @@
   "SY1.DE": "czekaj",
   "VNA.DE": "nie",
   "VOW3.DE": "nie",
-  "ZAL.DE": "kup",
+  "ZAL.DE": "obserwuj",
   "11B.WA": "nie",
   "ABE.WA": "uwaga",
   "ACT.WA": "czekaj",
@@ -6844,13 +6824,13 @@
   "DAT.WA": "nie",
   "DNP.WA": "czekaj",
   "DCR.WA": "obserwuj",
-  "DOM.WA": "czekaj",
+  "DOM.WA": "obserwuj",
   "DVL.WA": "czekaj",
   "EAT.WA": "nie",
   "ECH.WA": "czekaj",
   "ELT.WA": "czekaj",
   "ENA.WA": "czekaj",
-  "ENT.WA": "nie",
+  "ENT.WA": "obserwuj",
   "ERB.WA": "nie",
   "EUR.WA": "nie",
   "FTE.WA": "nie",
@@ -6868,12 +6848,12 @@
   "KTY.WA": "czekaj",
   "LBW.WA": "czekaj",
   "LPP.WA": "czekaj",
-  "MAB.WA": "kup",
+  "MAB.WA": "nie",
   "MBK.WA": "czekaj",
-  "MBR.WA": "uwaga",
+  "MBR.WA": "czekaj",
   "MCI.WA": "obserwuj",
   "MDG.WA": "nie",
-  "MIL.WA": "uwaga",
+  "MIL.WA": "czekaj",
   "MLS.WA": "nie",
   "MNC.WA": "nie",
   "MRB.WA": "obserwuj",
@@ -6894,7 +6874,7 @@
   "PLW.WA": "nie",
   "PKO.WA": "czekaj",
   "PXM.WA": "obserwuj",
-  "PZU.WA": "czekaj",
+  "PZU.WA": "uwaga",
   "QRS.WA": "czekaj",
   "RBW.WA": "nie",
   "RVU.WA": "nie",
@@ -7836,7 +7816,7 @@
   "AGO.WA|neg": "2026-11-19T08:39:17.729431Z",
   "MDG.WA|neg": "2026-11-19T08:39:17.729431Z",
   "MRB.WA|pos": "2026-11-19T08:39:17.729431Z",
-  "PZU.WA|neg": "2026-11-19T08:39:17.729431Z",
+  "PZU.WA|neg": "2026-11-24T10:46:38.796598Z",
   "AMD|neg": "2026-11-19T17:38:27.262817Z",
   "AON|neg": "2026-11-19T17:38:27.262817Z",
   "CAH|neg": "2026-11-19T17:38:27.262817Z",
@@ -7905,6 +7885,7 @@
   "SNA|pos": "2026-11-24T00:58:33.658524Z",
   "TKO|neg": "2026-11-24T00:58:33.658524Z",
   "WAB|pos": "2026-11-24T00:58:33.658524Z",
-  "DB1.DE|pos": "2026-11-24T00:58:33.658524Z"
+  "DB1.DE|pos": "2026-11-24T00:58:33.658524Z",
+  "MAB.WA|neg": "2026-11-24T10:46:38.796598Z"
  }
 }
