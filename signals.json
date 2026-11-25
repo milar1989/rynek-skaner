@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T13:50:42.941944Z",
+ "updated": "2026-11-25T22:50:23.239838Z",
  "top": [
   {
    "s": "AMT",
@@ -171,17 +171,6 @@
    ]
   },
   {
-   "s": "NSC",
-   "n": "Norfolk Southern Corporation",
-   "sig": "kup",
-   "score": 1.0,
-   "wok": true,
-   "why": [
-    "tu działało 1/1",
-    "tydzień potwierdza"
-   ]
-  },
-  {
    "s": "ROST",
    "n": "Ross Stores, Inc.",
    "sig": "kup",
@@ -190,6 +179,17 @@
    "why": [
     "tu działało 1/1",
     "tydzień nie potwierdza"
+   ]
+  },
+  {
+   "s": "NSC",
+   "n": "Norfolk Southern Corporation",
+   "sig": "kup",
+   "score": 1.0,
+   "wok": true,
+   "why": [
+    "tu działało 1/1",
+    "tydzień potwierdza"
    ]
   },
   {
@@ -333,8 +333,8 @@
    ]
   },
   {
-   "s": "HPQ",
-   "n": "HP Inc.",
+   "s": "TEAM",
+   "n": "Atlassian Corporation",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -473,8 +473,8 @@
    ]
   },
   {
-   "s": "TEAM",
-   "n": "Atlassian Corporation",
+   "s": "HPQ",
+   "n": "HP Inc.",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -483,8 +483,8 @@
    ]
   },
   {
-   "s": "GL",
-   "n": "Globe Life Inc.",
+   "s": "NWSA",
+   "n": "News Corporation",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
@@ -493,8 +493,8 @@
    ]
   },
   {
-   "s": "MPC",
-   "n": "Marathon Petroleum Corporation",
+   "s": "ZBH",
+   "n": "Zimmer Biomet Holdings, Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
@@ -654,8 +654,8 @@
    ]
   },
   {
-   "s": "NWSA",
-   "n": "News Corporation",
+   "s": "GL",
+   "n": "Globe Life Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
@@ -829,8 +829,8 @@
    ]
   },
   {
-   "s": "ZBH",
-   "n": "Zimmer Biomet Holdings, Inc.",
+   "s": "MPC",
+   "n": "Marathon Petroleum Corporation",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
@@ -1108,8 +1108,8 @@
    "why": []
   },
   {
-   "s": "BOS.WA",
-   "n": "BOS C.XWAR PLN",
+   "s": "T",
+   "n": "AT&T Inc.",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1180,8 +1180,8 @@
    "why": []
   },
   {
-   "s": "PKN.WA",
-   "n": "PKN C.XWAR PLN",
+   "s": "MGM",
+   "n": "MGM Resorts International",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1380,29 +1380,29 @@
    "why": []
   },
   {
-   "s": "T",
-   "n": "AT&T Inc.",
+   "s": "BOS.WA",
+   "n": "BOS C.XWAR PLN",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
    "why": []
   },
   {
-   "s": "MGM",
-   "n": "MGM Resorts International",
+   "s": "PKN.WA",
+   "n": "PKN C.XWAR PLN",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
    "why": []
   },
   {
-   "s": "WWL.WA",
-   "n": "WWL C.XWAR PLN",
+   "s": "GFS",
+   "n": "GlobalFoundries Inc.",
    "sig": "obserwuj",
    "score": 0.0,
    "wok": null,
    "why": [
-    "tu słabo: 0/1"
+    "tu słabo: 1/4"
    ]
   },
   {
@@ -1506,13 +1506,13 @@
    ]
   },
   {
-   "s": "GFS",
-   "n": "GlobalFoundries Inc.",
+   "s": "WWL.WA",
+   "n": "WWL C.XWAR PLN",
    "sig": "obserwuj",
    "score": 0.0,
    "wok": null,
    "why": [
-    "tu słabo: 1/4"
+    "tu słabo: 0/1"
    ]
   },
   {
@@ -1606,13 +1606,13 @@
    ]
   },
   {
-   "s": "TT",
-   "n": "Trane Technologies plc",
+   "s": "VST",
+   "n": "Vistra Corp.",
    "sig": "obserwuj",
    "score": 0.0,
    "wok": null,
    "why": [
-    "tu słabo: 1/4"
+    "tu słabo: 0/2"
    ]
   },
   {
@@ -1726,13 +1726,13 @@
    ]
   },
   {
-   "s": "VST",
-   "n": "Vistra Corp.",
+   "s": "TT",
+   "n": "Trane Technologies plc",
    "sig": "obserwuj",
    "score": 0.0,
    "wok": null,
    "why": [
-    "tu słabo: 0/2"
+    "tu słabo: 1/4"
    ]
   }
  ],
