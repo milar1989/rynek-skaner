@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T03:54:43.600279Z",
+ "updated": "2026-11-25T13:50:42.941944Z",
  "top": [
   {
    "s": "AMT",
@@ -94,6 +94,19 @@
    ]
   },
   {
+   "s": "ASE.WA",
+   "n": "ASE C.XWAR PLN",
+   "sig": "kup",
+   "score": 3.5,
+   "wok": true,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "realny cel",
+    "duże ruchy (szeroki stop)",
+    "tydzień potwierdza"
+   ]
+  },
+  {
    "s": "ISRG",
    "n": "Intuitive Surgical, Inc.",
    "sig": "kup",
@@ -130,20 +143,6 @@
     "wyraźnie nad średnią 200 sesji",
     "realny cel",
     "tu działało 1/2",
-    "tydzień potwierdza"
-   ]
-  },
-  {
-   "s": "MAB.WA",
-   "n": "MAB C.XWAR PLN",
-   "sig": "kup",
-   "score": 3.0,
-   "wok": true,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "realny cel",
-    "duże ruchy (szeroki stop)",
-    "tu słabo: 0/1",
     "tydzień potwierdza"
    ]
   },
@@ -194,16 +193,6 @@
    ]
   },
   {
-   "s": "BOS.WA",
-   "n": "BOS C.XWAR PLN",
-   "sig": "kup",
-   "score": 0.5,
-   "wok": true,
-   "why": [
-    "tydzień potwierdza"
-   ]
-  },
-  {
    "s": "URI",
    "n": "United Rentals, Inc.",
    "sig": "obserwuj",
@@ -212,17 +201,6 @@
    "why": [
     "wyraźnie nad średnią 200 sesji",
     "tu działało 3/3"
-   ]
-  },
-  {
-   "s": "D",
-   "n": "Dominion Energy, Inc.",
-   "sig": "obserwuj",
-   "score": 2.0,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu działało 1/2"
    ]
   },
   {
@@ -314,18 +292,19 @@
    ]
   },
   {
-   "s": "DXCM",
-   "n": "DexCom, Inc.",
+   "s": "D",
+   "n": "Dominion Energy, Inc.",
    "sig": "obserwuj",
-   "score": 1.5,
+   "score": 2.0,
    "wok": null,
    "why": [
-    "wyraźnie nad średnią 200 sesji"
+    "wyraźnie nad średnią 200 sesji",
+    "tu działało 1/2"
    ]
   },
   {
-   "s": "VWCE.DE",
-   "n": "Vanguard FTSE All-World U.ETF R",
+   "s": "DXCM",
+   "n": "DexCom, Inc.",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -356,16 +335,6 @@
   {
    "s": "HPQ",
    "n": "HP Inc.",
-   "sig": "obserwuj",
-   "score": 1.5,
-   "wok": null,
-   "why": [
-    "wyraźnie nad średnią 200 sesji"
-   ]
-  },
-  {
-   "s": "TEAM",
-   "n": "Atlassian Corporation",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -504,13 +473,34 @@
    ]
   },
   {
-   "s": "EUNL.DE",
-   "n": "iShsIII-Core MSCI World U.ETF R",
+   "s": "TEAM",
+   "n": "Atlassian Corporation",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
    "why": [
     "wyraźnie nad średnią 200 sesji"
+   ]
+  },
+  {
+   "s": "GL",
+   "n": "Globe Life Inc.",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "wok": null,
+   "why": [
+    "tu działało 1/1"
+   ]
+  },
+  {
+   "s": "MPC",
+   "n": "Marathon Petroleum Corporation",
+   "sig": "obserwuj",
+   "score": 1.0,
+   "wok": null,
+   "why": [
+    "wyraźnie nad średnią 200 sesji",
+    "tu słabo: 0/1"
    ]
   },
   {
@@ -644,14 +634,13 @@
    ]
   },
   {
-   "s": "MPC",
-   "n": "Marathon Petroleum Corporation",
+   "s": "TWLO",
+   "n": "Twilio Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu słabo: 0/1"
+    "tu działało 3/3"
    ]
   },
   {
@@ -665,8 +654,8 @@
    ]
   },
   {
-   "s": "GL",
-   "n": "Globe Life Inc.",
+   "s": "NWSA",
+   "n": "News Corporation",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
@@ -787,13 +776,14 @@
    ]
   },
   {
-   "s": "NTRS",
-   "n": "Northern Trust Corporation",
+   "s": "DHI",
+   "n": "D.R. Horton, Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 1/2"
+    "wyraźnie nad średnią 200 sesji",
+    "tu słabo: 0/2"
    ]
   },
   {
@@ -836,16 +826,6 @@
    "wok": null,
    "why": [
     "tu działało 1/2"
-   ]
-  },
-  {
-   "s": "NWSA",
-   "n": "News Corporation",
-   "sig": "obserwuj",
-   "score": 1.0,
-   "wok": null,
-   "why": [
-    "tu działało 1/1"
    ]
   },
   {
@@ -950,25 +930,30 @@
    ]
   },
   {
-   "s": "DHI",
-   "n": "D.R. Horton, Inc.",
+   "s": "NTRS",
+   "n": "Northern Trust Corporation",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu słabo: 0/2"
+    "tu działało 1/2"
    ]
   },
   {
-   "s": "TWLO",
-   "n": "Twilio Inc.",
+   "s": "VWCE.DE",
+   "n": "Vanguard FTSE All-World U.ETF R",
    "sig": "obserwuj",
-   "score": 1.0,
+   "score": 0.5,
    "wok": null,
-   "why": [
-    "tu działało 3/3"
-   ]
+   "why": []
+  },
+  {
+   "s": "EUNL.DE",
+   "n": "iShsIII-Core MSCI World U.ETF R",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "wok": null,
+   "why": []
   },
   {
    "s": "GLW",
@@ -1123,8 +1108,8 @@
    "why": []
   },
   {
-   "s": "T",
-   "n": "AT&T Inc.",
+   "s": "BOS.WA",
+   "n": "BOS C.XWAR PLN",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1171,14 +1156,6 @@
    "why": []
   },
   {
-   "s": "RBW.WA",
-   "n": "RBW C.XWAR PLN",
-   "sig": "obserwuj",
-   "score": 0.5,
-   "wok": null,
-   "why": []
-  },
-  {
    "s": "LVS",
    "n": "Las Vegas Sands Corp.",
    "sig": "obserwuj",
@@ -1203,8 +1180,8 @@
    "why": []
   },
   {
-   "s": "MGM",
-   "n": "MGM Resorts International",
+   "s": "PKN.WA",
+   "n": "PKN C.XWAR PLN",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1387,53 +1364,45 @@
    "why": []
   },
   {
-   "s": "XTB.WA",
-   "n": "XTB C.XWAR PLN",
+   "s": "ELT.WA",
+   "n": "ELT C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "wok": null,
+   "why": []
+  },
+  {
+   "s": "DOM.WA",
+   "n": "DOM C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "wok": null,
+   "why": []
+  },
+  {
+   "s": "T",
+   "n": "AT&T Inc.",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "wok": null,
+   "why": []
+  },
+  {
+   "s": "MGM",
+   "n": "MGM Resorts International",
+   "sig": "obserwuj",
+   "score": 0.5,
+   "wok": null,
+   "why": []
+  },
+  {
+   "s": "WWL.WA",
+   "n": "WWL C.XWAR PLN",
    "sig": "obserwuj",
    "score": 0.0,
    "wok": null,
    "why": [
     "tu słabo: 0/1"
-   ]
-  },
-  {
-   "s": "WYNN",
-   "n": "Wynn Resorts, Limited",
-   "sig": "obserwuj",
-   "score": 0.0,
-   "wok": null,
-   "why": [
-    "tu słabo: 0/3"
-   ]
-  },
-  {
-   "s": "ETH-USD",
-   "n": "Ethereum USD",
-   "sig": "obserwuj",
-   "score": 0.0,
-   "wok": null,
-   "why": [
-    "tu słabo: 0/1"
-   ]
-  },
-  {
-   "s": "TT",
-   "n": "Trane Technologies plc",
-   "sig": "obserwuj",
-   "score": 0.0,
-   "wok": null,
-   "why": [
-    "tu słabo: 1/4"
-   ]
-  },
-  {
-   "s": "GFS",
-   "n": "GlobalFoundries Inc.",
-   "sig": "obserwuj",
-   "score": 0.0,
-   "wok": null,
-   "why": [
-    "tu słabo: 1/4"
    ]
   },
   {
@@ -1537,13 +1506,13 @@
    ]
   },
   {
-   "s": "WWL.WA",
-   "n": "WWL C.XWAR PLN",
+   "s": "GFS",
+   "n": "GlobalFoundries Inc.",
    "sig": "obserwuj",
    "score": 0.0,
    "wok": null,
    "why": [
-    "tu słabo: 0/1"
+    "tu słabo: 1/4"
    ]
   },
   {
@@ -1637,13 +1606,13 @@
    ]
   },
   {
-   "s": "VST",
-   "n": "Vistra Corp.",
+   "s": "TT",
+   "n": "Trane Technologies plc",
    "sig": "obserwuj",
    "score": 0.0,
    "wok": null,
    "why": [
-    "tu słabo: 0/2"
+    "tu słabo: 1/4"
    ]
   },
   {
@@ -1704,6 +1673,66 @@
    "wok": null,
    "why": [
     "tu słabo: 0/3"
+   ]
+  },
+  {
+   "s": "DTE.DE",
+   "n": "DEUTSCHE TELEKOM AG           N",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "IFX.DE",
+   "n": "INFINEON TECHNOLOGIES AG      N",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/3"
+   ]
+  },
+  {
+   "s": "ETH-USD",
+   "n": "Ethereum USD",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "WYNN",
+   "n": "Wynn Resorts, Limited",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/3"
+   ]
+  },
+  {
+   "s": "XTB.WA",
+   "n": "XTB C.XWAR PLN",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/1"
+   ]
+  },
+  {
+   "s": "VST",
+   "n": "Vistra Corp.",
+   "sig": "obserwuj",
+   "score": 0.0,
+   "wok": null,
+   "why": [
+    "tu słabo: 0/2"
    ]
   }
  ],
@@ -2406,7 +2435,7 @@
   "IFX.DE": {
    "w": 0,
    "n": 3,
-   "d": "2026-11-24"
+   "d": "2026-11-25"
   },
   "SIE.DE": {
    "w": 0,
@@ -2451,7 +2480,7 @@
   "DOM.WA": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-24"
+   "d": "2026-11-25"
   },
   "GPP.WA": {
    "w": 0,
@@ -2601,7 +2630,7 @@
   "PKN.WA": {
    "w": 0,
    "n": 0,
-   "d": "2026-11-24"
+   "d": "2026-11-25"
   },
   "MRSH": {
    "w": 0,
@@ -2651,7 +2680,7 @@
   "DTE.DE": {
    "w": 0,
    "n": 1,
-   "d": "2026-11-19"
+   "d": "2026-11-25"
   },
   "APT.WA": {
    "w": 2,
@@ -2867,65 +2896,20 @@
    "w": 0,
    "n": 0,
    "d": "2026-11-23"
+  },
+  "ASE.WA": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-25"
+  },
+  "ELT.WA": {
+   "w": 0,
+   "n": 0,
+   "d": "2026-11-25"
   }
  },
- "nextId": 466,
+ "nextId": 471,
  "events": [
-  {
-   "id": 166,
-   "at": "2026-11-13T16:23:00.187719Z",
-   "s": "GILD",
-   "n": "Gilead Sciences, Inc.",
-   "t": "neg",
-   "why": "wypadek z klina",
-   "p": 168.27999877929688,
-   "h": "Wypadek z klina po 5 falach - ryzyko końca wzrostów. Nie dokładam, rozważ ograniczenie ryzyka."
-  },
-  {
-   "id": 167,
-   "at": "2026-11-13T16:23:00.187719Z",
-   "s": "ICE",
-   "n": "Intercontinental Exchange Inc.",
-   "t": "neg",
-   "why": "wypadek z klina",
-   "p": 179.82000732421875,
-   "h": "Wypadek z klina po 5 falach - ryzyko końca wzrostów. Nie dokładam, rozważ ograniczenie ryzyka."
-  },
-  {
-   "id": 168,
-   "at": "2026-11-13T16:23:00.187719Z",
-   "s": "PFE",
-   "n": "Pfizer, Inc.",
-   "t": "neg",
-   "why": "wypadek z klina",
-   "p": 28.730100631713867,
-   "h": "Wypadek z klina po 5 falach - ryzyko końca wzrostów. Nie dokładam, rozważ ograniczenie ryzyka."
-  },
-  {
-   "id": 169,
-   "at": "2026-11-13T16:23:00.187719Z",
-   "s": "PG",
-   "n": "Procter & Gamble Company (The)",
-   "t": "pos",
-   "why": "poprawa",
-   "p": 170.22999572753906,
-   "h": "Trwa wzrost - nie gonię ceny. Okazja pojawi się po korekcie trójfalowej do strefy 162.13–162.13."
-  },
-  {
-   "id": 170,
-   "at": "2026-11-13T16:23:00.187719Z",
-   "s": "SNPS",
-   "n": "Synopsys, Inc.",
-   "t": "kup",
-   "why": "korekta A-B-C + impuls",
-   "p": 448.13250732421875,
-   "h": "Sygnał KUP: korekta A-B-C w strefie 1 narzędzi i objęcie hossy przy dołku C. Dodatkowo zgodne: 3 z 4 (informacyjnie).",
-   "score": 3.0,
-   "wok": true,
-   "st": 358.92448791503904,
-   "t1": 539.47998046875,
-   "t2": 625.8323878687152
-  },
   {
    "id": 171,
    "at": "2026-11-13T16:23:00.187719Z",
@@ -6246,6 +6230,63 @@
    "h": "Cena w strefie, korekta A-B-C kompletna - czekam na impuls w górę jako potwierdzenie.",
    "score": 0.5,
    "wok": null
+  },
+  {
+   "id": 466,
+   "at": "2026-11-25T13:50:42.941944Z",
+   "s": "DTE.DE",
+   "n": "DEUTSCHE TELEKOM AG           N",
+   "t": "pos",
+   "why": "poprawa",
+   "p": 26.899999618530273,
+   "h": "Cena w strefie, korekta A-B-C kompletna - czekam na impuls w górę jako potwierdzenie.",
+   "score": 0.0,
+   "wok": null
+  },
+  {
+   "id": 467,
+   "at": "2026-11-25T13:50:42.941944Z",
+   "s": "ASE.WA",
+   "n": "ASE C.XWAR PLN",
+   "t": "kup",
+   "why": "korekta A-B-C + impuls",
+   "p": 69.19999694824219,
+   "h": "Sygnał KUP: korekta A-B-C w strefie 1 narzędzi i wyższy dołek i wybicie szczytu pierwszej fali (start fali 3). Dodatkowo zgodne: 1 z 4 (informacyjnie).",
+   "score": 3.5,
+   "wok": true,
+   "st": 57.42,
+   "t1": 84.5,
+   "t2": 106.41987252422315
+  },
+  {
+   "id": 468,
+   "at": "2026-11-25T13:50:42.941944Z",
+   "s": "MAB.WA",
+   "n": "MAB C.XWAR PLN",
+   "t": "neg",
+   "why": "scenariusz zanegowany",
+   "p": 8.0,
+   "h": "Cena poniżej 8.338 (zasięg 1.618 fali A (korekta płaska nieregularna)) - scenariusz korekty zanegowany. Możliwy koniec trendu; czekam na nową strukturę."
+  },
+  {
+   "id": 469,
+   "at": "2026-11-25T13:50:42.941944Z",
+   "s": "MIL.WA",
+   "n": "MIL C.XWAR PLN",
+   "t": "neg",
+   "why": "wypadek z klina",
+   "p": 21.940000534057617,
+   "h": "Wypadek z klina po 5 falach - ryzyko końca wzrostów. Nie dokładam, rozważ ograniczenie ryzyka."
+  },
+  {
+   "id": 470,
+   "at": "2026-11-25T13:50:42.941944Z",
+   "s": "RBW.WA",
+   "n": "RBW C.XWAR PLN",
+   "t": "neg",
+   "why": "scenariusz zanegowany",
+   "p": 109.5,
+   "h": "Cena poniżej 112.44 (zasięg 1.618 fali A (korekta płaska nieregularna)) - scenariusz korekty zanegowany. Możliwy koniec trendu; czekam na nową strukturę."
   }
  ],
  "sig": {
@@ -6785,7 +6826,7 @@
   "DBK.DE": "czekaj",
   "DHL.DE": "czekaj",
   "DTG.DE": "obserwuj",
-  "DTE.DE": "nie",
+  "DTE.DE": "obserwuj",
   "ENR.DE": "obserwuj",
   "EOAN.DE": "nie",
   "G1A.DE": "czekaj",
@@ -6795,7 +6836,7 @@
   "HEN3.DE": "czekaj",
   "HNR1.DE": "czekaj",
   "HEI.DE": "nie",
-  "IFX.DE": "czekaj",
+  "IFX.DE": "obserwuj",
   "MBG.DE": "nie",
   "MRK.DE": "czekaj",
   "MTX.DE": "czekaj",
@@ -6824,7 +6865,7 @@
   "ARH.WA": "czekaj",
   "APT.WA": "uwaga",
   "ASB.WA": "czekaj",
-  "ASE.WA": "czekaj",
+  "ASE.WA": "kup",
   "ATC.WA": "nie",
   "ATT.WA": "nie",
   "BDX.WA": "czekaj",
@@ -6832,7 +6873,7 @@
   "BIO.WA": "nie",
   "BHW.WA": "czekaj",
   "BNP.WA": "czekaj",
-  "BOS.WA": "kup",
+  "BOS.WA": "obserwuj",
   "BRS.WA": "nie",
   "CAR.WA": "czekaj",
   "CDR.WA": "czekaj",
@@ -6844,11 +6885,11 @@
   "DAT.WA": "nie",
   "DNP.WA": "czekaj",
   "DCR.WA": "obserwuj",
-  "DOM.WA": "czekaj",
+  "DOM.WA": "obserwuj",
   "DVL.WA": "czekaj",
   "EAT.WA": "nie",
   "ECH.WA": "czekaj",
-  "ELT.WA": "czekaj",
+  "ELT.WA": "obserwuj",
   "ENA.WA": "czekaj",
   "ENT.WA": "obserwuj",
   "ERB.WA": "nie",
@@ -6868,12 +6909,12 @@
   "KTY.WA": "czekaj",
   "LBW.WA": "czekaj",
   "LPP.WA": "czekaj",
-  "MAB.WA": "kup",
+  "MAB.WA": "nie",
   "MBK.WA": "czekaj",
   "MBR.WA": "czekaj",
   "MCI.WA": "obserwuj",
   "MDG.WA": "nie",
-  "MIL.WA": "czekaj",
+  "MIL.WA": "uwaga",
   "MLS.WA": "nie",
   "MNC.WA": "nie",
   "MRB.WA": "obserwuj",
@@ -6890,13 +6931,13 @@
   "PEP.WA": "nie",
   "PGE.WA": "czekaj",
   "PHN.WA": "nie",
-  "PKN.WA": "czekaj",
+  "PKN.WA": "obserwuj",
   "PLW.WA": "nie",
   "PKO.WA": "czekaj",
   "PXM.WA": "obserwuj",
   "PZU.WA": "czekaj",
   "QRS.WA": "czekaj",
-  "RBW.WA": "obserwuj",
+  "RBW.WA": "nie",
   "RVU.WA": "nie",
   "SGN.WA": "czekaj",
   "SEL.WA": "czekaj",
@@ -7774,7 +7815,7 @@
   "MAB.WA|pos": "2026-11-25T03:54:43.600279Z",
   "GDDY|pos": "2026-11-19T01:00:41.712392Z",
   "CRI.WA|pos": "2026-11-15T04:33:24.251447Z",
-  "DTE.DE|pos": "2026-11-17T11:44:25.984457Z",
+  "DTE.DE|pos": "2026-11-25T13:50:42.941944Z",
   "CARR|neg": "2026-11-16T20:33:47.235437Z",
   "CF|kup": "2026-11-19T01:00:41.712392Z",
   "ES|pos": "2026-11-18T02:22:21.087770Z",
@@ -7860,7 +7901,7 @@
   "CPS.WA|neg": "2026-11-20T13:25:38.212618Z",
   "MAB.WA|kup": "2026-11-22T02:24:47.049298Z",
   "MBR.WA|neg": "2026-11-24T00:58:33.658524Z",
-  "RBW.WA|neg": "2026-11-24T00:58:33.658524Z",
+  "RBW.WA|neg": "2026-11-25T13:50:42.941944Z",
   "AXP|neg": "2026-11-21T02:41:15.263019Z",
   "BDX|neg": "2026-11-21T02:41:15.263019Z",
   "BKR|neg": "2026-11-21T02:41:15.263019Z",
@@ -7890,7 +7931,7 @@
   "RBW.WA|pos": "2026-11-25T03:54:43.600279Z",
   "BAS.DE|pos": "2026-11-22T02:24:47.049298Z",
   "BFT.WA|pos": "2026-11-22T02:24:47.049298Z",
-  "MIL.WA|neg": "2026-11-24T00:58:33.658524Z",
+  "MIL.WA|neg": "2026-11-25T13:50:42.941944Z",
   "SEL.WA|pos": "2026-11-22T02:24:47.049298Z",
   "DB1.DE|neg": "2026-11-23T13:14:46.854853Z",
   "MIL.WA|pos": "2026-11-23T13:14:46.854853Z",
@@ -7906,12 +7947,13 @@
   "TKO|neg": "2026-11-24T00:58:33.658524Z",
   "WAB|pos": "2026-11-24T00:58:33.658524Z",
   "DB1.DE|pos": "2026-11-24T00:58:33.658524Z",
-  "MAB.WA|neg": "2026-11-24T10:46:38.796598Z",
+  "MAB.WA|neg": "2026-11-25T13:50:42.941944Z",
   "DLTR|pos": "2026-11-24T20:53:57.685534Z",
   "DELL|neg": "2026-11-24T20:53:57.685534Z",
   "HPE|neg": "2026-11-24T20:53:57.685534Z",
   "ISRG|pos": "2026-11-24T20:53:57.685534Z",
   "PYPL|pos": "2026-11-24T20:53:57.685534Z",
-  "ROST|kup": "2026-11-24T20:53:57.685534Z"
+  "ROST|kup": "2026-11-24T20:53:57.685534Z",
+  "ASE.WA|kup": "2026-11-25T13:50:42.941944Z"
  }
 }
