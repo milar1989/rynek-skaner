@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T14:21:03.389181Z",
+ "updated": "2026-11-26T23:07:34.883820Z",
  "top": [
   {
    "s": "AMT",
@@ -182,8 +182,8 @@
    ]
   },
   {
-   "s": "FTNT",
-   "n": "Fortinet, Inc.",
+   "s": "UNP",
+   "n": "Union Pacific Corporation",
    "sig": "obserwuj",
    "score": 2.0,
    "wok": null,
@@ -204,8 +204,8 @@
    ]
   },
   {
-   "s": "UNP",
-   "n": "Union Pacific Corporation",
+   "s": "FTNT",
+   "n": "Fortinet, Inc.",
    "sig": "obserwuj",
    "score": 2.0,
    "wok": null,
@@ -378,8 +378,8 @@
    ]
   },
   {
-   "s": "TEAM",
-   "n": "Atlassian Corporation",
+   "s": "DHR",
+   "n": "Danaher Corporation",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -538,8 +538,8 @@
    ]
   },
   {
-   "s": "DHR",
-   "n": "Danaher Corporation",
+   "s": "TEAM",
+   "n": "Atlassian Corporation",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -548,25 +548,23 @@
    ]
   },
   {
-   "s": "APR.WA",
-   "n": "APR C.XWAR PLN",
+   "s": "OXY",
+   "n": "Occidental Petroleum Corporatio",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu słabo: 0/1"
+    "tu działało 2/2"
    ]
   },
   {
-   "s": "ZBH",
-   "n": "Zimmer Biomet Holdings, Inc.",
+   "s": "MNST",
+   "n": "Monster Beverage Corporation",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "wyraźnie nad średnią 200 sesji",
-    "tu słabo: 0/1"
+    "tu działało 2/2"
    ]
   },
   {
@@ -671,13 +669,14 @@
    ]
   },
   {
-   "s": "OXY",
-   "n": "Occidental Petroleum Corporatio",
+   "s": "APR.WA",
+   "n": "APR C.XWAR PLN",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 2/2"
+    "wyraźnie nad średnią 200 sesji",
+    "tu słabo: 0/1"
    ]
   },
   {
@@ -906,13 +905,14 @@
    ]
   },
   {
-   "s": "MNST",
-   "n": "Monster Beverage Corporation",
+   "s": "ZBH",
+   "n": "Zimmer Biomet Holdings, Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 2/2"
+    "wyraźnie nad średnią 200 sesji",
+    "tu słabo: 0/1"
    ]
   },
   {
@@ -1186,8 +1186,8 @@
    "why": []
   },
   {
-   "s": "AMAT",
-   "n": "Applied Materials, Inc.",
+   "s": "TOR.WA",
+   "n": "TOR C.XWAR PLN",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1226,8 +1226,8 @@
    "why": []
   },
   {
-   "s": "IS3N.DE",
-   "n": "iShs Core MSCI EM IMI U.ETF   R",
+   "s": "CVS",
+   "n": "CVS Health Corporation",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1458,16 +1458,16 @@
    "why": []
   },
   {
-   "s": "TOR.WA",
-   "n": "TOR C.XWAR PLN",
+   "s": "AMAT",
+   "n": "Applied Materials, Inc.",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
    "why": []
   },
   {
-   "s": "CVS",
-   "n": "CVS Health Corporation",
+   "s": "IS3N.DE",
+   "n": "iShs Core MSCI EM IMI U.ETF   R",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
