@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T14:52:18.060305Z",
+ "updated": "2026-11-27T23:04:01.577049Z",
  "top": [
   {
    "s": "AMT",
@@ -242,8 +242,8 @@
    ]
   },
   {
-   "s": "MRSH",
-   "n": "Marsh",
+   "s": "DE",
+   "n": "Deere & Company",
    "sig": "obserwuj",
    "score": 2.0,
    "wok": null,
@@ -363,8 +363,8 @@
    ]
   },
   {
-   "s": "DE",
-   "n": "Deere & Company",
+   "s": "MRSH",
+   "n": "Marsh",
    "sig": "obserwuj",
    "score": 2.0,
    "wok": null,
@@ -428,8 +428,8 @@
    ]
   },
   {
-   "s": "ADSK",
-   "n": "Autodesk, Inc.",
+   "s": "JKHY",
+   "n": "Jack Henry & Associates, Inc.",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -488,8 +488,8 @@
    ]
   },
   {
-   "s": "ILMN",
-   "n": "Illumina, Inc.",
+   "s": "TEAM",
+   "n": "Atlassian Corporation",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -608,8 +608,8 @@
    ]
   },
   {
-   "s": "TEAM",
-   "n": "Atlassian Corporation",
+   "s": "ILMN",
+   "n": "Illumina, Inc.",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -618,8 +618,8 @@
    ]
   },
   {
-   "s": "JKHY",
-   "n": "Jack Henry & Associates, Inc.",
+   "s": "ADSK",
+   "n": "Autodesk, Inc.",
    "sig": "obserwuj",
    "score": 1.5,
    "wok": null,
@@ -628,8 +628,8 @@
    ]
   },
   {
-   "s": "PSX",
-   "n": "Phillips 66",
+   "s": "IR",
+   "n": "Ingersoll Rand Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
@@ -639,13 +639,13 @@
    ]
   },
   {
-   "s": "META",
-   "n": "Meta Platforms, Inc.",
+   "s": "OXY",
+   "n": "Occidental Petroleum Corporatio",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 1/2"
+    "tu działało 2/2"
    ]
   },
   {
@@ -659,8 +659,8 @@
    ]
   },
   {
-   "s": "IR",
-   "n": "Ingersoll Rand Inc.",
+   "s": "PSX",
+   "n": "Phillips 66",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
@@ -954,13 +954,13 @@
    ]
   },
   {
-   "s": "OXY",
-   "n": "Occidental Petroleum Corporatio",
+   "s": "META",
+   "n": "Meta Platforms, Inc.",
    "sig": "obserwuj",
    "score": 1.0,
    "wok": null,
    "why": [
-    "tu działało 2/2"
+    "tu działało 1/2"
    ]
   },
   {
@@ -1225,16 +1225,16 @@
    "why": []
   },
   {
-   "s": "COF",
-   "n": "Capital One Financial Corporati",
+   "s": "DTE",
+   "n": "DTE Energy Company",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
    "why": []
   },
   {
-   "s": "T",
-   "n": "AT&T Inc.",
+   "s": "MCHP",
+   "n": "Microchip Technology Incorporat",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
@@ -1481,16 +1481,16 @@
    "why": []
   },
   {
-   "s": "DTE",
-   "n": "DTE Energy Company",
+   "s": "COF",
+   "n": "Capital One Financial Corporati",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
    "why": []
   },
   {
-   "s": "MCHP",
-   "n": "Microchip Technology Incorporat",
+   "s": "T",
+   "n": "AT&T Inc.",
    "sig": "obserwuj",
    "score": 0.5,
    "wok": null,
